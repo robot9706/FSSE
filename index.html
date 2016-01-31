@@ -1,8 +1,192 @@
 <html>
-  <head>
-    <title>FalloutShelter save editor</title>
-  </head>
-  <body>
-    <h1>FSSE</h1>
-  </body>
+    <head>
+        <title>FalloutShelter save editor</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+        <style>
+            .hrline{
+                margin-bottom: 0;
+            }
+        </style>
+    </head>
+    <body style="font-family: 'Kristen ITC'; background-color: #eeeeee;">
+        <div id="cont" style="margin-left: auto; margin-right: auto; width: 750px; border: 1px solid #dddddd; padding: 15px;">
+            <table>
+                <tr>
+                    <td><img src="Content/fs.png" /></td>
+                    <td style="display: table-cell; vertical-align: middle; width: 100%">
+                        <div style="text-align: center">
+                            <h1>FalloutShelter save editor</h1>
+                            <a>Easy to use save editor for Fallout Shelter.</a><br />
+                        </div>
+                    </td>
+                </tr>
+            </table>
+            <h2 class="hrline"><u>Information</u></h2>
+            <div style="padding-left: 20pt; padding-top: 5pt">
+                <a>This app is an <b>Android</b> only editor for Fallout Shelter.</a><br />
+                <a>It does NOT require any technical skills:</a>
+                <ul>
+                    <li>No computer required for the editing process, everything works on your device.</li>
+                    <li>Vault encrypting and decrypting not required.</li>
+                    <li>No JSON editing required.</li>
+                </ul>
+                <br />
+                <b>Current version: </b><a>1.1.3</a>
+            </div>
+            <h2 class="hrline"><u>Download</u></h2>
+            <div style="text-align: center">
+                <img src="Content/qrcode.png" style="width: 200px" /><br />
+                <h3><a href="http://robot9706.github.io/FSSE/Download/FSSE.apk" target="_blank">Direct download</a></h3>
+                <h3><a href="https://www.virustotal.com/hu/file/25bebba4fbf84ef8f68e390d508022ba4f4cce5a1a436604aac35eec7626f006/analysis/" target="_blank">Virus scan</a></h3>
+            </div>
+            <h2 class="hrline"><u>How to install?</u></h2>
+            <ul>
+                <li>1) Download the editor APK using the download link or the QR code above.</li>
+                <li>2) Enable "Unknown sources" on your device. Settings->Security.</li>
+                <li>3) Copy the APK to your device.</li>
+                <li>4) Browse the APK using a file manager and install it.</li>
+            </ul>
+            <h2 class="hrline"><u>How to use?</u></h2>
+            <ul>
+                <li>1) Start the editor app on your device.</li>
+                <li>2) Select the vault you'd like to edit.</li>
+                <li>3) Modify things.</li>
+                <li>4) Save the vault.</li>
+            </ul>
+            <h2 class="hrline"><u>What can you edit?</u></h2>
+            <ul>
+                <li>Caps, power, food and water.</li>
+                <li>Stimpacks and radaways per dweller and vault.</li>
+                <li>Vault storage (add items/pets).</li>
+                <li>Add <b>legendary</b> and rare dwellers to your vault.</li>
+                <li>Create custom dwellers.</li>
+                <li>Change vault number.</li>
+                <li>Copy/multiply dwellers.</li>
+                <li>Add items (weapons and outfits) to your vault's storage.</li>
+                <li>Complete objectives.</li>
+                <li>Edit pets (their names and bonus effects).</li>
+                <li>Edit "Survival Guide" pages.</li>
+                <li><b>Fix time glitched</b> vaults.</li>
+                <li>Edit dwellers:
+                    <ul>
+                        <li>Name and level</li>
+                        <li>S.P.E.C.I.A.L.</li>
+                        <li>Hair, sking and outfit color</li>
+                        <li>Hair style and facemask</li>
+                        <li>Inventory</li>
+                    </ul>
+                </li>
+                <li><b>+ Many many more.</b></li>
+            </ul>
+            <h2 id="ch" onclick="$('#chl').slideToggle(250);" class="hrline" style="cursor: pointer"><u>Changelog</u><a style="color: #cccccc"> (Click to open)</a></h2>
+            <div id="chl" style="display: none; padding-left: 20pt; padding-top: 20pt;">
+                <span><b><u>Version 1.0:</u></b></span> First release<br>
+                <br>
+                <span style="text-decoration: underline"><b>Version 1.0.1:</b></span> Minor fixes<br>
+                <br>
+                <span style="text-decoration: underline"><b>Version 1.0.2:</b></span><br>
+                Added: Dweller level editing.<br>
+                Added: Menu to edit Deathclaws (kill them or set their health to 5).<br>
+                + Fixes.<br>
+                <br>
+                <span style="text-decoration: underline"><b>Version 1.0.3:</b></span> Fixes.<br>
+                Added: Dweller color editors (hair, skin, outfit).<br>
+                <br>
+                <span style="text-decoration: underline"><b>Version 1.0.4:</b></span><br>
+                Added: Dweller hair style editing (it supports all the possible hair styles, both male and female, for the current version of fallout shelter "v1.1").<br>
+                Added: "Fix time glitch" button (under the "Edit vault info" menu), that button allows you to fix time glitched vaults.<br>
+                <br>
+                <span style="text-decoration: underline"><b>Version 1.0.5:</b></span><br>
+                Added: Dweller face mask editor (it supports all the facemasks from the v1.1 FalloutShelter).<br>
+                Added: Dweller face mask editor.<br>
+                Added: Dweller equiped items editor (both weapons and outfits, it supports all the items from the v1.1 FalloutShelter. That means 143 weapons and 112 outfits).<br>
+                Added: "Resurrect" button (under the "Edit dwellers" menu), that button allows you to resurrect dead exploring dwellers.<br>
+                Added: Editor for dweller stimpack and radaway editing.<br>
+                Other: Dweller list is now in alphabetical order.<br>
+                <br>
+                <span style="text-decoration: underline"><b>Version 1.0.6:</b></span><br>
+                Added: MrHandy heal menu.<br>
+                Added: "Clear dweller relations" button, with that button you can reset dweller relations.<br>
+                Added: Dweller inventory editor.<br>
+                Other: Make dwellers level 50 button now sets the health of dwellers to 664 (if the max health is smaller than 664).<br>
+                <br>
+                <span style="text-decoration: underline"><b>Version 1.0.6b:</b></span><br>
+                Fixed: Dweller inventory editor not scrolling.<br>
+                Added: "Select normal items" button to the dweller inventory editor dialog, that button selects normal or worse items (normal, common and none). This is useful for exploring dwellers, you can remove crappy items so they can find better hopefully legendary or rare items.<br>
+                <br>
+                <span style="text-decoration: underline"><b>Version 1.0.7:</b></span><br>
+                Added: Editor to select the ammount of items you want to add.<br>
+                Added: Menu to add legendary and rare dwellers to the waiting line.<br>
+                Added: 3 sorting modes to the dweller list (name, health and level).<br>
+                Fixed: Added the missing "none" facemask.<br>
+                Other: Exploring dwellers are now labeled in the "Edit dwellers" list.<br>
+                <br>
+                <span style="text-decoration: underline"><b>Version 1.0.7b:</b></span><br>
+                Fixed: The savegame gets corrupted after dweller deleting (Also corrupted saves can be fixed, goto "Edit vault info", then "Fix dweller dependencies", this menu will fix all the dweller pointers in the save file).<br>
+                Fixed: The happiness of spawned dwellers drop to 0%, and can't be raised (caused by wrong max hp formula).<br>
+                <br>
+                <span style="text-decoration: underline"><b>Version 1.0.7c:</b></span><br>
+                Fixed: "Error: null" appears when adding rare dwellers to the waiting line.<br>
+                Fixed: Resource editor screen (basic vault resources) is too big and the keyboard overlaps some parts.<br>
+                Fixed: Keyboard not hiding after pressing enter on the last textbox in the basic vault resource editor screen.<br>
+                <br>
+                <b><span style="text-decoration: underline">Version 1.0.8:</span></b><br>
+                Added: "Remove crap items from explorers" menu in the "Edit dwellers" menu. This button removes all Common or worse items from exploring dwellers.<br>
+                Added: "Unlock all unlockables" button, this unlocks all weapons, items and dwellers in the "Survival Guide" screen.<br>
+                Fixed: If a Living Quarter has a dweller partnership and a dweller is deleted the save gets corrupted (Possible to fix using the "Fix dweller dependencies" menu in the "Edit vault info" menu).<br>
+                <br>
+                <span style="text-decoration: underline"><b>Version 1.0.9:</b></span><br>
+                Added: Menu option to return all exploring dwellers to the vault.<br>
+                Added: New dweller sort mode: Jobs.<br>
+                Added: Grouping option to item selector.<br>
+                Fixed: Editor crashes if the item count text box is empty.<br>
+                <br>
+                <b><span style="text-decoration: underline">Version 1.0.9b:</span></b><br>
+                Some v1.2 compatibility issues resolved:<br>
+                Fixed: Updated the app's item database to the current version of the game (v1.2).<br>
+                Fixed: Mr handy healing not working.<br>
+                <br>
+                <b><span style="text-decoration: underline">Version 1.1.0:</span></b><br>
+                Added: Piper's hair graphics.<br>
+                Added: A screen to edit the "Survival Guide" contents.<br>
+                Added: Enable/Disable survival mode (Edit vault info).<br>
+                Added: Legendary dwellers are automatically unlocked when added to the waiting line.<br>
+                Added: A screen where you can complete objectives.<br>
+                Fixed: Typos.<br>
+                <br>
+                <b><span style="text-decoration: underline">Version 1.1.0b:</span></b><br>
+                Fixed: Buggy "Suvival Guide" editor.<br>
+                <br>
+                <b><span style="text-decoration: underline">Version 1.1.1:</span></b><br>
+                Added: A menu to send dwellers to the wasteland (<span style="text-decoration: underline"><b>experimental!</b></span>, goto the Edit Dwellers menu, select a dweller and scroll to the bottom to find this feature)<br>
+                Added: A menu to backup and restore vaults.<br>
+                <br>
+                <b><span style="text-decoration: underline">Version 1.1.2:</span></b><br>
+                Editor database updated to the current version of the game (v1.3): this means 143 weapons, 119 outfits, 22 legendary dwellers, 20 rare dwellers and 59 pets.<br>
+                <br>
+                Added: Remove corpses.<br>
+                Added: Remove MrHandy corpses.<br>
+                Added: Pet carrier (new lunchbox).<br>
+                Added: Unlock pets in the "Survival Guide" (Noticed a strange problem here: The game shows that there are 40 pets to unlock, but there are only 20 legendary pets).<br>
+                Added: Copy dwellers (Select the dwellers in the list and hit copy, the new dwellers are moved to the waiting line).<br>
+                Added: Expanded the item selector popup (You can select categories, added pets to the screen).<br>
+                Added: Edit the pregnancy status of a dweller (you can make male dwellers pregnant, they look strange).<br>
+                Added: Add new custom dweller.<br>
+                Added: Screen to heal and delete MrHandys.<br>
+                Added: Revive all dead dwellers option (not just explorers).<br>
+                Added: Option to heal pets.<br>
+                <br>
+                Fixed: Editor does not notify to save on exit if a new dweller is added.<br>
+                Fixed: Dweller levels reset after editing.<br>
+                <br>
+                <b><span style="text-decoration: underline">Version 1.1.3:</span></b><br>
+                Added: Option to edit pets (in the dweller edit view press "Edit" in the "Equipped items" section or find a pet in the "Edit storage" menu and press "Edit" on the right of the pet you want to edit).<br>
+                Added: Option to unlock all rooms (in the main menu, "Tools" section).<br>
+                <br>
+                Fixed: Pet not removed when a dweller is removed.<br>
+                Fixed: Sorting dwellers by "Job" crashes the editor.<br>
+                Fixed: MrHandy "Heal" button not working.
+            </div>
+        </div>
+    </body>
 </html>
