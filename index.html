@@ -17,7 +17,7 @@
             }
         </style>
     </head>
-    <body style="font-family: 'Kristen ITC'; background-color: #eeeeee;">
+    <body style="font-family: 'Kristen ITC'; background-color: #eeeeee;" onload="uinf()">
         <div id="cont" style="margin-left: auto; margin-right: auto; width: 750px; border: 1px solid #dddddd; padding: 15px;">
             <table>
                 <tr>
@@ -40,8 +40,8 @@
                     <li>Vault encrypting and decrypting not required.</li>
                     <li>No JSON editing required.</li>
                 </ul>
-                <b>Current version: </b><a>1.2</a><br/>
-				<b>Currently supported game version: </b><a>1.4</a>
+                <b>Current version: </b><a id="edver">1.2.1</a><br/>
+				<b>Currently supported game version: </b><a id="gmver">1.4</a>
             </div>
 
             <div class="hr"></div>
@@ -153,8 +153,8 @@
 
             <h2 onclick="$('#chl').slideToggle(250);" class="hrline" style="cursor: pointer"><u>Changelog</u><a style="color: #cccccc"> <sub>(Click to open)</sub></a></h2>
             <div id="chl" style="display: none; padding-left: 20pt; padding-top: 20pt;">
-				<b><span style="text-decoration: underline">Version 1.2.1 (Future):</span></b><br>
-				TODO: Update dweller hair and facemask styles.<br>
+				<b><span style="text-decoration: underline">Version 1.2.1:</span></b><br>
+				Added: Updated and added (from FS 1.4) male and female hair styles and facemasks (some facemasks are colored in the editor which aren't in the game.. that's not a bug).<br>
 				<br>
 			
 				<b><span style="text-decoration: underline">Version 1.2:</span></b><br>
