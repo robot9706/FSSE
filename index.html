@@ -16,8 +16,30 @@
                 margin-bottom: 15pt;
             }
         </style>
+		<script type="text/javascript">
+			function src(){
+				var s = getParameterByName("s");
+				if(s !== null){
+					$('#' + s).slideToggle(250);
+					$('html, body').animate({
+						scrollTop: $('#' + s).offset().top
+					}, 1000);
+				}
+			}
+			
+			function getParameterByName(name, url) {
+				if (!url) url = window.location.href;
+				name = name.replace(/[\[\]]/g, "\\$&");
+				var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+				results = regex.exec(url);
+				if (!results) return null;
+				if (!results[2]) return '';
+				return decodeURIComponent(results[2].replace(/\+/g, " "));
+			}
+			window.onload = src;
+		</script>
     </head>
-    <body style="font-family: 'Kristen ITC'; background-color: #eeeeee;" onload="uinf()">
+    <body style="font-family: 'Kristen ITC'; background-color: #eeeeee;">
         <div id="cont" style="margin-left: auto; margin-right: auto; width: 750px; border: 1px solid #dddddd; padding: 15px;">
             <table>
                 <tr>
@@ -40,7 +62,7 @@
                     <li>Vault encrypting and decrypting not required.</li>
                     <li>No JSON editing required.</li>
                 </ul>
-                <b>Current version: </b><a id="edver">1.2.2</a><br/>
+                <b>Current version: </b><a id="edver">1.2.3</a><br/>
 				<b>Currently supported game version: </b><a id="gmver">1.4</a>
             </div>
 
@@ -153,13 +175,20 @@
 
             <h2 onclick="$('#chl').slideToggle(250);" class="hrline" style="cursor: pointer"><u>Changelog</u><a style="color: #cccccc"> <sub>(Click to open)</sub></a></h2>
             <div id="chl" style="display: none; padding-left: 20pt; padding-top: 20pt;">
-				<a>Some virus finder says it's a trojan, but it's not. It think it is, because the editor can download APKs, because it has an auto update feature.<a><br><br>
+				<a>Some virus finder says it's a trojan, but it's not. It thinks it is, because the editor can download APKs, because it has an auto update feature.<a><br><br>
 			
-				<b><span style="text-decoration: underline">Version 1.2.3 (Future):</span></b><br>
+				<b><span style="text-decoration: underline">Version 1.2.4 (Future):</span></b><br>
 				Fix: Dweller screen Weapon/Outfit/Pet edit/select buttons offscreen.
-				Fix: Pets: Enable bonus value editing in allowed ranges.
-				Fix: Fix randomly generated pet names.
-				Fix: Junk rarity button missing.
+				Add: Add option to manage recipes of a vault.
+				<br>
+				
+				<b><span style="text-decoration: underline">Version 1.2.3:</span></b><br>
+				Fixed: Legendary pets no longer have randomly generated names (they have their default name instead).
+				Fixed: Pet bonus editor UI re-added, added a text to show allowed bonus value range (values entered out of that range makes the game regenerate the pet bonus effects).
+				Fixed: Random bonus range for pets (due to not reading correct values from database).
+				Fixed: Rarity filter button missing for Junk category.
+				Fixed: Empty "PoliceBaton" category (item is not in the game yet, it is unnamed so the editor skipped it).
+				Added: Option to add recipes to exploring dwellers (add a weapon or an outfit to an inventory and check "Recipe?" on the right of the item).
 				<br>
 				
 				<b><span style="text-decoration: underline">Version 1.2.2:</span></b><br>
@@ -311,6 +340,35 @@
                 <span><b><u>Version 1.0:</u></b></span> First release<br>
                 <br>
             </div>
+		
+			<h2 onclick="$('#dnt').slideToggle(250);" class="hrline" style="cursor: pointer"><u>Donate</u><a style="color: #cccccc"> <sub>(Click to open)</sub></a></h2>
+			<div id="dnt" style="display: none; padding-left: 20pt; padding-top: 20pt;">
+				<a>If you want to support the development of this app and you don't want to enable ads here's a way for you! :D</a><br>
+				<a><b>Big thanks to donators!</b></a>
+				</br></br>
+				<div style="width: 300px; margin-left: auto; margin-right: auto; text-align: center;">
+					<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+						<input type="hidden" name="cmd" value="_s-xclick">
+						<input type="hidden" name="hosted_button_id" value="68JETWX6FEUAY">
+						<table style="text-align: center">
+							<tr>
+								<td>
+									<input type="hidden" name="on0" value="Size">Size</input>
+									<select name="os0">
+										<option value="Small Nuka-Cola">Small Nuka-Cola $1.00 USD</option>
+										<option value="Medium Nuka-Cola">Medium Nuka-Cola $2.00 USD</option>
+										<option value="Big Nuka-Cola">Big Nuka-Cola $5.00 USD</option>
+										<option value="Huge Nuka-Cola">Huge Nuka-Cola $10.00 USD</option>
+									</select>
+								</td>
+							</tr>
+						</table>
+						<input type="hidden" name="currency_code" value="USD">
+						<input type="image" src="http://robot9706.github.io/FSSE/Content/NukaButton.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+						<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+					</form>
+				</div>
+			</div>
         </div>
     </body>
 </html>
