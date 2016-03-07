@@ -7,8 +7,8 @@
                 margin-bottom: 0;
             }
             .hr {
-                width: 65%;
-                border-top: 1px solid #dddddd;
+                width: 90%;
+                border-top: 1px solid #cccccc;
                 height: 1px;
                 margin-left: auto;
                 margin-right: auto;
@@ -156,9 +156,46 @@
             </div>
 			
 			<div class="hr"></div>
+			
+			<h2 onclick="$('#dnt').slideToggle(250);" class="hrline" style="cursor: pointer"><u>Donate</u><a style="color: #cccccc"> <sub>(Click to open)</sub></a></h2>
+			<div id="dnt" style="display: none; padding-left: 20pt; padding-top: 20pt;">
+				<h3><b>Donator(s): Redditmeta</b></h3>
+				<a><b>Big thanks to donators!</b></a>
+				<br><br>
+			
+				<a>If you want to support the development of this app and you don't want to enable ads here's a way for you! :D</a><br>
+				</br>
+				<div style="width: 300px; margin-left: auto; margin-right: auto; text-align: center;">
+					<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+						<input type="hidden" name="cmd" value="_s-xclick">
+						<input type="hidden" name="hosted_button_id" value="68JETWX6FEUAY">
+						<table style="text-align: center">
+							<tr>
+								<td>
+									<input type="hidden" name="on0" value="Size">Size</input>
+									<select name="os0">
+										<option value="Small Nuka-Cola">Small Nuka-Cola $1.00 USD</option>
+										<option value="Medium Nuka-Cola">Medium Nuka-Cola $2.00 USD</option>
+										<option value="Big Nuka-Cola">Big Nuka-Cola $5.00 USD</option>
+										<option value="Huge Nuka-Cola">Huge Nuka-Cola $10.00 USD</option>
+									</select>
+								</td>
+							</tr>
+						</table>
+						<input type="hidden" name="currency_code" value="USD">
+						<input type="image" src="http://robot9706.github.io/FSSE/Content/NukaButton.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+						<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+					</form>
+					<a>(Powered by PayPal)</a>
+					<a>(If you want your name included in a donator list write me an email to "robot9706(at)gmail(dot)com" with your name.)</a>
+				</div>
+			</div>
+			
+			<div class="hr"></div>
 
             <h2 onclick="$('#scr').slideToggle(250);" class="hrline" style="cursor: pointer"><u>Screenshots</u><a style="color: #cccccc"> <sub>(Click to open)</sub></a></h2>
             <div id="scr" style="display: none; padding-left: 20pt; padding-top: 20pt;">
+				<a>Outdated! TODO: update screenshots.</a>
                 <table style="width: 100%; text-align: center; border-collapse: collapse;">
                     <tr>
                         <td style="border: 1px solid #dddddd;"><img src="Screenshots/sc01.png" /><br /><a>Main screen.</a></td>
@@ -173,30 +210,39 @@
 
             <div class="hr"></div>
 
-            <h2 onclick="$('#chl').slideToggle(250);" class="hrline" style="cursor: pointer"><u>Changelog</u><a style="color: #cccccc"> <sub>(Click to open)</sub></a></h2>
+            <h2 onclick="$('#chl').slideToggle(250);" class="hrline" style="cursor: pointer"><u>Changelog and todo</u><a style="color: #cccccc"> <sub>(Click to open)</sub></a></h2>
             <div id="chl" style="display: none; padding-left: 20pt; padding-top: 20pt;">
 				<a>Some virus finder says it's a trojan, but it's not. It thinks it is, because the editor can download APKs, because it has an auto update feature.<a><br><br>
 			
+				<b><span style="text-decoration: underline">Todo:</span></b><br>
+				Update screenshots.<br>
+				Add option to sort items by SPECIAL attributes.<br>
+				Find a way to set time spend in wasteland.<br>
+				Find out why it's not possible to unlock all pets in SurvivalGuide.<br>
+				Bulk editing for dwellers.<br>
+				Room editing (maybe).<br>
+				<br>
+			
 				<b><span style="text-decoration: underline">Version 1.2.4 (Future):</span></b><br>
-				Fix: Dweller screen Weapon/Outfit/Pet edit/select buttons offscreen.
-				Add: Add option to manage recipes of a vault.
+				Fix: Dweller screen Weapon/Outfit/Pet edit/select buttons offscreen.<br>
+				Add: Add option to manage recipes of a vault.<br>
 				<br>
 				
 				<b><span style="text-decoration: underline">Version 1.2.3:</span></b><br>
-				Fixed: Legendary pets no longer have randomly generated names (they have their default name instead).
-				Fixed: Pet bonus editor UI re-added, added a text to show allowed bonus value range (values entered out of that range makes the game regenerate the pet bonus effects).
-				Fixed: Random bonus range for pets (due to not reading correct values from database).
-				Fixed: Rarity filter button missing for Junk category.
-				Fixed: Empty "PoliceBaton" category (item is not in the game yet, it is unnamed so the editor skipped it).
-				Added: Option to add recipes to exploring dwellers (add a weapon or an outfit to an inventory and check "Recipe?" on the right of the item).
+				Fixed: Legendary pets no longer have randomly generated names (they have their default name instead).<br>
+				Fixed: Pet bonus editor UI re-added, added a text to show allowed bonus value range (values entered out of that range makes the game regenerate the pet bonus effects).<br>
+				Fixed: Random bonus range for pets (due to not reading correct values from database).<br>
+				Fixed: Rarity filter button missing for Junk category.<br>
+				Fixed: Empty "PoliceBaton" category (item is not in the game yet, it is unnamed so the editor skipped it).<br>
+				Added: Option to add recipes to exploring dwellers (add a weapon or an outfit to an inventory and check "Recipe?" on the right of the item).<br>
 				<br>
 				
 				<b><span style="text-decoration: underline">Version 1.2.2:</span></b><br>
-				Fixed: Pet effect editing not working: Removed edit buttons because game verifies pet bonus effects and overrides is not correct.
-				Fixed: Survival guide unlockable items (Dr. Lee and Mr. Burke are now unlockable).
-				Fixed: Update dweller inventory to handle Junk item category.
-				Added: Added buttons to remove crap from exploring dweller inventory WITH and WITHOUT junk items.
-				Added: 2 new buttons to add random dwellers.
+				Fixed: Pet effect editing not working: Removed edit buttons because game verifies pet bonus effects and overrides is not correct.<br>
+				Fixed: Survival guide unlockable items (Dr. Lee and Mr. Burke are now unlockable).<br>
+				Fixed: Update dweller inventory to handle Junk item category.<br>
+				Added: Added buttons to remove crap from exploring dweller inventory WITH and WITHOUT junk items.<br>
+				Added: 2 new buttons to add random dwellers.<br>
 				<br>
 			
 				<b><span style="text-decoration: underline">Version 1.2.1:</span></b><br>
@@ -340,37 +386,6 @@
                 <span><b><u>Version 1.0:</u></b></span> First release<br>
                 <br>
             </div>
-		
-			<h2 onclick="$('#dnt').slideToggle(250);" class="hrline" style="cursor: pointer"><u>Donate</u><a style="color: #cccccc"> <sub>(Click to open)</sub></a></h2>
-			<div id="dnt" style="display: none; padding-left: 20pt; padding-top: 20pt;">
-				<a>If you want to support the development of this app and you don't want to enable ads here's a way for you! :D</a><br>
-				<a><b>Big thanks to donators!</b></a>
-				</br></br>
-				<div style="width: 300px; margin-left: auto; margin-right: auto; text-align: center;">
-					<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-						<input type="hidden" name="cmd" value="_s-xclick">
-						<input type="hidden" name="hosted_button_id" value="68JETWX6FEUAY">
-						<table style="text-align: center">
-							<tr>
-								<td>
-									<input type="hidden" name="on0" value="Size">Size</input>
-									<select name="os0">
-										<option value="Small Nuka-Cola">Small Nuka-Cola $1.00 USD</option>
-										<option value="Medium Nuka-Cola">Medium Nuka-Cola $2.00 USD</option>
-										<option value="Big Nuka-Cola">Big Nuka-Cola $5.00 USD</option>
-										<option value="Huge Nuka-Cola">Huge Nuka-Cola $10.00 USD</option>
-									</select>
-								</td>
-							</tr>
-						</table>
-						<input type="hidden" name="currency_code" value="USD">
-						<input type="image" src="http://robot9706.github.io/FSSE/Content/NukaButton.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-						<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-					</form>
-					<a>(Powered by PayPal)</a>
-					<a>(If you want your name included in a donator list \or something like that\ write me an email to "robot9706(at)gmail(dot)com" with your name.)</a>
-				</div>
-			</div>
         </div>
     </body>
 </html>
