@@ -37,6 +37,10 @@
 				return decodeURIComponent(results[2].replace(/\+/g, " "));
 			}
 			window.onload = src;
+			
+			function resizeIframe(obj) {
+				obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
+			}
 		</script>
     </head>
     <body style="font-family: 'Kristen ITC'; background-color: #eeeeee;">
@@ -62,7 +66,7 @@
                     <li>Vault encrypting and decrypting not required.</li>
                     <li>No JSON editing required.</li>
                 </ul>
-                <b>Current version: </b><a id="edver">1.2.4</a><br/>
+                <b>Current version: </b><a id="edver">1.2.5</a><br/>
 				<b>Currently supported game version: </b><a id="gmver">1.4</a>
             </div>
 
@@ -196,33 +200,37 @@
 
             <h2 onclick="$('#scr').slideToggle(250);" class="hrline" style="cursor: pointer"><u>Screenshots</u><a style="color: #cccccc"> <sub>(Click to open)</sub></a></h2>
             <div id="scr" style="display: none; padding-left: 20pt; padding-top: 20pt;">
-				<a>Outdated! TODO: update screenshots.</a>
                 <table style="width: 100%; text-align: center; border-collapse: collapse;">
                     <tr>
-                        <td style="border: 1px solid #dddddd;"><img src="Screenshots/sc01.png" /><br /><a>Main screen.</a></td>
-                        <td style="border: 1px solid #dddddd;"><img src="Screenshots/sc02.png" /><br /><a>Basic resource editor.</a></td>
+                        <td style="border: 1px solid #dddddd;"><img src="Screenshots/01.png" /><br /><a>Main screen.</a></td>
+                        <td style="border: 1px solid #dddddd;"><img src="Screenshots/02.png" /><br /><a>Main editor screen.</a></td>
                     </tr>
                     <tr>
-                        <td style="padding-top: 10pt; border: 1px solid #dddddd;"><img src="Screenshots/sc03.png" /><br /><a>Storage editor.</a></td>
-                        <td style="padding-top: 10pt; border: 1px solid #dddddd;"><img src="Screenshots/sc04.png" /><br /><a>Item list.</a></td>
+                        <td style="padding-top: 10pt; border: 1px solid #dddddd;"><img src="Screenshots/03.png" /><br /><a>Dweller list.</a></td>
+                        <td style="padding-top: 10pt; border: 1px solid #dddddd;"><img src="Screenshots/04.png" /><br /><a>Hairs.</a></td>
+                    </tr>
+					<tr>
+                        <td style="padding-top: 10pt; border: 1px solid #dddddd;"><img src="Screenshots/05.png" /><br /><a>Inventory editor.</a></td>
+                        <td style="padding-top: 10pt; border: 1px solid #dddddd;"><img src="Screenshots/06.png" /><br /><a>Item list.</a></td>
                     </tr>
                 </table>
             </div>
-
+			
+			<div class="hr"></div>
+			 
+			<h2 class="hrline" style="cursor: pointer"><a style="color: #000000" href="json.html"><u>Vault JSON converter</u><a style="color: #cccccc"> <sub>(Click to open)</sub></a></a></h2>
             <div class="hr"></div>
 
             <h2 onclick="$('#chl').slideToggle(250);" class="hrline" style="cursor: pointer"><u>Changelog and todo</u><a style="color: #cccccc"> <sub>(Click to open)</sub></a></h2>
             <div id="chl" style="display: none; padding-left: 20pt; padding-top: 20pt;">
 				<a>Some virus finder says it's a trojan, but it's not. It thinks it is, because the editor can download APKs, because it has an auto update feature.<a><br><br>
 			
-				<b><span style="text-decoration: underline">Todo:</span></b><br>
-				Update screenshots.<br>
-				Add option to sort items by SPECIAL attributes.<br>
-				Find a way to set time spend in wasteland.<br>
-				Bulk editing for dwellers.<br>
-				Add preview of dweller face.<br>
-				Turn adult dwellers into children.<br>
-				Room editing (edit vault layout, level up rooms, etc).<br>
+				<b><span style="text-decoration: underline">Version 1.2.5:</span></b><br>
+				Updated: Screenshots on website updated.
+				Fixed: Remove crap not working properly.<br>
+				Fixed: "Loading.. Please wait.." stucks if no internet connection available.<br>
+				Added: Option to add pets with their max effect values.<br>
+				Added: A page which can decrypt and encrypt vaults.<br>
 				<br>
 			
 				<b><span style="text-decoration: underline">Version 1.2.4:</span></b><br>
