@@ -1,0 +1,181 @@
+ID,Name,Type,MinDamage,MaxDamage,Tier,Rarity,Craftable,Recipe available
+032Pistol,,32 Pistol,Gun,1,2,1,Normal,Yes,Yes
+032Pistol_ArmorPiercing,Armor Piercing ,32 Pistol,Gun,1,5,1,Rare,Yes,Yes
+032Pistol_Enhanced,Enhanced ,32 Pistol,Gun,1,3,1,Normal,Yes,Yes
+032Pistol_Hardened,Hardened ,32 Pistol,Gun,1,4,1,Rare,Yes,Yes
+032Pistol_Rusty,Rusty ,32 Pistol,Gun,1,1,1,Normal,Yes,Yes
+032Pistol_WildBillsSidearm,Wild Bill's Sidearm,Gun,1,6,1,Legendary,Yes,Yes
+AlienBlaster,Alien Blaster,Gun,18,19,1,Legendary,Yes,Yes
+AlienBlaster_Amplified,Amplified Alien Blaster,Gun,18,22,1,Legendary,Yes,Yes
+AlienBlaster_Destabilizer,Destabilizer,Gun,18,23,1,Legendary,Yes,Yes
+AlienBlaster_Focused,Focused Alien Blaster,Gun,18,21,1,Legendary,Yes,Yes
+AlienBlaster_Rusty,Rusty Alien Blaster,Gun,18,18,1,Legendary,Yes,Yes
+AlienBlaster_Tuned,Tuned Alien Blaster,Gun,18,20,1,Legendary,Yes,Yes
+AmataPistol,Amata's Pistol,Gun,2,5,1,None,No,No
+AssaultRifle,Assault Rifle,Rifle,8,9,2,Rare,Yes,Yes
+AssaultRifle_ArmorPiercing,Armor Piercing Assault Rifle,Rifle,8,12,2,Rare,Yes,Yes
+AssaultRifle_Enhanced,Enhanced Assault Rifle,Rifle,8,10,2,Rare,Yes,Yes
+AssaultRifle_Hardened,Hardened Assault Rifle,Rifle,8,11,2,Rare,Yes,Yes
+AssaultRifle_Infiltrator,Infiltrator,Rifle,8,13,2,Legendary,Yes,Yes
+AssaultRifle_Rusty,Rusty Assault Rifle,Rifle,8,8,2,Rare,Yes,Yes
+BBGun,BB Gun,Rifle,0,2,1,Normal,Yes,Yes
+BBGun_ArmorPiercing,Armor Piercing BB Gun,Rifle,0,5,1,Rare,Yes,Yes
+BBGun_Enhanced,Enhanced BB Gun,Rifle,0,3,1,Normal,Yes,Yes
+BBGun_Hardened,Hardened BB Gun,Rifle,0,4,1,Rare,Yes,Yes
+BBGun_RedRocket,Red Rocket,Rifle,0,6,1,Legendary,Yes,Yes
+BBGun_Rusty,Rusty BB Gun,Rifle,0,1,1,Normal,Yes,Yes
+BumperSword,Sniper Rifle,Melee,5,7,2,None,No,No
+CombatShotgun,Combat Shotgun,Rifle,13,14,2,Rare,Yes,Yes
+CombatShotgun_CharonsShotgun,Charon's Shotgun,Rifle,13,18,2,Legendary,Yes,Yes
+CombatShotgun_DoubleBarrelled,Double-Barrel Combat Shotgun,Rifle,13,17,2,Legendary,Yes,Yes
+CombatShotgun_Enhanced,Enhanced Combat Shotgun,Rifle,13,15,2,Rare,Yes,Yes
+CombatShotgun_Hardened,Hardened Combat Shotgun,Rifle,13,16,2,Rare,Yes,Yes
+CombatShotgun_Rusty,Rusty Combat Shotgun,Rifle,13,13,2,Rare,Yes,Yes
+Fatman,Fat Man,FatMan,22,23,3,Legendary,Yes,Yes
+Fatman_Enhanced,Enhanced Fat Man,FatMan,22,24,3,Legendary,Yes,Yes
+Fatman_Guided,Guided Fat Man,FatMan,22,26,3,Legendary,Yes,Yes
+Fatman_Hardened,Hardened Fat Man,FatMan,22,25,3,Legendary,Yes,Yes
+Fatman_Mirv,MIRV,FatMan,22,27,3,Legendary,Yes,Yes
+Fatman_Rusty,Rusty Fat Man,FatMan,22,22,3,Legendary,Yes,Yes
+Fist,Fist,Melee,1,1,1,None,No,No
+Flamer,Flamer,Flame,15,16,3,Rare,Yes,Yes
+Flamer_Burnmaster,Burnmaster,Flame,15,20,3,Legendary,Yes,Yes
+Flamer_Enhanced,Enhanced Flamer,Flame,15,17,3,Rare,Yes,Yes
+Flamer_Hardened,Hardened Flamer,Flame,15,18,3,Rare,Yes,Yes
+Flamer_Pressurized,Pressurized Flamer,Flame,15,19,3,Rare,Yes,Yes
+Flamer_Rusty,Rusty Flamer,Flame,15,15,3,Rare,Yes,Yes
+GatlingLaser,Gatling Laser,GatlingLaser,21,22,3,Legendary,Yes,Yes
+GatlingLaser_Amplified,Amplified Gatling Laser,GatlingLaser,21,25,3,Legendary,Yes,Yes
+GatlingLaser_Focused,Focused Gatling Laser,GatlingLaser,21,24,3,Legendary,Yes,Yes
+GatlingLaser_Rusty,Rusty Gatling Laser,GatlingLaser,21,21,3,Legendary,Yes,Yes
+GatlingLaser_Tuned,Tuned Gatling Laser,GatlingLaser,21,23,3,Legendary,Yes,Yes
+GatlingLaser_Vengeance,Vengeance,GatlingLaser,21,26,3,Legendary,Yes,Yes
+GaussRifle,Gauss Rifle,Rifle,16,17,3,Rare,Yes,Yes
+GaussRifle_Accelerated,Accelerated Gauss Rifle,Rifle,16,20,3,Legendary,Yes,Yes
+GaussRifle_Enhanced,Enhanced Gauss Rifle,Rifle,16,18,3,Legendary,Yes,Yes
+GaussRifle_Hardened,Hardened Gauss Rifle,Rifle,16,19,3,Legendary,Yes,Yes
+GaussRifle_Magnetro4000,Magnetron 4000,Rifle,16,21,3,Legendary,Yes,Yes
+GaussRifle_Rusty,Rusty Gauss Rifle,Rifle,16,16,3,Rare,Yes,Yes
+HuntingRifle,Hunting Rifle,Rifle,5,6,2,Normal,Yes,Yes
+HuntingRifle_ArmorPiercing,Armor Piercing Hunting Rifle,Rifle,5,9,2,Rare,Yes,Yes
+HuntingRifle_Enhanced,Enhanced Hunting Rifle,Rifle,5,7,2,Normal,Yes,Yes
+HuntingRifle_Hardened,Hardened Hunting Rifle,Rifle,5,8,2,Rare,Yes,Yes
+HuntingRifle_OlPainless,Ol' Painless,Rifle,5,10,2,Legendary,Yes,Yes
+HuntingRifle_Rusty,Rusty Hunting Rifle,Rifle,5,5,2,Normal,Yes,Yes
+InstitutePistol,Institute Pistol,InstitutePistol,9,11,1,Rare,Yes,Yes
+InstitutePistol_Apotheosis,Apotheosis,InstitutePistol,14,21,1,Legendary,Yes,Yes
+InstitutePistol_Improved,Improved Institute Pistol,InstitutePistol,11,15,1,Rare,Yes,Yes
+InstitutePistol_Incendiary,Incendiary Institute Pistol,InstitutePistol,10,13,1,Rare,Yes,Yes
+InstitutePistol_Scattered,Scattered Institute Pistol,InstitutePistol,13,19,1,Legendary,Yes,Yes
+InstitutePistol_Scoped,Scoped Institute Pistol,InstitutePistol,12,17,1,Rare,Yes,Yes
+InstituteRifle,Institute Rifle,InstituteRifle,14,16,2,Rare,Yes,Yes
+InstituteRifle_Excited,Excited Institute Rifle,InstituteRifle,15,18,2,Rare,Yes,Yes
+InstituteRifle_Long,Long Institute Rifle,InstituteRifle,16,20,2,Legendary,Yes,Yes
+InstituteRifle_NightVision,Night-Vision Institute Rifle,InstituteRifle,17,22,2,Legendary,Yes,Yes
+InstituteRifle_Targeting,Targeting Institute Rifle,InstituteRifle,18,24,2,Legendary,Yes,Yes
+InstituteRifle_VirgilsRifle,Virgil's Rifle,InstituteRifle,19,26,2,Legendary,Yes,Yes
+JunkJet,Junk Jet,JunkJet,13,15,2,Rare,Yes,Yes
+JunkJet_Electrified,Electrified Junk Jet,JunkJet,16,21,2,Legendary,Yes,Yes
+JunkJet_Flaming,Flaming Junk Jet,JunkJet,17,23,2,Legendary,Yes,Yes
+JunkJet_RecoilCompensated,Recoil Compensated Junk Jet,JunkJet,14,17,2,Rare,Yes,Yes
+JunkJet_Tactical,Tactical Junk Jet,JunkJet,15,19,2,Rare,Yes,Yes
+JunkJet_TechniciansRevenge,Technician's Revenge,JunkJet,18,25,2,Legendary,Yes,Yes
+LaserMusket,Laser Musket,Rifle,10,13,1,Legendary,Yes,Yes
+LaserPistol,Laser Pistol,Gun,7,8,1,Rare,Yes,Yes
+LaserPistol_Amplified,Amplified Laser Pistol,Gun,7,11,1,Rare,Yes,Yes
+LaserPistol_Focused,Focused Laser Pistol,Gun,7,10,1,Rare,Yes,Yes
+LaserPistol_Rusty,Rusty Laser Pistol,Gun,7,7,1,Normal,Yes,Yes
+LaserPistol_SmugglersEnd,Smuggler's End,Gun,7,12,1,Legendary,Yes,Yes
+LaserPistol_Tuned,Tuned Laser Pistol,Gun,7,9,1,Rare,Yes,Yes
+LaserRifle,Laser Rifle,Rifle,12,13,3,Rare,Yes,Yes
+LaserRifle_Amplified,Amplified Laser Rifle,Rifle,12,16,3,Legendary,Yes,Yes
+LaserRifle_Focused,Focused Laser Rifle,Rifle,12,15,3,Rare,Yes,Yes
+LaserRifle_Rusty,Rusty Laser Rifle,Rifle,12,12,3,Rare,Yes,Yes
+LaserRifle_Tuned,Tuned Laser Rifle,Rifle,12,14,3,Rare,Yes,Yes
+LaserRifle_WaserWifle,Wazer Wifle,Rifle,12,17,3,Legendary,Yes,Yes
+LeverActionRifle_Henrietta,Henrietta,Rifle,13,16,2,Legendary,No,No
+Magnum,Scoped ,44,Gun,3,4,1,Normal,Yes,Yes
+Magnum_ArmorPiercing,Armor Piercing Scoped ,44,Gun,3,7,1,Rare,Yes,Yes
+Magnum_Blackhawk,Blackhawk,Gun,3,8,1,Legendary,Yes,Yes
+Magnum_Enhanced,Enhanced Scoped ,44,Gun,3,5,1,Normal,Yes,Yes
+Magnum_Hardened,Hardened Scoped ,44,Gun,3,6,1,Rare,Yes,Yes
+Magnum_Rusty,Rusty Scoped ,44,Gun,3,3,1,Normal,Yes,Yes
+Minigun,Minigun,MiniGun,19,20,3,Legendary,Yes,Yes
+Minigun_ArmorPiercing,Armor Piercing Minigun,MiniGun,19,23,3,Legendary,Yes,Yes
+Minigun_Enhanced,Enhanced Minigun,MiniGun,19,21,3,Legendary,Yes,Yes
+Minigun_Hardened,Hardened Minigun,MiniGun,19,22,3,Legendary,Yes,Yes
+Minigun_LeadBelcher,Lead Belcher,MiniGun,19,24,3,Legendary,Yes,Yes
+Minigun_Rusty,Rusty Minigun,MiniGun,19,19,3,Legendary,Yes,Yes
+MissilLauncher,Missile Launcher,Missile,20,21,3,Legendary,Yes,Yes
+MissilLauncher_Enhanced,Enhanced Missile Launcher,Missile,20,22,3,Legendary,Yes,Yes
+MissilLauncher_Guided,Guided Missile Launcher,Missile,20,24,3,Legendary,Yes,Yes
+MissilLauncher_Hardened,Hardened Missile Launcher,Missile,20,23,3,Legendary,Yes,Yes
+MissilLauncher_MissLauncher,Miss Launcher,Missile,20,25,3,Legendary,Yes,Yes
+MissilLauncher_Rusty,Rusty Missile Launcher,Missile,20,20,3,Legendary,Yes,Yes
+PipePistol,Pipe Pistol,Gun,1,3,1,Normal,Yes,Yes
+PipePistol_Auto,Auto Pipe Pistol,Gun,5,11,1,Rare,Yes,Yes
+PipePistol_HairTrigger,Hair Trigger Pipe Pistol,Gun,2,5,1,Normal,Yes,Yes
+PipePistol_Heavy,Heavy Pipe Pistol,Gun,3,7,1,Normal,Yes,Yes
+PipePistol_LittleBrother,Little Brother,Gun,6,13,1,Legendary,Yes,Yes
+PipePistol_Scoped,Scoped Pipe Pistol,Gun,4,9,1,Rare,Yes,Yes
+PipeRifle,Pipe Rifle,Rifle,5,7,2,Normal,Yes,Yes
+PipeRifle_Bayoneted,Bayoneted Pipe Rifle,Rifle,9,15,2,Rare,Yes,Yes
+PipeRifle_BigSister,Big Sister,Rifle,10,17,2,Legendary,Yes,Yes
+PipeRifle_Calibrated,Calibrated Pipe Rifle,Rifle,6,9,2,Rare,Yes,Yes
+PipeRifle_Long,Long Pipe Rifle,Rifle,7,11,2,Rare,Yes,Yes
+PipeRifle_NightVision,Night-Vision Pipe Rifle,Rifle,8,13,2,Rare,Yes,Yes
+Pistol,10mm Pistol,Gun,2,3,1,Normal,Yes,Yes
+Pistol_ArmorPiercing,Armor Piercing 10mm Pistol,Gun,2,6,1,Rare,Yes,Yes
+Pistol_Enhanced,Enhanced 10mm Pistol,Gun,2,4,1,Normal,Yes,Yes
+Pistol_Hardened,Hardened 10mm Pistol,Gun,2,5,1,Rare,Yes,Yes
+Pistol_LoneWanderer,Lone Wanderer,Gun,2,7,1,Legendary,Yes,Yes
+Pistol_Rusty,Rusty 10mm Pistol,Gun,2,2,1,Normal,Yes,Yes
+PlasmaPistol,Plasma Pistol,Gun,11,12,1,Rare,Yes,Yes
+PlasmaPistol_Amplified,Amplified Plasma Pistol,Gun,11,15,1,Legendary,Yes,Yes
+PlasmaPistol_Focused,Focused Plasma Pistol,Gun,11,14,1,Rare,Yes,Yes
+PlasmaPistol_MPLXNovasurge,MPXL Novasurge,Gun,11,16,1,Legendary,Yes,Yes
+PlasmaPistol_Rusty,Rusty Plasma Pistol,Gun,11,11,1,Rare,Yes,Yes
+PlasmaPistol_Tuned,Tuned Plasma Pistol,Gun,11,13,1,Rare,Yes,Yes
+PlasmaRifle,Plasma Rifle,Rifle,17,18,3,Rare,Yes,Yes
+PlasmaRifle_Amplified,Amplified Plasma Rifle,Rifle,17,22,3,Legendary,Yes,Yes
+PlasmaRifle_Focused,Focused Plasma Rifle,Rifle,17,20,3,Legendary,Yes,Yes
+PlasmaRifle_MeanGreenMonster,Mean Green Monster,Rifle,17,23,3,Legendary,Yes,Yes
+PlasmaRifle_Rusty,Rusty Plasma Rifle,Rifle,17,17,3,Rare,Yes,Yes
+PlasmaRifle_Tuned,Tuned Plasma Rifle,Rifle,17,19,3,Legendary,Yes,Yes
+PlasmaThrower,Plasma Thrower,Thrower,17,19,1,Legendary,Yes,Yes
+PlasmaThrower_Agitated,Agitated Plasma Thrower,Thrower,18,21,1,Legendary,Yes,Yes
+PlasmaThrower_Boosted,Boosted Plasma Thrower,Thrower,20,25,1,Legendary,Yes,Yes
+PlasmaThrower_DragonsMaw,Dragon's Maw,Thrower,22,29,1,Legendary,Yes,Yes
+PlasmaThrower_Overcharged,Overcharged Plasma Thrower,Thrower,21,27,1,Legendary,Yes,Yes
+PlasmaThrower_Tactical,Tactical Plasma Thrower,Thrower,19,23,1,Legendary,Yes,Yes
+PoliceBaton,PoliceBaton,Melee,1,1,1,None,No,No
+Railgun,Railway Rifle,Rifle,14,15,2,Rare,Yes,Yes
+Railgun_Accelerated,Accelerated Railway Rifle,Rifle,14,18,2,Legendary,Yes,Yes
+Railgun_Enhanced,Enhanced Railway Rifle,Rifle,14,16,2,Rare,Yes,Yes
+Railgun_Hardened,Hardened Railway Rifle,Rifle,14,17,2,Legendary,Yes,Yes
+Railgun_Railmaster,Railmaster,Rifle,14,19,2,Legendary,Yes,Yes
+Railgun_Rusty,Rusty Railway Rifle,Rifle,14,14,2,Rare,Yes,Yes
+Rifle,Lever-Action Rifle,Rifle,4,5,2,Normal,Yes,Yes
+Rifle_ArmorPiercing,Armor Piercing Lever-Action Rifle,Rifle,4,8,2,Rare,Yes,Yes
+Rifle_Enhanced,Enhanced Lever-Action Rifle,Rifle,4,6,2,Normal,Yes,Yes
+Rifle_Hardened,Hardened Lever-Action Rifle,Rifle,4,7,2,Rare,Yes,Yes
+Rifle_LincolnsRepeater,Lincoln's Repeater,Rifle,4,9,2,Legendary,Yes,Yes
+Rifle_Rusty,Rusty Lever-Action Rifle,Rifle,4,4,2,Normal,Yes,Yes
+SawedOffShotgun,Sawed-Off Shotgun,Rifle,6,7,2,Normal,Yes,Yes
+SawedOffShotgun_DoubleBarrelled,Double-Barrel Sawed-Off Shotgun,Rifle,6,10,2,Rare,Yes,Yes
+SawedOffShotgun_Enhanced,Enhanced Sawed-Off Shotgun,Rifle,6,8,2,Normal,Yes,Yes
+SawedOffShotgun_Hardened,Hardened Sawed-Off Shotgun,Rifle,6,9,2,Rare,Yes,Yes
+SawedOffShotgun_Kneecapper,Kneecapper,Rifle,6,11,2,Legendary,Yes,Yes
+SawedOffShotgun_Rusty,Rusty Sawed-Off Shotgun,Rifle,6,6,2,Normal,Yes,Yes
+Shotgun,Shotgun,Rifle,9,10,2,Rare,Yes,Yes
+Shotgun_DoubleBarrelled,Double-Barrel Shotgun,Rifle,9,13,2,Rare,Yes,Yes
+Shotgun_Enhanced,Enhanced Shotgun,Rifle,9,11,2,Rare,Yes,Yes
+Shotgun_FarmersDaughter,Farmer's Daughter,Rifle,9,14,2,Legendary,Yes,Yes
+Shotgun_Hardened,Hardened Shotgun,Rifle,9,12,2,Rare,Yes,Yes
+Shotgun_Rusty,Rusty Shotgun,Rifle,9,9,2,Rare,Yes,Yes
+SniperRifle,Sniper Rifle,Rifle,10,11,2,Rare,Yes,Yes
+SniperRifle_ArmorPiercing,Armor Piercing Sniper Rifle,Rifle,10,14,2,Rare,Yes,Yes
+SniperRifle_Enhanced,Enhanced Sniper Rifle,Rifle,10,12,2,Rare,Yes,Yes
+SniperRifle_Hardened,Hardened Sniper Rifle,Rifle,10,13,2,Rare,Yes,Yes
+SniperRifle_Rusty,Rusty Sniper Rifle,Rifle,10,10,2,Rare,Yes,Yes
+SniperRifle_VictoryRifle,Victory Rifle,Rifle,10,15,2,Legendary,Yes,Yes

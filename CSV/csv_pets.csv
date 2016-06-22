@@ -1,0 +1,126 @@
+ID,BaseName,Breed,Type,Rarity,Bonus,Min bonus value,Max bonus value
+abyssinian_r,Abyssinian,Abyssinian,Cat,Rare,Resistance,36,40
+abyssinian_c,Abyssinian,Abyssinian,Cat,Normal,Resistance,20,24
+akita_r,Akita,Akita,Dog,Rare,MysteriousMagnet,2,5,2,5
+american_r,American Shorthair,AmericanShorthair,Cat,Rare,WastelandCapsBoost,21,30
+american_c,American Shorthair,AmericanShorthair,Cat,Normal,WastelandCapsBoost,6,15
+doberman_l,Apolda,Doberman,Dog,Legendary,HealingBoost,4,4
+british_l,Ashes,BritishShorthair,Cat,Legendary,HealingBoost,4,4
+australianshepherd_r2,Australian Shepherd,AustralianShepherd,Dog,Rare,ChildSpecialBoost,1,1
+australianshepherd_r,Australian Shepherd,AustralianShepherd,Dog,Rare,ChildSpecialBoost,2,2
+australianshepherd_l,Bandit,AustralianShepherd,Dog,Legendary,ChildSpecialBoost,3,3
+mainecoon_l,Bangor,MaineCoon,Cat,Legendary,TrainingNonStopBoost,26,30
+stbernard_l,Barry,StBernard,Dog,Legendary,WastelandJunkBoost,91,100
+sphynx_l,Bastet,Sphynx,Cat,Legendary,FasterWastelandReturnSpeed,4,4
+blacklab_c,Black Lab,BlackLab,Dog,Normal,TrainingBoost,6,10
+blacklab_r,Black Lab,BlackLab,Dog,Rare,TrainingBoost,16,20
+bombay_r,Bombay,Bombay,Cat,Rare,AddMaxHP,58,66
+bombay_c,Bombay,Bombay,Cat,Normal,AddMaxHP,25,33
+boxer_r,Boxer,Boxer,Dog,Rare,XPBoost,21,30
+boxer_c,Boxer,Boxer,Dog,Normal,XPBoost,6,15
+british_r,British Shorthair,BritishShorthair,Cat,Rare,HealingBoost,3,3
+british_c,British Shorthair,BritishShorthair,Cat,Normal,HealingBoost,2,2
+brittany_c,Brittany,Brittany,Dog,Normal,FasterAndCheaperCrafting,6,10
+brittany_r,Brittany,Brittany,Dog,Rare,FasterAndCheaperCrafting,16,20
+burmilla_r,Burmilla,Burmilla,Cat,Rare,CheaperCrafting,6,10
+militarymacaw_l2,Butch,MilitaryMacaw,Macaw,Legendary,DamageBoost,4,4
+lykoi_l,Calypso,Lykoi,Cat,Legendary,DamageBoost,6,6
+cattledog_c,Cattle Dog,CattleDog,Dog,Normal,WastelandCapsBoost,6,15
+cattledog_r,Cattle Dog,CattleDog,Dog,Rare,WastelandCapsBoost,21,30
+pallascat_l,Cinder,PallasCat,Cat,Legendary,WastelandJunkBoost,91,100
+goldenret_l,Cindy,GoldenRetriever,Dog,Legendary,WastelandItemBoost,26,30
+burmilla_l2,Cloudy,Burmilla,Cat,Legendary,CheaperCrafting,16,20
+collie_r,Collie,Collie,Dog,Rare,CheaperCrafting,16,20
+collie_c,Collie,Collie,Dog,Normal,CheaperCrafting,6,10
+dalmatian_r,Dalmatian,Dalmatian,Dog,Rare,ChildMultiplier,25,25
+burmilla_l,Diamond,Burmilla,Cat,Legendary,CheaperCrafting,26,30
+doberman_c,Doberman,Doberman,Dog,Normal,HealingBoost,2,2
+doberman_r,Doberman,Doberman,Dog,Rare,HealingBoost,3,3
+germanshepherd_l,Dogmeat,GermanShepherd,Dog,Legendary,ObjectiveMultiplier,3,3
+turkishvan_l,Duchess,TurkishVan,Cat,Legendary,ChildSpecialBoost,3,3
+bloodhound_l,Duke,Bloodhound,Dog,Legendary,WastelandJunkBoost,91,100
+englishmastiff_r2,English Mastiff,EnglishMastiff,Dog,Rare,CheaperCrafting,6,10
+englishmastiff_r,English Mastiff,EnglishMastiff,Dog,Rare,CheaperCrafting,16,20
+cattledog_l,Four Score,CattleDog,Dog,Legendary,WastelandCapsBoost,36,45
+brittany_l,Gaston,Brittany,Dog,Legendary,FasterAndCheaperCrafting,26,30
+manx_l2,Genius,Manx,Cat,Legendary,ChildMultiplier,25,25
+germanpointer_r,German Pointer,GermanPointer,Dog,Rare,RadHealingBoost,3,3
+germanpointer_c,German Pointer,GermanPointer,Dog,Normal,RadHealingBoost,2,2
+germanshepherd_r,German Shepherd,GermanShepherd,Dog,Rare,ObjectiveMultiplier,2,2
+scottishfold_l,Ginger,ScottishFold,Cat,Legendary,XPBoost,36,45
+siamese_l,Goblet,Siamese,Cat,Legendary,RadHealingBoost,4,4
+goldenret_r,Golden Retriever,GoldenRetriever,Dog,Rare,WastelandItemBoost,16,20
+goldenret_c,Golden Retriever,GoldenRetriever,Dog,Normal,WastelandItemBoost,6,10
+englishmastiff_l,Goliath,EnglishMastiff,Dog,Legendary,CheaperCrafting,26,30
+greyhound_c,Greyhound,Greyhound,Dog,Normal,FasterCrafting,6,15
+greyhound_r,Greyhound,Greyhound,Dog,Rare,FasterCrafting,21,30
+havanabrown_r,Havana Brown,HavanaBrown,Cat,Rare,FasterCrafting,21,30
+havanabrown_r2,Havana Brown,HavanaBrown,Cat,Rare,FasterCrafting,6,15
+pitbullterrier_l,Hulk,PitBullTerrier,Dog,Legendary,DamageBoost,6,6
+husky_r,Husky,Husky,Dog,Rare,FasterWastelandReturnSpeed,2,2
+husky_c,Husky,Husky,Dog,Normal,FasterWastelandReturnSpeed,1,25,1,25
+akita_l2,Kabosu,Akita,Dog,Legendary,MysteriousMagnet,5,5
+toyger_l,Kato,Toyger,Cat,Legendary,MysteriousMagnet,7,5,7,5
+akita_l,Kuma,Akita,Dog,Legendary,MysteriousMagnet,7,5,7,5
+greyhound_l,Little Helper,Greyhound,Dog,Legendary,FasterCrafting,36,45
+poodle_l,Lord Puffington,Poodle,Dog,Legendary,HappinessBoost,91,100
+dalmatian_l2,Lucky,Dalmatian,Dog,Legendary,ChildMultiplier,50,50
+laperm_l3,Luna,LaPerm,Cat,Legendary,WastelandJunkBoost,58,66
+lykoi_c,Lykoi,Lykoi,Cat,Normal,DamageBoost,2,2
+lykoi_r,Lykoi,Lykoi,Cat,Rare,DamageBoost,4,4
+mainecoon_r,Maine Coon,MaineCoon,Cat,Rare,TrainingBoost,16,20
+mainecoon_c,Maine Coon,MaineCoon,Cat,Normal,TrainingBoost,6,10
+rottweiler_l,Maizie Rai,Rottweiler,Dog,Legendary,AddMaxHP,91,100
+havanabrown_l,Merlin,HavanaBrown,Cat,Legendary,FasterCrafting,36,45
+bloodhound_l3,Moose,Bloodhound,Dog,Legendary,WastelandJunkBoost,58,66
+persian_l,Mr, Pebbles,Persian,Cat,Legendary,HappinessBoost,91,100
+germanpointer_l,Mr, Peepers,GermanPointer,Dog,Legendary,RadHealingBoost,4,4
+blacklab_l,Muttface,BlackLab,Dog,Legendary,TrainingNonStopBoost,26,30
+ocicat_r,Ocicat,Ocicat,Cat,Rare,WastelandItemBoost,16,20
+ocicat_c,Ocicat,Ocicat,Cat,Normal,WastelandItemBoost,6,10
+collie_l,Pal,Collie,Dog,Legendary,CheaperCrafting,26,30
+pallascat_c,Pallass Cat,PallasCat,Cat,Normal,WastelandJunkBoost,25,33
+pallascat_r,Pallass Cat,PallasCat,Cat,Rare,WastelandJunkBoost,58,66
+persian_c,Persian,Persian,Cat,Normal,HappinessBoost,25,33
+persian_r,Persian,Persian,Cat,Rare,HappinessBoost,58,66
+persian_l_2,Pugsley,Persian,Cat,None,TrainingNonStopBoost,26,30
+blueyellowmacaw_l,Pip,BlueYellowMacaw,Macaw,Legendary,ObjectiveMultiplier,3,3
+scarletmacaw_c,Pirate Parrot,ScarletMacaw,Macaw,Normal,Resistance,20,24
+scarletmacaw_r,Pirate Parrot,ScarletMacaw,Macaw,Rare,Resistance,36,40
+militarymacaw_l,Polly,MilitaryMacaw,Macaw,Legendary,DamageBoost,6,6
+dalmatian_l,Pongo,Dalmatian,Dog,Legendary,ChildMultiplier,75,75
+poodle_c,Poodle,Poodle,Dog,Normal,HappinessBoost,25,33
+poodle_r,Poodle,Poodle,Dog,Rare,HappinessBoost,58,66
+laperm_l,Pouncer,LaPerm,Cat,Legendary,WastelandJunkBoost,91,100
+turkishvan_l2,Pumpkin,TurkishVan,Cat,Legendary,ChildSpecialBoost,2,2
+pitbullterrier_l2,Ranger,PitBullTerrier,Dog,Legendary,DamageBoost,2,2
+rottweiler_c,Rottweiler,Rottweiler,Dog,Normal,AddMaxHP,25,33
+rottweiler_r,Rottweiler,Rottweiler,Dog,Rare,AddMaxHP,58,66
+somali_l,Saffron,Somali,Cat,Legendary,FasterCrafting,36,45
+boxer_l,Scavver,Boxer,Dog,Legendary,XPBoost,36,45
+scottishfold_c,Scottish Fold,ScottishFold,Cat,Normal,XPBoost,6,15
+scottishfold_r,Scottish Fold,ScottishFold,Cat,Rare,XPBoost,21,30
+bombay_l,Shadow,Bombay,Cat,Legendary,AddMaxHP,91,100
+manx_l,Shakespeare,Manx,Cat,Legendary,ChildMultiplier,75,75
+siamese_c,Siamese,Siamese,Cat,Normal,RadHealingBoost,2,2
+siamese_r,Siamese,Siamese,Cat,Rare,RadHealingBoost,3,3
+somali_r2,Somali,Somali,Cat,Rare,FasterCrafting,6,15
+somali_r,Somali,Somali,Cat,Rare,FasterCrafting,21,30
+ocicat_l,Speckle,Ocicat,Cat,Legendary,WastelandItemBoost,26,30
+sphynx_c,Sphynx,Sphynx,Cat,Normal,FasterWastelandReturnSpeed,1,25,1,25
+sphynx_r,Sphynx,Sphynx,Cat,Rare,FasterWastelandReturnSpeed,2,2
+stbernard_r,St, Bernard,StBernard,Dog,Rare,WastelandJunkBoost,58,66
+stbernard_c,St, Bernard,StBernard,Dog,Normal,WastelandJunkBoost,25,33
+laperm_l2,Static,LaPerm,Cat,Legendary,WastelandJunkBoost,25,33
+american_l,Sterling,AmericanShorthair,Cat,Legendary,WastelandCapsBoost,36,45
+manx_l3,Stubbs,Manx,Cat,Legendary,ChildMultiplier,50,50
+pitbullterrier_l3,Titan,PitBullTerrier,Dog,Legendary,DamageBoost,4,4
+toyger_r,Toyger,Toyger,Cat,Rare,MysteriousMagnet,5,5
+toyger_c,Toyger,Toyger,Cat,Normal,MysteriousMagnet,2,5,2,5
+militarymacaw_r,Military Macaw,MilitaryMacaw,Macaw,Rare,DamageBoost,2,2
+husky_l,Trench,Husky,Dog,Legendary,FasterWastelandReturnSpeed,4,4
+turkishvan_r,Turkish Van,TurkishVan,Cat,Rare,ChildSpecialBoost,1,1
+bloodhound_l2,Valentine,Bloodhound,Dog,Legendary,WastelandJunkBoost,25,33
+blueyellowmacaw_l2,Vinnie,BlueYellowMacaw,Macaw,Legendary,ObjectiveMultiplier,2,2
+scarletmacaw_l,Wanderer,ScarletMacaw,Macaw,Legendary,Resistance,46,50
+abyssinian_l,Zula,Abyssinian,Cat,Legendary,Resistance,46,50

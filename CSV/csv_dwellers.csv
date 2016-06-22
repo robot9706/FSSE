@@ -1,0 +1,44 @@
+Code,Name,Gender,Hair,HairColor,SkinColor,Rarity,Outfit,Weapon,S,P,E,C,I,A,L
+NinjaMale,Akira Katana,Male,,#8E6150,#FEF8CD,Rare,NinjaSuit,,4,3,4,3,4,8,3
+ProfessorMale,Ameritus Jones,Male,11,#8E6150,#FEE8D5,Rare,ProfessorSpecial,,3,4,3,4,8,3,4
+WrestlerMale,Andre Grande,Male,,#E58631,#E9D4B4,Rare,WrestlerSpecial,,4,3,4,3,4,8,3
+MovieFanFemale,Brandy Valentino,Female,08,#E1CEC5,#FEEEE6,Rare,MoviefanFemaleSpecial,,3,4,3,4,3,4,8
+KingMale,Carlos the Great,Male,18,#69553B,#FEF8CD,Rare,KingSpecial,,6,6,6,6,6,6,6
+SurgeonFemale,Danielle Hart,Female,04,#D35437,#B58766,Rare,SurgeonFemaleSpecial,,4,3,4,3,8,4,3
+SportsFanMale,Frank Blitzer,Male,,#8E6150,#8E6D54,Rare,SportsfanSpecial,,3,4,3,4,3,4,8
+KnightMale,Galahad Swingsalot,Male,,#E58631,#FEE8D5,Rare,KnightSpecial,,8,3,4,3,4,3,4
+ComedianMale,Heywood Yalaff,Male,04,#402E16,#FEE8D5,Rare,ComedianMaleSpecial,,3,4,3,8,4,3,4
+EmpressFemale,Laurel Divinitus,Female,07,#FEAB53,#FEF1F1,Rare,EmpressSpecial,,7,7,7,7,7,7,7
+LibrarianFemale,Martha Dewey,Female,09,#7F6545,#FEDBC8,Rare,LibrarianFemaleSpecial,,3,8,4,3,4,3,4
+GreaserMale,Max Throttle,Male,01,#53555A,#FEF5F3,Rare,GreaserMaleSpecial,,3,8,4,3,4,3,4
+SlasherMale,Oscar Blood,Male,,#8E6150,#FEF8CD,Rare,SlasherSpecial,,4,8,4,3,4,3,4
+ClericMale,Rex Chessman,Male,,#8E6150,#FEF5F3,Rare,BishopSpecial,,3,4,3,8,4,3,4
+SurvivorMale,Rock Hardscrabble,Male,18,#402E16,#B58766,Rare,SurvivorSpecial,,3,4,8,3,4,3,4
+TheMayorMale,Shamus Rumple,Male,13,#53555A,#FEE8D5,Rare,MayorSpecial,,4,3,4,8,3,4,3
+PrinceMale,Tenderloin Fauntleroy,Male,17,#CB9C06,#FEF8CD,Rare,PrinceSpecial,,5,5,5,5,5,5,5
+EngineerFemale,Tina Wrenchley,Female,06,#9D575B,#EBB99D,Rare,EngineerFemaleSpecial,,4,3,4,3,8,4,3
+SoldierFemale,Vera Majors,Female,03,#9D575B,#937257,Rare,SoldierFemaleSpecial,,8,4,3,4,3,4,3
+ScifiFanMale,Prospero Leonard,Male,21,#FEFEFE,#FEE8D5,Rare,ScifiSpecial,,3,4,8,3,4,3,4
+L_Abraham Washington,Abraham Washington,Male,18,#FEFEFE,#FEF8CD,Legendary,AbrahamSpecial,Rifle_LincolnsRepeater,2,8,6,6,8,4,6
+L_AlistairTenpenny,Allistair Tenpenny,Male,07,#FEFEFE,#FEF5F3,Legendary,AlistairSpecial,SniperRifle_VictoryRifle,2,9,2,9,7,2,9
+L_Amata,Amata ,Female,22,#2F2820,#FEF8CD,Legendary,jumpsuit,Pistol_LoneWanderer,4,6,5,8,4,7,6
+L_Bittercup,Bittercup ,Female,17,#A44C2C,#DCD1A1,Legendary,BittercupSpecial,,5,4,7,9,5,5,5
+L_Butch,Butch ,Male,hair_23-2,#535459,#E9D4B4,Legendary,ButchSpecial,Pistol_LoneWanderer,5,7,6,9,5,6,2
+L_ColonelAutumn,Colonel Autumn,Male,22,#FEFEFE,#FEF5F3,Legendary,ColonelSpecial,LaserPistol_SmugglersEnd,4,6,5,9,5,5,6
+L_ConfessorCromwell,Confessor Cromwell,Male,22,#F5EFC2,#FEF8CD,Legendary,CromwellSpecial,,7,4,7,8,6,3,5
+L_Dr. Li,Dr. Li ,Female,16,#2F2820,#FEF1F1,Legendary,LabCoat_Expert,,4,6,6,7,9,4,4
+L_ElderLyons,Elder Lyons,Male,,#FEFEFE,#E9D4B4,Legendary,ScribeRobe_Elder,LaserPistol_SmugglersEnd,4,3,3,9,9,3,9
+L_Eulogy Jones,Eulogy Jones,Male,16,#53555A,#8E6D54,Legendary,EulogyJonesSpecial,Magnum_Blackhawk,5,6,5,8,5,4,7
+L_Harkness,Harkness ,Male,22,#76412E,#FEF5F3,Legendary,BattleArmor_Heavy,AssaultRifle_Infiltrator,8,5,8,5,5,6,3
+L_James,James ,Male,15,#53555A,#FEF8CD,Legendary,LabCoat_Expert,032Pistol_WildBillsSidearm,5,8,4,7,9,4,3
+L_Jericho,Jericho ,Male,,#695953,#E9D4B4,Legendary,WandererArmor_Heavy,AssaultRifle_Infiltrator,8,6,8,2,3,7,6
+L_Lucas Simms,Lucas Simms,Male,16,#53555A,#6F5644,Legendary,LucasSpecial,AssaultRifle_Infiltrator,5,9,8,5,5,6,2
+L_Moira Brown,Moira Brown,Female,22,#A44C2C,#FEF1F1,Legendary,HandymanJumpsuit_Expert,,4,8,3,8,7,5,5
+L_Mr. Burque,Mr. Burke ,Male,,#53555A,#FEF8CD,Legendary,FormalWear_Lucky,032Pistol_WildBillsSidearm,4,7,4,6,9,2,8
+L_Sarah Lyons,Sarah Lyons,Female,22,#CEB138,#B58766,Legendary,PowerArmor_51f,LaserRifle_WaserWifle,8,6,8,6,5,5,2
+L_Scribe Rothchild,Scribe Rothchild,Male,13,#FEFEFE,#FEF8CD,Legendary,RothchildSpecial,Pistol_LoneWanderer,6,5,6,9,4,5,5
+L_Star Paladin Cross,Star Paladin Cross ,Female,23,#E1CEC5,#715845,Legendary,PowerArmor_51f,LaserPistol_SmugglersEnd,7,8,4,8,4,6,3
+L_ThreeDog,Three Dog,Male,16,#53555A,#8E6D54,Legendary,ThreedogSpecial,,4,4,6,9,5,5,7
+L_Preston,Preston Garvey,Male,16,#674A24,#6F5644,Legendary,PrestonSpecial,LaserMusket,3,9,8,6,5,6,3
+L_Piper,Piper ,Female,24,#FFB990,#FFFFFF,Legendary,PiperSpecial,Fist,4,4,9,6,7,4,4
+L_FarHarbor,Old Longfellow ,Male,hair_23-2,#FFFFFF,#FFF6F4,Legendary,FarHarborSpecial,LeverActionRifle_Henrietta,5,7,8,4,6,3,7

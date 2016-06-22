@@ -1,0 +1,157 @@
+ID,Name,Rarity,S,P,E,C,I,A,L,Craftable,Recipe available
+AbrahamSpecial,Abraham's Relaxedwear,Legendary,0,0,1,0,2,2,2,Yes,Yes
+AlistairSpecial,Tenpenny's Suit,Legendary,0,2,0,2,2,0,1,Yes,Yes
+AllNightware,Nightwear,Normal,0,0,0,3,0,0,0,Yes,Yes
+AllNightware_Lucky,Lucky Nightwear,Legendary,0,0,0,7,0,0,0,Yes,Yes
+AllNightware_Naughty,Naughty Nightwear,Rare,0,0,0,5,0,0,0,Yes,Yes
+AmataSpecial,Amata's Jumpsuit,None,0,0,0,2,2,0,2,No,No
+ArgyleSweater,Accountant Outfit,Normal,0,4,0,0,0,0,0,No,No
+BaseballUniform,Baseball Uniform,Rare,0,0,0,0,0,4,1,Yes,Yes
+BattleArmor,Battle Armor,Normal,2,0,1,0,0,0,0,Yes,Yes
+BattleArmor_Heavy,Heavy Battle Armor,Legendary,4,0,3,0,0,0,0,Yes,Yes
+BattleArmor_Sturdy,Sturdy Battle Armor,Rare,3,0,2,0,0,0,0,Yes,Yes
+BishopSpecial,Clergy Outfit,Rare,0,0,0,4,0,0,1,Yes,Yes
+BittercupSpecial,Bittercup's Outfit,Legendary,2,2,2,1,0,0,0,Yes,Yes
+BOSUniform,BoS Uniform,Normal,0,2,0,1,0,0,0,Yes,Yes
+BOSUniform_Advanced,Advanced BoS Uniform,Rare,0,3,0,2,0,0,0,Yes,Yes
+BOSUniform_Expert,Expert BoS Uniform,Legendary,0,4,0,3,0,0,0,Yes,Yes
+BowlingShirt,Drag Racer,Rare,1,0,1,0,0,1,1,Yes,Yes
+BusinessDress,Agent Provocateur,Normal,0,0,0,0,4,0,0,No,No
+BusinessSuit,Business Suit,Normal,0,0,0,4,0,0,0,No,No
+ButchSpecial,Tunnel Snakes' Outfit,Legendary,0,2,1,2,0,2,0,Yes,Yes
+CheckeredShirt,Spring Casualwear,Normal,0,0,1,0,0,1,0,Yes,Yes
+ColonelSpecial,Autumn's Uniform,Legendary,2,2,2,1,0,0,0,Yes,Yes
+CombatArmor,Combat Armor,Normal,2,0,0,0,0,1,0,Yes,Yes
+CombatArmor_Heavy,Heavy Combat Armor,Legendary,4,0,0,0,0,3,0,Yes,Yes
+CombatArmor_Sturdy,Sturdy Combat Armor,Rare,3,0,0,0,0,2,0,Yes,Yes
+ComedianSpecial,Comedian Outfit,Rare,0,2,0,2,0,0,1,Yes,Yes
+costume_01,Casual01,None,0,0,0,0,0,0,0,No,No
+costume_02,Casual02,None,0,0,0,0,0,0,0,No,No
+costume_03,Casual03,None,0,0,0,0,0,0,0,No,No
+costume_04,Casual04,None,0,0,0,0,0,0,0,No,No
+costume_05,Casual05,None,0,0,0,0,0,0,0,No,No
+costume_06,Casual06,None,0,0,0,0,0,0,0,No,No
+costume_07,Casual07,None,0,0,0,0,0,0,0,No,No
+costume_08,Casual08,None,0,0,0,0,0,0,0,No,No
+costume_09,Casual09,None,0,0,0,0,0,0,0,No,No
+costume_10,Casual10,None,0,0,0,0,0,0,0,No,No
+CromwellSpecial,Confessor Cromwell's Rags,Legendary,0,2,2,0,1,0,2,Yes,Yes
+DooWopOutfit,Doo-Wop Singer,Rare,1,0,0,1,0,1,1,Yes,Yes
+DrLiSpecial,Doctor Li's Outfit,None,0,0,0,0,3,0,2,No,No
+ElderLyonsSpecial,Elder Lyon's Robe,None,0,2,1,6,2,0,0,No,No
+EmpressSpecial,Republic Robes,Rare,0,0,0,4,0,0,1,Yes,Yes
+EngineerSpecial,Engineer Outfit,Rare,0,0,2,0,2,0,1,Yes,Yes
+EulogyJonesSpecial,Eulogy Jones' Suit,Legendary,0,2,0,2,1,0,2,Yes,Yes
+FarHarborSpecial,Tattered Longcoat,Legendary,2,0,2,2,0,0,2,No,No
+FlightSuit,Flight Suit,Normal,0,0,1,0,0,2,0,Yes,Yes
+FlightSuit_Advanced,Advanced Flight Suit,Rare,0,0,2,0,0,3,0,Yes,Yes
+FlightSuit_Expert,Expert Flight Suit,Legendary,0,0,3,0,0,4,0,Yes,Yes
+FormalWear,Formal Wear,Normal,0,0,0,0,0,0,3,Yes,Yes
+FormalWear_Fancy,Fancy Formal Wear,Rare,0,0,0,0,0,0,5,Yes,Yes
+FormalWear_Lucky,Lucky Formal Wear,Legendary,0,0,0,0,0,0,7,Yes,Yes
+GreaserSpecial,Greaser Outfit,Rare,0,0,0,2,0,2,1,Yes,Yes
+HandymanJumpsuit,Handyman Jumpsuit,Normal,0,0,0,0,0,3,0,Yes,Yes
+HandymanJumpsuit_Advanced,Advanced Jumpsuit,Rare,0,0,0,0,0,5,0,Yes,Yes
+HandymanJumpsuit_Expert,Expert Jumpsuit,Legendary,0,0,0,0,0,7,0,Yes,Yes
+HarknessSpecial,Harkness' Security Uniform,None,0,5,0,0,0,3,2,No,No
+HazmatSuit,Wasteland Gear,Normal,0,0,3,0,0,0,0,Yes,Yes
+HazmatSuit_Heavy,Heavy Wasteland Gear,Legendary,0,0,7,0,0,0,0,Yes,Yes
+HazmatSuit_Sturdy,Sturdy Wasteland Gear,Rare,0,0,5,0,0,0,0,Yes,Yes
+HunterGear_Bounty,Bounty Hunter Gear,Rare,3,2,0,0,0,0,0,Yes,Yes
+HunterGear_Mutant,Mutant Hunter Gear,Legendary,4,3,0,0,0,0,0,Yes,Yes
+HunterGear_Treasure,Treasure Hunter Gear,Normal,2,1,0,0,0,0,0,Yes,Yes
+InstituteJumper_Advanced,Advanced Institute Jumper,Rare,0,0,0,0,3,2,0,Yes,Yes
+InstituteJumper_Expert,Expert Institute Jumper,Legendary,0,0,0,0,4,3,0,Yes,Yes
+JacketTshirt,Motorcycle Jacket,Rare,6,0,0,0,0,0,0,No,No
+JamesSpecial,Dad's Lab Uniform,None,0,0,0,0,5,0,2,No,No
+JerichoSpecial,Jericho's Leather Armor,None,2,0,6,0,0,0,0,No,No
+jumpsuit,Vault Suit,Normal,0,0,0,0,0,0,0,No,No
+KingSpecial,Medieval Ruler Outfit,Rare,0,2,0,2,0,0,1,Yes,Yes
+KnightSpecial,Knight Armor,Rare,2,2,0,0,0,0,1,Yes,Yes
+LabCoat,Lab Coat,Normal,0,0,0,0,3,0,0,Yes,Yes
+LabCoat_Advanced,Advanced Lab Coat,Rare,0,0,0,0,5,0,0,Yes,Yes
+LabCoat_Expert,Expert Lab Coat,Legendary,0,0,0,0,7,0,0,Yes,Yes
+LibrarianSpecial,Librarian Outfit,Rare,0,0,0,0,4,0,1,Yes,Yes
+LifeguardOutfit,Lifeguard Outfit,Rare,0,4,0,0,0,0,1,Yes,Yes
+LoungeShirt,Bowling Shirt,Rare,0,6,0,0,0,0,0,No,No
+LucasSpecial,Sheriff's Duster,Legendary,0,2,5,0,0,0,0,Yes,Yes
+MayorSpecial,Mayor Outfit,Rare,0,0,0,2,2,0,1,Yes,Yes
+MechanicJumpsuit,Mechanic Jumpsuit,Normal,1,0,0,1,0,0,0,Yes,Yes
+MetalArmor_Heavy,Heavy Metal Armor,Legendary,4,0,0,0,0,0,3,Yes,Yes
+MetalArmor_Sturdy,Sturdy Metal Armor,Rare,3,0,0,0,0,0,2,Yes,Yes
+MilitaryJumpsuit,Military Fatigues,Normal,3,0,0,0,0,0,0,Yes,Yes
+MilitaryJumpsuit_Commander,Commander Fatigues,Legendary,7,0,0,0,0,0,0,Yes,Yes
+MilitaryJumpsuit_Officer,Officer Fatigues,Rare,5,0,0,0,0,0,0,Yes,Yes
+MoiraSpecial,Moira's RobCo Jumpsuit,None,0,3,1,0,2,0,0,No,No
+MoviefanSpecial,Movie Fan Outfit,Rare,0,4,0,0,0,0,1,Yes,Yes
+MrBurkeSpecial,Mr, Burke's Businesswear,None,0,0,0,4,0,0,4,No,No
+NinjaSuit,Ninja Outfit,Rare,0,0,0,0,0,4,1,Yes,Yes
+NormalClothing,NormalClothing,Normal,0,0,0,0,0,0,0,No,No
+PiperSpecial,Piper's Outfit,Legendary,0,2,2,0,0,2,2,Yes,Yes
+PolkaDotDress,Polka Dot Sundress,Normal,1,0,0,0,1,0,0,Yes,Yes
+PowerArmor,T-45a Power Armor,Legendary,2,3,0,0,0,0,0,Yes,Yes
+PowerArmor_51a,T-51a Power Armor,Legendary,3,1,0,0,0,0,0,Yes,Yes
+PowerArmor_51d,T-51d Power Armor,Legendary,3,2,0,0,0,0,0,Yes,Yes
+PowerArmor_51f,T-51f Power Armor,Legendary,4,3,0,0,0,0,0,Yes,Yes
+PowerArmor_MkI,X-01 Mk I Power Armor,Legendary,3,1,1,0,0,0,0,Yes,Yes
+PowerArmor_MkIV,X-01 Mk IV Power Armor,Legendary,4,1,1,0,0,0,0,Yes,Yes
+PowerArmor_MkVI,X-01 Mk VI Power Armor,Legendary,5,1,1,0,0,0,0,Yes,Yes
+PowerArmor_T45d,T-45d Power Armor,Legendary,2,4,0,0,0,0,0,Yes,Yes
+PowerArmor_T45f,T-45f Power Armor,Legendary,2,5,0,0,0,0,0,Yes,Yes
+PowerArmor_T60a,T-60a Power Armor,Legendary,2,0,3,0,0,0,0,Yes,Yes
+PowerArmor_T60d,T-60d Power Armor,Legendary,2,0,4,0,0,0,0,Yes,Yes
+PowerArmor_T60f,T-60f Power Armor,Legendary,1,1,5,0,0,0,0,Yes,Yes
+PrestonSpecial,Minuteman Uniform,Legendary,2,2,0,0,2,2,0,Yes,Yes
+PrinceSpecial,Nobility Outfit,Rare,0,0,2,0,2,0,1,Yes,Yes
+ProfessorSpecial,Professor Outfit,Rare,0,0,0,0,4,0,1,Yes,Yes
+RadiationSuit,Radiation Suit,Normal,0,1,2,0,0,0,0,Yes,Yes
+RadiationSuit_Advanced,Advanced Radiation Suit,Rare,0,2,3,0,0,0,0,Yes,Yes
+RadiationSuit_Expert,Expert Radiation Suit,Legendary,0,3,4,0,0,0,0,Yes,Yes
+RaiderArmor,Raider Armor,Normal,0,1,0,0,0,2,0,Yes,Yes
+RaiderArmor_Heavy,Heavy Raider Armor,Legendary,0,3,0,0,0,4,0,Yes,Yes
+RaiderArmor_Sturdy,Sturdy Raider Armor,Rare,0,2,0,0,0,3,0,Yes,Yes
+RiotGear,Merc Gear,Normal,0,1,0,0,0,1,1,Yes,Yes
+RiotGear_Heavy,Heavy Merc Gear,Legendary,0,2,0,0,0,3,2,Yes,Yes
+RiotGear_Sturdy,Sturdy Merc Gear,Rare,0,1,0,0,0,2,2,Yes,Yes
+RothchildSpecial,Scribe Rothchild's Robe,Legendary,0,2,1,2,2,0,0,Yes,Yes
+SarahSpecial,Lyon's Pride Armor,None,4,3,0,0,0,0,1,No,No
+ScientistScrubs,Junior Officer Uniform,Normal,0,0,0,1,2,0,0,Yes,Yes
+ScientistScrubs_Commander,Commander Uniform,Legendary,0,0,0,3,4,0,0,Yes,Yes
+ScientistScrubs_Officer,Officer Uniform,Rare,0,0,0,2,3,0,0,Yes,Yes
+ScifiSpecial,Sci-Fi Fan Outfit,Rare,0,0,0,0,2,2,1,Yes,Yes
+ScribeRobe,Scribe Robe,Rare,0,0,0,3,0,2,0,Yes,Yes
+ScribeRobe_Elder,Elder Robe,Legendary,0,0,0,4,0,3,0,Yes,Yes
+ScribeRobe_Initiate,Initiate Robe,Normal,0,0,0,2,0,1,0,Yes,Yes
+SequinDress,Vault Socialite,Normal,0,0,0,1,0,1,0,Yes,Yes
+SlasherSpecial,Horror Fan Outfit,Rare,0,0,4,0,0,0,1,Yes,Yes
+SodaFountainDress,Soda Fountain Dress,Rare,0,1,1,0,1,0,1,Yes,Yes
+SoldierSpecial,Soldier Uniform,Rare,2,0,2,0,0,0,1,Yes,Yes
+SpecialThemeHalloween,Ghost Costume,Rare,0,0,2,0,0,3,0,No,No
+SpecialThemeHalloween2,Skeleton Costume,Rare,2,0,0,0,0,0,3,No,No
+SpecialThemeThanksGiving,Pilgrim Outfit,Rare,0,0,0,3,2,0,0,No,No
+SpecialThemeXmas,Santa Suit,Rare,0,3,0,2,0,0,0,No,No
+SpecialThemeXmas2,Elf Outfit,Rare,0,0,0,0,3,0,2,No,No
+SportsfanSpecial,Sports Fan Outfit,Rare,4,0,0,0,0,0,1,Yes,Yes
+StarPaladinSpecial,Cross' Power Armor,None,5,2,2,0,0,0,0,No,No
+SurgeonSpecial,Surgeon Outfit,Rare,0,2,0,0,0,2,1,Yes,Yes
+SurvivorSpecial,Survivor Armor,Rare,2,0,0,0,0,2,1,Yes,Yes
+Suspenders,Bespoke Attire,Normal,0,0,4,0,0,0,0,No,No
+SweaterVest,Pre-War Suburbanite,Normal,0,1,0,0,1,0,0,Yes,Yes
+Swimsuit,Swimsuit,Rare,0,0,2,2,0,0,1,Yes,Yes
+SwingDress,Swing Dress,Rare,0,0,0,0,0,6,0,No,No
+SynthArmor_Heavy,Heavy Synth Armor,Legendary,0,0,4,0,3,0,0,Yes,Yes
+ThreedogSpecial,Three Dog's Outfit,Legendary,0,2,0,5,0,0,0,Yes,Yes
+TiedBlouse,Country Girl,Normal,4,0,0,0,0,0,0,No,No
+UtilityJumpsuit,Armored Vault Suit,Normal,0,3,0,0,0,0,0,Yes,Yes
+UtilityJumpsuit_Heavy,Heavy Vault Suit,Legendary,0,7,0,0,0,0,0,Yes,Yes
+UtilityJumpsuit_Sturdy,Sturdy Vault Suit,Rare,0,5,0,0,0,0,0,Yes,Yes
+Vest,Post-War Casanova,Rare,0,1,0,1,1,0,1,Yes,Yes
+WaitressUniform,Waitress Uniform,Normal,0,0,0,0,0,4,0,No,No
+WandererArmor,Leather Armor,Normal,1,0,2,0,0,0,0,Yes,Yes
+WandererArmor_Heavy,Heavy Leather Armor,Legendary,3,0,4,0,0,0,0,Yes,Yes
+WandererArmor_Sturdy,Sturdy Leather Armor,Rare,2,0,3,0,0,0,0,Yes,Yes
+WastelandSurgeon,Wasteland Surgeon,Legendary,0,4,0,0,0,0,3,Yes,Yes
+WastelandSurgeon_Doctor,Wasteland Doctor,Rare,0,3,0,0,0,0,2,Yes,Yes
+WastelandSurgeon_Settler,Wasteland Medic,Normal,0,2,0,0,0,0,1,Yes,Yes
+WorkDress,Rural Schoolmarm,Normal,0,1,1,0,0,0,0,Yes,Yes
+WrestlerSpecial,Wrestler Outfit,Rare,2,0,2,0,0,0,1,Yes,Yes
