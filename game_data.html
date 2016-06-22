@@ -1,0 +1,106 @@
+<html>
+    <head>
+        <title>FalloutShelter save editor</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+		<script src="table.js"></script>
+        <style>
+            .hrline{
+                margin-bottom: 0;
+            }
+            .hr {
+                width: 90%;
+                border-top: 1px solid #cccccc;
+                height: 1px;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 15pt;
+                margin-bottom: 15pt;
+            }
+			
+			table.ts {
+				width: 100%;
+				border-collapse: collapse;
+				border: black 1px solid;
+			}
+			
+			.ts th, .ts td {
+				border: #AAAAAA 1px solid;
+				text-align: left;
+				padding: 4px;
+			}
+			
+			tr:nth-child(even){background-color: #e2e2e2}
+			
+			th{
+				background-color: #BABABA;
+				text-align: left;
+			}
+			
+			table.ts thead tr .header {
+				background-image: url('Content/bg.gif');
+				background-repeat: no-repeat;
+				background-position: center right;
+				cursor: pointer;
+			}
+			table.ts thead tr .headerSortUp {
+				background-image: url('Content/asc.gif');
+			}
+			table.ts thead tr .headerSortDown {
+				background-image: url('Content/desc.gif');
+			}
+        </style>
+		<script>
+			$(document).ready(function() {
+				loadTable("dwellers", "Dwellers");
+			
+				
+			});
+			
+			function loadTable(name, header){
+				var txt = document.getElementById('hdr');
+				var div = document.getElementById('tbl');
+				
+				txt.innerHTML = '';
+				div.innerHTML = "<img src='Content/loader.gif'/>";
+			
+				var html = 'Tables/html_' + name + '.html';
+				
+				$.get( html, function( data ) {
+					txt.innerHTML = header;
+					div.innerHTML = data;
+					$("#cttb").tablesorter(); 
+				});
+			}
+		</script>
+    </head>
+    <body style="font-family: 'Kristen ITC'; background-color: #eeeeee;">
+        <div id="cont" style="margin-left: auto; margin-right: auto; width: 750px; border: 1px solid #dddddd; padding: 15px;">
+            <table>
+                <tr>
+                    <td><a href="index.html"><img src="Content/fs.png"/></a></td>
+                    <td style="display: table-cell; vertical-align: middle; width: 100%">
+                        <div style="text-align: center">
+                            <a href="index.html" style="color: black; text-decoration: none"><h1>FalloutShelter save editor</h1></a>
+                            <a>Easy to use save editor for Fallout Shelter.</a><br />
+                        </div>
+                    </td>
+                </tr>
+            </table>
+			<br>
+			<table style="width: 100%; text-align: center">
+				<tr>
+					<td><h3><a style="text-decoration: underline; cursor: pointer;" onclick="loadTable('dwellers', 'Dwellers')">Dwellers</h3></td>
+					<td><h3><a style="text-decoration: underline; cursor: pointer;" onclick="loadTable('weapons', 'Weapons')">Weapons</h3></td>
+					<td><h3><a style="text-decoration: underline; cursor: pointer;" onclick="loadTable('outfits', 'Outfits')">Outfits</h3></td>
+					<td><h3><a style="text-decoration: underline; cursor: pointer;" onclick="loadTable('pets', 'Pets')">Pets</h3></td>
+				</tr>
+			</table>
+		</div>
+		<div id="cont" style="width: 100%; border: 1px solid #dddddd;">
+
+			<h2 id="hdr"></h2>			
+			<div id="tbl"></div>
+			
+        </div>
+    </body>
+</html>
