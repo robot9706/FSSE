@@ -81,8 +81,8 @@
                             <img src="Content/qrcode.png" style="width: 200px" /><br />
                         </td>
                         <td>
-                            <h3><a href="https://github.com/robot9706/FSSE/releases/download/1.4/FSSE.apk" target="_blank">Direct download</a></h3>
-                            <h3><a href="https://www.virustotal.com/hu/file/c2f1ed3f97c61f92f407a8468b4d26c6fea68da261574c096f3e3bfa185ca83f/analysis/1468518935/" target="_blank">Virus scan</a></h3>
+                            <h3><a href="https://github.com/robot9706/FSSE/releases/download/1.4.1/FSSE.apk" target="_blank">Direct download</a></h3>
+                            <h3><a href="https://www.virustotal.com/hu/file/975ffcb4c577c42376bf44beae4a7a0e0083b3a977a26347c0a6bef7f9db587f/analysis/1469114435/" target="_blank">Virus scan</a></h3>
                             <a>Use at your own risk!</a>
                         </td>
                     </tr>
@@ -137,6 +137,28 @@
                 <li><b>+ Many many more.</b></li>
             </ul>
 
+			<div class="hr"></div>
+			
+			<h2 onclick="$('#win').slideToggle(250);" class="hrline" style="cursor: pointer"><u>Simple windows version</u><a style="color: #cccccc"> <sub>(Click to open)</sub></a></h2>
+            <div id="win" style="display: none; padding-left: 20pt; padding-top: 20pt;">
+				<a>This version is very simple and is intended for PC players, you can only edit: resources, vault info and lunchboxes.</a><br><br>
+				<a><b>Remote editing:</b></a>
+				<ul>
+					<li>1) Start the windows editor.</li>
+					<li>2) Open a vault and press "Remote edit".</li>
+					<li>3) Start FSSE (min v1.4.1) on your Android device.</li>
+					<li>4) Select remote edit and enter the IP shown in the editor or scan the QR code.</li>
+					<li>5) Edit the vault on your phone.</li>
+					<li>6) Save the changes and wait until the Winddows editor and FSSE do their job.</li>
+				</ul>
+				<a>Note: Your Android device and PC must be in the same local network.</a><br>
+				<a>Note #2: If the editors are unable to save or load, try again.</a><br>
+				<br>
+				<a href="https://github.com/robot9706/FSSE/releases/download/1.4.1/Win.zip">Download</a><a> / </a><a href="https://www.virustotal.com/hu/file/742506c4203e688df90998461b0118c33776f7e128476c86458c714319fb01c4/analysis/1469114432/">Virus scan</a><br>
+				<br>
+				<a>Requires .NET 4.5 to run.</br>
+			</div>
+			
 			<div class="hr"></div>
 			
 			<a href="game_data.html" style="color: black"><h2 class="hrline" style="cursor: pointer"><u>Game data (dwellers, items, etc.)</u><a style="color: #cccccc"></a></h2></a>
@@ -257,26 +279,24 @@
             </div>
 			
 			<div class="hr"></div>
-			
-			<h2 onclick="$('#win').slideToggle(250);" class="hrline" style="cursor: pointer"><u>Simple windows version</u><a style="color: #cccccc"> <sub>(Click to open)</sub></a></h2>
-            <div id="win" style="display: none; padding-left: 20pt; padding-top: 20pt;">
-				<a>This version is very simple and is intended for PC players, you can only edit: resources, vault info and lunchboxes.</a><br>
-				<a href="http://robot9706.github.io/FSSE/Download/Win.zip">Download</a><a> / </a><a href="https://www.virustotal.com/hu/file/4b660b9619075194999f7567ee0b609595f8befbf55d3e209f805cacabe44f68/analysis/1468676719/">Virus scan</a><br>
-				<br>
-				<a>Requires .NET 4.5 to run.</br>
-			</div>
-			
-			<div class="hr"></div>
 			 
-            <h2 onclick="$('#chl').slideToggle(250);" class="hrline" style="cursor: pointer"><u>Changelog and todo</u><a style="color: #cccccc"> <sub>(Click to open)</sub></a></h2>
+            <h2 onclick="$('#chl').slideToggle(250);" class="hrline" style="cursor: pointer"><u>Changelog</u><a style="color: #cccccc"> <sub>(Click to open)</sub></a></h2>
             <div id="chl" style="display: none; padding-left: 20pt; padding-top: 20pt;">
-				<b><span style="text-decoration: underline">TODO:</span></b><br>
+				<!--<b><span style="text-decoration: underline">TODO:</span></b><br>
 				Add new facemask images (game v1.5).<br>
 				<br>
 				Make a family tree viewer.<br>
 				Add an option to sort items by their SPECIAL stats.<br>
 				Bulk editing for dwellers.<br>
 				Room editing (edit vault layout, level up rooms, etc).<br>
+				<br>-->
+				
+				<b><span style="text-decoration: underline">Version 1.4.1:</span></b><br>
+				Update: Remove crap items from dwellers fixed.<br>
+				Update: Set time spent in wasteland fixed.<br>
+				Update: Return exploring dwellers fixed (note: quest teams aren't supported).<br>
+				Added: Set stimpacks and radaways for all dwellers.<br>
+				Added: "Remote editing" feature, which allows the PC editor to use the features of the Android editor.<br>
 				<br>
 				
 				<b><span style="text-decoration: underline">Version 1.4:</span></b><br>
