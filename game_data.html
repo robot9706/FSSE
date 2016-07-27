@@ -2,6 +2,7 @@
     <head>
         <title>FalloutShelter save editor</title>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+        <script src="comp.js"></script>
 		<script src="table.js"></script>
         <style>
             .hrline{
@@ -50,27 +51,64 @@
 			}
         </style>
 		<script>
-			$(document).ready(function() {
-				loadTable("dwellers", "Dwellers");
-			
-				
-			});
-			
-			function loadTable(name, header){
-				var txt = document.getElementById('hdr');
-				var div = document.getElementById('tbl');
-				
-				txt.innerHTML = '';
-				div.innerHTML = "<img src='Content/loader.gif'/>";
-			
-				var html = 'Tables/html_' + name + '.html';
-				
-				$.get( html, function( data ) {
-					txt.innerHTML = header;
-					div.innerHTML = data;
-					$("#cttb").tablesorter(); 
-				});
-			}
+		    $(document).ready(function () {
+		        loadTable("dwellers", "Dwellers");
+		    });
+
+		    function loadTable(name, header) {
+		        var txt = document.getElementById('hdr');
+		        var div = document.getElementById('tbl');
+
+		        txt.innerHTML = '';
+		        div.innerHTML = "<img src='Content/loader.gif'/>";
+
+		        document.getElementById("qNote").style.visibility = (name == "quests" ? "visible" : "hidden");
+
+		        var html = 'Tables/html_' + name + '_comp.html';
+
+		        $.get(html, function (data) {
+		            var strData = atob(data);
+		            var charData = strData.split('').map(function (x) { return x.charCodeAt(0); });
+		            var ar = new Uint8Array(charData);
+		            var odata = pako.inflate(ar);
+
+		            var maxSize = 1024 * 20;
+		            var l = odata.length;
+		            var p = 0;
+		            var strData = "";
+		            while (l > 0) {
+		                if (l > maxSize) {
+		                    strData += String.fromCharCode.apply(null, new Uint8Array(odata.slice(p, p+maxSize)));
+
+		                    p += maxSize;
+		                    l -= maxSize;
+		                }
+		                else {
+		                    strData += String.fromCharCode.apply(null, new Uint8Array(odata.slice(p, l)));
+
+		                    p += l;
+		                    l = 0;
+		                }
+		            }
+
+		            txt.innerHTML = header;
+
+		            div.innerHTML = strData;
+		            //div.innerHTML = data;
+
+		            $("#cttb").tablesorter();
+		        });
+		    }
+
+		    var _l = "";
+		    function toggle(c) {
+		        $('#' + c).slideDown(250);
+		        if (_l != "" && _l != c) {
+		            $('#' + _l).slideUp(250);
+		        }
+
+		        _l = c;
+		    }
 		</script>
     </head>
     <body style="font-family: 'Kristen ITC'; background-color: #eeeeee;">
@@ -93,12 +131,14 @@
 					<td><h3><a style="text-decoration: underline; cursor: pointer;" onclick="loadTable('weapons', 'Weapons')">Weapons</h3></td>
 					<td><h3><a style="text-decoration: underline; cursor: pointer;" onclick="loadTable('outfits', 'Outfits')">Outfits</h3></td>
 					<td><h3><a style="text-decoration: underline; cursor: pointer;" onclick="loadTable('pets', 'Pets')">Pets</h3></td>
+					<td><h3><a style="text-decoration: underline; cursor: pointer;" onclick="loadTable('quests', 'Quests')">Quests</h3></td>
 				</tr>
 			</table>
 		</div>
-		<div id="cont" style="width: 100%; border: 1px solid #dddddd;">
+		<div id="Div1" style="width: 100%; border: 1px solid #dddddd;">
 
-			<h2 id="hdr"></h2>			
+			<h2 id="hdr"></h2>		
+            <a id="qNote" style="visibility: hidden">Click on each row to access quest data.</a><br />
 			<div id="tbl"></div>
 			<a style="color: #AAAAAA">You can sort the table by clicking on the column headers (use shift+click to sort by more than one column).</a><br>
 			
