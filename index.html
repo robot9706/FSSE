@@ -139,24 +139,30 @@
 
 			<div class="hr"></div>
 			
-			<h2 onclick="$('#win').slideToggle(250);" class="hrline" style="cursor: pointer"><u>Simple windows version</u><a style="color: #cccccc"> <sub>(Click to open)</sub></a></h2>
+			<h2 onclick="$('#win').slideToggle(250);" class="hrline" style="cursor: pointer"><u>PC version</u><a style="color: #cccccc"> <sub>(Click to open)</sub></a></h2>
             <div id="win" style="display: none; padding-left: 20pt; padding-top: 20pt;">
-				<a>This version is very simple and is intended for PC players, you can only edit: resources, vault info and lunchboxes.</a><br><br>
-				<a><b>Remote editing:</b></a>
-				<ul>
-					<li>1) Start the windows editor.</li>
-					<li>2) Open a vault and press "Remote edit".</li>
-					<li>3) Start FSSE (min v1.4.1) on your Android device.</li>
-					<li>4) Select remote edit and enter the IP shown in the editor or scan the QR code.</li>
-					<li>5) Edit the vault on your phone.</li>
-					<li>6) Save the changes and wait until the Winddows editor and FSSE do their job.</li>
-				</ul>
-				<a>Note: Your Android device and PC must be in the same local network.</a><br>
-				<a>Note #2: If the editors are unable to save or load, try again.</a><br>
+				<a>This version is intended for PC players, it doesn't know as much things as the Android version, but it's catching up.</a><br>
+				<a>It can edit basic vault info, resources, dwellers, vault storage, item info (pet data), etc.</a><br>
+				
 				<br>
-				<a href="https://github.com/robot9706/FSSE/releases/download/1.4.2/Win.zip">Download</a><a> / </a><a href="https://www.virustotal.com/hu/file/742506c4203e688df90998461b0118c33776f7e128476c86458c714319fb01c4/analysis/1469114432/">Virus scan</a><br>
+				<a href="https://github.com/robot9706/FSSE/releases/download/1.4.2/Win.zip">Download</a><a> / </a><a href="https://www.virustotal.com/hu/file/17d7a64a026688c16e89a307b71fa71e877d7524e6c2311092c45dc68167d200/analysis/1469734038/">Virus scan</a><br>
 				<br>
 				<a>Requires .NET 4.5 to run.</br>
+				
+				<h3 onclick="$('#remed').slideToggle(250);" class="hrline" style="cursor: pointer"><u><b>Remote editing </b>(use your Android device to edit PC saves):</u><a style="color: #cccccc"> <sub>(Click to open)</sub></a></h3>
+				<div id="remed" style="display: none; padding-left: 20pt;">
+					<ul>
+						<li>1) Start the windows editor.</li>
+						<li>2) Open a vault and press "Remote edit".</li>
+						<li>3) Start FSSE (min v1.4.1) on your Android device.</li>
+						<li>4) Select remote edit and enter the IP shown in the editor or scan the QR code.</li>
+						<li>5) Edit the vault on your phone.</li>
+						<li>6) Save the changes and wait until the Winddows editor and FSSE do their job.</li>
+					</ul>
+					<a>Note: Your Android device and PC must be in the same local network.</a><br>
+					<a>Note #2: If the editors are unable to save or load, try again.</a><br>
+				</div>
+				<br>
 			</div>
 			
 			<div class="hr"></div>
@@ -207,19 +213,38 @@
 				<br />
 				
 				<a><b>Use it at your own risk!</b></a>
-				<h3><a href="https://github.com/robot9706/FSSE/releases/download/1.4.2/FS-modded.apk">Direct download</a> / <a href="https://www.virustotal.com/hu/file/90143f94a8fb106070d44c0a61c6371a3fb318ec49c8de65453228fe810101ed/analysis/1468518980/">Virus scan</a></h3>
 				
-				<h4>How to install?</h4>
-				<ul>
-					<li>1) Download the modified game APK from the link above.</li>
-					<li>2) <b>!!</b> Backup your saves / vaults, you can use the editor to make backups or goto "/sdcard/Android/data/com.bethsoft.falloutshelter/files" and save your "Vault#.sav" files.</li>
-					<li>3) Backup the OBB of the game (located here: "\sdcard\Android\obb\com.bethsoftfalloutshelter\"). You can do this by renaming the "com.bethsoftfalloutshelter" folder to something else.</li>
-					<li>4) Delete the current version of the game from your device (this will delete all your save files and the OBB).</li>
-					<li>5) Install the modified version.</li>
-					<li>6) Rename the OBB folder to it's original name (again here: "\sdcard\Android\obb\com.bethsoftfalloutshelter\"). This is required because newer versions of the game does not download the OBB and if the game can't find it, it will just crash.</li>
-					<li>7) Restore the save files.</li>
-					<li>8) Start the game and <b>enjoy</b>!</li>
-				</ul>
+				<h3 onclick="$('#undw_a').slideToggle(250);" class="hrline" style="cursor: pointer"><u>Android download and instructions</u><a style="color: #cccccc"> <sub>(Click to open)</sub></a></h3>
+				<div id="undw_a" style="display: none; padding-left: 20pt;">
+					<h3><a href="https://github.com/robot9706/FSSE/releases/download/1.4.2/FS-modded.apk">Direct download</a> / <a href="https://www.virustotal.com/hu/file/90143f94a8fb106070d44c0a61c6371a3fb318ec49c8de65453228fe810101ed/analysis/1468518980/">Virus scan</a></h3>
+					
+					<h4>How to install?</h4>
+					<ul>
+						<li><b>1)</b> Download the modified game APK from the link above.</li>
+						<li><b>2)</b> <b>!!</b> Backup your saves / vaults, you can use the editor to make backups or goto "/sdcard/Android/data/com.bethsoft.falloutshelter/files" and save your "Vault#.sav" files.</li>
+						<li><b>3)</b> Backup the OBB of the game (located here: "\sdcard\Android\obb\com.bethsoftfalloutshelter\"). You can do this by renaming the "com.bethsoftfalloutshelter" folder to something else.</li>
+						<li><b>4)</b> Delete the current version of the game from your device (this will delete all your save files and the OBB).</li>
+						<li><b>5)</b> Install the modified version.</li>
+						<li><b>6)</b> Rename the OBB folder to it's original name (again here: "\sdcard\Android\obb\com.bethsoftfalloutshelter\"). This is required because newer versions of the game does not download the OBB and if the game can't find it, it will just crash.</li>
+						<li><b>7)</b> Restore the save files.</li>
+						<li><b>8)</b> Start the game and <b>enjoy</b>!</li>
+					</ul>
+				</div>
+				<h3 onclick="$('#undw_w').slideToggle(250);" class="hrline" style="cursor: pointer"><u>PC download and instructions</u><a style="color: #cccccc"> <sub>(Click to open)</sub></a></h3>
+				<div id="undw_w" style="display: none; padding-left: 20pt;">
+					<h3><a href="http://robot9706.github.io/FSSE/Download/PC-modded.zip">Direct download</a> / <a href="https://www.virustotal.com/hu/file/8a1fb65449283b5e0b6597ad8bc13c876480b1b95db47bfc4266a1432c01705b/analysis/1469695706/">Virus scan</a></h3>
+					
+					<h4>How to install?</h4>
+					<ul>
+						<li><b>1)</b> Download the file from above and unpack it.</li>
+						<li><b>2)</b> Locate the installation folder of the Bethesda Launcher (right click on the icon on your desktop and you'll be able to see the folder).<br>You can use the editor to locate the folder ("Open folder"->"Installation folder" menu).</li>
+						<li><b>3)</b> In the folder of the launcher goto: "games/FalloutShelter/FalloutShelter_Data/Managed/", you should see dll files here.</li>
+						<li><b>4)</b> Copy and overwrite the "Assembly-CSharp.dll" with the one you downloaded in the zip (make sure the game isn't running).</li>
+						<li><b>5)</b> Start the game.</li>
+						<li><b>6)</b> Enjoy.</li>
+					</ul>
+					<a><b>Note: </b>If the mods aren't working try starting the game using it's exe (FalloutShelter.exe), because the launcher might know that the files changed and it would download the original ones.</a>
+				</div>
             </div>
 			
 			<div class="hr"></div>
