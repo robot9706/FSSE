@@ -84,7 +84,7 @@
 		                    l -= maxSize;
 		                }
 		                else {
-		                    strData += String.fromCharCode.apply(null, new Uint8Array(odata.slice(p, l)));
+		                    strData += String.fromCharCode.apply(null, new Uint8Array(odata.slice(p, -1)));
 
 		                    p += l;
 		                    l = 0;
