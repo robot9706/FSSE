@@ -1,0 +1,165 @@
+<html>
+<html>
+    <head>
+        <title>FSSE - Custom outfit textures</title>
+		        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+        <style>
+            .hrline{
+                margin-bottom: 0;
+            }
+            .hr {
+                width: 90%;
+                border-top: 1px solid #cccccc;
+                height: 1px;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 15pt;
+                margin-bottom: 15pt;
+            }
+        </style>
+    </head>
+    <body style="font-family: 'Kristen ITC'; background-color: #eeeeee;">
+        <div id="cont" style="margin-left: auto; margin-right: auto; width: 750px; border: 1px solid #dddddd; padding: 15px;">
+            <table>
+                <tr>
+                    <td><a href="index.html"><img src="../Content/fs.png"/></a></td>
+                    <td style="display: table-cell; vertical-align: middle; width: 100%">
+                        <div style="text-align: center">
+                            <a href="index.html" style="color: black; text-decoration: none"><h1>FalloutShelter save editor</h1></a>
+                            <a>Easy to use save editor for Fallout Shelter.</a><br />
+                        </div>
+                    </td>
+                </tr>
+            </table>
+            <h2 class="hrline"><u>Custom outfit textures (alpha)</u></h2>
+			<br>
+			<a><b>Extending the mods further:</b> With this modded version of the game you can create custom textures for different outfits. For example the Rare and Legendary version of an outfit can have different textures.</a><br>
+			<a>Also this might replace the current mods that I made for PC and Android FS that's why there is a "config.json" where you can setup the basic mods (dweller limits, explorer limits, stimpack and radaway limits, room destruction).</a>
+			
+			<h2 class="hrline"><u>Download and installation (Currently PC only)</u></h2>
+			<ul>
+				<li><b>1)</b> Download the <a href="Mod.zip">Mod.zip</a>.</li>
+				<li><b>2)</b> Locate the installation folder of FalloutShelter. Right click on Bethesda .NET launcher and you will see the path.</a></li>
+				<li><b>3)</b> Goto "games/FalloutShelter/FalloutShelter_Data".</li>
+				<li><b>4)</b> Extract the contents of the downloaded zip there (and overwrite 2 files).</li>
+				<li><b>5)</b> Start FalloutShelter and load a vault (make sure to backup it before).</li>
+				<li><b>6)</b> Check if the "Mods" folder contains a "Log.txt", if it does you did it.</li>
+				<li><b>7)</b> Pat yourself on the back.</li>
+			</ul>
+			
+			<h2 class="hrline"><u>Usage</u></h2><br>
+			<a>After you've installed everything and the game starts fine you should have a "Mods" folder in the "FalloutShelter_Data" folder with 2 important files there:<a><br>
+			<ul>
+				<li>
+					<b>"textures.json"</b>: This file contains the different atlas textures which will be loaded by the mod. The file basically contains a JSON array of the different atlases.<br>
+					<a>Each atlas entry contains the following:</a>
+					<ul>
+						<li><b>"name":</b> The unique name of the atlas. This name will be used in other configs to refer to this texture.</li>
+						<li><b>"file":</b> The path to the actual file. This path is relative to the "Mods" folder. <b>Only PNGs and JPGs are supported.</b></li>
+						<li><b>"width":</b> The width of the image in pixels.</li>
+						<li><b>"height":</b> The height of the image in pixels.</li>
+					</ul>
+					<br>
+					<a><b>Note #1:</b> Atlas sizes have to be power of 2 and it is recommended to use the same size for width and height. The game uses 1024x1024 atlases, so it is advised to stick to that.</a><br>
+					<a><b>Note #2:</b> Atlas entries in the file have to be separated by a "," (comma), but after the last entry the separator character is not allowed.</a><br>
+					
+					<h4 onclick="$('#tex_multiple').slideToggle(250);" class="hrline" style="cursor: pointer"><u>Example file</u><a style="color: #cccccc"> <sub>(Click to open)</sub></a></h4>
+					<div id="tex_multiple" style="display: none; padding-left: 20pt; padding-top: 20pt;">
+						<pre style="background-color: white">
+[
+	{
+		"name": "first",
+		"file": "Textures/first.png",
+		"width": 1024,
+		"height": 1024
+	},
+	{
+		"name": "second",
+		"file": "Textures/second.png",
+		"width": 1024,
+		"height": 1024
+	},
+	{
+		"name": "third",
+		"file": "Textures/third.png",
+		"width": 1024,
+		"height": 1024
+	}
+]
+						</pre>
+					</div>
+					<br>
+				</li>
+				<li>
+					<b>"outfits.json"</b>: This file assings parts of an atlas to an outfit based on the outfit ID and its rarity.<br>
+					<a>Each atlas entry contains the following:</a>
+					<ul>
+						<li><b>"id":</b> The ID of the outfit. The complete list can be found <a href="http://robot9706.github.io/FSSE/game_data.html">here</a> ("#" column). Not verified runtime.</li>
+						<li><b>"rarity":</b> This is an optional data. It can have the following values: Any, Common, Normal, Rare, Legendary.</li>
+						<li><b>"maleAtlas":</b> The name of the atlas which contains the texture for male characters.</li>
+						<li><b>"maleAtlasSlot":</b> The texture slot in the male atlas (see "slots" below).</li>
+						<li><b>"femaleAtlas":</b> The name of the atlas which contains the texture for female characters.</li>
+						<li><b>"femaleAtlasSlot":</b> The texture slot in the female atlas (see "slots" below).</li>
+					</ul>
+					<br>
+					<h4 onclick="$('#of_multiple').slideToggle(250);" class="hrline" style="cursor: pointer"><u>Example file</u><a style="color: #cccccc"> <sub>(Click to open)</sub></a></h4>
+					<div id="of_multiple" style="display: none; padding-left: 20pt; padding-top: 20pt;">
+						<pre style="background-color: white">
+[
+	{
+		"id": "0",
+		"rarity": "Any",
+		"maleAtlas": "first",
+		"maleAtlasSlot": 0,
+		"femaleAtlas": "second",
+		"femaleAtlasSlot": 1
+	},
+	{
+		"id": "46",
+		"maleAtlas": "first",
+		"maleAtlasSlot": 0,
+		"femaleAtlas": "third",
+		"femaleAtlasSlot": 1
+	}
+]
+						</pre>
+					</div>
+					<br>
+					<a><b>Note #1:</b> Each outfit needs a male and a female texture.</a><br>
+					<a><b>Note #2:</b> Mod data is loaded when the a vault is opened after the game is started, so you need to restart the game to apply any change you did with the config files.</a><br>
+				</li>
+			</ul>
+			<br>
+			
+			<h2 class="hrline"><u>Atlas slots:</u></h2><br>
+			<a>Each atlas is devided into two columns and four rows, creating 8 slots in each texture (doesn't depend on texture sizes).</a><br>
+			<a>Slot numbers range from 0 to 7 and arranged the following way:</a><br><br>
+			<div style="text-align: center">
+				<img src="slots.png" />
+			</div>
+			<br>
+			<a>In each slot the layout of an outfit looks like this (these are accurate 512x256 slot sized images, if you want to use these: right click and "save as" or use the template download):</a><br>
+			<ul>
+				<li>Male:<br>
+					<div style="text-align: center">
+						<img style="border: 1px solid #CCCCCC" src="layout_male.png" /><br><br>
+					</div>
+				</li>
+				<li>Female:<br>
+					<div style="text-align: center">
+						<img style="border: 1px solid #CCCCCC" src="layout_female.png" />
+					</div>
+				</li>
+			</ul>
+			<br>
+			<a><b>Templates can be downloaded <a href="Templates.zip">here</a>.</b></a><br>
+			
+			<br>
+			
+			<h2 class="hrline"><u>Log:</u></h2><br>
+			<a>After the mod manager is loaded (when a vault is loaded) a "Log.txt" is created.</a><br>
+			<a>This file contains errors if something went wrong, for example: image was not found, conflict between atlas names, etc.</a></br>
+			<a>If the game crashes or something goes wrong check this file.</a>
+        </div>
+    </body>
+</html>
