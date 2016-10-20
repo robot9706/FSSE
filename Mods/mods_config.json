@@ -1,0 +1,16 @@
+{
+  "destroy_any_room": true,
+  "allow_pet_bonus_modification": true,
+  "remove_200_dweller_cap": true,
+  "remove_1_mr_handy_cap": true,
+  "remove_pet_count_caps": true,
+  "remove_wasteland_dweller_limit": true,
+  "remove_stimpacks_radaways_cap": true,
+  "remove_wasteland_mrhandy_cap": true,
+  "remove_wasteland_mrhandy_caps_limit": true,
+  "skip_more_objectives_per_day": true,
+  "remove_caps_limit": true,
+  "remove_storage_cap": true,
+  "rush_never_fails": true,
+  "rush_instant":  true
+}
