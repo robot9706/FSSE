@@ -17,5 +17,5 @@
 	{"name":"unlimited_resources","fullName":"Unlimited resources (power, water and food)."},
 	{"name":"instant_wasteland_quests","fullName":"Get random wasteland quests instantly."},
 	{"name":"no_vault_dweller_limit","fullName":"Remove max dweller cap based on living quarters count."},
-	{"name":"no_room_build_restrictions","fullName":"Allows to build any room (does not depend on dweller count)."},
+	{"name":"no_room_build_restrictions","fullName":"Allows to build any room (does not depend on dweller count)."}
 ]
