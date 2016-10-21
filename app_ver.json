@@ -1,1 +1,10 @@
-{"edver":"1.5.2","gmver":"1.8","dl":"http://robot9706.github.io/FSSE/Download/FSSE.apk"}
+{
+	"edver" : "1.5.2",
+	"gmver" : "1.8",
+	"dl" : "http://robot9706.github.io/FSSE/Download/FSSE.apk",
+
+	"modCfgDownload":[
+		"http://http://robot9706.github.io/FSSE/Download/mods_data.json",
+		"http://http://robot9706.github.io/FSSE/Download/mods_config.json"
+	]
+}

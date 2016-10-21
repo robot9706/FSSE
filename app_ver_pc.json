@@ -5,8 +5,8 @@
 	"windl" : "http://robot9706.github.io/FSSE/?s=win",
 	
 	"note" : "Bug fixes.",
-	"modlink" : "http://robot9706.github.io/FSSE/?s=undw"
-	"modCfgDownload":[
+	"modlink" : "http://robot9706.github.io/FSSE/?s=undw",
+	"modCfgDownload": [
 		"http://http://robot9706.github.io/FSSE/Download/mods_data.json",
 		"http://http://robot9706.github.io/FSSE/Download/mods_config.json"
 	]
