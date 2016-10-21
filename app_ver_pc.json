@@ -1,1 +1,13 @@
-{"winver":"1.3.2","wingm":"1.8","windl":"http://robot9706.github.io/FSSE/?s=win","note":"Bug fixes."}
+{
+	"winver" : "1.3.2",
+	"wingm" : "1.8",
+	
+	"windl" : "http://robot9706.github.io/FSSE/?s=win",
+	
+	"note" : "Bug fixes.",
+	"modlink" : "http://robot9706.github.io/FSSE/?s=undw"
+	"modCfgDownload":[
+		"http://http://robot9706.github.io/FSSE/Download/mods_data.json",
+		"http://http://robot9706.github.io/FSSE/Download/mods_config.json"
+	]
+}
