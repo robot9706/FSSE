@@ -13,7 +13,6 @@
   "remove_storage_cap": true,
   "rush_never_fails": true,
   "rush_instant":  true,
-  "unlimited_caps": true,
   "unlimited_resources": true,
   "instant_wasteland_quests": true,
   "no_vault_dweller_limit": true,
