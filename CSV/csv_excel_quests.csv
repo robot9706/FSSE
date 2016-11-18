@@ -1,596 +1,728 @@
 #,ID,Name,Type,MinDifficutly,MaxDifficutly,Environment,Repeatable?,Time to reach (s)
 1.,MinorQuestline_01_Quest_01,Bug Hunt,QuestlineQuest,12,15,Industrial,No,43200
-2.,MinorQuestline_01_Quest_02,Whack-a-Mole,QuestlineQuest,15,18,Historic,No,54000
-3.,MinorQuestline_01_Quest_03,Aim for the Head!,QuestlineQuest,20,23,Vault,No,72000
-4.,MinorQuestline_01_Quest_04,Rock Them Like A Hurricane,QuestlineQuest,22,25,Historic,No,79200
-5.,MinorQuestline_01_Quest_05,The Most Dangerous Game,QuestlineQuest,25,28,Historic,No,90000
-6.,MinorQuestline_01_Quest_06,12-Point Buck,QuestlineQuest,27,30,Industrial,No,97200
-7.,MinorQuestline_01_Quest_07,The Final Hunt,QuestlineQuest,30,33,Vault,No,108000
-8.,MinorQuestline_02_Quest_01,Have Gun, Will Travel,QuestlineQuest,50,53,Vault,No,168000
-9.,MinorQuestline_02_Quest_02,Toy Soldiers,QuestlineQuest,50,53,Industrial,No,120000
-10.,MinorQuestline_02_Quest_03,No Stone Unturned,QuestlineQuest,50,53,Historic,No,108000
-11.,MinorQuestline_02_Quest_04,Slash and Burn,QuestlineQuest,50,53,Industrial,No,126000
-12.,MinorQuestline_02_Quest_05,Mission of Mercy,QuestlineQuest,50,53,Vault,No,84000
-13.,MinorQuestline_02_Quest_06,The Final Push,QuestlineQuest,50,53,Vault,No,186000
-14.,MinorQuestline_03_Quest_01,Following His First Steps,QuestlineQuest,40,43,Historic,No,154800
-15.,MinorQuestline_03_Quest_02,Raider Troubles at Corvega,QuestlineQuest,42,45,Industrial,No,162000
-16.,MinorQuestline_03_Quest_03,When Preston Calls,QuestlineQuest,45,48,Historic,No,172800
-17.,MinorQuestline_03_Quest_04,Kidnapping at Vault 778,QuestlineQuest,47,50,Vault,No,180000
-18.,MinorQuestline_03_Quest_05,A Settler Needs Your Help,QuestlineQuest,50,53,Industrial,No,190800
-19.,MinorQuestline_04_Quest_01,SOS!,QuestlineQuest,25,28,Historic,No,100800
-20.,MinorQuestline_04_Quest_02,Canine Recovery,QuestlineQuest,27,30,Industrial,No,108000
-21.,MinorQuestline_04_Quest_03,Vault 199,QuestlineQuest,29,32,Vault,No,115200
-22.,MinorQuestline_04_Quest_04,In Another Vault,QuestlineQuest,31,34,Vault,No,122400
-23.,MinorQuestline_04_Quest_05,The Tail Continues,QuestlineQuest,33,36,Industrial,No,129600
-24.,MinorQuestline_04_Quest_06,No Time for Paws,QuestlineQuest,35,38,Vault,No,136800
+2.,MinorQuestline_01_Quest_02,Whack-a-Mole,QuestlineQuest,15,18,Historic,No,7200
+3.,MinorQuestline_01_Quest_03,Aim for the Head!,QuestlineQuest,20,23,Vault,No,50400
+4.,MinorQuestline_01_Quest_04,Rock Them Like A Hurricane,QuestlineQuest,22,25,Historic,No,14400
+5.,MinorQuestline_01_Quest_05,The Most Dangerous Game,QuestlineQuest,25,28,Historic,No,64800
+6.,MinorQuestline_01_Quest_06,12-Point Buck,QuestlineQuest,27,30,Industrial,No,72000
+7.,MinorQuestline_01_Quest_07,The Final Hunt,QuestlineQuest,30,33,Vault,No,86400
+8.,MinorQuestline_02_Quest_01,Have Gun, Will Travel,QuestlineQuest,50,53,Vault,No,32400
+9.,MinorQuestline_02_Quest_02,Toy Soldiers,QuestlineQuest,50,53,Industrial,No,36000
+10.,MinorQuestline_02_Quest_03,No Stone Unturned,QuestlineQuest,50,53,Historic,No,14400
+11.,MinorQuestline_02_Quest_04,Slash and Burn,QuestlineQuest,50,53,Industrial,No,57600
+12.,MinorQuestline_02_Quest_05,Mission of Mercy,QuestlineQuest,50,53,Vault,No,18000
+13.,MinorQuestline_02_Quest_06,The Final Push,QuestlineQuest,50,53,Vault,No,86400
+14.,MinorQuestline_03_Quest_01,Following His First Steps,QuestlineQuest,40,43,Historic,No,14400
+15.,MinorQuestline_03_Quest_02,Raider Troubles at Corvega,QuestlineQuest,42,45,Industrial,No,21600
+16.,MinorQuestline_03_Quest_03,When Preston Calls,QuestlineQuest,45,48,Historic,No,36000
+17.,MinorQuestline_03_Quest_04,Kidnapping at Vault 778,QuestlineQuest,47,50,Vault,No,43200
+18.,MinorQuestline_03_Quest_05,A Settler Needs Your Help,QuestlineQuest,50,53,Industrial,No,86400
+19.,MinorQuestline_04_Quest_01,SOS!,QuestlineQuest,25,28,Historic,No,14400
+20.,MinorQuestline_04_Quest_02,Canine Recovery,QuestlineQuest,27,30,Industrial,No,21600
+21.,MinorQuestline_04_Quest_03,Vault 199,QuestlineQuest,29,32,Vault,No,28800
+22.,MinorQuestline_04_Quest_04,In Another Vault,QuestlineQuest,31,34,Vault,No,36000
+23.,MinorQuestline_04_Quest_05,The Tail Continues,QuestlineQuest,33,36,Industrial,No,43200
+24.,MinorQuestline_04_Quest_06,No Time for Paws,QuestlineQuest,35,38,Vault,No,50400
 25.,MajorQuestline_01_Quest_07,Truth Among the Ashes,QuestlineQuest,12,15,Vault,No,12600
 26.,MajorQuestline_01_Quest_08,Overrun,QuestlineQuest,13,16,Vault,No,18000
-27.,MajorQuestline_01_Quest_09,Powered Up!,QuestlineQuest,14,17,Industrial,No,27000
+27.,MajorQuestline_01_Quest_09,Powered Up!,QuestlineQuest,14,17,Industrial,No,7200
 28.,MajorQuestline_01_Quest_10, The Road to Vaultopolis,QuestlineQuest,15,18,Vault,No,36000
-29.,MajorQuestline_01_Quest_11,The Vault-Tec Vantage,QuestlineQuest,16,19,Historic,No,49200
-30.,MajorQuestline_01_Quest_12,The Quest for Vault 525,QuestlineQuest,17,20,MarketPlace,No,65400
-31.,MajorQuestline_01_Quest_13,Playing Politics,QuestlineQuest,18,21,Historic,No,94200
-32.,MajorQuestline_01_Quest_14,The Red Rocket Reveal!,QuestlineQuest,19,22,RedRocket,No,95400
+29.,MajorQuestline_01_Quest_11,The Vault-Tec Vantage,QuestlineQuest,16,19,Historic,No,10800
+30.,MajorQuestline_01_Quest_12,The Quest for Vault 525,QuestlineQuest,17,20,MarketPlace,No,54000
+31.,MajorQuestline_01_Quest_13,Playing Politics,QuestlineQuest,18,21,Historic,No,86400
+32.,MajorQuestline_01_Quest_14,The Red Rocket Reveal!,QuestlineQuest,19,22,RedRocket,No,18000
 33.,MajorQuestline_01_Quest_15,Vaultopolis Awaits!,QuestlineQuest,20,23,Vault,No,106200
-34.,HiddenQuest_01,With Friends Like These,QuestClue,60,60,Industrial,No,168000
-35.,HiddenQuest_02,Welcome to Paradise,QuestClue,60,60,Vault,No,210000
+34.,HiddenQuest_01,With Friends Like These,QuestClue,60,60,Industrial,No,86400
+35.,HiddenQuest_02,Welcome to Paradise,QuestClue,60,60,Vault,No,86400
 36.,TutorialQuest_01,Getting Started,StandardQuest,1,1,Industrial,No,72000
 37.,Standalone_25,Out of the Vault, Into the Shadows,StandardQuest,30,33,Industrial,No,53400
 38.,Standalone_26,Hot Tub Slime Machine,StandardQuest,25,28,Vault,No,105000
-39.,Standalone_27,Game of Vaults,StandardQuest,47,50,Historic,No,91200
-40.,Standalone_28,Firestarter,StandardQuest,32,35,Vault,No,118800
-41.,Standalone_29,Choo-Choo!,StandardQuest,26,29,Industrial,No,73200
-42.,Standalone_30,Beware of Over-dog!,StandardQuest,36,39,Vault,No,97200
-43.,Standalone_31,Overwhelming Force,StandardQuest,23,26,Historic,No,84000
-44.,Standalone_32,Queen of the Deathclaws!,StandardQuest,45,48,Industrial,No,79200
-45.,Standalone_33,Reign of Radroach Rodney!,StandardQuest,18,21,Historic,No,68400
-46.,Standalone_34,Wasteland Doctoring,StandardQuest,50,53,Industrial,No,108600
-47.,Standalone_35,Horror Movie Night!,StandardQuest,22,25,Historic,No,72600
-48.,Standalone_36,Diplomatic Mission!,StandardQuest,23,26,Industrial,No,67200
-49.,MinorQuestline_05_Quest_01,Broadsides,QuestlineQuest,5,8,Vault,No,18000
-50.,MinorQuestline_05_Quest_02,Headshots,QuestlineQuest,6,9,Vault,No,21600
-51.,MinorQuestline_05_Quest_03,A Map to the Stars,QuestlineQuest,7,10,Vault,No,25200
-52.,MinorQuestline_05_Quest_04,The (Thinly Veiled) Plot Thickens,QuestlineQuest,8,11,Vault,No,28800
-53.,MinorQuestline_05_Quest_05,Collateral Murder,QuestlineQuest,9,12,Industrial,No,32400
-54.,MinorQuestline_05_Quest_06,Boogie Woogie Bugle Boy,QuestlineQuest,10,13,MarketPlace,No,36000
-55.,MinorQuestline_05_Quest_07,Stop the Presses!,QuestlineQuest,11,14,Industrial,No,39600
-56.,MinorQuestline_06_Quest_01,The Mysterious Disappearing Spuds,QuestlineQuest,12,15,Historic,No,43200
-57.,MinorQuestline_06_Quest_02,The Spreading Blight,QuestlineQuest,13,16,Industrial,No,46800
-58.,MinorQuestline_06_Quest_03,The Night Watch,QuestlineQuest,13,16,Industrial,No,46800
-59.,MinorQuestline_06_Quest_04,Spear Fishing,QuestlineQuest,15,18,Historic,No,54000
-60.,MinorQuestline_06_Quest_05,The Shadow Wolf,QuestlineQuest,14,17,Industrial,No,50400
-61.,MinorQuestline_06_Quest_06,The Mole Rat Man,QuestlineQuest,17,20,Industrial,No,61200
-62.,MinorQuestline_07_Quest_01,The Case of the Captured Canine,QuestlineQuest,20,23,Industrial,No,72000
-63.,MinorQuestline_07_Quest_02,The Case of the Missing Mitt,QuestlineQuest,25,28,Historic,No,90000
-64.,MinorQuestline_07_Quest_03,The Case of the Quantum Creeper,QuestlineQuest,30,33,Vault,No,108000
-65.,MinorQuestline_07_Quest_04,The Case of the Lost Lunch,QuestlineQuest,35,38,Historic,No,126000
-66.,MinorQuestline_07_Quest_05,The Bigsby Brown Case,QuestlineQuest,40,43,Historic,No,144000
-67.,Standalone_38,Signal Failure,StandardQuest,28,31,Vault,No,100800
-68.,Standalone_39,Take Me Out to the Ball Game,StandardQuest,15,18,Historic,No,54000
-69.,Standalone_40,Honeymoon Horror,StandardQuest,40,43,Industrial,No,144000
-70.,Standalone_41,Mall Madness,StandardQuest,25,28,MarketPlace,No,90000
-71.,Standalone_42,Revenge of the Geeks,StandardQuest,25,25,Historic,No,90000
-72.,Standalone_43,Dog Shelter,StandardQuest,20,23,Vault,No,72000
-73.,Standalone_44,Argh, Matey!,StandardQuest,35,38,Vault,No,126000
-74.,Daily_18_A,Duo of Destruction: Mole Rat Brood Mothers,QuestOfTheDay,25,28,Industrial,Yes,7500
-75.,Daily_18_B,Duo of Destruction: Mole Rat Brood Mothers,QuestOfTheDay,35,38,Industrial,Yes,10500
-76.,Daily_18_C,Duo of Destruction: Mole Rat Brood Mothers,QuestOfTheDay,45,48,Industrial,Yes,13500
-77.,Daily_19_A,Duo of Destruction: Glowing Radroaches,QuestOfTheDay,5,8,Vault,Yes,1500
-78.,Daily_19_B,Duo of Destruction: Glowing Radroaches,QuestOfTheDay,15,18,Vault,Yes,4500
-79.,Daily_19_C,Duo of Destruction: Glowing Radroaches,QuestOfTheDay,25,28,Vault,Yes,7500
-80.,Daily_20_A,Duo of Destruction: Glowing One (x2!),QuestOfTheDay,20,23,Industrial,Yes,6000
-81.,Daily_20_B,Duo of Destruction: Glowing One (x2!),QuestOfTheDay,30,33,Industrial,Yes,9000
-82.,Daily_20_C,Duo of Destruction: Glowing One (x2!),QuestOfTheDay,35,38,Industrial,Yes,10500
-83.,Daily_21_A,Duo of Destruction: Glowing Radscorpions,QuestOfTheDay,36,39,Vault,Yes,10800
-84.,Daily_21_B,Duo of Destruction: Glowing Radscorpions,QuestOfTheDay,39,42,Vault,Yes,11700
-85.,Daily_21_C,Duo of Destruction: Glowing Radscorpions,QuestOfTheDay,43,46,Vault,Yes,12900
-86.,Daily_22_A,Duo of Destruction: Alpha Deathclaws,QuestOfTheDay,41,44,Historic,Yes,12300
-87.,Daily_22_B,Duo of Destruction: Alpha Deathclaws,QuestOfTheDay,45,48,Historic,Yes,13500
-88.,Daily_22_C,Duo of Destruction: Alpha Deathclaws,QuestOfTheDay,50,53,Historic,Yes,15000
-89.,Daily_23_A,Bounty: 'Ol One-Eye,QuestOfTheDay,12,15,Industrial,Yes,3600
-90.,Daily_23_B,Bounty: 'Ol One-Eye,QuestOfTheDay,15,18,Industrial,Yes,4500
-91.,Daily_23_C,Bounty: 'Ol One-Eye,QuestOfTheDay,22,25,Industrial,Yes,6600
-92.,Daily_24_A,Bounty: Bash,QuestOfTheDay,25,28,Historic,Yes,7500
-93.,Daily_24_B,Bounty: Bash,QuestOfTheDay,28,31,Historic,Yes,8400
-94.,Daily_24_C,Bounty: Bash,QuestOfTheDay,31,34,Historic,Yes,9300
-95.,Daily_25_A,Bounty: Shiner,QuestOfTheDay,18,21,Industrial,Yes,5400
-96.,Daily_25_B,Bounty: Shiner,QuestOfTheDay,25,28,Industrial,Yes,7500
-97.,Daily_25_C,Bounty: Shiner,QuestOfTheDay,29,32,Industrial,Yes,8700
-98.,Daily_26_A,Bounty: Yak,QuestOfTheDay,20,23,Historic,Yes,6000
-99.,Daily_26_B,Bounty: Yak,QuestOfTheDay,30,33,Historic,Yes,9000
-100.,Daily_26_C,Bounty: Yak,QuestOfTheDay,40,43,Historic,Yes,12000
-101.,Daily_27_A,Bounty: Snips,QuestOfTheDay,30,33,Industrial,Yes,9000
-102.,Daily_27_B,Bounty: Snips,QuestOfTheDay,35,38,Industrial,Yes,10500
-103.,Daily_27_C,Bounty: Snips,QuestOfTheDay,40,43,Industrial,Yes,12000
-104.,Daily_28_A,Bounty: Butcher,QuestOfTheDay,35,38,Historic,Yes,10500
-105.,Daily_28_B,Bounty: Butcher,QuestOfTheDay,39,42,Historic,Yes,11700
-106.,Daily_28_C,Bounty: Butcher,QuestOfTheDay,43,46,Historic,Yes,12900
-107.,MajorQuestline_01_Quest_01,The Path of Paula Plumbkin,QuestlineQuest,8,8,Vault,No,1800
-108.,MajorQuestline_01_Quest_02,A Thirst for Adventure,QuestlineQuest,9,9,Industrial,No,3000
-109.,MajorQuestline_01_Quest_03,Paula's in a Pickle!,QuestlineQuest,10,10,Historic,No,2700
-110.,MajorQuestline_01_Quest_04,Into Vault 333!,QuestlineQuest,11,11,Vault,No,1800
-111.,MajorQuestline_01_Quest_05,Tankbusting,QuestlineQuest,12,12,Industrial,No,5400
-112.,MajorQuestline_01_Quest_06,Return to Vault 333,QuestlineQuest,13,13,Vault,No,7200
-113.,Standalone_01,Can't Stop The Signal,StandardQuest,7,7,Historic,No,25200
-114.,Standalone_02,Hostage Negotiations,StandardQuest,14,14,Industrial,No,50400
-115.,Standalone_03,A Poorly Thought-Out Plan,StandardQuest,46,46,Historic,No,165600
-116.,Standalone_04,Target Practice,StandardQuest,5,5,Industrial,No,18000
-117.,Standalone_05,Against The Odds,StandardQuest,26,26,Historic,No,93600
-118.,Standalone_06,My Metal Pony,StandardQuest,43,43,Industrial,No,154800
-119.,Standalone_07,CoveWatch!,StandardQuest,25,25,Historic,No,90000
-120.,Standalone_08,The Scorpion... King?,StandardQuest,34,34,Industrial,No,122400
-121.,Standalone_09,Wonders of Nature,StandardQuest,37,37,Industrial,No,133200
-122.,Standalone_10,Wonders of Science,StandardQuest,27,27,Vault,No,97200
-123.,Standalone_11,Wonders of Technology,StandardQuest,47,47,Vault,No,169200
-124.,Standalone_12,Scientific Progress,StandardQuest,44,44,Historic,No,158400
-125.,Standalone_13,Captured Critter,StandardQuest,22,22,Historic,No,79200
-126.,Standalone_14,The Brothers Grime,StandardQuest,13,13,Industrial,No,46800
-127.,Standalone_15,A Gathering of Ghouls,StandardQuest,29,29,Historic,No,104400
-128.,Standalone_16,Too Good to be True,StandardQuest,55,55,Vault,No,198000
-129.,Standalone_17,My Weird Science Project,StandardQuest,40,40,Industrial,No,144000
-130.,Standalone_18,Shotgun Wedding,StandardQuest,28,28,Historic,No,100800
-131.,Standalone_19,Den of Thieves,StandardQuest,17,17,Vault,No,61200
-132.,Standalone_20,Burnout,StandardQuest,42,42,Industrial,No,151200
-133.,Standalone_21,Radiation Leak!,StandardQuest,24,24,Vault,No,86400
-134.,Standalone_22,Arms Race,StandardQuest,52,52,Historic,No,187200
-135.,Standalone_23,Ghooooooooooooooooooul!,StandardQuest,31,31,Vault,No,79200
-136.,Standalone_24,Monday Night Brawl,StandardQuest,35,35,Historic,No,95400
-137.,Daily_01_Diff_10_A,Weapons Run,QuestOfTheDay,11,11,Industrial,Yes,21600
-138.,Daily_01_Diff_20_A,Weapons Run,QuestOfTheDay,22,22,Industrial,Yes,21600
-139.,Daily_01_Diff_30_A,Weapons Run,QuestOfTheDay,33,33,Industrial,Yes,21600
-140.,Daily_01_Diff_40_A,Weapons Run,QuestOfTheDay,44,44,Industrial,Yes,21600
-141.,Daily_01_Diff_50_A,Weapons Run,QuestOfTheDay,55,55,Industrial,Yes,21600
-142.,Daily_02_Diff_10_A,Outfit Run,QuestOfTheDay,11,11,Historic,Yes,14400
-143.,Daily_02_Diff_20_A,Outfit Run,QuestOfTheDay,22,22,Historic,Yes,14400
-144.,Daily_02_Diff_30_A,Outfit Run,QuestOfTheDay,33,33,Historic,Yes,14400
-145.,Daily_02_Diff_40_A,Outfit Run,QuestOfTheDay,44,44,Historic,Yes,14400
-146.,Daily_02_Diff_50_A,Outfit Run,QuestOfTheDay,55,55,Historic,Yes,14400
-147.,Daily_01_Diff_10_B,Weapons Run,QuestOfTheDay,11,11,Historic,Yes,21600
-148.,Daily_01_Diff_20_B,Weapons Run,QuestOfTheDay,22,22,Historic,Yes,21600
-149.,Daily_01_Diff_30_B,Weapons Run,QuestOfTheDay,33,33,Historic,Yes,21600
-150.,Daily_01_Diff_40_B,Weapons Run,QuestOfTheDay,44,44,Historic,Yes,21600
-151.,Daily_01_Diff_50_B,Weapons Run,QuestOfTheDay,55,55,Historic,Yes,21600
-152.,Daily_02_Diff_10_B,Outfit Run,QuestOfTheDay,11,11,Industrial,Yes,14400
-153.,Daily_02_Diff_20_B,Outfit Run,QuestOfTheDay,22,22,Industrial,Yes,14400
-154.,Daily_02_Diff_30_B,Outfit Run,QuestOfTheDay,33,33,Industrial,Yes,14400
-155.,Daily_02_Diff_40_B,Outfit Run,QuestOfTheDay,44,44,Industrial,Yes,14400
-156.,Daily_02_Diff_50_B,Outfit Run,QuestOfTheDay,55,55,Industrial,Yes,14400
-157.,Daily_01_Diff_10_C,Weapons Run,QuestOfTheDay,11,11,Vault,Yes,21600
-158.,Daily_01_Diff_20_C,Weapons Run,QuestOfTheDay,22,22,Vault,Yes,21600
-159.,Daily_01_Diff_30_C,Weapons Run,QuestOfTheDay,33,33,Vault,Yes,21600
-160.,Daily_01_Diff_40_C,Weapons Run,QuestOfTheDay,44,44,Vault,Yes,21600
-161.,Daily_01_Diff_50_C,Weapons Run,QuestOfTheDay,55,55,Vault,Yes,21600
-162.,Daily_02_Diff_10_C,Outfit Run,QuestOfTheDay,11,11,Vault,Yes,14400
-163.,Daily_02_Diff_20_C,Outfit Run,QuestOfTheDay,22,22,Vault,Yes,14400
-164.,Daily_02_Diff_30_C,Outfit Run,QuestOfTheDay,33,33,Vault,Yes,14400
-165.,Daily_02_Diff_40_C,Outfit Run,QuestOfTheDay,44,44,Vault,Yes,14400
-166.,Daily_02_Diff_50_C,Outfit Run,QuestOfTheDay,55,55,Vault,Yes,14400
-167.,RedRocket_01,A Cry for Help,QuestSurprise,0,0,RedRocket,Yes,0
-168.,SuperMart_01_Diff_05,Clean-Up On Aisle Five,QuestSurprise,3,3,MarketPlace,Yes,0
-169.,SuperMart_01_Diff_15,Clean-Up On Aisle Five,QuestSurprise,11,11,MarketPlace,Yes,0
-170.,SuperMart_01_Diff_25,Clean-Up On Aisle Five,QuestSurprise,19,19,MarketPlace,Yes,0
-171.,SuperMart_01_Diff_35,Clean-Up On Aisle Five,QuestSurprise,27,27,MarketPlace,Yes,0
-172.,SuperMart_01_Diff_45,Clean-Up On Aisle Five,QuestSurprise,35,35,MarketPlace,Yes,0
-173.,Cabin_01_Diff_03,Wasteland Getaway,QuestSurprise,5,5,AbandonedHouse,Yes,0
-174.,Cabin_01_Diff_13,Wasteland Getaway,QuestSurprise,13,13,AbandonedHouse,Yes,0
-175.,Cabin_01_Diff_23,Wasteland Getaway,QuestSurprise,21,21,AbandonedHouse,Yes,0
-176.,Cabin_01_Diff_33,Wasteland Getaway,QuestSurprise,29,29,AbandonedHouse,Yes,0
-177.,Cabin_01_Diff_43,Wasteland Getaway,QuestSurprise,37,37,AbandonedHouse,Yes,0
-178.,MajorQuestline_02_Quest_01,Man on First,QuestlineQuest,38,38,Industrial,No,7200
-179.,MajorQuestline_02_Quest_02,Man on Second,QuestlineQuest,39,39,Vault,No,12600
-180.,MajorQuestline_02_Quest_03,Man on Third,QuestlineQuest,40,40,Historic,No,21600
-181.,MajorQuestline_02_Quest_04,Time for a Grand Slam?,QuestlineQuest,41,41,Vault,No,26100
-182.,MajorQuestline_02_Quest_05,Worst. Coach. Ever.,QuestlineQuest,42,42,Industrial,No,30600
-183.,MajorQuestline_02_Quest_06,Picked Off at Second!,QuestlineQuest,43,43,Historic,No,39600
-184.,MajorQuestline_02_Quest_07,Seventh Inning Stretch,QuestlineQuest,44,44,Historic,No,43200
-185.,MajorQuestline_02_Quest_08,Getcha' Peanuts Here!,QuestlineQuest,45,45,Industrial,No,50400
-186.,MajorQuestline_02_Quest_09,Last Inning! Or not...,QuestlineQuest,46,46,Vault,No,55800
-187.,MajorQuestline_02_Quest_10,There's no Crying in Baseball!,QuestlineQuest,47,47,Historic,No,61200
-188.,MajorQuestline_02_Quest_11,Runners in Scoring Position!,QuestlineQuest,48,48,Industrial,No,67500
-189.,MajorQuestline_02_Quest_12,Conference on the Mound,QuestlineQuest,49,49,Industrial,No,71100
-190.,MajorQuestline_02_Quest_13,Here's the Pitch...,QuestlineQuest,50,50,Historic,No,78300
-191.,MajorQuestline_02_Quest_14,Homerun!,QuestlineQuest,51,51,Vault,No,81900
-192.,MajorQuestline_02_Quest_15,Here's to You, Rackie Jobinson,QuestlineQuest,52,52,Vault,No,85500
-193.,AbandonedCabin_05_Diff_12,The Scenic Route,QuestSurprise,12,12,AbandonedHouse,Yes,0
-194.,AbandonedCabin_05_Diff_20,The Scenic Route,QuestSurprise,20,20,AbandonedHouse,Yes,0
-195.,AbandonedCabin_05_Diff_28,The Scenic Route,QuestSurprise,28,28,AbandonedHouse,Yes,0
-196.,AbandonedCabin_05_Diff_36,The Scenic Route,QuestSurprise,36,36,AbandonedHouse,Yes,0
-197.,AbandonedCabin_06_Diff_12,Cabin Without The Woods,QuestSurprise,12,12,AbandonedHouse,Yes,0
-198.,AbandonedCabin_06_Diff_20,Cabin Without The Woods,QuestSurprise,20,20,AbandonedHouse,Yes,0
-199.,AbandonedCabin_06_Diff_28,Cabin Without The Woods,QuestSurprise,28,28,AbandonedHouse,Yes,0
-200.,AbandonedCabin_06_Diff_36,Cabin Without The Woods,QuestSurprise,36,36,AbandonedHouse,Yes,0
-201.,AbandonedCabin_07_Diff_04,Party Crasher,QuestSurprise,4,4,AbandonedHouse,Yes,0
-202.,AbandonedCabin_07_Diff_12,Party Crasher,QuestSurprise,12,12,AbandonedHouse,Yes,0
-203.,AbandonedCabin_07_Diff_20,Party Crasher,QuestSurprise,20,20,AbandonedHouse,Yes,0
-204.,AbandonedCabin_07_Diff_28,Party Crasher,QuestSurprise,28,28,AbandonedHouse,Yes,0
-205.,AbandonedCabin_07_Diff_36,Party Crasher,QuestSurprise,36,36,AbandonedHouse,Yes,0
-206.,RedRocket_05_Diff_29,Big Trouble,QuestSurprise,29,29,RedRocket,Yes,0
-207.,RedRocket_05_Diff_37,Big Trouble,QuestSurprise,37,37,RedRocket,Yes,0
-208.,RedRocket_06_Diff_05,Gas 'N Go,QuestSurprise,5,5,RedRocket,Yes,0
-209.,RedRocket_06_Diff_13,Gas 'N Go,QuestSurprise,13,13,RedRocket,Yes,0
-210.,RedRocket_06_Diff_21,Gas 'N Go,QuestSurprise,21,21,RedRocket,Yes,0
-211.,RedRocket_06_Diff_29,Gas 'N Go,QuestSurprise,29,29,RedRocket,Yes,0
-212.,RedRocket_06_Diff_37,Gas 'N Go,QuestSurprise,37,37,RedRocket,Yes,0
-213.,RedRocket_07_Diff_05,Fashion Statement,QuestSurprise,5,5,RedRocket,Yes,0
-214.,RedRocket_07_Diff_13,Fashion Statement,QuestSurprise,13,13,RedRocket,Yes,0
-215.,RedRocket_07_Diff_21,Fashion Statement,QuestSurprise,21,21,RedRocket,Yes,0
-216.,RedRocket_07_Diff_29,Fashion Statement,QuestSurprise,29,29,RedRocket,Yes,0
-217.,RedRocket_07_Diff_37,Fashion Statement,QuestSurprise,37,37,RedRocket,Yes,0
-218.,SuperMart_05_Diff_03,Get in Line,QuestSurprise,3,3,MarketPlace,Yes,0
-219.,SuperMart_05_Diff_11,Get in Line,QuestSurprise,11,11,MarketPlace,Yes,0
-220.,SuperMart_05_Diff_19,Get in Line,QuestSurprise,19,19,MarketPlace,Yes,0
-221.,SuperMart_05_Diff_27,Get in Line,QuestSurprise,27,27,MarketPlace,Yes,0
-222.,SuperMart_05_Diff_35,Get in Line,QuestSurprise,35,35,MarketPlace,Yes,0
-223.,SuperMart_06_Diff_03_A,Food Fight!,QuestSurprise,3,3,MarketPlace,Yes,0
-224.,SuperMart_06_Diff_11_A,Food Fight!,QuestSurprise,11,11,MarketPlace,Yes,0
-225.,SuperMart_06_Diff_19_A,Food Fight!,QuestSurprise,19,19,MarketPlace,Yes,0
-226.,SuperMart_06_Diff_27_A,Food Fight!,QuestSurprise,27,27,MarketPlace,Yes,0
-227.,SuperMart_06_Diff_35_A,Food Fight!,QuestSurprise,35,35,MarketPlace,Yes,0
-228.,SuperMart_06_Diff_03_B,Food Fight!,QuestSurprise,3,3,MarketPlace,Yes,0
-229.,SuperMart_06_Diff_11_B,Food Fight!,QuestSurprise,11,11,MarketPlace,Yes,0
-230.,SuperMart_06_Diff_19_B,Food Fight!,QuestSurprise,19,19,MarketPlace,Yes,0
-231.,SuperMart_06_Diff_27_B,Food Fight!,QuestSurprise,27,27,MarketPlace,Yes,0
-232.,SuperMart_06_Diff_35_B,Food Fight!,QuestSurprise,35,35,MarketPlace,Yes,0
-233.,SuperMart_06_Diff_03_C,Food Fight!,QuestSurprise,3,3,MarketPlace,Yes,0
-234.,SuperMart_06_Diff_11_C,Food Fight!,QuestSurprise,11,11,MarketPlace,Yes,0
-235.,SuperMart_06_Diff_19_C,Food Fight!,QuestSurprise,19,19,MarketPlace,Yes,0
-236.,SuperMart_06_Diff_27_C,Food Fight!,QuestSurprise,27,27,MarketPlace,Yes,0
-237.,SuperMart_06_Diff_35_C,Food Fight!,QuestSurprise,35,35,MarketPlace,Yes,0
-238.,SuperMart_06_Diff_03_D,Food Fight!,QuestSurprise,3,3,MarketPlace,Yes,0
-239.,SuperMart_06_Diff_11_D,Food Fight!,QuestSurprise,11,11,MarketPlace,Yes,0
-240.,SuperMart_06_Diff_19_D,Food Fight!,QuestSurprise,19,19,MarketPlace,Yes,0
-241.,SuperMart_06_Diff_27_D,Food Fight!,QuestSurprise,27,27,MarketPlace,Yes,0
-242.,SuperMart_06_Diff_35_D,Food Fight!,QuestSurprise,35,35,MarketPlace,Yes,0
-243.,SuperMart_06_Diff_03_E,Food Fight!,QuestSurprise,3,3,MarketPlace,Yes,0
-244.,SuperMart_06_Diff_11_E,Food Fight!,QuestSurprise,11,11,MarketPlace,Yes,0
-245.,SuperMart_06_Diff_19_E,Food Fight!,QuestSurprise,19,19,MarketPlace,Yes,0
-246.,SuperMart_06_Diff_27_E,Food Fight!,QuestSurprise,27,27,MarketPlace,Yes,0
-247.,SuperMart_06_Diff_35_E,Food Fight!,QuestSurprise,35,35,MarketPlace,Yes,0
-248.,SuperMart_07_Diff_03,Express Checkout,QuestSurprise,3,3,MarketPlace,Yes,0
-249.,SuperMart_07_Diff_11,Express Checkout,QuestSurprise,11,11,MarketPlace,Yes,0
-250.,SuperMart_07_Diff_19,Express Checkout,QuestSurprise,19,19,MarketPlace,Yes,0
-251.,SuperMart_07_Diff_27,Express Checkout,QuestSurprise,27,27,MarketPlace,Yes,0
-252.,SuperMart_07_Diff_35,Express Checkout,QuestSurprise,35,35,MarketPlace,Yes,0
-253.,SuperMart_08_Diff_11,Post-Apocalyptic World Problems,QuestSurprise,11,11,MarketPlace,Yes,0
-254.,SuperMart_08_Diff_19,Post-Apocalyptic World Problems,QuestSurprise,19,19,MarketPlace,Yes,0
-255.,SuperMart_08_Diff_27,Post-Apocalyptic World Problems,QuestSurprise,27,27,MarketPlace,Yes,0
-256.,SuperMart_08_Diff_35,Post-Apocalyptic World Problems,QuestSurprise,35,35,MarketPlace,Yes,0
-257.,Daily_15_Diff_06_A,Spy on Raiders!,QuestOfTheDay,6,6,Industrial,Yes,7200
-258.,Daily_15_Diff_16_A,Spy on Raiders!,QuestOfTheDay,16,16,Industrial,Yes,7200
-259.,Daily_15_Diff_26_A,Spy on Raiders!,QuestOfTheDay,26,26,Industrial,Yes,7200
-260.,Daily_15_Diff_36_A,Spy on Raiders!,QuestOfTheDay,36,36,Industrial,Yes,7200
-261.,Daily_15_Diff_46_A,Spy on Raiders!,QuestOfTheDay,46,46,Industrial,Yes,7200
-262.,Daily_15_Diff_07_B,Spy on Raiders!,QuestOfTheDay,7,7,Vault,Yes,8400
-263.,Daily_15_Diff_17_B,Spy on Raiders!,QuestOfTheDay,17,17,Vault,Yes,8400
-264.,Daily_15_Diff_27_B,Spy on Raiders!,QuestOfTheDay,27,27,Vault,Yes,8400
-265.,Daily_15_Diff_37_B,Spy on Raiders!,QuestOfTheDay,37,37,Vault,Yes,8400
-266.,Daily_15_Diff_47_B,Spy on Raiders!,QuestOfTheDay,47,47,Vault,Yes,8400
-267.,Daily_15_Diff_08_C,Spy on Raiders!,QuestOfTheDay,8,8,Historic,Yes,9600
-268.,Daily_15_Diff_18_C,Spy on Raiders!,QuestOfTheDay,18,18,Historic,Yes,9600
-269.,Daily_15_Diff_28_C,Spy on Raiders!,QuestOfTheDay,28,28,Historic,Yes,9600
-270.,Daily_15_Diff_38_C,Spy on Raiders!,QuestOfTheDay,38,38,Historic,Yes,9600
-271.,Daily_15_Diff_48_C,Spy on Raiders!,QuestOfTheDay,48,48,Historic,Yes,9600
-272.,Daily_15_Diff_09_D,Spy on Raiders!,QuestOfTheDay,9,9,Vault,Yes,10800
-273.,Daily_15_Diff_19_D,Spy on Raiders!,QuestOfTheDay,19,19,Vault,Yes,10800
-274.,Daily_15_Diff_29_D,Spy on Raiders!,QuestOfTheDay,29,29,Vault,Yes,10800
-275.,Daily_15_Diff_39_D,Spy on Raiders!,QuestOfTheDay,39,39,Vault,Yes,10800
-276.,Daily_15_Diff_49_D,Spy on Raiders!,QuestOfTheDay,49,49,Vault,Yes,10800
-277.,Daily_15_Diff_10_E,Spy on Raiders!,QuestOfTheDay,10,10,Industrial,Yes,12000
-278.,Daily_15_Diff_20_E,Spy on Raiders!,QuestOfTheDay,20,20,Industrial,Yes,12000
-279.,Daily_15_Diff_30_E,Spy on Raiders!,QuestOfTheDay,30,30,Industrial,Yes,12000
-280.,Daily_15_Diff_40_E,Spy on Raiders!,QuestOfTheDay,40,40,Industrial,Yes,12000
-281.,Daily_15_Diff_50_E,Spy on Raiders!,QuestOfTheDay,50,50,Industrial,Yes,12000
-282.,Daily_16_Diff_11_A,Science Cooperative!,QuestOfTheDay,11,11,Historic,Yes,13200
-283.,Daily_16_Diff_21_A,Science Cooperative!,QuestOfTheDay,21,21,Historic,Yes,13200
-284.,Daily_16_Diff_31_A,Science Cooperative!,QuestOfTheDay,31,31,Historic,Yes,13200
-285.,Daily_16_Diff_41_A,Science Cooperative!,QuestOfTheDay,41,41,Historic,Yes,13200
-286.,Daily_16_Diff_51_A,Science Cooperative!,QuestOfTheDay,51,51,Historic,Yes,13200
-287.,Daily_16_Diff_12_B,Science Cooperative!,QuestOfTheDay,12,12,Vault,Yes,14400
-288.,Daily_16_Diff_22_B,Science Cooperative!,QuestOfTheDay,22,22,Vault,Yes,14400
-289.,Daily_16_Diff_32_B,Science Cooperative!,QuestOfTheDay,32,32,Vault,Yes,14400
-290.,Daily_16_Diff_42_B,Science Cooperative!,QuestOfTheDay,42,42,Vault,Yes,14400
-291.,Daily_16_Diff_52_B,Science Cooperative!,QuestOfTheDay,52,52,Vault,Yes,14400
-292.,Daily_16_Diff_13_C,Science Cooperative!,QuestOfTheDay,13,13,Industrial,Yes,15600
-293.,Daily_16_Diff_23_C,Science Cooperative!,QuestOfTheDay,23,23,Industrial,Yes,15600
-294.,Daily_16_Diff_33_C,Science Cooperative!,QuestOfTheDay,33,33,Industrial,Yes,15600
-295.,Daily_16_Diff_43_C,Science Cooperative!,QuestOfTheDay,43,43,Industrial,Yes,15600
-296.,Daily_16_Diff_53_C,Science Cooperative!,QuestOfTheDay,53,53,Industrial,Yes,15600
-297.,Daily_16_Diff_14_D,Science Cooperative!,QuestOfTheDay,14,14,Vault,Yes,16800
-298.,Daily_16_Diff_24_D,Science Cooperative!,QuestOfTheDay,24,24,Vault,Yes,16800
-299.,Daily_16_Diff_34_D,Science Cooperative!,QuestOfTheDay,34,34,Vault,Yes,16800
-300.,Daily_16_Diff_44_D,Science Cooperative!,QuestOfTheDay,44,44,Vault,Yes,16800
-301.,Daily_16_Diff_54_D,Science Cooperative!,QuestOfTheDay,54,54,Vault,Yes,16800
-302.,Daily_16_Diff_15_E,Science Cooperative!,QuestOfTheDay,15,15,Historic,Yes,18000
-303.,Daily_16_Diff_25_E,Science Cooperative!,QuestOfTheDay,25,25,Historic,Yes,18000
-304.,Daily_16_Diff_35_E,Science Cooperative!,QuestOfTheDay,35,35,Historic,Yes,18000
-305.,Daily_16_Diff_45_E,Science Cooperative!,QuestOfTheDay,45,45,Historic,Yes,18000
-306.,Daily_16_Diff_55_E,Science Cooperative!,QuestOfTheDay,55,55,Historic,Yes,18000
-307.,Daily_17_Diff_16_A,Friendly Settlement!,QuestOfTheDay,16,16,Industrial,Yes,19200
-308.,Daily_17_Diff_26_A,Friendly Settlement!,QuestOfTheDay,26,26,Industrial,Yes,19200
-309.,Daily_17_Diff_36_A,Friendly Settlement!,QuestOfTheDay,36,36,Industrial,Yes,19200
-310.,Daily_17_Diff_46_A,Friendly Settlement!,QuestOfTheDay,46,46,Industrial,Yes,19200
-311.,Daily_17_Diff_56_A,Friendly Settlement!,QuestOfTheDay,56,56,Industrial,Yes,19200
-312.,Daily_17_Diff_17_B,Friendly Settlement!,QuestOfTheDay,17,17,Historic,Yes,20400
-313.,Daily_17_Diff_27_B,Friendly Settlement!,QuestOfTheDay,27,27,Historic,Yes,20400
-314.,Daily_17_Diff_37_B,Friendly Settlement!,QuestOfTheDay,37,37,Historic,Yes,20400
-315.,Daily_17_Diff_47_B,Friendly Settlement!,QuestOfTheDay,47,47,Historic,Yes,20400
-316.,Daily_17_Diff_57_B,Friendly Settlement!,QuestOfTheDay,57,57,Historic,Yes,20400
-317.,Daily_17_Diff_18_C,Friendly Settlement!,QuestOfTheDay,18,18,Industrial,Yes,21600
-318.,Daily_17_Diff_28_C,Friendly Settlement!,QuestOfTheDay,28,28,Industrial,Yes,21600
-319.,Daily_17_Diff_38_C,Friendly Settlement!,QuestOfTheDay,38,38,Industrial,Yes,21600
-320.,Daily_17_Diff_48_C,Friendly Settlement!,QuestOfTheDay,48,48,Industrial,Yes,21600
-321.,Daily_17_Diff_58_C,Friendly Settlement!,QuestOfTheDay,58,58,Industrial,Yes,21600
-322.,Daily_17_Diff_19_D,Friendly Settlement!,QuestOfTheDay,19,19,Historic,Yes,22800
-323.,Daily_17_Diff_29_D,Friendly Settlement!,QuestOfTheDay,29,29,Historic,Yes,22800
-324.,Daily_17_Diff_39_D,Friendly Settlement!,QuestOfTheDay,39,39,Historic,Yes,22800
-325.,Daily_17_Diff_49_D,Friendly Settlement!,QuestOfTheDay,49,49,Historic,Yes,22800
-326.,Daily_17_Diff_59_D,Friendly Settlement!,QuestOfTheDay,59,59,Historic,Yes,22800
-327.,Hidden_03,The Mystery of Vault 666,QuestClue,40,40,Vault,No,81000
-328.,Hidden_04,Factory Floor of Fear,QuestClue,50,50,Industrial,No,86400
-329.,Hidden_05,Vault 789,QuestClue,30,30,Vault,No,71100
-330.,NukaWorldQuestline_01_Quest_01,Bottlecap Blues,EventQuest,14,14,Industrial,No,10800
-331.,NukaWorldQuestline_01_Quest_02,In Hot Pursuit,EventQuest,15,15,Vault,No,15600
-332.,NukaWorldQuestline_01_Quest_03,Playing Catch-Up,EventQuest,16,16,Historic,No,13200
-333.,NukaWorldQuestline_01_Quest_04,Pet Peeve,EventQuest,17,17,Historic,No,12000
-334.,NukaWorldQuestline_01_Quest_05,A Refreshing Rescue,EventQuest,18,18,Industrial,No,20400
-335.,LaborDayQuestline_01_Quest_01,Power to the People?,EventQuest,16,16,Vault,No,5400
-336.,LaborDayQuestline_01_Quest_02,No Rest for the Wicked,EventQuest,17,17,Vault,No,14400
-337.,LaborDayQuestline_01_Quest_03,All Work and No Play,EventQuest,18,18,Vault,No,19800
-338.,LaborDayQuestline_01_Quest_04,Working Overtime,EventQuest,19,19,Vault,No,17100
-339.,LaborDayQuestline_01_Quest_05,Rubarb's Reckoning,EventQuest,20,20,Vault,No,21600
-340.,Weekly_01_Diff_06,Game Show Gauntlet,QuestOfTheWeek,6,6,Historic,Yes,50400
-341.,Weekly_01_Diff_16,Game Show Gauntlet,QuestOfTheWeek,16,16,Historic,Yes,50400
-342.,Weekly_01_Diff_26,Game Show Gauntlet,QuestOfTheWeek,26,26,Historic,Yes,50400
-343.,Weekly_01_Diff_36,Game Show Gauntlet,QuestOfTheWeek,36,36,Historic,Yes,50400
-344.,Weekly_01_Diff_46,Game Show Gauntlet,QuestOfTheWeek,46,46,Historic,Yes,50400
-345.,Weekly_02_Diff_08,Game Show Gauntlet,QuestOfTheWeek,8,8,Industrial,Yes,57600
-346.,Weekly_02_Diff_18,Game Show Gauntlet,QuestOfTheWeek,18,18,Industrial,Yes,57600
-347.,Weekly_02_Diff_28,Game Show Gauntlet,QuestOfTheWeek,28,28,Industrial,Yes,57600
-348.,Weekly_02_Diff_38,Game Show Gauntlet,QuestOfTheWeek,38,38,Industrial,Yes,57600
-349.,Weekly_02_Diff_48,Game Show Gauntlet,QuestOfTheWeek,48,48,Industrial,Yes,57600
-350.,Weekly_03_Diff_10,Game Show Gauntlet,QuestOfTheWeek,10,10,Vault,Yes,64800
-351.,Weekly_03_Diff_20,Game Show Gauntlet,QuestOfTheWeek,20,20,Vault,Yes,64800
-352.,Weekly_03_Diff_30,Game Show Gauntlet,QuestOfTheWeek,30,30,Vault,Yes,64800
-353.,Weekly_03_Diff_40,Game Show Gauntlet,QuestOfTheWeek,40,40,Vault,Yes,64800
-354.,Weekly_03_Diff_50,Game Show Gauntlet,QuestOfTheWeek,50,50,Vault,Yes,64800
-355.,Weekly_04_Diff_12,Game Show Gauntlet,QuestOfTheWeek,12,12,Industrial,Yes,72000
-356.,Weekly_04_Diff_22,Game Show Gauntlet,QuestOfTheWeek,22,22,Industrial,Yes,72000
-357.,Weekly_04_Diff_32,Game Show Gauntlet,QuestOfTheWeek,32,32,Industrial,Yes,72000
-358.,Weekly_04_Diff_42,Game Show Gauntlet,QuestOfTheWeek,42,42,Industrial,Yes,72000
-359.,Weekly_04_Diff_52,Game Show Gauntlet,QuestOfTheWeek,52,52,Industrial,Yes,72000
-360.,Weekly_05_Diff_14,Game Show Gauntlet,QuestOfTheWeek,14,14,Vault,Yes,79200
-361.,Weekly_05_Diff_24,Game Show Gauntlet,QuestOfTheWeek,24,24,Vault,Yes,79200
-362.,Weekly_05_Diff_34,Game Show Gauntlet,QuestOfTheWeek,34,34,Vault,Yes,79200
-363.,Weekly_05_Diff_44,Game Show Gauntlet,QuestOfTheWeek,44,44,Vault,Yes,79200
-364.,Weekly_05_Diff_54,Game Show Gauntlet,QuestOfTheWeek,54,54,Vault,Yes,79200
-365.,Weekly_06_Diff_16,Game Show Gauntlet,QuestOfTheWeek,16,16,Historic,Yes,86400
-366.,Weekly_06_Diff_26,Game Show Gauntlet,QuestOfTheWeek,26,26,Historic,Yes,86400
-367.,Weekly_06_Diff_36,Game Show Gauntlet,QuestOfTheWeek,36,36,Historic,Yes,86400
-368.,Weekly_06_Diff_46,Game Show Gauntlet,QuestOfTheWeek,46,46,Historic,Yes,86400
-369.,Weekly_06_Diff_56,Game Show Gauntlet,QuestOfTheWeek,56,56,Historic,Yes,86400
-370.,Daily_03_Diff_10_A,Junk Run,QuestOfTheDay,11,11,Industrial,Yes,14400
-371.,Daily_03_Diff_20_A,Junk Run,QuestOfTheDay,22,22,Industrial,Yes,14400
-372.,Daily_03_Diff_30_A,Junk Run,QuestOfTheDay,33,33,Industrial,Yes,14400
-373.,Daily_03_Diff_40_A,Junk Run,QuestOfTheDay,44,44,Industrial,Yes,14400
-374.,Daily_03_Diff_50_A,Junk Run,QuestOfTheDay,50,50,Industrial,Yes,14400
-375.,Daily_03_Diff_10_B,Junk Run,QuestOfTheDay,11,11,Historic,Yes,14400
-376.,Daily_03_Diff_20_B,Junk Run,QuestOfTheDay,22,22,Historic,Yes,14400
-377.,Daily_03_Diff_30_B,Junk Run,QuestOfTheDay,33,33,Historic,Yes,14400
-378.,Daily_03_Diff_40_B,Junk Run,QuestOfTheDay,44,44,Historic,Yes,14400
-379.,Daily_03_Diff_50_B,Junk Run,QuestOfTheDay,50,50,Historic,Yes,14400
-380.,Daily_03_Diff_10_C,Junk Run,QuestOfTheDay,11,11,Vault,Yes,14400
-381.,Daily_03_Diff_20_C,Junk Run,QuestOfTheDay,22,22,Vault,Yes,14400
-382.,Daily_03_Diff_30_C,Junk Run,QuestOfTheDay,33,33,Vault,Yes,14400
-383.,Daily_03_Diff_40_C,Junk Run,QuestOfTheDay,44,44,Vault,Yes,14400
-384.,Daily_03_Diff_50_C,Junk Run,QuestOfTheDay,50,50,Vault,Yes,14400
-385.,Daily_04_Diff_10_A,Caps Run,QuestOfTheDay,11,11,Historic,Yes,14400
-386.,Daily_04_Diff_20_A,Caps Run,QuestOfTheDay,22,22,Historic,Yes,14400
-387.,Daily_04_Diff_30_A,Caps Run,QuestOfTheDay,33,33,Historic,Yes,14400
-388.,Daily_04_Diff_40_A,Caps Run,QuestOfTheDay,44,44,Historic,Yes,14400
-389.,Daily_04_Diff_50_A,Caps Run,QuestOfTheDay,50,50,Historic,Yes,14400
-390.,Daily_04_Diff_10_B,Caps Run,QuestOfTheDay,11,11,Industrial,Yes,14400
-391.,Daily_04_Diff_20_B,Caps Run,QuestOfTheDay,22,22,Industrial,Yes,14400
-392.,Daily_04_Diff_30_B,Caps Run,QuestOfTheDay,33,33,Industrial,Yes,14400
-393.,Daily_04_Diff_40_B,Caps Run,QuestOfTheDay,44,44,Industrial,Yes,14400
-394.,Daily_04_Diff_50_B,Caps Run,QuestOfTheDay,50,50,Industrial,Yes,14400
-395.,Daily_04_Diff_10_C,Caps Run,QuestOfTheDay,11,11,Vault,Yes,14400
-396.,Daily_04_Diff_20_C,Caps Run,QuestOfTheDay,22,22,Vault,Yes,14400
-397.,Daily_04_Diff_30_C,Caps Run,QuestOfTheDay,33,33,Vault,Yes,14400
-398.,Daily_04_Diff_40_C,Caps Run,QuestOfTheDay,44,44,Vault,Yes,14400
-399.,Daily_04_Diff_50_C,Caps Run,QuestOfTheDay,50,50,Vault,Yes,14400
-400.,Daily_05_Diff_10_A,Rescue Operation,QuestOfTheDay,11,11,Industrial,Yes,14400
-401.,Daily_05_Diff_20_A,Rescue Operation,QuestOfTheDay,22,22,Industrial,Yes,14400
-402.,Daily_05_Diff_30_A,Rescue Operation,QuestOfTheDay,33,33,Industrial,Yes,14400
-403.,Daily_05_Diff_40_A,Rescue Operation,QuestOfTheDay,44,44,Industrial,Yes,14400
-404.,Daily_05_Diff_50_A,Rescue Operation,QuestOfTheDay,50,50,Industrial,Yes,14400
-405.,Daily_05_Diff_10_B,Rescue Operation,QuestOfTheDay,11,11,Historic,Yes,14400
-406.,Daily_05_Diff_20_B,Rescue Operation,QuestOfTheDay,22,22,Historic,Yes,14400
-407.,Daily_05_Diff_30_B,Rescue Operation,QuestOfTheDay,33,33,Historic,Yes,14400
-408.,Daily_05_Diff_40_B,Rescue Operation,QuestOfTheDay,44,44,Historic,Yes,14400
-409.,Daily_05_Diff_50_B,Rescue Operation,QuestOfTheDay,50,50,Historic,Yes,14400
-410.,Daily_05_Diff_10_C,Rescue Operation,QuestOfTheDay,11,11,Vault,Yes,14400
-411.,Daily_05_Diff_20_C,Rescue Operation,QuestOfTheDay,22,22,Vault,Yes,14400
-412.,Daily_05_Diff_30_C,Rescue Operation,QuestOfTheDay,33,33,Vault,Yes,14400
-413.,Daily_05_Diff_40_C,Rescue Operation,QuestOfTheDay,44,44,Vault,Yes,14400
-414.,Daily_05_Diff_50_C,Rescue Operation,QuestOfTheDay,50,50,Vault,Yes,14400
-415.,Daily_06_Diff_10_A,Lunchbox Run,QuestOfTheDay,11,11,Historic,Yes,14400
-416.,Daily_06_Diff_20_A,Lunchbox Run,QuestOfTheDay,22,22,Historic,Yes,14400
-417.,Daily_06_Diff_30_A,Lunchbox Run,QuestOfTheDay,33,33,Historic,Yes,14400
-418.,Daily_06_Diff_40_A,Lunchbox Run,QuestOfTheDay,44,44,Historic,Yes,14400
-419.,Daily_06_Diff_50_A,Lunchbox Run,QuestOfTheDay,50,50,Historic,Yes,14400
-420.,Daily_06_Diff_10_B,Lunchbox Run,QuestOfTheDay,11,11,Industrial,Yes,14400
-421.,Daily_06_Diff_20_B,Lunchbox Run,QuestOfTheDay,22,22,Industrial,Yes,14400
-422.,Daily_06_Diff_30_B,Lunchbox Run,QuestOfTheDay,33,33,Industrial,Yes,14400
-423.,Daily_06_Diff_40_B,Lunchbox Run,QuestOfTheDay,44,44,Industrial,Yes,14400
-424.,Daily_06_Diff_50_B,Lunchbox Run,QuestOfTheDay,50,50,Industrial,Yes,14400
-425.,Daily_06_Diff_10_C,Lunchbox Run,QuestOfTheDay,11,11,Vault,Yes,14400
-426.,Daily_06_Diff_20_C,Lunchbox Run,QuestOfTheDay,22,22,Vault,Yes,14400
-427.,Daily_06_Diff_30_C,Lunchbox Run,QuestOfTheDay,33,33,Vault,Yes,14400
-428.,Daily_06_Diff_40_C,Lunchbox Run,QuestOfTheDay,44,44,Vault,Yes,14400
-429.,Daily_06_Diff_50_C,Lunchbox Run,QuestOfTheDay,50,50,Vault,Yes,14400
-430.,Daily_07_Diff_10_A,Nuka-Cola Quantum Run,QuestOfTheDay,11,11,Industrial,Yes,14400
-431.,Daily_07_Diff_20_A,Nuka-Cola Quantum Run,QuestOfTheDay,22,22,Industrial,Yes,14400
-432.,Daily_07_Diff_30_A,Nuka-Cola Quantum Run,QuestOfTheDay,33,33,Industrial,Yes,14400
-433.,Daily_07_Diff_40_A,Nuka-Cola Quantum Run,QuestOfTheDay,44,44,Industrial,Yes,14400
-434.,Daily_07_Diff_50_A,Nuka-Cola Quantum Run,QuestOfTheDay,50,50,Industrial,Yes,14400
-435.,Daily_07_Diff_10_B,Nuka-Cola Quantum Run,QuestOfTheDay,11,11,Historic,Yes,14400
-436.,Daily_07_Diff_20_B,Nuka-Cola Quantum Run,QuestOfTheDay,22,22,Historic,Yes,14400
-437.,Daily_07_Diff_30_B,Nuka-Cola Quantum Run,QuestOfTheDay,33,33,Historic,Yes,14400
-438.,Daily_07_Diff_40_B,Nuka-Cola Quantum Run,QuestOfTheDay,44,44,Historic,Yes,14400
-439.,Daily_07_Diff_50_B,Nuka-Cola Quantum Run,QuestOfTheDay,50,50,Historic,Yes,14400
-440.,Daily_07_Diff_10_C,Nuka-Cola Quantum Run,QuestOfTheDay,11,11,Vault,Yes,14400
-441.,Daily_07_Diff_20_C,Nuka-Cola Quantum Run,QuestOfTheDay,22,22,Vault,Yes,14400
-442.,Daily_07_Diff_30_C,Nuka-Cola Quantum Run,QuestOfTheDay,33,33,Vault,Yes,14400
-443.,Daily_07_Diff_40_C,Nuka-Cola Quantum Run,QuestOfTheDay,44,44,Vault,Yes,14400
-444.,Daily_07_Diff_50_C,Nuka-Cola Quantum Run,QuestOfTheDay,50,50,Vault,Yes,14400
-445.,Daily_08_Diff_10_A,Animal Rescue,StandardQuest,11,11,Historic,No,14400
-446.,Daily_08_Diff_20_A,Animal Rescue,StandardQuest,22,22,Historic,No,14400
-447.,Daily_08_Diff_30_A,Animal Rescue,StandardQuest,33,33,Historic,No,14400
-448.,Daily_08_Diff_40_A,Animal Rescue,StandardQuest,44,44,Historic,No,14400
-449.,Daily_08_Diff_50_A,Animal Rescue,StandardQuest,50,50,Historic,No,14400
-450.,Daily_08_Diff_10_B,Animal Rescue,StandardQuest,11,11,Industrial,No,14400
-451.,Daily_08_Diff_20_B,Animal Rescue,StandardQuest,22,22,Industrial,No,14400
-452.,Daily_08_Diff_30_B,Animal Rescue,StandardQuest,33,33,Industrial,No,14400
-453.,Daily_08_Diff_40_B,Animal Rescue,StandardQuest,44,44,Industrial,No,14400
-454.,Daily_08_Diff_50_B,Animal Rescue,StandardQuest,50,50,Industrial,No,14400
-455.,Daily_08_Diff_10_C,Animal Rescue,StandardQuest,11,11,Vault,No,14400
-456.,Daily_08_Diff_20_C,Animal Rescue,StandardQuest,22,22,Vault,No,14400
-457.,Daily_08_Diff_30_C,Animal Rescue,StandardQuest,33,33,Vault,No,14400
-458.,Daily_08_Diff_40_C,Animal Rescue,StandardQuest,44,44,Vault,No,14400
-459.,Daily_08_Diff_50_C,Animal Rescue,StandardQuest,50,50,Vault,No,14400
-460.,Daily_09_Diff_10_A,Robot Retrieval,StandardQuest,11,11,Industrial,No,14400
-461.,Daily_09_Diff_20_A,Robot Retrieval,StandardQuest,22,22,Industrial,No,14400
-462.,Daily_09_Diff_30_A,Robot Retrieval,StandardQuest,33,33,Industrial,No,14400
-463.,Daily_09_Diff_40_A,Robot Retrieval,StandardQuest,44,44,Industrial,No,14400
-464.,Daily_09_Diff_50_A,Robot Retrieval,StandardQuest,50,50,Industrial,No,14400
-465.,Daily_09_Diff_10_B,Robot Retrieval,StandardQuest,11,11,Historic,No,14400
-466.,Daily_09_Diff_20_B,Robot Retrieval,StandardQuest,22,22,Historic,No,14400
-467.,Daily_09_Diff_30_B,Robot Retrieval,StandardQuest,33,33,Historic,No,14400
-468.,Daily_09_Diff_40_B,Robot Retrieval,StandardQuest,44,44,Historic,No,14400
-469.,Daily_09_Diff_50_B,Robot Retrieval,StandardQuest,50,50,Historic,No,14400
-470.,Daily_09_Diff_10_C,Robot Retrieval,StandardQuest,11,11,Vault,No,14400
-471.,Daily_09_Diff_20_C,Robot Retrieval,StandardQuest,22,22,Vault,No,14400
-472.,Daily_09_Diff_30_C,Robot Retrieval,StandardQuest,33,33,Vault,No,14400
-473.,Daily_09_Diff_40_C,Robot Retrieval,StandardQuest,44,44,Vault,No,14400
-474.,Daily_09_Diff_50_C,Robot Retrieval,StandardQuest,50,50,Vault,No,14400
-475.,Daily_10_Diff_10_A,Guardian of the Wastes: Radroaches!,QuestOfTheDay,11,11,Historic,Yes,14400
-476.,Daily_10_Diff_20_A,Guardian of the Wastes: Radroaches!,QuestOfTheDay,22,22,Historic,Yes,14400
-477.,Daily_10_Diff_30_A,Guardian of the Wastes: Radroaches!,QuestOfTheDay,33,33,Historic,Yes,14400
-478.,Daily_10_Diff_40_A,Guardian of the Wastes: Radroaches!,QuestOfTheDay,44,44,Historic,Yes,14400
-479.,Daily_10_Diff_50_A,Guardian of the Wastes: Radroaches!,QuestOfTheDay,50,50,Historic,Yes,14400
-480.,Daily_10_Diff_10_B,Guardian of the Wastes: Radroaches!,QuestOfTheDay,11,11,Industrial,Yes,14400
-481.,Daily_10_Diff_20_B,Guardian of the Wastes: Radroaches!,QuestOfTheDay,22,22,Industrial,Yes,14400
-482.,Daily_10_Diff_30_B,Guardian of the Wastes: Radroaches!,QuestOfTheDay,33,33,Industrial,Yes,14400
-483.,Daily_10_Diff_40_B,Guardian of the Wastes: Radroaches!,QuestOfTheDay,44,44,Industrial,Yes,14400
-484.,Daily_10_Diff_50_B,Guardian of the Wastes: Radroaches!,QuestOfTheDay,50,50,Industrial,Yes,14400
-485.,Daily_10_Diff_10_C,Guardian of the Wastes: Radroaches!,QuestOfTheDay,11,11,Vault,Yes,14400
-486.,Daily_10_Diff_20_C,Guardian of the Wastes: Radroaches!,QuestOfTheDay,22,22,Vault,Yes,14400
-487.,Daily_10_Diff_30_C,Guardian of the Wastes: Radroaches!,QuestOfTheDay,33,33,Vault,Yes,14400
-488.,Daily_10_Diff_40_C,Guardian of the Wastes: Radroaches!,QuestOfTheDay,44,44,Vault,Yes,14400
-489.,Daily_10_Diff_50_C,Guardian of the Wastes: Radroaches!,QuestOfTheDay,50,50,Vault,Yes,14400
-490.,Daily_11_Diff_10_A,Guardian of the Wastes: Mole Rats!,QuestOfTheDay,11,11,Industrial,Yes,14400
-491.,Daily_11_Diff_20_A,Guardian of the Wastes: Mole Rats!,QuestOfTheDay,22,22,Industrial,Yes,14400
-492.,Daily_11_Diff_30_A,Guardian of the Wastes: Mole Rats!,QuestOfTheDay,33,33,Industrial,Yes,14400
-493.,Daily_11_Diff_40_A,Guardian of the Wastes: Mole Rats!,QuestOfTheDay,44,44,Industrial,Yes,14400
-494.,Daily_11_Diff_50_A,Guardian of the Wastes: Mole Rats!,QuestOfTheDay,50,50,Industrial,Yes,14400
-495.,Daily_11_Diff_10_B,Guardian of the Wastes: Mole Rats!,QuestOfTheDay,11,11,Historic,Yes,14400
-496.,Daily_11_Diff_20_B,Guardian of the Wastes: Mole Rats!,QuestOfTheDay,22,22,Historic,Yes,14400
-497.,Daily_11_Diff_30_B,Guardian of the Wastes: Mole Rats!,QuestOfTheDay,33,33,Historic,Yes,14400
-498.,Daily_11_Diff_40_B,Guardian of the Wastes: Mole Rats!,QuestOfTheDay,44,44,Historic,Yes,14400
-499.,Daily_11_Diff_50_B,Guardian of the Wastes: Mole Rats!,QuestOfTheDay,50,50,Historic,Yes,14400
-500.,Daily_11_Diff_10_C,Guardian of the Wastes: Mole Rats!,QuestOfTheDay,11,11,Vault,Yes,14400
-501.,Daily_11_Diff_20_C,Guardian of the Wastes: Mole Rats!,QuestOfTheDay,22,22,Vault,Yes,14400
-502.,Daily_11_Diff_30_C,Guardian of the Wastes: Mole Rats!,QuestOfTheDay,33,33,Vault,Yes,14400
-503.,Daily_11_Diff_40_C,Guardian of the Wastes: Mole Rats!,QuestOfTheDay,44,44,Vault,Yes,14400
-504.,Daily_11_Diff_50_C,Guardian of the Wastes: Mole Rats!,QuestOfTheDay,50,50,Vault,Yes,14400
-505.,Daily_12_Diff_10_A,Guardian of the Wastes: Feral Ghouls!,QuestOfTheDay,11,11,Historic,Yes,14400
-506.,Daily_12_Diff_20_A,Guardian of the Wastes: Feral Ghouls!,QuestOfTheDay,22,22,Historic,Yes,14400
-507.,Daily_12_Diff_30_A,Guardian of the Wastes: Feral Ghouls!,QuestOfTheDay,33,33,Historic,Yes,14400
-508.,Daily_12_Diff_40_A,Guardian of the Wastes: Feral Ghouls!,QuestOfTheDay,44,44,Historic,Yes,14400
-509.,Daily_12_Diff_50_A,Guardian of the Wastes: Feral Ghouls!,QuestOfTheDay,50,50,Historic,Yes,14400
-510.,Daily_12_Diff_10_B,Guardian of the Wastes: Feral Ghouls!,QuestOfTheDay,11,11,Industrial,Yes,14400
-511.,Daily_12_Diff_20_B,Guardian of the Wastes: Feral Ghouls!,QuestOfTheDay,22,22,Industrial,Yes,14400
-512.,Daily_12_Diff_30_B,Guardian of the Wastes: Feral Ghouls!,QuestOfTheDay,33,33,Industrial,Yes,14400
-513.,Daily_12_Diff_40_B,Guardian of the Wastes: Feral Ghouls!,QuestOfTheDay,44,44,Industrial,Yes,14400
-514.,Daily_12_Diff_50_B,Guardian of the Wastes: Feral Ghouls!,QuestOfTheDay,50,50,Industrial,Yes,14400
-515.,Daily_12_Diff_10_C,Guardian of the Wastes: Feral Ghouls!,QuestOfTheDay,11,11,Vault,Yes,14400
-516.,Daily_12_Diff_20_C,Guardian of the Wastes: Feral Ghouls!,QuestOfTheDay,22,22,Vault,Yes,14400
-517.,Daily_12_Diff_30_C,Guardian of the Wastes: Feral Ghouls!,QuestOfTheDay,33,33,Vault,Yes,14400
-518.,Daily_12_Diff_40_C,Guardian of the Wastes: Feral Ghouls!,QuestOfTheDay,44,44,Vault,Yes,14400
-519.,Daily_12_Diff_50_C,Guardian of the Wastes: Feral Ghouls!,QuestOfTheDay,50,50,Vault,Yes,14400
-520.,Daily_13_Diff_10_A,Guardian of the Wastes: Radscorpions!,QuestOfTheDay,11,11,Industrial,Yes,14400
-521.,Daily_13_Diff_20_A,Guardian of the Wastes: Radscorpions!,QuestOfTheDay,22,22,Industrial,Yes,14400
-522.,Daily_13_Diff_30_A,Guardian of the Wastes: Radscorpions!,QuestOfTheDay,33,33,Industrial,Yes,14400
-523.,Daily_13_Diff_40_A,Guardian of the Wastes: Radscorpions!,QuestOfTheDay,44,44,Industrial,Yes,14400
-524.,Daily_13_Diff_50_A,Guardian of the Wastes: Radscorpions!,QuestOfTheDay,50,50,Industrial,Yes,14400
-525.,Daily_13_Diff_10_B,Guardian of the Wastes: Radscorpions!,QuestOfTheDay,11,11,Historic,Yes,14400
-526.,Daily_13_Diff_20_B,Guardian of the Wastes: Radscorpions!,QuestOfTheDay,22,22,Historic,Yes,14400
-527.,Daily_13_Diff_30_B,Guardian of the Wastes: Radscorpions!,QuestOfTheDay,33,33,Historic,Yes,14400
-528.,Daily_13_Diff_40_B,Guardian of the Wastes: Radscorpions!,QuestOfTheDay,44,44,Historic,Yes,14400
-529.,Daily_13_Diff_50_B,Guardian of the Wastes: Radscorpions!,QuestOfTheDay,50,50,Historic,Yes,14400
-530.,Daily_13_Diff_10_C,Guardian of the Wastes: Radscorpions!,QuestOfTheDay,11,11,Vault,Yes,14400
-531.,Daily_13_Diff_20_C,Guardian of the Wastes: Radscorpions!,QuestOfTheDay,22,22,Vault,Yes,14400
-532.,Daily_13_Diff_30_C,Guardian of the Wastes: Radscorpions!,QuestOfTheDay,33,33,Vault,Yes,14400
-533.,Daily_13_Diff_40_C,Guardian of the Wastes: Radscorpions!,QuestOfTheDay,44,44,Vault,Yes,14400
-534.,Daily_13_Diff_50_C,Guardian of the Wastes: Radscorpions!,QuestOfTheDay,50,50,Vault,Yes,14400
-535.,Daily_14_Diff_10_A,Guardian of the Wastes: Deathclaws!,QuestOfTheDay,11,11,Historic,Yes,14400
-536.,Daily_14_Diff_20_A,Guardian of the Wastes: Deathclaws!,QuestOfTheDay,22,22,Historic,Yes,14400
-537.,Daily_14_Diff_30_A,Guardian of the Wastes: Deathclaws!,QuestOfTheDay,33,33,Historic,Yes,14400
-538.,Daily_14_Diff_40_A,Guardian of the Wastes: Deathclaws!,QuestOfTheDay,44,44,Historic,Yes,14400
-539.,Daily_14_Diff_50_A,Guardian of the Wastes: Deathclaws!,QuestOfTheDay,50,50,Historic,Yes,14400
-540.,Daily_14_Diff_10_B,Guardian of the Wastes: Deathclaws!,QuestOfTheDay,11,11,Industrial,Yes,14400
-541.,Daily_14_Diff_20_B,Guardian of the Wastes: Deathclaws!,QuestOfTheDay,22,22,Industrial,Yes,14400
-542.,Daily_14_Diff_30_B,Guardian of the Wastes: Deathclaws!,QuestOfTheDay,33,33,Industrial,Yes,14400
-543.,Daily_14_Diff_40_B,Guardian of the Wastes: Deathclaws!,QuestOfTheDay,44,44,Industrial,Yes,14400
-544.,Daily_14_Diff_50_B,Guardian of the Wastes: Deathclaws!,QuestOfTheDay,50,50,Industrial,Yes,14400
-545.,Daily_14_Diff_10_C,Guardian of the Wastes: Deathclaws!,QuestOfTheDay,11,11,Vault,Yes,14400
-546.,Daily_14_Diff_20_C,Guardian of the Wastes: Deathclaws!,QuestOfTheDay,22,22,Vault,Yes,14400
-547.,Daily_14_Diff_30_C,Guardian of the Wastes: Deathclaws!,QuestOfTheDay,33,33,Vault,Yes,14400
-548.,Daily_14_Diff_40_C,Guardian of the Wastes: Deathclaws!,QuestOfTheDay,44,44,Vault,Yes,14400
-549.,Daily_14_Diff_50_C,Guardian of the Wastes: Deathclaws!,QuestOfTheDay,50,50,Vault,Yes,14400
-550.,RedRocket_02_Diff_10,Pest Control,QuestSurprise,5,5,RedRocket,Yes,0
-551.,RedRocket_02_Diff_20,Pest Control,QuestSurprise,13,13,RedRocket,Yes,0
-552.,RedRocket_02_Diff_30,Pest Control,QuestSurprise,21,21,RedRocket,Yes,0
-553.,RedRocket_02_Diff_40,Pest Control,QuestSurprise,29,29,RedRocket,Yes,0
-554.,RedRocket_02_Diff_50,Pest Control,QuestSurprise,37,37,RedRocket,Yes,0
-555.,RedRocket_03_Diff_10,Pit Stop,QuestSurprise,5,5,RedRocket,Yes,0
-556.,RedRocket_03_Diff_20,Pit Stop,QuestSurprise,13,13,RedRocket,Yes,0
-557.,RedRocket_03_Diff_30,Pit Stop,QuestSurprise,21,21,RedRocket,Yes,0
-558.,RedRocket_03_Diff_40,Pit Stop,QuestSurprise,29,29,RedRocket,Yes,0
-559.,RedRocket_03_Diff_50,Pit Stop,QuestSurprise,37,37,RedRocket,Yes,0
-560.,RedRocket_04_Diff_10,Misery Loathes Company,QuestSurprise,5,5,RedRocket,Yes,0
-561.,RedRocket_04_Diff_20,Misery Loathes Company,QuestSurprise,13,13,RedRocket,Yes,0
-562.,RedRocket_04_Diff_30,Misery Loathes Company,QuestSurprise,21,21,RedRocket,Yes,0
-563.,RedRocket_04_Diff_40,Misery Loathes Company,QuestSurprise,29,29,RedRocket,Yes,0
-564.,RedRocket_04_Diff_50,Misery Loathes Company,QuestSurprise,37,37,RedRocket,Yes,0
-565.,SuperMart_02_Diff_10,Pest-Case Scenario,QuestSurprise,3,3,MarketPlace,Yes,0
-566.,SuperMart_02_Diff_20,Pest-Case Scenario,QuestSurprise,11,11,MarketPlace,Yes,0
-567.,SuperMart_02_Diff_30,Pest-Case Scenario,QuestSurprise,19,19,MarketPlace,Yes,0
-568.,SuperMart_02_Diff_40,Pest-Case Scenario,QuestSurprise,27,27,MarketPlace,Yes,0
-569.,SuperMart_02_Diff_50,Pest-Case Scenario,QuestSurprise,35,35,MarketPlace,Yes,0
-570.,SuperMart_03_Diff_10,One Ghoul Customer,QuestSurprise,3,3,MarketPlace,Yes,0
-571.,SuperMart_03_Diff_20,One Ghoul Customer,QuestSurprise,11,11,MarketPlace,Yes,0
-572.,SuperMart_03_Diff_30,One Ghoul Customer,QuestSurprise,19,19,MarketPlace,Yes,0
-573.,SuperMart_03_Diff_40,One Ghoul Customer,QuestSurprise,27,27,MarketPlace,Yes,0
-574.,SuperMart_03_Diff_50,One Ghoul Customer,QuestSurprise,35,35,MarketPlace,Yes,0
-575.,SuperMart_04_Diff_10,Crossing Paths,QuestSurprise,3,3,MarketPlace,Yes,0
-576.,SuperMart_04_Diff_20,Crossing Paths,QuestSurprise,11,11,MarketPlace,Yes,0
-577.,SuperMart_04_Diff_30,Crossing Paths,QuestSurprise,19,19,MarketPlace,Yes,0
-578.,SuperMart_04_Diff_40,Crossing Paths,QuestSurprise,27,27,MarketPlace,Yes,0
-579.,SuperMart_04_Diff_50,Crossing Paths,QuestSurprise,35,35,MarketPlace,Yes,0
-580.,AbandonedCabin_02_Diff_10,Anybody Home?,QuestSurprise,4,4,AbandonedHouse,Yes,0
-581.,AbandonedCabin_02_Diff_20,Anybody Home?,QuestSurprise,12,12,AbandonedHouse,Yes,0
-582.,AbandonedCabin_02_Diff_30,Anybody Home?,QuestSurprise,20,20,AbandonedHouse,Yes,0
-583.,AbandonedCabin_02_Diff_40,Anybody Home?,QuestSurprise,28,28,AbandonedHouse,Yes,0
-584.,AbandonedCabin_02_Diff_50,Anybody Home?,QuestSurprise,36,36,AbandonedHouse,Yes,0
-585.,AbandonedCabin_03_Diff_10,Uninvited Guests,QuestSurprise,4,4,AbandonedHouse,Yes,0
-586.,AbandonedCabin_03_Diff_20,Uninvited Guests,QuestSurprise,12,12,AbandonedHouse,Yes,0
-587.,AbandonedCabin_03_Diff_30,Uninvited Guests,QuestSurprise,20,20,AbandonedHouse,Yes,0
-588.,AbandonedCabin_03_Diff_40,Uninvited Guests,QuestSurprise,28,28,AbandonedHouse,Yes,0
-589.,AbandonedCabin_03_Diff_50,Uninvited Guests,QuestSurprise,36,36,AbandonedHouse,Yes,0
-590.,AbandonedCabin_04_Diff_10,Family Matters,QuestSurprise,4,4,AbandonedHouse,Yes,0
-591.,AbandonedCabin_04_Diff_20,Family Matters,QuestSurprise,12,12,AbandonedHouse,Yes,0
-592.,AbandonedCabin_04_Diff_30,Family Matters,QuestSurprise,20,20,AbandonedHouse,Yes,0
-593.,AbandonedCabin_04_Diff_40,Family Matters,QuestSurprise,28,28,AbandonedHouse,Yes,0
-594.,AbandonedCabin_04_Diff_50,Family Matters,QuestSurprise,36,36,AbandonedHouse,Yes,0
+39.,Standalone_27,Game of Vaults,StandardQuest,47,50,Historic,No,86400
+40.,Standalone_28,Firestarter,StandardQuest,32,35,Vault,No,63000
+41.,Standalone_29,Choo-Choo!,StandardQuest,26,29,Industrial,No,52200
+42.,Standalone_30,Beware of Over-dog!,StandardQuest,36,39,Vault,No,70200
+43.,Standalone_31,Overwhelming Force,StandardQuest,23,26,Historic,No,46800
+44.,Standalone_32,Queen of the Deathclaws!,StandardQuest,45,48,Industrial,No,86400
+45.,Standalone_33,Reign of Radroach Rodney!,StandardQuest,18,21,Historic,No,37800
+46.,Standalone_34,Wasteland Doctoring,StandardQuest,50,53,Industrial,No,86400
+47.,Standalone_36,Diplomatic Mission!,StandardQuest,23,26,Industrial,No,46800
+48.,MinorQuestline_05_Quest_01,Broadsides,QuestlineQuest,5,8,Vault,No,18000
+49.,MinorQuestline_05_Quest_02,Headshots,QuestlineQuest,6,9,Vault,No,21600
+50.,MinorQuestline_05_Quest_03,A Map to the Stars,QuestlineQuest,7,10,Vault,No,7200
+51.,MinorQuestline_05_Quest_04,The (Thinly Veiled) Plot Thickens,QuestlineQuest,8,11,Vault,No,28800
+52.,MinorQuestline_05_Quest_05,Collateral Murder,QuestlineQuest,9,12,Industrial,No,10800
+53.,MinorQuestline_05_Quest_06,Boogie Woogie Bugle Boy,QuestlineQuest,10,13,MarketPlace,No,36000
+54.,MinorQuestline_05_Quest_07,Stop the Presses!,QuestlineQuest,11,14,Industrial,No,39600
+55.,MinorQuestline_06_Quest_01,The Mysterious Disappearing Spuds,QuestlineQuest,12,15,Historic,No,14400
+56.,MinorQuestline_06_Quest_02,The Spreading Blight,QuestlineQuest,13,16,Industrial,No,46800
+57.,MinorQuestline_06_Quest_03,The Night Watch,QuestlineQuest,13,16,Industrial,No,10800
+58.,MinorQuestline_06_Quest_04,Spear Fishing,QuestlineQuest,15,18,Historic,No,54000
+59.,MinorQuestline_06_Quest_05,The Shadow Wolf,QuestlineQuest,14,17,Industrial,No,50400
+60.,MinorQuestline_06_Quest_06,The Mole Rat Man,QuestlineQuest,17,20,Industrial,No,61200
+61.,MinorQuestline_07_Quest_01,The Case of the Captured Canine,QuestlineQuest,20,23,Industrial,No,10800
+62.,MinorQuestline_07_Quest_02,The Case of the Missing Mitt,QuestlineQuest,25,28,Historic,No,43200
+63.,MinorQuestline_07_Quest_03,The Case of the Quantum Creeper,QuestlineQuest,30,33,Vault,No,18000
+64.,MinorQuestline_07_Quest_04,The Case of the Lost Lunch,QuestlineQuest,35,38,Historic,No,72000
+65.,MinorQuestline_07_Quest_05,The Bigsby Brown Case,QuestlineQuest,40,43,Historic,No,86400
+66.,Standalone_38,Signal Failure,StandardQuest,28,31,Vault,No,100800
+67.,Standalone_39,Take Me Out to the Ball Game,StandardQuest,15,18,Historic,No,54000
+68.,Standalone_41,Mall Madness,StandardQuest,25,28,MarketPlace,No,90000
+69.,Standalone_42,Revenge of the Geeks,StandardQuest,25,25,Historic,No,90000
+70.,Standalone_43,Dog Shelter,StandardQuest,20,23,Vault,No,72000
+71.,Standalone_44,Argh, Matey!,StandardQuest,35,38,Vault,No,36000
+72.,Daily_18_A,Duo of Destruction: Mole Rat Brood Mothers,QuestOfTheDay,25,28,Industrial,Yes,7500
+73.,Daily_18_B,Duo of Destruction: Mole Rat Brood Mothers,QuestOfTheDay,35,38,Industrial,Yes,10500
+74.,Daily_18_C,Duo of Destruction: Mole Rat Brood Mothers,QuestOfTheDay,45,48,Industrial,Yes,13500
+75.,Daily_19_A,Duo of Destruction: Glowing Radroaches,QuestOfTheDay,5,8,Vault,Yes,1500
+76.,Daily_19_B,Duo of Destruction: Glowing Radroaches,QuestOfTheDay,15,18,Vault,Yes,4500
+77.,Daily_19_C,Duo of Destruction: Glowing Radroaches,QuestOfTheDay,25,28,Vault,Yes,7500
+78.,Daily_20_A,Duo of Destruction: Glowing One (x2!),QuestOfTheDay,20,23,Industrial,Yes,6000
+79.,Daily_20_B,Duo of Destruction: Glowing One (x2!),QuestOfTheDay,30,33,Industrial,Yes,9000
+80.,Daily_20_C,Duo of Destruction: Glowing One (x2!),QuestOfTheDay,35,38,Industrial,Yes,10500
+81.,Daily_21_A,Duo of Destruction: Glowing Radscorpions,QuestOfTheDay,36,39,Vault,Yes,10800
+82.,Daily_21_B,Duo of Destruction: Glowing Radscorpions,QuestOfTheDay,39,42,Vault,Yes,11700
+83.,Daily_21_C,Duo of Destruction: Glowing Radscorpions,QuestOfTheDay,43,46,Vault,Yes,12900
+84.,Daily_22_A,Duo of Destruction: Alpha Deathclaws,QuestOfTheDay,41,44,Historic,Yes,12300
+85.,Daily_22_B,Duo of Destruction: Alpha Deathclaws,QuestOfTheDay,45,48,Historic,Yes,13500
+86.,Daily_22_C,Duo of Destruction: Alpha Deathclaws,QuestOfTheDay,50,53,Historic,Yes,15000
+87.,Daily_23_A,Bounty: 'Ol One-Eye,QuestOfTheDay,12,15,Industrial,Yes,3600
+88.,Daily_23_B,Bounty: 'Ol One-Eye,QuestOfTheDay,15,18,Industrial,Yes,4500
+89.,Daily_23_C,Bounty: 'Ol One-Eye,QuestOfTheDay,22,25,Industrial,Yes,6600
+90.,Daily_24_A,Bounty: Bash,QuestOfTheDay,25,28,Historic,Yes,7500
+91.,Daily_24_B,Bounty: Bash,QuestOfTheDay,28,31,Historic,Yes,8400
+92.,Daily_24_C,Bounty: Bash,QuestOfTheDay,31,34,Historic,Yes,9300
+93.,Daily_25_A,Bounty: Shiner,QuestOfTheDay,18,21,Industrial,Yes,5400
+94.,Daily_25_B,Bounty: Shiner,QuestOfTheDay,25,28,Industrial,Yes,7500
+95.,Daily_25_C,Bounty: Shiner,QuestOfTheDay,29,32,Industrial,Yes,8700
+96.,Daily_26_A,Bounty: Yak,QuestOfTheDay,20,23,Historic,Yes,6000
+97.,Daily_26_B,Bounty: Yak,QuestOfTheDay,30,33,Historic,Yes,9000
+98.,Daily_26_C,Bounty: Yak,QuestOfTheDay,40,43,Historic,Yes,12000
+99.,Daily_27_A,Bounty: Snips,QuestOfTheDay,30,33,Industrial,Yes,9000
+100.,Daily_27_B,Bounty: Snips,QuestOfTheDay,35,38,Industrial,Yes,10500
+101.,Daily_27_C,Bounty: Snips,QuestOfTheDay,40,43,Industrial,Yes,12000
+102.,Daily_28_A,Bounty: Butcher,QuestOfTheDay,35,38,Historic,Yes,10500
+103.,Daily_28_B,Bounty: Butcher,QuestOfTheDay,39,42,Historic,Yes,11700
+104.,Daily_28_C,Bounty: Butcher,QuestOfTheDay,43,46,Historic,Yes,12900
+105.,HalloweenQuestline_01_Quest_01,Halloween (Non)Fiction,EventQuest,10,13,Historic,No,6000
+106.,HalloweenQuestline_01_Quest_02,Go West,EventQuest,11,14,Industrial,No,6600
+107.,HalloweenQuestline_01_Quest_03,Days Gone Bye,EventQuest,12,15,Vault,No,10800
+108.,HalloweenQuestline_01_Quest_04,Mask Hysteria,EventQuest,13,16,Industrial,No,11700
+109.,HalloweenQuestline_01_Quest_05,Scare Tactics,EventQuest,14,17,Vault,No,16800
+110.,Halloween_01,Ghostly Gag,EventQuest,19,22,Vault,No,22800
+111.,Halloween_02,The Haunting of Mass Chemical,EventQuest,20,23,Industrial,No,24000
+112.,Halloween_03,Horror Movie Night!,EventQuest,21,24,Historic,No,25200
+113.,MinorQuestline_08_Quest_01,Clearing A Path,QuestlineQuest,20,23,Industrial,No,24000
+114.,MinorQuestline_08_Quest_02,Taking Out the Trash,QuestlineQuest,24,27,Vault,No,28800
+115.,MinorQuestline_08_Quest_03,Heat of the Knight,QuestlineQuest,27,30,Historic,No,32400
+116.,MinorQuestline_08_Quest_04,In Shining Armor,QuestlineQuest,35,38,Industrial,No,42000
+117.,MinorQuestline_09_Quest_01,Off the Rails,QuestlineQuest,15,18,Cave,No,18000
+118.,MinorQuestline_09_Quest_02,Synth in a Pinch,QuestlineQuest,20,23,Historic,No,24000
+119.,MinorQuestline_09_Quest_03,Not-So-Safehouse,QuestlineQuest,30,33,Industrial,No,36000
+120.,MinorQuestline_09_Quest_04,Synths for Sale,QuestlineQuest,40,43,Historic,No,48000
+121.,NewYearsQuestline_01_Quest_01,Blackout,EventQuest,10,13,Industrial,No,7200
+122.,NewYearsQuestline_01_Quest_02,A Special Brand,EventQuest,12,15,Historic,No,19200
+123.,NewYearsQuestline_01_Quest_03,Walk of Shame,EventQuest,14,17,Cave,No,16800
+124.,NewYearsQuestline_01_Quest_04,Jack Ain't Back,EventQuest,16,19,RedRocket,No,16800
+125.,NewYearsQuestline_01_Quest_05,Human Bean Juice,EventQuest,18,21,Industrial,No,21600
+126.,NewYearsQuestline_01_Quest_06,KHAAANNNNN!!!!,EventQuest,20,23,Cave,No,21600
+127.,MajorQuestline_01_Quest_01,The Path of Paula Plumbkin,QuestlineQuest,8,8,Vault,No,1800
+128.,MajorQuestline_01_Quest_02,A Thirst for Adventure,QuestlineQuest,9,9,Industrial,No,3000
+129.,MajorQuestline_01_Quest_03,Paula's in a Pickle!,QuestlineQuest,10,10,Historic,No,2700
+130.,MajorQuestline_01_Quest_04,Into Vault 333!,QuestlineQuest,11,11,Vault,No,1800
+131.,MajorQuestline_01_Quest_05,Tankbusting,QuestlineQuest,12,12,Industrial,No,5400
+132.,MajorQuestline_01_Quest_06,Return to Vault 333,QuestlineQuest,13,13,Vault,No,7200
+133.,Standalone_01,Can't Stop The Signal,StandardQuest,7,7,Historic,No,25200
+134.,Standalone_02,Hostage Negotiations,StandardQuest,14,14,Industrial,No,50400
+135.,Standalone_03,A Poorly Thought-Out Plan,StandardQuest,46,46,Historic,No,82800
+136.,Standalone_04,Target Practice,StandardQuest,5,5,Industrial,No,18000
+137.,Standalone_05,Against The Odds,StandardQuest,26,26,Historic,No,69300
+138.,Standalone_06,My Metal Pony,StandardQuest,43,43,Industrial,No,80400
+139.,Standalone_07,CoveWatch!,StandardQuest,25,25,Historic,No,68400
+140.,Standalone_08,The Scorpion... King?,StandardQuest,34,34,Industrial,No,75600
+141.,Standalone_09,Wonders of Nature,StandardQuest,37,37,Industrial,No,76500
+142.,Standalone_10,Wonders of Science,StandardQuest,27,27,Vault,No,72000
+143.,Standalone_11,Wonders of Technology,StandardQuest,47,47,Vault,No,84600
+144.,Standalone_12,Scientific Progress,StandardQuest,44,44,Historic,No,81900
+145.,Standalone_13,Captured Critter,StandardQuest,22,22,Historic,No,79200
+146.,Standalone_14,The Brothers Grime,StandardQuest,13,13,Industrial,No,46800
+147.,Standalone_15,A Gathering of Ghouls,StandardQuest,29,29,Historic,No,74400
+148.,Standalone_16,Too Good to be True,StandardQuest,55,55,Vault,No,88200
+149.,Standalone_17,My Weird Science Project,StandardQuest,40,40,Industrial,No,77400
+150.,Standalone_18,Shotgun Wedding,StandardQuest,28,28,Historic,No,73200
+151.,Standalone_19,Den of Thieves,StandardQuest,17,17,Vault,No,61200
+152.,Standalone_20,Burnout,StandardQuest,42,42,Industrial,No,80100
+153.,Standalone_21,Radiation Leak!,StandardQuest,24,24,Vault,No,86400
+154.,Standalone_22,Arms Race,StandardQuest,52,52,Historic,No,85500
+155.,Standalone_23,Ghooooooooooooooooooul!,StandardQuest,31,31,Vault,No,79200
+156.,Standalone_24,Monday Night Brawl,StandardQuest,35,35,Historic,No,70800
+157.,Daily_01_Diff_10_A,Weapons Run,QuestOfTheDay,11,11,Industrial,Yes,21600
+158.,Daily_01_Diff_20_A,Weapons Run,QuestOfTheDay,22,22,Industrial,Yes,21600
+159.,Daily_01_Diff_30_A,Weapons Run,QuestOfTheDay,33,33,Industrial,Yes,21600
+160.,Daily_01_Diff_40_A,Weapons Run,QuestOfTheDay,44,44,Industrial,Yes,21600
+161.,Daily_01_Diff_50_A,Weapons Run,QuestOfTheDay,55,55,Industrial,Yes,21600
+162.,Daily_02_Diff_10_A,Outfit Run,QuestOfTheDay,11,11,Historic,Yes,14400
+163.,Daily_02_Diff_20_A,Outfit Run,QuestOfTheDay,22,22,Historic,Yes,14400
+164.,Daily_02_Diff_30_A,Outfit Run,QuestOfTheDay,33,33,Historic,Yes,14400
+165.,Daily_02_Diff_40_A,Outfit Run,QuestOfTheDay,44,44,Historic,Yes,14400
+166.,Daily_02_Diff_50_A,Outfit Run,QuestOfTheDay,55,55,Historic,Yes,14400
+167.,Daily_01_Diff_10_B,Weapons Run,QuestOfTheDay,11,11,Historic,Yes,21600
+168.,Daily_01_Diff_20_B,Weapons Run,QuestOfTheDay,22,22,Historic,Yes,21600
+169.,Daily_01_Diff_30_B,Weapons Run,QuestOfTheDay,33,33,Historic,Yes,21600
+170.,Daily_01_Diff_40_B,Weapons Run,QuestOfTheDay,44,44,Historic,Yes,21600
+171.,Daily_01_Diff_50_B,Weapons Run,QuestOfTheDay,55,55,Historic,Yes,21600
+172.,Daily_02_Diff_10_B,Outfit Run,QuestOfTheDay,11,11,Industrial,Yes,14400
+173.,Daily_02_Diff_20_B,Outfit Run,QuestOfTheDay,22,22,Industrial,Yes,14400
+174.,Daily_02_Diff_30_B,Outfit Run,QuestOfTheDay,33,33,Industrial,Yes,14400
+175.,Daily_02_Diff_40_B,Outfit Run,QuestOfTheDay,44,44,Industrial,Yes,14400
+176.,Daily_02_Diff_50_B,Outfit Run,QuestOfTheDay,55,55,Industrial,Yes,14400
+177.,Daily_01_Diff_10_C,Weapons Run,QuestOfTheDay,11,11,Cave,Yes,21600
+178.,Daily_01_Diff_20_C,Weapons Run,QuestOfTheDay,22,22,Cave,Yes,21600
+179.,Daily_01_Diff_30_C,Weapons Run,QuestOfTheDay,33,33,Cave,Yes,21600
+180.,Daily_01_Diff_40_C,Weapons Run,QuestOfTheDay,44,44,Cave,Yes,21600
+181.,Daily_01_Diff_50_C,Weapons Run,QuestOfTheDay,55,55,Cave,Yes,21600
+182.,Daily_02_Diff_10_C,Outfit Run,QuestOfTheDay,11,11,Vault,Yes,14400
+183.,Daily_02_Diff_20_C,Outfit Run,QuestOfTheDay,22,22,Vault,Yes,14400
+184.,Daily_02_Diff_30_C,Outfit Run,QuestOfTheDay,33,33,Vault,Yes,14400
+185.,Daily_02_Diff_40_C,Outfit Run,QuestOfTheDay,44,44,Vault,Yes,14400
+186.,Daily_02_Diff_50_C,Outfit Run,QuestOfTheDay,55,55,Vault,Yes,14400
+187.,RedRocket_01,A Cry for Help,QuestSurprise,0,0,RedRocket,Yes,0
+188.,SuperMart_01_Diff_05,Clean-Up On Aisle Five,QuestSurprise,3,3,MarketPlace,Yes,0
+189.,SuperMart_01_Diff_15,Clean-Up On Aisle Five,QuestSurprise,11,11,MarketPlace,Yes,0
+190.,SuperMart_01_Diff_25,Clean-Up On Aisle Five,QuestSurprise,19,19,MarketPlace,Yes,0
+191.,SuperMart_01_Diff_35,Clean-Up On Aisle Five,QuestSurprise,27,27,MarketPlace,Yes,0
+192.,SuperMart_01_Diff_45,Clean-Up On Aisle Five,QuestSurprise,35,35,MarketPlace,Yes,0
+193.,Cabin_01_Diff_03,Wasteland Getaway,QuestSurprise,5,5,AbandonedHouse,Yes,0
+194.,Cabin_01_Diff_13,Wasteland Getaway,QuestSurprise,13,13,AbandonedHouse,Yes,0
+195.,Cabin_01_Diff_23,Wasteland Getaway,QuestSurprise,21,21,AbandonedHouse,Yes,0
+196.,Cabin_01_Diff_33,Wasteland Getaway,QuestSurprise,29,29,AbandonedHouse,Yes,0
+197.,Cabin_01_Diff_43,Wasteland Getaway,QuestSurprise,37,37,AbandonedHouse,Yes,0
+198.,MajorQuestline_02_Quest_01,Man on First,QuestlineQuest,38,38,Industrial,No,7200
+199.,MajorQuestline_02_Quest_02,Man on Second,QuestlineQuest,39,39,Vault,No,12600
+200.,MajorQuestline_02_Quest_03,Man on Third,QuestlineQuest,40,40,Historic,No,21600
+201.,MajorQuestline_02_Quest_04,Time for a Grand Slam?,QuestlineQuest,41,41,Vault,No,9000
+202.,MajorQuestline_02_Quest_05,Worst. Coach. Ever.,QuestlineQuest,42,42,Industrial,No,30600
+203.,MajorQuestline_02_Quest_06,Picked Off at Second!,QuestlineQuest,43,43,Historic,No,39600
+204.,MajorQuestline_02_Quest_07,Seventh Inning Stretch,QuestlineQuest,44,44,Historic,No,10800
+205.,MajorQuestline_02_Quest_08,Getcha' Peanuts Here!,QuestlineQuest,45,45,Industrial,No,50400
+206.,MajorQuestline_02_Quest_09,Last Inning! Or not...,QuestlineQuest,46,46,Vault,No,55800
+207.,MajorQuestline_02_Quest_10,There's no Crying in Baseball!,QuestlineQuest,47,47,Historic,No,12600
+208.,MajorQuestline_02_Quest_11,Runners in Scoring Position!,QuestlineQuest,48,48,Industrial,No,67500
+209.,MajorQuestline_02_Quest_12,Conference on the Mound,QuestlineQuest,49,49,Industrial,No,71100
+210.,MajorQuestline_02_Quest_13,Here's the Pitch...,QuestlineQuest,50,50,Historic,No,14400
+211.,MajorQuestline_02_Quest_14,Homerun!,QuestlineQuest,51,51,Vault,No,81900
+212.,MajorQuestline_02_Quest_15,Here's to You, Rackie Jobinson,QuestlineQuest,52,52,Vault,No,85500
+213.,AbandonedCabin_05_Diff_12,The Scenic Route,QuestSurprise,12,12,AbandonedHouse,Yes,0
+214.,AbandonedCabin_05_Diff_20,The Scenic Route,QuestSurprise,20,20,AbandonedHouse,Yes,0
+215.,AbandonedCabin_05_Diff_28,The Scenic Route,QuestSurprise,28,28,AbandonedHouse,Yes,0
+216.,AbandonedCabin_05_Diff_36,The Scenic Route,QuestSurprise,36,36,AbandonedHouse,Yes,0
+217.,AbandonedCabin_06_Diff_12,Cabin Without The Woods,QuestSurprise,12,12,AbandonedHouse,Yes,0
+218.,AbandonedCabin_06_Diff_20,Cabin Without The Woods,QuestSurprise,20,20,AbandonedHouse,Yes,0
+219.,AbandonedCabin_06_Diff_28,Cabin Without The Woods,QuestSurprise,28,28,AbandonedHouse,Yes,0
+220.,AbandonedCabin_06_Diff_36,Cabin Without The Woods,QuestSurprise,36,36,AbandonedHouse,Yes,0
+221.,AbandonedCabin_07_Diff_04,Party Crasher,QuestSurprise,4,4,AbandonedHouse,Yes,0
+222.,AbandonedCabin_07_Diff_12,Party Crasher,QuestSurprise,12,12,AbandonedHouse,Yes,0
+223.,AbandonedCabin_07_Diff_20,Party Crasher,QuestSurprise,20,20,AbandonedHouse,Yes,0
+224.,AbandonedCabin_07_Diff_28,Party Crasher,QuestSurprise,28,28,AbandonedHouse,Yes,0
+225.,AbandonedCabin_07_Diff_36,Party Crasher,QuestSurprise,36,36,AbandonedHouse,Yes,0
+226.,RedRocket_05_Diff_29,Big Trouble,QuestSurprise,29,29,RedRocket,Yes,0
+227.,RedRocket_05_Diff_37,Big Trouble,QuestSurprise,37,37,RedRocket,Yes,0
+228.,RedRocket_06_Diff_05,Gas 'N Go,QuestSurprise,5,5,RedRocket,Yes,0
+229.,RedRocket_06_Diff_13,Gas 'N Go,QuestSurprise,13,13,RedRocket,Yes,0
+230.,RedRocket_06_Diff_21,Gas 'N Go,QuestSurprise,21,21,RedRocket,Yes,0
+231.,RedRocket_06_Diff_29,Gas 'N Go,QuestSurprise,29,29,RedRocket,Yes,0
+232.,RedRocket_06_Diff_37,Gas 'N Go,QuestSurprise,37,37,RedRocket,Yes,0
+233.,RedRocket_07_Diff_05,Fashion Statement,QuestSurprise,5,5,RedRocket,Yes,0
+234.,RedRocket_07_Diff_13,Fashion Statement,QuestSurprise,13,13,RedRocket,Yes,0
+235.,RedRocket_07_Diff_21,Fashion Statement,QuestSurprise,21,21,RedRocket,Yes,0
+236.,RedRocket_07_Diff_29,Fashion Statement,QuestSurprise,29,29,RedRocket,Yes,0
+237.,RedRocket_07_Diff_37,Fashion Statement,QuestSurprise,37,37,RedRocket,Yes,0
+238.,SuperMart_05_Diff_03,Get in Line,QuestSurprise,3,3,MarketPlace,Yes,0
+239.,SuperMart_05_Diff_11,Get in Line,QuestSurprise,11,11,MarketPlace,Yes,0
+240.,SuperMart_05_Diff_19,Get in Line,QuestSurprise,19,19,MarketPlace,Yes,0
+241.,SuperMart_05_Diff_27,Get in Line,QuestSurprise,27,27,MarketPlace,Yes,0
+242.,SuperMart_05_Diff_35,Get in Line,QuestSurprise,35,35,MarketPlace,Yes,0
+243.,SuperMart_06_Diff_03_A,Food Fight!,QuestSurprise,3,3,MarketPlace,Yes,0
+244.,SuperMart_06_Diff_11_A,Food Fight!,QuestSurprise,11,11,MarketPlace,Yes,0
+245.,SuperMart_06_Diff_19_A,Food Fight!,QuestSurprise,19,19,MarketPlace,Yes,0
+246.,SuperMart_06_Diff_27_A,Food Fight!,QuestSurprise,27,27,MarketPlace,Yes,0
+247.,SuperMart_06_Diff_35_A,Food Fight!,QuestSurprise,35,35,MarketPlace,Yes,0
+248.,SuperMart_06_Diff_03_B,Food Fight!,QuestSurprise,3,3,MarketPlace,Yes,0
+249.,SuperMart_06_Diff_11_B,Food Fight!,QuestSurprise,11,11,MarketPlace,Yes,0
+250.,SuperMart_06_Diff_19_B,Food Fight!,QuestSurprise,19,19,MarketPlace,Yes,0
+251.,SuperMart_06_Diff_27_B,Food Fight!,QuestSurprise,27,27,MarketPlace,Yes,0
+252.,SuperMart_06_Diff_35_B,Food Fight!,QuestSurprise,35,35,MarketPlace,Yes,0
+253.,SuperMart_06_Diff_03_C,Food Fight!,QuestSurprise,3,3,MarketPlace,Yes,0
+254.,SuperMart_06_Diff_11_C,Food Fight!,QuestSurprise,11,11,MarketPlace,Yes,0
+255.,SuperMart_06_Diff_19_C,Food Fight!,QuestSurprise,19,19,MarketPlace,Yes,0
+256.,SuperMart_06_Diff_27_C,Food Fight!,QuestSurprise,27,27,MarketPlace,Yes,0
+257.,SuperMart_06_Diff_35_C,Food Fight!,QuestSurprise,35,35,MarketPlace,Yes,0
+258.,SuperMart_06_Diff_03_D,Food Fight!,QuestSurprise,3,3,MarketPlace,Yes,0
+259.,SuperMart_06_Diff_11_D,Food Fight!,QuestSurprise,11,11,MarketPlace,Yes,0
+260.,SuperMart_06_Diff_19_D,Food Fight!,QuestSurprise,19,19,MarketPlace,Yes,0
+261.,SuperMart_06_Diff_27_D,Food Fight!,QuestSurprise,27,27,MarketPlace,Yes,0
+262.,SuperMart_06_Diff_35_D,Food Fight!,QuestSurprise,35,35,MarketPlace,Yes,0
+263.,SuperMart_06_Diff_03_E,Food Fight!,QuestSurprise,3,3,MarketPlace,Yes,0
+264.,SuperMart_06_Diff_11_E,Food Fight!,QuestSurprise,11,11,MarketPlace,Yes,0
+265.,SuperMart_06_Diff_19_E,Food Fight!,QuestSurprise,19,19,MarketPlace,Yes,0
+266.,SuperMart_06_Diff_27_E,Food Fight!,QuestSurprise,27,27,MarketPlace,Yes,0
+267.,SuperMart_06_Diff_35_E,Food Fight!,QuestSurprise,35,35,MarketPlace,Yes,0
+268.,SuperMart_07_Diff_03,Express Checkout,QuestSurprise,3,3,MarketPlace,Yes,0
+269.,SuperMart_07_Diff_11,Express Checkout,QuestSurprise,11,11,MarketPlace,Yes,0
+270.,SuperMart_07_Diff_19,Express Checkout,QuestSurprise,19,19,MarketPlace,Yes,0
+271.,SuperMart_07_Diff_27,Express Checkout,QuestSurprise,27,27,MarketPlace,Yes,0
+272.,SuperMart_07_Diff_35,Express Checkout,QuestSurprise,35,35,MarketPlace,Yes,0
+273.,SuperMart_08_Diff_11,Post-Apocalyptic World Problems,QuestSurprise,11,11,MarketPlace,Yes,0
+274.,SuperMart_08_Diff_19,Post-Apocalyptic World Problems,QuestSurprise,19,19,MarketPlace,Yes,0
+275.,SuperMart_08_Diff_27,Post-Apocalyptic World Problems,QuestSurprise,27,27,MarketPlace,Yes,0
+276.,SuperMart_08_Diff_35,Post-Apocalyptic World Problems,QuestSurprise,35,35,MarketPlace,Yes,0
+277.,Daily_15_Diff_06_A,Spy on Raiders!,QuestOfTheDay,6,6,Industrial,Yes,7200
+278.,Daily_15_Diff_16_A,Spy on Raiders!,QuestOfTheDay,16,16,Industrial,Yes,7200
+279.,Daily_15_Diff_26_A,Spy on Raiders!,QuestOfTheDay,26,26,Industrial,Yes,7200
+280.,Daily_15_Diff_36_A,Spy on Raiders!,QuestOfTheDay,36,36,Industrial,Yes,7200
+281.,Daily_15_Diff_46_A,Spy on Raiders!,QuestOfTheDay,46,46,Industrial,Yes,7200
+282.,Daily_15_Diff_07_B,Spy on Raiders!,QuestOfTheDay,7,7,Cave,Yes,8400
+283.,Daily_15_Diff_17_B,Spy on Raiders!,QuestOfTheDay,17,17,Cave,Yes,8400
+284.,Daily_15_Diff_27_B,Spy on Raiders!,QuestOfTheDay,27,27,Cave,Yes,8400
+285.,Daily_15_Diff_37_B,Spy on Raiders!,QuestOfTheDay,37,37,Cave,Yes,8400
+286.,Daily_15_Diff_47_B,Spy on Raiders!,QuestOfTheDay,47,47,Cave,Yes,8400
+287.,Daily_15_Diff_08_C,Spy on Raiders!,QuestOfTheDay,8,8,Historic,Yes,9600
+288.,Daily_15_Diff_18_C,Spy on Raiders!,QuestOfTheDay,18,18,Historic,Yes,9600
+289.,Daily_15_Diff_28_C,Spy on Raiders!,QuestOfTheDay,28,28,Historic,Yes,9600
+290.,Daily_15_Diff_38_C,Spy on Raiders!,QuestOfTheDay,38,38,Historic,Yes,9600
+291.,Daily_15_Diff_48_C,Spy on Raiders!,QuestOfTheDay,48,48,Historic,Yes,9600
+292.,Daily_15_Diff_09_D,Spy on Raiders!,QuestOfTheDay,9,9,Vault,Yes,10800
+293.,Daily_15_Diff_19_D,Spy on Raiders!,QuestOfTheDay,19,19,Vault,Yes,10800
+294.,Daily_15_Diff_29_D,Spy on Raiders!,QuestOfTheDay,29,29,Vault,Yes,10800
+295.,Daily_15_Diff_39_D,Spy on Raiders!,QuestOfTheDay,39,39,Vault,Yes,10800
+296.,Daily_15_Diff_49_D,Spy on Raiders!,QuestOfTheDay,49,49,Vault,Yes,10800
+297.,Daily_15_Diff_10_E,Spy on Raiders!,QuestOfTheDay,10,10,Industrial,Yes,12000
+298.,Daily_15_Diff_20_E,Spy on Raiders!,QuestOfTheDay,20,20,Industrial,Yes,12000
+299.,Daily_15_Diff_30_E,Spy on Raiders!,QuestOfTheDay,30,30,Industrial,Yes,12000
+300.,Daily_15_Diff_40_E,Spy on Raiders!,QuestOfTheDay,40,40,Industrial,Yes,12000
+301.,Daily_15_Diff_50_E,Spy on Raiders!,QuestOfTheDay,50,50,Industrial,Yes,12000
+302.,Daily_16_Diff_11_A,Science Cooperative!,QuestOfTheDay,11,11,Historic,Yes,13200
+303.,Daily_16_Diff_21_A,Science Cooperative!,QuestOfTheDay,21,21,Historic,Yes,13200
+304.,Daily_16_Diff_31_A,Science Cooperative!,QuestOfTheDay,31,31,Historic,Yes,13200
+305.,Daily_16_Diff_41_A,Science Cooperative!,QuestOfTheDay,41,41,Historic,Yes,13200
+306.,Daily_16_Diff_51_A,Science Cooperative!,QuestOfTheDay,51,51,Historic,Yes,13200
+307.,Daily_16_Diff_12_B,Science Cooperative!,QuestOfTheDay,12,12,Vault,Yes,14400
+308.,Daily_16_Diff_22_B,Science Cooperative!,QuestOfTheDay,22,22,Vault,Yes,14400
+309.,Daily_16_Diff_32_B,Science Cooperative!,QuestOfTheDay,32,32,Vault,Yes,14400
+310.,Daily_16_Diff_42_B,Science Cooperative!,QuestOfTheDay,42,42,Vault,Yes,14400
+311.,Daily_16_Diff_52_B,Science Cooperative!,QuestOfTheDay,52,52,Vault,Yes,14400
+312.,Daily_16_Diff_13_C,Science Cooperative!,QuestOfTheDay,13,13,Industrial,Yes,15600
+313.,Daily_16_Diff_23_C,Science Cooperative!,QuestOfTheDay,23,23,Industrial,Yes,15600
+314.,Daily_16_Diff_33_C,Science Cooperative!,QuestOfTheDay,33,33,Industrial,Yes,15600
+315.,Daily_16_Diff_43_C,Science Cooperative!,QuestOfTheDay,43,43,Industrial,Yes,15600
+316.,Daily_16_Diff_53_C,Science Cooperative!,QuestOfTheDay,53,53,Industrial,Yes,15600
+317.,Daily_16_Diff_14_D,Science Cooperative!,QuestOfTheDay,14,14,Cave,Yes,16800
+318.,Daily_16_Diff_24_D,Science Cooperative!,QuestOfTheDay,24,24,Cave,Yes,16800
+319.,Daily_16_Diff_34_D,Science Cooperative!,QuestOfTheDay,34,34,Cave,Yes,16800
+320.,Daily_16_Diff_44_D,Science Cooperative!,QuestOfTheDay,44,44,Cave,Yes,16800
+321.,Daily_16_Diff_54_D,Science Cooperative!,QuestOfTheDay,54,54,Cave,Yes,16800
+322.,Daily_16_Diff_15_E,Science Cooperative!,QuestOfTheDay,15,15,Historic,Yes,18000
+323.,Daily_16_Diff_25_E,Science Cooperative!,QuestOfTheDay,25,25,Historic,Yes,18000
+324.,Daily_16_Diff_35_E,Science Cooperative!,QuestOfTheDay,35,35,Historic,Yes,18000
+325.,Daily_16_Diff_45_E,Science Cooperative!,QuestOfTheDay,45,45,Historic,Yes,18000
+326.,Daily_16_Diff_55_E,Science Cooperative!,QuestOfTheDay,55,55,Historic,Yes,18000
+327.,Daily_17_Diff_16_A,Friendly Settlement!,QuestOfTheDay,16,16,Industrial,Yes,19200
+328.,Daily_17_Diff_26_A,Friendly Settlement!,QuestOfTheDay,26,26,Industrial,Yes,19200
+329.,Daily_17_Diff_36_A,Friendly Settlement!,QuestOfTheDay,36,36,Industrial,Yes,19200
+330.,Daily_17_Diff_46_A,Friendly Settlement!,QuestOfTheDay,46,46,Industrial,Yes,19200
+331.,Daily_17_Diff_56_A,Friendly Settlement!,QuestOfTheDay,56,56,Industrial,Yes,19200
+332.,Daily_17_Diff_17_B,Friendly Settlement!,QuestOfTheDay,17,17,Historic,Yes,20400
+333.,Daily_17_Diff_27_B,Friendly Settlement!,QuestOfTheDay,27,27,Historic,Yes,20400
+334.,Daily_17_Diff_37_B,Friendly Settlement!,QuestOfTheDay,37,37,Historic,Yes,20400
+335.,Daily_17_Diff_47_B,Friendly Settlement!,QuestOfTheDay,47,47,Historic,Yes,20400
+336.,Daily_17_Diff_57_B,Friendly Settlement!,QuestOfTheDay,57,57,Historic,Yes,20400
+337.,Daily_17_Diff_18_C,Friendly Settlement!,QuestOfTheDay,18,18,Industrial,Yes,21600
+338.,Daily_17_Diff_28_C,Friendly Settlement!,QuestOfTheDay,28,28,Industrial,Yes,21600
+339.,Daily_17_Diff_38_C,Friendly Settlement!,QuestOfTheDay,38,38,Industrial,Yes,21600
+340.,Daily_17_Diff_48_C,Friendly Settlement!,QuestOfTheDay,48,48,Industrial,Yes,21600
+341.,Daily_17_Diff_58_C,Friendly Settlement!,QuestOfTheDay,58,58,Industrial,Yes,21600
+342.,Daily_17_Diff_19_D,Friendly Settlement!,QuestOfTheDay,19,19,Historic,Yes,22800
+343.,Daily_17_Diff_29_D,Friendly Settlement!,QuestOfTheDay,29,29,Historic,Yes,22800
+344.,Daily_17_Diff_39_D,Friendly Settlement!,QuestOfTheDay,39,39,Historic,Yes,22800
+345.,Daily_17_Diff_49_D,Friendly Settlement!,QuestOfTheDay,49,49,Historic,Yes,22800
+346.,Daily_17_Diff_59_D,Friendly Settlement!,QuestOfTheDay,59,59,Historic,Yes,22800
+347.,Hidden_03,The Mystery of Vault 666,QuestClue,40,40,Vault,No,81000
+348.,Hidden_04,Factory Floor of Fear,QuestClue,50,50,Industrial,No,86400
+349.,Hidden_05,Vault 789,QuestClue,30,30,Vault,No,71100
+350.,NukaWorldQuestline_01_Quest_01,Bottlecap Blues,EventQuest,14,14,Industrial,No,10800
+351.,NukaWorldQuestline_01_Quest_02,In Hot Pursuit,EventQuest,15,15,Vault,No,15600
+352.,NukaWorldQuestline_01_Quest_03,Playing Catch-Up,EventQuest,16,16,Historic,No,13200
+353.,NukaWorldQuestline_01_Quest_04,Pet Peeve,EventQuest,17,17,Historic,No,12000
+354.,NukaWorldQuestline_01_Quest_05,A Refreshing Rescue,EventQuest,18,18,Industrial,No,20400
+355.,LaborDayQuestline_01_Quest_01,Power to the People?,EventQuest,16,16,Vault,No,5400
+356.,LaborDayQuestline_01_Quest_02,No Rest for the Wicked,EventQuest,17,17,Vault,No,14400
+357.,LaborDayQuestline_01_Quest_03,All Work and No Play,EventQuest,18,18,Vault,No,19800
+358.,LaborDayQuestline_01_Quest_04,Working Overtime,EventQuest,19,19,Vault,No,17100
+359.,LaborDayQuestline_01_Quest_05,Rubarb's Reckoning,EventQuest,20,20,Vault,No,21600
+360.,Weekly_01_Diff_06,Game Show Gauntlet,QuestOfTheWeek,6,6,Historic,Yes,50400
+361.,Weekly_01_Diff_16,Game Show Gauntlet,QuestOfTheWeek,16,16,Historic,Yes,50400
+362.,Weekly_01_Diff_26,Game Show Gauntlet,QuestOfTheWeek,26,26,Historic,Yes,50400
+363.,Weekly_01_Diff_36,Game Show Gauntlet,QuestOfTheWeek,36,36,Historic,Yes,50400
+364.,Weekly_01_Diff_46,Game Show Gauntlet,QuestOfTheWeek,46,46,Historic,Yes,50400
+365.,Weekly_02_Diff_08,Game Show Gauntlet,QuestOfTheWeek,8,8,Industrial,Yes,57600
+366.,Weekly_02_Diff_18,Game Show Gauntlet,QuestOfTheWeek,18,18,Industrial,Yes,57600
+367.,Weekly_02_Diff_28,Game Show Gauntlet,QuestOfTheWeek,28,28,Industrial,Yes,57600
+368.,Weekly_02_Diff_38,Game Show Gauntlet,QuestOfTheWeek,38,38,Industrial,Yes,57600
+369.,Weekly_02_Diff_48,Game Show Gauntlet,QuestOfTheWeek,48,48,Industrial,Yes,57600
+370.,Weekly_03_Diff_10,Game Show Gauntlet,QuestOfTheWeek,10,10,Cave,Yes,64800
+371.,Weekly_03_Diff_20,Game Show Gauntlet,QuestOfTheWeek,20,20,Cave,Yes,64800
+372.,Weekly_03_Diff_30,Game Show Gauntlet,QuestOfTheWeek,30,30,Cave,Yes,64800
+373.,Weekly_03_Diff_40,Game Show Gauntlet,QuestOfTheWeek,40,40,Cave,Yes,64800
+374.,Weekly_03_Diff_50,Game Show Gauntlet,QuestOfTheWeek,50,50,Cave,Yes,64800
+375.,Weekly_04_Diff_12,Game Show Gauntlet,QuestOfTheWeek,12,12,Industrial,Yes,72000
+376.,Weekly_04_Diff_22,Game Show Gauntlet,QuestOfTheWeek,22,22,Industrial,Yes,72000
+377.,Weekly_04_Diff_32,Game Show Gauntlet,QuestOfTheWeek,32,32,Industrial,Yes,72000
+378.,Weekly_04_Diff_42,Game Show Gauntlet,QuestOfTheWeek,42,42,Industrial,Yes,72000
+379.,Weekly_04_Diff_52,Game Show Gauntlet,QuestOfTheWeek,52,52,Industrial,Yes,72000
+380.,Weekly_05_Diff_14,Game Show Gauntlet,QuestOfTheWeek,14,14,Vault,Yes,79200
+381.,Weekly_05_Diff_24,Game Show Gauntlet,QuestOfTheWeek,24,24,Vault,Yes,79200
+382.,Weekly_05_Diff_34,Game Show Gauntlet,QuestOfTheWeek,34,34,Vault,Yes,79200
+383.,Weekly_05_Diff_44,Game Show Gauntlet,QuestOfTheWeek,44,44,Vault,Yes,79200
+384.,Weekly_05_Diff_54,Game Show Gauntlet,QuestOfTheWeek,54,54,Vault,Yes,79200
+385.,Weekly_06_Diff_16,Game Show Gauntlet,QuestOfTheWeek,16,16,Historic,Yes,86400
+386.,Weekly_06_Diff_26,Game Show Gauntlet,QuestOfTheWeek,26,26,Historic,Yes,86400
+387.,Weekly_06_Diff_36,Game Show Gauntlet,QuestOfTheWeek,36,36,Historic,Yes,86400
+388.,Weekly_06_Diff_46,Game Show Gauntlet,QuestOfTheWeek,46,46,Historic,Yes,86400
+389.,Weekly_06_Diff_56,Game Show Gauntlet,QuestOfTheWeek,56,56,Historic,Yes,86400
+390.,ThanksgvngQuestline_01_Quest_01,Gobble Gobbler!,EventQuest,9,9,Historic,No,7200
+391.,ThanksgvngQuestline_01_Quest_02,A Delicious Trail of Danger!,EventQuest,10,10,Industrial,No,12600
+392.,ThanksgvngQuestline_01_Quest_03,The Last Gobble!,EventQuest,11,11,Vault,No,19200
+393.,Thanksgiving_01,Who's Carving the Turkey?,EventQuest,2,2,Industrial,No,30000
+394.,Weekly_07_Diff_07,Game Show Gauntlet,QuestOfTheWeek,7,7,Vault,Yes,54000
+395.,Weekly_07_Diff_17,Game Show Gauntlet,QuestOfTheWeek,17,17,Vault,Yes,54000
+396.,Weekly_07_Diff_27,Game Show Gauntlet,QuestOfTheWeek,27,27,Vault,Yes,54000
+397.,Weekly_07_Diff_37,Game Show Gauntlet,QuestOfTheWeek,37,37,Vault,Yes,54000
+398.,Weekly_07_Diff_47,Game Show Gauntlet,QuestOfTheWeek,47,47,Vault,Yes,54000
+399.,Weekly_08_Diff_09,Game Show Gauntlet,QuestOfTheWeek,9,9,Historic,Yes,61200
+400.,Weekly_08_Diff_19,Game Show Gauntlet,QuestOfTheWeek,19,19,Historic,Yes,61200
+401.,Weekly_08_Diff_29,Game Show Gauntlet,QuestOfTheWeek,29,29,Historic,Yes,61200
+402.,Weekly_08_Diff_39,Game Show Gauntlet,QuestOfTheWeek,39,39,Historic,Yes,61200
+403.,Weekly_08_Diff_49,Game Show Gauntlet,QuestOfTheWeek,49,49,Historic,Yes,61200
+404.,Weekly_09_Diff_11,Game Show Gauntlet,QuestOfTheWeek,11,11,Industrial,Yes,68400
+405.,Weekly_09_Diff_21,Game Show Gauntlet,QuestOfTheWeek,21,21,Industrial,Yes,68400
+406.,Weekly_09_Diff_31,Game Show Gauntlet,QuestOfTheWeek,31,31,Industrial,Yes,68400
+407.,Weekly_09_Diff_41,Game Show Gauntlet,QuestOfTheWeek,41,41,Industrial,Yes,68400
+408.,Weekly_09_Diff_51,Game Show Gauntlet,QuestOfTheWeek,51,51,Industrial,Yes,68400
+409.,Weekly_10_Diff_13,Game Show Gauntlet,QuestOfTheWeek,13,13,Historic,Yes,75600
+410.,Weekly_10_Diff_23,Game Show Gauntlet,QuestOfTheWeek,23,23,Historic,Yes,75600
+411.,Weekly_10_Diff_33,Game Show Gauntlet,QuestOfTheWeek,33,33,Historic,Yes,75600
+412.,Weekly_10_Diff_43,Game Show Gauntlet,QuestOfTheWeek,43,43,Historic,Yes,75600
+413.,Weekly_10_Diff_53,Game Show Gauntlet,QuestOfTheWeek,53,53,Historic,Yes,75600
+414.,Weekly_11_Diff_15,Game Show Gauntlet,QuestOfTheWeek,15,15,Cave,Yes,82800
+415.,Weekly_11_Diff_25,Game Show Gauntlet,QuestOfTheWeek,25,25,Cave,Yes,82800
+416.,Weekly_11_Diff_35,Game Show Gauntlet,QuestOfTheWeek,35,35,Cave,Yes,82800
+417.,Weekly_11_Diff_45,Game Show Gauntlet,QuestOfTheWeek,45,45,Cave,Yes,82800
+418.,Weekly_11_Diff_55,Game Show Gauntlet,QuestOfTheWeek,55,55,Cave,Yes,82800
+419.,Weekly_16_Diff_Lowest,Vault-Tec Experiment Review,QuestOfTheWeek,10,10,Vault,Yes,63000
+420.,Weekly_16_Diff_Low,Vault-Tec Experiment Review,QuestOfTheWeek,20,20,Vault,Yes,63000
+421.,Weekly_16_Diff_Mid,Vault-Tec Experiment Review,QuestOfTheWeek,30,30,Vault,Yes,63000
+422.,Weekly_16_Diff_High,Vault-Tec Experiment Review,QuestOfTheWeek,40,40,Vault,Yes,63000
+423.,Weekly_16_Diff_Highest,Vault-Tec Experiment Review,QuestOfTheWeek,50,50,Vault,Yes,63000
+424.,Weekly_17_Diff_Lowest,Vault-Tec Experiment Review,QuestOfTheWeek,11,11,Vault,Yes,66600
+425.,Weekly_17_Diff_Low,Vault-Tec Experiment Review,QuestOfTheWeek,21,21,Vault,Yes,66600
+426.,Weekly_17_Diff_Mid,Vault-Tec Experiment Review,QuestOfTheWeek,31,31,Vault,Yes,66600
+427.,Weekly_17_Diff_High,Vault-Tec Experiment Review,QuestOfTheWeek,41,41,Vault,Yes,66600
+428.,Weekly_17_Diff_Highest,Vault-Tec Experiment Review,QuestOfTheWeek,51,51,Vault,Yes,66600
+429.,Weekly_13_Diff_Lowest,Vault-Tec Experiment Review,QuestOfTheWeek,12,12,Vault,Yes,70200
+430.,Weekly_13_Diff_Low,Vault-Tec Experiment Review,QuestOfTheWeek,22,22,Vault,Yes,70200
+431.,Weekly_13_Diff_Mid,Vault-Tec Experiment Review,QuestOfTheWeek,32,32,Vault,Yes,70200
+432.,Weekly_13_Diff_High,Vault-Tec Experiment Review,QuestOfTheWeek,42,42,Vault,Yes,70200
+433.,Weekly_13_Diff_Highest,Vault-Tec Experiment Review,QuestOfTheWeek,52,52,Vault,Yes,70200
+434.,Weekly_14_Diff_Lowest,Vault-Tec Experiment Review,QuestOfTheWeek,13,13,Vault,Yes,73800
+435.,Weekly_14_Diff_Low,Vault-Tec Experiment Review,QuestOfTheWeek,23,23,Vault,Yes,73800
+436.,Weekly_14_Diff_Mid,Vault-Tec Experiment Review,QuestOfTheWeek,33,33,Vault,Yes,73800
+437.,Weekly_14_Diff_High,Vault-Tec Experiment Review,QuestOfTheWeek,43,43,Vault,Yes,73800
+438.,Weekly_14_Diff_Highest,Vault-Tec Experiment Review,QuestOfTheWeek,53,53,Vault,Yes,73800
+439.,Weekly_12_Diff_Lowest,Vault-Tec Experiment Review,QuestOfTheWeek,14,14,Vault,Yes,77400
+440.,Weekly_12_Diff_Low,Vault-Tec Experiment Review,QuestOfTheWeek,24,24,Vault,Yes,77400
+441.,Weekly_12_Diff_Mid,Vault-Tec Experiment Review,QuestOfTheWeek,34,34,Vault,Yes,77400
+442.,Weekly_12_Diff_High,Vault-Tec Experiment Review,QuestOfTheWeek,44,44,Vault,Yes,77400
+443.,Weekly_12_Diff_Highest,Vault-Tec Experiment Review,QuestOfTheWeek,54,54,Vault,Yes,77400
+444.,Weekly_15_Diff_Lowest,Vault-Tec Experiment Review,QuestOfTheWeek,15,15,Vault,Yes,81000
+445.,Weekly_15_Diff_Low,Vault-Tec Experiment Review,QuestOfTheWeek,25,25,Vault,Yes,81000
+446.,Weekly_15_Diff_Mid,Vault-Tec Experiment Review,QuestOfTheWeek,35,35,Vault,Yes,81000
+447.,Weekly_15_Diff_High,Vault-Tec Experiment Review,QuestOfTheWeek,45,45,Vault,Yes,81000
+448.,Weekly_15_Diff_Highest,Vault-Tec Experiment Review,QuestOfTheWeek,55,55,Vault,Yes,81000
+449.,Standalone_40,Honeymoon Horror,StandardQuest,26,26,Cave,Yes,62100
+450.,Daily_29_Diff_Lowest,Spelun-King Training,QuestOfTheDay,13,13,Cave,Yes,8100
+451.,Daily_29_Diff_Low,Spelun-King Training,QuestOfTheDay,23,23,Cave,Yes,8100
+452.,Daily_29_Diff_Mid,Spelun-King Training,QuestOfTheDay,33,33,Cave,Yes,8100
+453.,Daily_29_Diff_High,Spelun-King Training,QuestOfTheDay,43,43,Cave,Yes,8100
+454.,Daily_29_Diff_Highest,Spelun-King Training,QuestOfTheDay,53,53,Cave,Yes,8100
+455.,Daily_30_Diff_Lowest,Spelun-King Training,QuestOfTheDay,14,14,Cave,Yes,9900
+456.,Daily_30_Diff_Low,Spelun-King Training,QuestOfTheDay,24,24,Cave,Yes,9900
+457.,Daily_30_Diff_Mid,Spelun-King Training,QuestOfTheDay,34,34,Cave,Yes,9900
+458.,Daily_30_Diff_High,Spelun-King Training,QuestOfTheDay,44,44,Cave,Yes,9900
+459.,Daily_30_Diff_Highest,Spelun-King Training,QuestOfTheDay,54,54,Cave,Yes,9900
+460.,Daily_31_Diff_Lowest,Spelun-King Training,QuestOfTheDay,8,8,Cave,Yes,11700
+461.,Daily_31_Diff_Low,Spelun-King Training,QuestOfTheDay,18,18,Cave,Yes,11700
+462.,Daily_31_Diff_Mid,Spelun-King Training,QuestOfTheDay,28,28,Cave,Yes,11700
+463.,Daily_31_Diff_High,Spelun-King Training,QuestOfTheDay,38,38,Cave,Yes,11700
+464.,Daily_31_Diff_Highest,Spelun-King Training,QuestOfTheDay,48,48,Cave,Yes,11700
+465.,Daily_32_Diff_Lowest,Spelun-King Training,QuestOfTheDay,12,12,Cave,Yes,13500
+466.,Daily_32_Diff_Low,Spelun-King Training,QuestOfTheDay,22,22,Cave,Yes,13500
+467.,Daily_32_Diff_Mid,Spelun-King Training,QuestOfTheDay,32,32,Cave,Yes,13500
+468.,Daily_32_Diff_High,Spelun-King Training,QuestOfTheDay,42,42,Cave,Yes,13500
+469.,Daily_32_Diff_Highest,Spelun-King Training,QuestOfTheDay,52,52,Cave,Yes,13500
+470.,Daily_33_Diff_Lowest,Spelun-King Training,QuestOfTheDay,6,6,Cave,Yes,15300
+471.,Daily_33_Diff_Low,Spelun-King Training,QuestOfTheDay,16,16,Cave,Yes,15300
+472.,Daily_33_Diff_Mid,Spelun-King Training,QuestOfTheDay,26,26,Cave,Yes,15300
+473.,Daily_33_Diff_High,Spelun-King Training,QuestOfTheDay,36,36,Cave,Yes,15300
+474.,Daily_33_Diff_Highest,Spelun-King Training,QuestOfTheDay,46,46,Cave,Yes,15300
+475.,Daily_34_Diff_Lowest,Spelun-King Training,QuestOfTheDay,15,15,Cave,Yes,17100
+476.,Daily_34_Diff_Low,Spelun-King Training,QuestOfTheDay,25,25,Cave,Yes,17100
+477.,Daily_34_Diff_Mid,Spelun-King Training,QuestOfTheDay,35,35,Cave,Yes,17100
+478.,Daily_34_Diff_High,Spelun-King Training,QuestOfTheDay,45,45,Cave,Yes,17100
+479.,Daily_34_Diff_Highest,Spelun-King Training,QuestOfTheDay,55,55,Cave,Yes,17100
+480.,Daily_35_Diff_Lowest,Spelun-King Training,QuestOfTheDay,10,10,Cave,Yes,18900
+481.,Daily_35_Diff_Low,Spelun-King Training,QuestOfTheDay,20,20,Cave,Yes,18900
+482.,Daily_35_Diff_Mid,Spelun-King Training,QuestOfTheDay,30,30,Cave,Yes,18900
+483.,Daily_35_Diff_High,Spelun-King Training,QuestOfTheDay,40,40,Cave,Yes,18900
+484.,Daily_35_Diff_Highest,Spelun-King Training,QuestOfTheDay,50,50,Cave,Yes,18900
+485.,Daily_03_Diff_10_A,Junk Run,QuestOfTheDay,11,11,Industrial,Yes,14400
+486.,Daily_03_Diff_20_A,Junk Run,QuestOfTheDay,22,22,Industrial,Yes,14400
+487.,Daily_03_Diff_30_A,Junk Run,QuestOfTheDay,33,33,Industrial,Yes,14400
+488.,Daily_03_Diff_40_A,Junk Run,QuestOfTheDay,44,44,Industrial,Yes,14400
+489.,Daily_03_Diff_50_A,Junk Run,QuestOfTheDay,50,50,Industrial,Yes,14400
+490.,Daily_03_Diff_10_B,Junk Run,QuestOfTheDay,11,11,Historic,Yes,14400
+491.,Daily_03_Diff_20_B,Junk Run,QuestOfTheDay,22,22,Historic,Yes,14400
+492.,Daily_03_Diff_30_B,Junk Run,QuestOfTheDay,33,33,Historic,Yes,14400
+493.,Daily_03_Diff_40_B,Junk Run,QuestOfTheDay,44,44,Historic,Yes,14400
+494.,Daily_03_Diff_50_B,Junk Run,QuestOfTheDay,50,50,Historic,Yes,14400
+495.,Daily_03_Diff_10_C,Junk Run,QuestOfTheDay,11,11,Cave,Yes,14400
+496.,Daily_03_Diff_20_C,Junk Run,QuestOfTheDay,22,22,Cave,Yes,14400
+497.,Daily_03_Diff_30_C,Junk Run,QuestOfTheDay,33,33,Cave,Yes,14400
+498.,Daily_03_Diff_40_C,Junk Run,QuestOfTheDay,44,44,Cave,Yes,14400
+499.,Daily_03_Diff_50_C,Junk Run,QuestOfTheDay,50,50,Cave,Yes,14400
+500.,Daily_04_Diff_10_A,Caps Run,QuestOfTheDay,11,11,Historic,Yes,14400
+501.,Daily_04_Diff_20_A,Caps Run,QuestOfTheDay,22,22,Historic,Yes,14400
+502.,Daily_04_Diff_30_A,Caps Run,QuestOfTheDay,33,33,Historic,Yes,14400
+503.,Daily_04_Diff_40_A,Caps Run,QuestOfTheDay,44,44,Historic,Yes,14400
+504.,Daily_04_Diff_50_A,Caps Run,QuestOfTheDay,50,50,Historic,Yes,14400
+505.,Daily_04_Diff_10_B,Caps Run,QuestOfTheDay,11,11,Industrial,Yes,14400
+506.,Daily_04_Diff_20_B,Caps Run,QuestOfTheDay,22,22,Industrial,Yes,14400
+507.,Daily_04_Diff_30_B,Caps Run,QuestOfTheDay,33,33,Industrial,Yes,14400
+508.,Daily_04_Diff_40_B,Caps Run,QuestOfTheDay,44,44,Industrial,Yes,14400
+509.,Daily_04_Diff_50_B,Caps Run,QuestOfTheDay,50,50,Industrial,Yes,14400
+510.,Daily_04_Diff_10_C,Caps Run,QuestOfTheDay,11,11,Vault,Yes,14400
+511.,Daily_04_Diff_20_C,Caps Run,QuestOfTheDay,22,22,Vault,Yes,14400
+512.,Daily_04_Diff_30_C,Caps Run,QuestOfTheDay,33,33,Vault,Yes,14400
+513.,Daily_04_Diff_40_C,Caps Run,QuestOfTheDay,44,44,Vault,Yes,14400
+514.,Daily_04_Diff_50_C,Caps Run,QuestOfTheDay,50,50,Vault,Yes,14400
+515.,Daily_05_Diff_10_A,Rescue Operation,QuestOfTheDay,11,11,Industrial,Yes,14400
+516.,Daily_05_Diff_20_A,Rescue Operation,QuestOfTheDay,22,22,Industrial,Yes,14400
+517.,Daily_05_Diff_30_A,Rescue Operation,QuestOfTheDay,33,33,Industrial,Yes,14400
+518.,Daily_05_Diff_40_A,Rescue Operation,QuestOfTheDay,44,44,Industrial,Yes,14400
+519.,Daily_05_Diff_50_A,Rescue Operation,QuestOfTheDay,50,50,Industrial,Yes,14400
+520.,Daily_05_Diff_10_B,Rescue Operation,QuestOfTheDay,11,11,Historic,Yes,14400
+521.,Daily_05_Diff_20_B,Rescue Operation,QuestOfTheDay,22,22,Historic,Yes,14400
+522.,Daily_05_Diff_30_B,Rescue Operation,QuestOfTheDay,33,33,Historic,Yes,14400
+523.,Daily_05_Diff_40_B,Rescue Operation,QuestOfTheDay,44,44,Historic,Yes,14400
+524.,Daily_05_Diff_50_B,Rescue Operation,QuestOfTheDay,50,50,Historic,Yes,14400
+525.,Daily_05_Diff_10_C,Rescue Operation,QuestOfTheDay,11,11,Vault,Yes,14400
+526.,Daily_05_Diff_20_C,Rescue Operation,QuestOfTheDay,22,22,Vault,Yes,14400
+527.,Daily_05_Diff_30_C,Rescue Operation,QuestOfTheDay,33,33,Vault,Yes,14400
+528.,Daily_05_Diff_40_C,Rescue Operation,QuestOfTheDay,44,44,Vault,Yes,14400
+529.,Daily_05_Diff_50_C,Rescue Operation,QuestOfTheDay,50,50,Vault,Yes,14400
+530.,Daily_06_Diff_10_A,Lunchbox Run,QuestOfTheDay,11,11,Historic,Yes,14400
+531.,Daily_06_Diff_20_A,Lunchbox Run,QuestOfTheDay,22,22,Historic,Yes,14400
+532.,Daily_06_Diff_30_A,Lunchbox Run,QuestOfTheDay,33,33,Historic,Yes,14400
+533.,Daily_06_Diff_40_A,Lunchbox Run,QuestOfTheDay,44,44,Historic,Yes,14400
+534.,Daily_06_Diff_50_A,Lunchbox Run,QuestOfTheDay,50,50,Historic,Yes,14400
+535.,Daily_06_Diff_10_B,Lunchbox Run,QuestOfTheDay,11,11,Industrial,Yes,14400
+536.,Daily_06_Diff_20_B,Lunchbox Run,QuestOfTheDay,22,22,Industrial,Yes,14400
+537.,Daily_06_Diff_30_B,Lunchbox Run,QuestOfTheDay,33,33,Industrial,Yes,14400
+538.,Daily_06_Diff_40_B,Lunchbox Run,QuestOfTheDay,44,44,Industrial,Yes,14400
+539.,Daily_06_Diff_50_B,Lunchbox Run,QuestOfTheDay,50,50,Industrial,Yes,14400
+540.,Daily_06_Diff_10_C,Lunchbox Run,QuestOfTheDay,11,11,Vault,Yes,14400
+541.,Daily_06_Diff_20_C,Lunchbox Run,QuestOfTheDay,22,22,Vault,Yes,14400
+542.,Daily_06_Diff_30_C,Lunchbox Run,QuestOfTheDay,33,33,Vault,Yes,14400
+543.,Daily_06_Diff_40_C,Lunchbox Run,QuestOfTheDay,44,44,Vault,Yes,14400
+544.,Daily_06_Diff_50_C,Lunchbox Run,QuestOfTheDay,50,50,Vault,Yes,14400
+545.,Daily_07_Diff_10_A,Nuka-Cola Quantum Run,QuestOfTheDay,11,11,Industrial,Yes,14400
+546.,Daily_07_Diff_20_A,Nuka-Cola Quantum Run,QuestOfTheDay,22,22,Industrial,Yes,14400
+547.,Daily_07_Diff_30_A,Nuka-Cola Quantum Run,QuestOfTheDay,33,33,Industrial,Yes,14400
+548.,Daily_07_Diff_40_A,Nuka-Cola Quantum Run,QuestOfTheDay,44,44,Industrial,Yes,14400
+549.,Daily_07_Diff_50_A,Nuka-Cola Quantum Run,QuestOfTheDay,50,50,Industrial,Yes,14400
+550.,Daily_07_Diff_10_B,Nuka-Cola Quantum Run,QuestOfTheDay,11,11,Historic,Yes,14400
+551.,Daily_07_Diff_20_B,Nuka-Cola Quantum Run,QuestOfTheDay,22,22,Historic,Yes,14400
+552.,Daily_07_Diff_30_B,Nuka-Cola Quantum Run,QuestOfTheDay,33,33,Historic,Yes,14400
+553.,Daily_07_Diff_40_B,Nuka-Cola Quantum Run,QuestOfTheDay,44,44,Historic,Yes,14400
+554.,Daily_07_Diff_50_B,Nuka-Cola Quantum Run,QuestOfTheDay,50,50,Historic,Yes,14400
+555.,Daily_07_Diff_10_C,Nuka-Cola Quantum Run,QuestOfTheDay,11,11,Cave,Yes,14400
+556.,Daily_07_Diff_20_C,Nuka-Cola Quantum Run,QuestOfTheDay,22,22,Cave,Yes,14400
+557.,Daily_07_Diff_30_C,Nuka-Cola Quantum Run,QuestOfTheDay,33,33,Cave,Yes,14400
+558.,Daily_07_Diff_40_C,Nuka-Cola Quantum Run,QuestOfTheDay,44,44,Cave,Yes,14400
+559.,Daily_07_Diff_50_C,Nuka-Cola Quantum Run,QuestOfTheDay,50,50,Cave,Yes,14400
+560.,Daily_08_Diff_10_A,Animal Rescue,StandardQuest,11,11,Historic,No,14400
+561.,Daily_08_Diff_20_A,Animal Rescue,StandardQuest,22,22,Historic,No,14400
+562.,Daily_08_Diff_30_A,Animal Rescue,StandardQuest,33,33,Historic,No,14400
+563.,Daily_08_Diff_40_A,Animal Rescue,StandardQuest,44,44,Historic,No,14400
+564.,Daily_08_Diff_50_A,Animal Rescue,StandardQuest,50,50,Historic,No,14400
+565.,Daily_08_Diff_10_B,Animal Rescue,StandardQuest,11,11,Industrial,No,14400
+566.,Daily_08_Diff_20_B,Animal Rescue,StandardQuest,22,22,Industrial,No,14400
+567.,Daily_08_Diff_30_B,Animal Rescue,StandardQuest,33,33,Industrial,No,14400
+568.,Daily_08_Diff_40_B,Animal Rescue,StandardQuest,44,44,Industrial,No,14400
+569.,Daily_08_Diff_50_B,Animal Rescue,StandardQuest,50,50,Industrial,No,14400
+570.,Daily_08_Diff_10_C,Animal Rescue,StandardQuest,11,11,Vault,No,14400
+571.,Daily_08_Diff_20_C,Animal Rescue,StandardQuest,22,22,Vault,No,14400
+572.,Daily_08_Diff_30_C,Animal Rescue,StandardQuest,33,33,Vault,No,14400
+573.,Daily_08_Diff_40_C,Animal Rescue,StandardQuest,44,44,Vault,No,14400
+574.,Daily_08_Diff_50_C,Animal Rescue,StandardQuest,50,50,Vault,No,14400
+575.,Daily_09_Diff_10_A,Robot Retrieval,StandardQuest,11,11,Industrial,No,14400
+576.,Daily_09_Diff_20_A,Robot Retrieval,StandardQuest,22,22,Industrial,No,14400
+577.,Daily_09_Diff_30_A,Robot Retrieval,StandardQuest,33,33,Industrial,No,14400
+578.,Daily_09_Diff_40_A,Robot Retrieval,StandardQuest,44,44,Industrial,No,14400
+579.,Daily_09_Diff_50_A,Robot Retrieval,StandardQuest,50,50,Industrial,No,14400
+580.,Daily_09_Diff_10_B,Robot Retrieval,StandardQuest,11,11,Historic,No,14400
+581.,Daily_09_Diff_20_B,Robot Retrieval,StandardQuest,22,22,Historic,No,14400
+582.,Daily_09_Diff_30_B,Robot Retrieval,StandardQuest,33,33,Historic,No,14400
+583.,Daily_09_Diff_40_B,Robot Retrieval,StandardQuest,44,44,Historic,No,14400
+584.,Daily_09_Diff_50_B,Robot Retrieval,StandardQuest,50,50,Historic,No,14400
+585.,Daily_09_Diff_10_C,Robot Retrieval,StandardQuest,11,11,Vault,No,14400
+586.,Daily_09_Diff_20_C,Robot Retrieval,StandardQuest,22,22,Vault,No,14400
+587.,Daily_09_Diff_30_C,Robot Retrieval,StandardQuest,33,33,Vault,No,14400
+588.,Daily_09_Diff_40_C,Robot Retrieval,StandardQuest,44,44,Vault,No,14400
+589.,Daily_09_Diff_50_C,Robot Retrieval,StandardQuest,50,50,Vault,No,14400
+590.,Daily_10_Diff_10_A,Guardian of the Wastes: Radroaches!,QuestOfTheDay,11,11,Historic,Yes,14400
+591.,Daily_10_Diff_20_A,Guardian of the Wastes: Radroaches!,QuestOfTheDay,22,22,Historic,Yes,14400
+592.,Daily_10_Diff_30_A,Guardian of the Wastes: Radroaches!,QuestOfTheDay,33,33,Historic,Yes,14400
+593.,Daily_10_Diff_40_A,Guardian of the Wastes: Radroaches!,QuestOfTheDay,44,44,Historic,Yes,14400
+594.,Daily_10_Diff_50_A,Guardian of the Wastes: Radroaches!,QuestOfTheDay,50,50,Historic,Yes,14400
+595.,Daily_10_Diff_10_B,Guardian of the Wastes: Radroaches!,QuestOfTheDay,11,11,Industrial,Yes,14400
+596.,Daily_10_Diff_20_B,Guardian of the Wastes: Radroaches!,QuestOfTheDay,22,22,Industrial,Yes,14400
+597.,Daily_10_Diff_30_B,Guardian of the Wastes: Radroaches!,QuestOfTheDay,33,33,Industrial,Yes,14400
+598.,Daily_10_Diff_40_B,Guardian of the Wastes: Radroaches!,QuestOfTheDay,44,44,Industrial,Yes,14400
+599.,Daily_10_Diff_50_B,Guardian of the Wastes: Radroaches!,QuestOfTheDay,50,50,Industrial,Yes,14400
+600.,Daily_10_Diff_10_C,Guardian of the Wastes: Radroaches!,QuestOfTheDay,11,11,Vault,Yes,14400
+601.,Daily_10_Diff_20_C,Guardian of the Wastes: Radroaches!,QuestOfTheDay,22,22,Vault,Yes,14400
+602.,Daily_10_Diff_30_C,Guardian of the Wastes: Radroaches!,QuestOfTheDay,33,33,Vault,Yes,14400
+603.,Daily_10_Diff_40_C,Guardian of the Wastes: Radroaches!,QuestOfTheDay,44,44,Vault,Yes,14400
+604.,Daily_10_Diff_50_C,Guardian of the Wastes: Radroaches!,QuestOfTheDay,50,50,Vault,Yes,14400
+605.,Daily_11_Diff_10_A,Guardian of the Wastes: Mole Rats!,QuestOfTheDay,11,11,Industrial,Yes,14400
+606.,Daily_11_Diff_20_A,Guardian of the Wastes: Mole Rats!,QuestOfTheDay,22,22,Industrial,Yes,14400
+607.,Daily_11_Diff_30_A,Guardian of the Wastes: Mole Rats!,QuestOfTheDay,33,33,Industrial,Yes,14400
+608.,Daily_11_Diff_40_A,Guardian of the Wastes: Mole Rats!,QuestOfTheDay,44,44,Industrial,Yes,14400
+609.,Daily_11_Diff_50_A,Guardian of the Wastes: Mole Rats!,QuestOfTheDay,50,50,Industrial,Yes,14400
+610.,Daily_11_Diff_10_B,Guardian of the Wastes: Mole Rats!,QuestOfTheDay,11,11,Historic,Yes,14400
+611.,Daily_11_Diff_20_B,Guardian of the Wastes: Mole Rats!,QuestOfTheDay,22,22,Historic,Yes,14400
+612.,Daily_11_Diff_30_B,Guardian of the Wastes: Mole Rats!,QuestOfTheDay,33,33,Historic,Yes,14400
+613.,Daily_11_Diff_40_B,Guardian of the Wastes: Mole Rats!,QuestOfTheDay,44,44,Historic,Yes,14400
+614.,Daily_11_Diff_50_B,Guardian of the Wastes: Mole Rats!,QuestOfTheDay,50,50,Historic,Yes,14400
+615.,Daily_11_Diff_10_C,Guardian of the Wastes: Mole Rats!,QuestOfTheDay,11,11,Vault,Yes,14400
+616.,Daily_11_Diff_20_C,Guardian of the Wastes: Mole Rats!,QuestOfTheDay,22,22,Vault,Yes,14400
+617.,Daily_11_Diff_30_C,Guardian of the Wastes: Mole Rats!,QuestOfTheDay,33,33,Vault,Yes,14400
+618.,Daily_11_Diff_40_C,Guardian of the Wastes: Mole Rats!,QuestOfTheDay,44,44,Vault,Yes,14400
+619.,Daily_11_Diff_50_C,Guardian of the Wastes: Mole Rats!,QuestOfTheDay,50,50,Vault,Yes,14400
+620.,Daily_12_Diff_10_A,Guardian of the Wastes: Feral Ghouls!,QuestOfTheDay,11,11,Historic,Yes,14400
+621.,Daily_12_Diff_20_A,Guardian of the Wastes: Feral Ghouls!,QuestOfTheDay,22,22,Historic,Yes,14400
+622.,Daily_12_Diff_30_A,Guardian of the Wastes: Feral Ghouls!,QuestOfTheDay,33,33,Historic,Yes,14400
+623.,Daily_12_Diff_40_A,Guardian of the Wastes: Feral Ghouls!,QuestOfTheDay,44,44,Historic,Yes,14400
+624.,Daily_12_Diff_50_A,Guardian of the Wastes: Feral Ghouls!,QuestOfTheDay,50,50,Historic,Yes,14400
+625.,Daily_12_Diff_10_B,Guardian of the Wastes: Feral Ghouls!,QuestOfTheDay,11,11,Industrial,Yes,14400
+626.,Daily_12_Diff_20_B,Guardian of the Wastes: Feral Ghouls!,QuestOfTheDay,22,22,Industrial,Yes,14400
+627.,Daily_12_Diff_30_B,Guardian of the Wastes: Feral Ghouls!,QuestOfTheDay,33,33,Industrial,Yes,14400
+628.,Daily_12_Diff_40_B,Guardian of the Wastes: Feral Ghouls!,QuestOfTheDay,44,44,Industrial,Yes,14400
+629.,Daily_12_Diff_50_B,Guardian of the Wastes: Feral Ghouls!,QuestOfTheDay,50,50,Industrial,Yes,14400
+630.,Daily_12_Diff_10_C,Guardian of the Wastes: Feral Ghouls!,QuestOfTheDay,11,11,Cave,Yes,14400
+631.,Daily_12_Diff_20_C,Guardian of the Wastes: Feral Ghouls!,QuestOfTheDay,22,22,Cave,Yes,14400
+632.,Daily_12_Diff_30_C,Guardian of the Wastes: Feral Ghouls!,QuestOfTheDay,33,33,Cave,Yes,14400
+633.,Daily_12_Diff_40_C,Guardian of the Wastes: Feral Ghouls!,QuestOfTheDay,44,44,Cave,Yes,14400
+634.,Daily_12_Diff_50_C,Guardian of the Wastes: Feral Ghouls!,QuestOfTheDay,50,50,Cave,Yes,14400
+635.,Daily_13_Diff_10_A,Guardian of the Wastes: Radscorpions!,QuestOfTheDay,11,11,Industrial,Yes,14400
+636.,Daily_13_Diff_20_A,Guardian of the Wastes: Radscorpions!,QuestOfTheDay,22,22,Industrial,Yes,14400
+637.,Daily_13_Diff_30_A,Guardian of the Wastes: Radscorpions!,QuestOfTheDay,33,33,Industrial,Yes,14400
+638.,Daily_13_Diff_40_A,Guardian of the Wastes: Radscorpions!,QuestOfTheDay,44,44,Industrial,Yes,14400
+639.,Daily_13_Diff_50_A,Guardian of the Wastes: Radscorpions!,QuestOfTheDay,50,50,Industrial,Yes,14400
+640.,Daily_13_Diff_10_B,Guardian of the Wastes: Radscorpions!,QuestOfTheDay,11,11,Historic,Yes,14400
+641.,Daily_13_Diff_20_B,Guardian of the Wastes: Radscorpions!,QuestOfTheDay,22,22,Historic,Yes,14400
+642.,Daily_13_Diff_30_B,Guardian of the Wastes: Radscorpions!,QuestOfTheDay,33,33,Historic,Yes,14400
+643.,Daily_13_Diff_40_B,Guardian of the Wastes: Radscorpions!,QuestOfTheDay,44,44,Historic,Yes,14400
+644.,Daily_13_Diff_50_B,Guardian of the Wastes: Radscorpions!,QuestOfTheDay,50,50,Historic,Yes,14400
+645.,Daily_13_Diff_10_C,Guardian of the Wastes: Radscorpions!,QuestOfTheDay,11,11,Vault,Yes,14400
+646.,Daily_13_Diff_20_C,Guardian of the Wastes: Radscorpions!,QuestOfTheDay,22,22,Vault,Yes,14400
+647.,Daily_13_Diff_30_C,Guardian of the Wastes: Radscorpions!,QuestOfTheDay,33,33,Vault,Yes,14400
+648.,Daily_13_Diff_40_C,Guardian of the Wastes: Radscorpions!,QuestOfTheDay,44,44,Vault,Yes,14400
+649.,Daily_13_Diff_50_C,Guardian of the Wastes: Radscorpions!,QuestOfTheDay,50,50,Vault,Yes,14400
+650.,Daily_14_Diff_10_A,Guardian of the Wastes: Deathclaws!,QuestOfTheDay,11,11,Historic,Yes,14400
+651.,Daily_14_Diff_20_A,Guardian of the Wastes: Deathclaws!,QuestOfTheDay,22,22,Historic,Yes,14400
+652.,Daily_14_Diff_30_A,Guardian of the Wastes: Deathclaws!,QuestOfTheDay,33,33,Historic,Yes,14400
+653.,Daily_14_Diff_40_A,Guardian of the Wastes: Deathclaws!,QuestOfTheDay,44,44,Historic,Yes,14400
+654.,Daily_14_Diff_50_A,Guardian of the Wastes: Deathclaws!,QuestOfTheDay,50,50,Historic,Yes,14400
+655.,Daily_14_Diff_10_B,Guardian of the Wastes: Deathclaws!,QuestOfTheDay,11,11,Industrial,Yes,14400
+656.,Daily_14_Diff_20_B,Guardian of the Wastes: Deathclaws!,QuestOfTheDay,22,22,Industrial,Yes,14400
+657.,Daily_14_Diff_30_B,Guardian of the Wastes: Deathclaws!,QuestOfTheDay,33,33,Industrial,Yes,14400
+658.,Daily_14_Diff_40_B,Guardian of the Wastes: Deathclaws!,QuestOfTheDay,44,44,Industrial,Yes,14400
+659.,Daily_14_Diff_50_B,Guardian of the Wastes: Deathclaws!,QuestOfTheDay,50,50,Industrial,Yes,14400
+660.,Daily_14_Diff_10_C,Guardian of the Wastes: Deathclaws!,QuestOfTheDay,11,11,Cave,Yes,14400
+661.,Daily_14_Diff_20_C,Guardian of the Wastes: Deathclaws!,QuestOfTheDay,22,22,Cave,Yes,14400
+662.,Daily_14_Diff_30_C,Guardian of the Wastes: Deathclaws!,QuestOfTheDay,33,33,Cave,Yes,14400
+663.,Daily_14_Diff_40_C,Guardian of the Wastes: Deathclaws!,QuestOfTheDay,44,44,Cave,Yes,14400
+664.,Daily_14_Diff_50_C,Guardian of the Wastes: Deathclaws!,QuestOfTheDay,50,50,Cave,Yes,14400
+665.,RedRocket_02_Diff_10,Pest Control,QuestSurprise,5,5,RedRocket,Yes,0
+666.,RedRocket_02_Diff_20,Pest Control,QuestSurprise,13,13,RedRocket,Yes,0
+667.,RedRocket_02_Diff_30,Pest Control,QuestSurprise,21,21,RedRocket,Yes,0
+668.,RedRocket_02_Diff_40,Pest Control,QuestSurprise,29,29,RedRocket,Yes,0
+669.,RedRocket_02_Diff_50,Pest Control,QuestSurprise,37,37,RedRocket,Yes,0
+670.,RedRocket_03_Diff_10,Pit Stop,QuestSurprise,5,5,RedRocket,Yes,0
+671.,RedRocket_03_Diff_20,Pit Stop,QuestSurprise,13,13,RedRocket,Yes,0
+672.,RedRocket_03_Diff_30,Pit Stop,QuestSurprise,21,21,RedRocket,Yes,0
+673.,RedRocket_03_Diff_40,Pit Stop,QuestSurprise,29,29,RedRocket,Yes,0
+674.,RedRocket_03_Diff_50,Pit Stop,QuestSurprise,37,37,RedRocket,Yes,0
+675.,RedRocket_04_Diff_10,Misery Loathes Company,QuestSurprise,5,5,RedRocket,Yes,0
+676.,RedRocket_04_Diff_20,Misery Loathes Company,QuestSurprise,13,13,RedRocket,Yes,0
+677.,RedRocket_04_Diff_30,Misery Loathes Company,QuestSurprise,21,21,RedRocket,Yes,0
+678.,RedRocket_04_Diff_40,Misery Loathes Company,QuestSurprise,29,29,RedRocket,Yes,0
+679.,RedRocket_04_Diff_50,Misery Loathes Company,QuestSurprise,37,37,RedRocket,Yes,0
+680.,SuperMart_02_Diff_10,Pest-Case Scenario,QuestSurprise,3,3,MarketPlace,Yes,0
+681.,SuperMart_02_Diff_20,Pest-Case Scenario,QuestSurprise,11,11,MarketPlace,Yes,0
+682.,SuperMart_02_Diff_30,Pest-Case Scenario,QuestSurprise,19,19,MarketPlace,Yes,0
+683.,SuperMart_02_Diff_40,Pest-Case Scenario,QuestSurprise,27,27,MarketPlace,Yes,0
+684.,SuperMart_02_Diff_50,Pest-Case Scenario,QuestSurprise,35,35,MarketPlace,Yes,0
+685.,SuperMart_03_Diff_10,One Ghoul Customer,QuestSurprise,3,3,MarketPlace,Yes,0
+686.,SuperMart_03_Diff_20,One Ghoul Customer,QuestSurprise,11,11,MarketPlace,Yes,0
+687.,SuperMart_03_Diff_30,One Ghoul Customer,QuestSurprise,19,19,MarketPlace,Yes,0
+688.,SuperMart_03_Diff_40,One Ghoul Customer,QuestSurprise,27,27,MarketPlace,Yes,0
+689.,SuperMart_03_Diff_50,One Ghoul Customer,QuestSurprise,35,35,MarketPlace,Yes,0
+690.,SuperMart_04_Diff_10,Crossing Paths,QuestSurprise,3,3,MarketPlace,Yes,0
+691.,SuperMart_04_Diff_20,Crossing Paths,QuestSurprise,11,11,MarketPlace,Yes,0
+692.,SuperMart_04_Diff_30,Crossing Paths,QuestSurprise,19,19,MarketPlace,Yes,0
+693.,SuperMart_04_Diff_40,Crossing Paths,QuestSurprise,27,27,MarketPlace,Yes,0
+694.,SuperMart_04_Diff_50,Crossing Paths,QuestSurprise,35,35,MarketPlace,Yes,0
+695.,AbandonedCabin_02_Diff_10,Anybody Home?,QuestSurprise,4,4,AbandonedHouse,Yes,0
+696.,AbandonedCabin_02_Diff_20,Anybody Home?,QuestSurprise,12,12,AbandonedHouse,Yes,0
+697.,AbandonedCabin_02_Diff_30,Anybody Home?,QuestSurprise,20,20,AbandonedHouse,Yes,0
+698.,AbandonedCabin_02_Diff_40,Anybody Home?,QuestSurprise,28,28,AbandonedHouse,Yes,0
+699.,AbandonedCabin_02_Diff_50,Anybody Home?,QuestSurprise,36,36,AbandonedHouse,Yes,0
+700.,AbandonedCabin_03_Diff_10,Uninvited Guests,QuestSurprise,4,4,AbandonedHouse,Yes,0
+701.,AbandonedCabin_03_Diff_20,Uninvited Guests,QuestSurprise,12,12,AbandonedHouse,Yes,0
+702.,AbandonedCabin_03_Diff_30,Uninvited Guests,QuestSurprise,20,20,AbandonedHouse,Yes,0
+703.,AbandonedCabin_03_Diff_40,Uninvited Guests,QuestSurprise,28,28,AbandonedHouse,Yes,0
+704.,AbandonedCabin_03_Diff_50,Uninvited Guests,QuestSurprise,36,36,AbandonedHouse,Yes,0
+705.,AbandonedCabin_04_Diff_10,Family Matters,QuestSurprise,4,4,AbandonedHouse,Yes,0
+706.,AbandonedCabin_04_Diff_20,Family Matters,QuestSurprise,12,12,AbandonedHouse,Yes,0
+707.,AbandonedCabin_04_Diff_30,Family Matters,QuestSurprise,20,20,AbandonedHouse,Yes,0
+708.,AbandonedCabin_04_Diff_40,Family Matters,QuestSurprise,28,28,AbandonedHouse,Yes,0
+709.,AbandonedCabin_04_Diff_50,Family Matters,QuestSurprise,36,36,AbandonedHouse,Yes,0
+710.,FootballQuestline_01_Quest_01,First Down,EventQuest,7,7,Historic,No,7200
+711.,FootballQuestline_01_Quest_02,Second-Stringers,EventQuest,8,8,Historic,No,10800
+712.,FootballQuestline_01_Quest_03,Third and Goal,EventQuest,9,9,Industrial,No,14400
+713.,Standalone_45,A Pale Imitation,StandardQuest,23,23,Historic,No,72000
+714.,CaveTest_01,Wrongo! I'm afraid you must... Lose Your Head!,StandardQuest,1,1,Cave,No,300
+715.,Standalone_46,Wedding Crashers,StandardQuest,33,33,Cave,No,79200
+716.,Standalone_47,Monster Under the Bed,StandardQuest,27,27,Cave,No,72000
+717.,Standalone_48,Time to Wake Up!,StandardQuest,36,36,Historic,No,16200
+718.,Standalone_49,Dog Gone,StandardQuest,21,21,Cave,No,72000
+719.,Standalone_50,Raiding Party,StandardQuest,22,22,Cave,No,72000
+720.,Holidays_01,The Spirit of Taking,EventQuest,15,15,Historic,No,36000
+721.,Holidays_02,To Grandmother's House We Go,EventQuest,21,21,Cave,No,36000
+722.,BlackFriday_01,The Door Buster,EventQuest,12,12,Cave,No,36000
+723.,HolidaysQuestline_01_Quest_01,Santa's Helpers,QuestlineQuest,10,10,Vault,No,14400
+724.,HolidaysQuestline_01_Quest_02,Christmas at the Raider Camp,QuestlineQuest,11,11,Historic,No,28800
+725.,HolidaysQuestline_01_Quest_03,Cheer for the Ghouls,QuestlineQuest,12,12,Cave,No,14400
+726.,HolidaysQuestline_01_Quest_04,Rescue Santa!,QuestlineQuest,13,13,Vault,No,28800
 
