@@ -57,10 +57,10 @@
 			{
 				var json = JSON.parse(data);
 				
-				document.getElementById("androidDownload").href = json["dl"];
-				document.getElementById("androidVS").href = json["vs"];
-				document.getElementById("androidVer").innerHTML = json["edver"];
-				document.getElementById("androidFSVer").innerHTML = json["gmver"];
+				document.getElementById("pcDownload").href = json["dl"];
+				document.getElementById("pcVS").href = json["vs"];
+				document.getElementById("pcVer").innerHTML = json["edver"];
+				document.getElementById("pcFSVer").innerHTML = json["gmver"];
 			}
 			
 			function pcGetInfo_Fail()
