@@ -19,6 +19,8 @@
         </style>
 		<script type="text/javascript">
 			function src(){
+				loadLinksAndStuff();
+			
 				var s = getParameterByName("s");
 				if(s !== null){
 					$('#' + s).slideToggle(250);
@@ -26,6 +28,67 @@
 						scrollTop: $('#' + s).offset().top
 					}, 1000);
 				}
+			}
+			
+			function loadLinksAndStuff(){
+				httpGetAsync(window.location + "app_ver.json", androidGetInfo_ok, androidGetInfo_Fail);
+				httpGetAsync(window.location + "app_ver_pc.json", pcGetInfo_ok, pcGetInfo_Fail);
+			}
+			
+			function androidGetInfo_ok(data)
+			{
+				var json = JSON.parse(data);
+				
+				document.getElementById("androidDownload").href = json["dl"];
+				document.getElementById("androidVS").href = json["vs"];
+				document.getElementById("androidVer").innerHTML = json["edver"];
+				document.getElementById("androidFSVer").innerHTML = json["gmver"];
+			}
+			
+			function androidGetInfo_Fail()
+			{
+				document.getElementById("androidDownload").href = "javascript:alert('Failed to get info!');";
+				document.getElementById("androidVS").href = "javascript:alert('Failed to get info!');";
+				document.getElementById("androidVer").innerHTML = "Failed to get info.";
+				document.getElementById("androidFSVer").innerHTML = "Failed to get info.";
+			}
+			
+			function pcGetInfo_ok(data)
+			{
+				var json = JSON.parse(data);
+				
+				document.getElementById("androidDownload").href = json["dl"];
+				document.getElementById("androidVS").href = json["vs"];
+				document.getElementById("androidVer").innerHTML = json["edver"];
+				document.getElementById("androidFSVer").innerHTML = json["gmver"];
+			}
+			
+			function pcGetInfo_Fail()
+			{
+				document.getElementById("pcDownload").href = "javascript:alert('Failed to get info!');";
+				document.getElementById("pcVS").href = "javascript:alert('Failed to get info!');";
+				document.getElementById("pcVer").innerHTML = "Failed to get info.";
+				document.getElementById("pcFSVer").innerHTML = "Failed to get info.";
+			}
+			
+			function httpGetAsync(theUrl, callback, errorCallback)
+			{
+				var xmlHttp = new XMLHttpRequest();
+				xmlHttp.onreadystatechange = function() { 
+					if (xmlHttp.readyState == 4)
+					{
+						if(xmlHttp.status == 200)
+						{
+							callback(xmlHttp.responseText);
+						}
+						else
+						{
+							errorCallback();
+						}
+					}
+				}
+				xmlHttp.open("GET", theUrl, true);
+				xmlHttp.send(null);
 			}
 			
 			function getParameterByName(name, url) {
@@ -59,99 +122,149 @@
             </table>
             <h2 class="hrline"><u>Information</u></h2>
             <div style="padding-left: 20pt; padding-top: 5pt">
-                <a>This app is an <b>Android</b> only editor for Fallout Shelter.</a><br />
+                <a>FSSE is a FalloutShelter save editor for <b>Android</b> and <b>PC</b>.</a><br />
                 <a>It <b>works</b> in BlueStacks and it does <b>not require root</b>.</a><br />
                 <a>But the most important thing: it does <b>NOT</b> require any technical skills:</a>
                 <ul>
                     <li>No computer required for the editing process, everything works on your device.</li>
+					<li>Most of the tools are one click (remove rocks, junk from inventories, etc.).</li>
                     <li>Vault encrypting and decrypting not required.</li>
                     <li>No JSON editing required.</li>
                 </ul>
-                <b>Current version: </b><a id="edver">1.5.6</a><br/>
-				<b>Currently supported game version: </b><a id="gmver">1.10</a>
             </div>
 
             <div class="hr"></div>
+			
+			<div style="text-align: center">
+				<u><h2>FSSE</h2></u>
+			</div>
 
+			<a id="win"></a>
             <h2 class="hrline"><u>Download</u></h2>
             <div style="text-align: center;">
-                <table style="width: 50%; text-align: center; margin-left: auto; margin-right: auto;">
-                    <tr>
-                        <td>
-                            <img src="Content/qrcode.png" style="width: 200px" /><br />
-                        </td>
-                        <td>
-                            <h3><a href="http://robot9706.github.io/FSSE/Download/FSSE.apk" target="_blank">Direct download</a></h3>
-                            <h3><a href="https://virustotal.com/file/d4406136b3146b8fe0733f10d45158e346df32e1089402ce0472ff600a0fe15d/analysis/1486220719/" target="_blank">Virus scan</a></h3>
-                            <a>Use at your own risk!</a>
-                        </td>
-                    </tr>
-                </table>
+				<table style="width: 100%">
+					<tr>
+						<td style="border-right: 1px solid #cccccc">
+							<div style="text-align:center">
+								<h3>Android</h3>
+							</div>
+							 <table style="text-align: center; margin-left: auto; margin-right: auto;">
+								<tr>
+									<td>
+										<img src="Content/qrcode.png" style="width: 200px" /><br />
+									</td>
+									<td>
+										<h3><a id="androidDownload" href="" target="_blank">Download</a></h3>
+										<h3><a id="androidVS" href="" target="_blank">Virus scan</a></h3>
+									</td>
+								</tr>
+								<tr>
+									<td colspan="2">
+										<a>Version: </a><a id="androidVer">???</a><br>
+										<a>Game version: </a><a id="androidFSVer">???</a>
+									</td>
+								</tr>
+							</table>
+						</td>
+						
+						<td>
+							<div style="text-align:center">
+								<h3>PC</h3>
+							</div>
+							<table style="text-align: center; margin-left: auto; margin-right: auto;">
+								<tr>
+									<td>
+										<h3><a id="pcDownload" href="" target="_blank">Download</a></h3>
+										<h3><a id="pcVS" href="" target="_blank">Virus scan</a></h3>			
+									</td>
+									<td>
+										<img src="Content/qrcode2.png" style="width: 200px" /><br />
+									</td>
+								</tr>
+								<tr>
+									<td colspan="2">
+										<a>Version: </a><a id="pcVer">???</a><br>
+										<a>Game version: </a><a id="pcFSVer">???</a>
+									</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2" style="text-align: center">
+							<a>Use at your own risk! Backup your vaults before editing!</a>
+						</td>
+					</tr>
+				</table>
             </div>
 
             <div class="hr"></div>
 
-            <h2 class="hrline"><u>How to install?</u></h2>
-            <ul>
-                <li>1) Download the editor APK using the download link or the QR code above.</li>
-                <li>2) Enable "Unknown sources" on your device. Settings->Security.</li>
-                <li>3) Copy the APK to your device.</li>
-                <li>4) Browse the APK using a file manager and install it.</li>
-            </ul>
+			<h2 onclick="$('#install').slideToggle(250);" class="hrline" style="cursor: pointer"><u>How to install?</u><a style="color: #cccccc"> <sub>(Click to open)</sub></a></h2>
+            <div id="install" style="display: none; padding-left: 20pt; padding-top: 20pt;">
+
+				<h3>Android:</h3>
+				<ul>
+					<li>1) Download the editor APK using the download link or the QR code above.</li>
+					<li>2) Enable "Unknown sources" on your device. Settings->Security.</li>
+					<li>3) Copy the APK to your device.</li>
+					<li>4) Browse the APK using a file manager and install it.</li>
+				</ul>
+			
+				<h3>PC:</h3>
+				<ul>
+					<li>1) Download the editor using the link above.</li>
+					<li>2) Unpack the zip.</li>
+					<li>3) Start FSSEWin.exe.</li>
+				</ul>
+				
+			</div>
 
             <div class="hr"></div>
+			
+			<h2 onclick="$('#editw').slideToggle(250);" class="hrline" style="cursor: pointer"><u>What can FSSE edit?</u><a style="color: #cccccc"> <sub>(Click to open)</sub></a></h2>
+            <div id="editw" style="display: none; padding-left: 20pt; padding-top: 20pt;">
 
-            <h2 class="hrline"><u>How to use?</u></h2>
-            <ul>
-                <li>1) Start the editor app on your device.</li>
-                <li>2) Select the vault you'd like to edit.</li>
-                <li>3) Modify things.</li>
-                <li>4) Save the vault.</li>
-            </ul>
-
-            <div class="hr"></div>
-
-            <h2 class="hrline"><u>What can you edit?</u></h2>
-            <ul>
-                <li>Caps, power, food and water.</li>
-                <li>Stimpacks and radaways per dweller and vault.</li>
-                <li>Vault storage (add items/pets).</li>
-                <li>Add <b>legendary</b> and rare dwellers to your vault.</li>
-                <li>Create custom dwellers.</li>
-                <li>Change vault number.</li>
-                <li>Copy/multiply dwellers.</li>
-                <li>Add items (weapons and outfits) to your vault's storage.</li>
-                <li>Complete objectives.</li>
-                <li>Edit pets (their names and bonus effects).</li>
-                <li>Edit "Survival Guide" pages.</li>
-                <li><b>Fix time glitched</b> vaults.</li>
-                <li>Edit dwellers:
-                    <ul>
-                        <li>Name and level</li>
-                        <li>S.P.E.C.I.A.L.</li>
-                        <li>Hair, sking and outfit color</li>
-                        <li>Hair style and facemask</li>
-                        <li>Inventory</li>
-                    </ul>
-                </li>
-                <li><b>+ Many many more.</b></li>
-            </ul>
+				<ul>
+					<li>Caps, power, food and water.</li>
+					<li>Stimpacks and radaways per dweller and vault.</li>
+					<li>Vault storage (add items/pets).</li>
+					<li>Add <b>legendary</b> and rare dwellers to your vault.</li>
+					<li>Create custom dwellers.</li>
+					<li>Change vault number.</li>
+					<li>Change vault mode (survival / normal).</li>
+					<li>Copy/multiply dwellers.</li>
+					<li>Add items (weapons and outfits) to your vault's storage.</li>
+					<li>Complete objectives.</li>
+					<li>Edit pets (their names and bonus effects).</li>
+					<li>Edit "Survival Guide" pages.</li>
+					<li><b>Fix time glitched</b> vaults.</li>
+					<li>Edit dwellers:
+						<ul>
+							<li>Name and level</li>
+							<li>S.P.E.C.I.A.L.</li>
+							<li>Hair, sking and outfit color</li>
+							<li>Hair style and facemask</li>
+							<li>Inventory</li>
+						</ul>
+					</li>
+					<li><b>+ Many many more.</b></li>
+				</ul>
+				
+			</div>
 
 			<div class="hr"></div>
 			
-			<h2 onclick="$('#win').slideToggle(250);" class="hrline" style="cursor: pointer"><u>PC version (v1.3.6)</u><a style="color: #cccccc"> <sub>(Click to open)</sub></a></h2>
-            <div id="win" style="display: none; padding-left: 20pt; padding-top: 20pt;">
-				<a>This version is intended for PC players, it doesn't know as much things as the Android version, but it's catching up.</a><br>
+			<h2 onclick="$('#pcver').slideToggle(250);" class="hrline" style="cursor: pointer"><u>PC version info</u><a style="color: #cccccc"> <sub>(Click to open)</sub></a></h2>
+            <div id="pcver" style="display: none; padding-left: 20pt; padding-top: 20pt;">
+				<a>There are differences between the Android and the PC version but both have the basic functionality which is required to mod vaults.</a><br>
 
-				<br>
-				<a href="http://robot9706.github.io/FSSE/Download/Win.zip">Download</a><a> / </a><a href="https://virustotal.com/file/e21a335afddddfdfabb0c00946dcbd32f2504ad388f8ecfadf60db07cd18e0d7/analysis/1486218466/">Virus scan</a><br>
-				<br>
 				<a>Requires .NET 4.5 to run.</a></br>
-				<a>Supported game version: 1.10.</a></br>
 				<a><b>The app is considered a virus by some virus defender programs but it's a false positive.</b></a></br>
 				
 				<h3 onclick="$('#remed').slideToggle(250);" class="hrline" style="cursor: pointer"><u><b>Remote editing </b>(use your Android device to edit PC saves):</u><a style="color: #cccccc"> <sub>(Click to open)</sub></a></h3>
 				<div id="remed" style="display: none; padding-left: 20pt;">
+					<a>Back when the PC editor wasn't as useful as the Android one this feature used to help PC players do edit more complicated things. It is deprecated but it still works if somebody decides to use it.</a>
 					<ul>
 						<li>1) Start the windows editor.</li>
 						<li>2) Open a vault and press "Remote edit".</li>
@@ -168,33 +281,13 @@
 			
 			<div class="hr"></div>
 			
-			<a href="game_data.html" style="color: black"><h2 class="hrline" style="cursor: pointer"><u>Game data (dwellers, items, etc.)</u><a style="color: #cccccc"></a></h2></a>
-			<div id="csvinfo" style="padding-left: 20pt; padding-top: 20pt;">
-				<a>By clicking the link above you can access the data of the game (weapons, dwellers, outfits and pets) online. If you want an offline version check below.</a>
+			<div style="text-align: center">
+				<a id="undw"></a>
+				<u><h2>Modded game</h2></u>
 			</div>
 			
-            <div class="hr"></div>
-			
-			<h2 onclick="$('#csv').slideToggle(250);" class="hrline" style="cursor: pointer"><u>Game data CSVs</u><a style="color: #cccccc"> <sub>(Click to open)</sub></a></h2>
-            <div id="csv" style="display: none; padding-left: 20pt; padding-top: 20pt;">
-				<a>If you want to create statistics or just want to look at the game items, pets and dwellers you can access CSVs using these links:</a><br>
-				<a>Note: The Excel version means you can directly open those CSVs (by double clicking them) to access the data using Excel (you need to import the non excel versions into a new sheet).</a><br>
-				<br>
-				
-				<a><b>Dwellers (rare and legendary): </b></a><a href="CSV/csv_dwellers.csv">CSV</a><a> / </a><a href="CSV/csv_excel_dwellers.csv">Excel CSV</a><br>
-				<a><b>Weapons): </b></a><a href="CSV/csv_weapons.csv">CSV</a><a> / </a><a href="CSV/csv_excel_weapons.csv">Excel CSV</a><br>
-				<a><b>Outfits: </b></a><a href="CSV/csv_outfits.csv">CSV</a><a> / </a><a href="CSV/csv_excel_outfits.csv">Excel CSV</a><br>
-				<a><b>Pets: </b></a><a href="CSV/csv_pets.csv">CSV</a><a> / </a><a href="CSV/csv_excel_pets.csv">Excel CSV</a><br>
-				<a><b>Quests </b>(for more detailed info check the <a href="game_data.html"><b>online database</b></a>) :</a><a href="CSV/csv_quests.csv">CSV</a><a> / </a><a href="CSV/csv_excel_quests.csv">Excel CSV</a><br>
-				<br>
-				<a href="CSV/AllCSV.zip"><b>All in one (ZIP)</b></a>
-			</div>
-			
-			<div class="hr"></div>
-			
-			<h2 onclick="$('#undw').slideToggle(250);" class="hrline" style="cursor: pointer"><u>Modded game</u><a style="color: #cccccc"> <sub>(Click to open)</sub></a></h2>
-            <div id="undw" style="display: none; padding-left: 20pt; padding-top: 20pt;">
-				<a><b>Mods:</b></a>
+			<h2 onclick="$('#mds').slideToggle(250);" class="hrline" style="cursor: pointer"><u>Mods</u><a style="color: #cccccc"> <sub>(Click to open)</sub></a></h2>
+            <div id="mds" style="display: none; padding-left: 20pt; padding-top: 20pt;">
 				<a>Note: These mods can be enabled and disabled using both editors or by manually editing the config file.</a><br>
 				<a><b>By default every mod is enabled in the config!</b></a><br>
 				<ul>
@@ -238,87 +331,117 @@
 						<b>Remove storage size limit: </b><a>No need to build any storage rooms, it's infinite. (remove_storage_cap)</a>
 					</li>
 				</ul>
-		
-				<br />
+			</div>
+			
+			<h2 onclick="$('#modpc').slideToggle(250);" class="hrline" style="cursor: pointer"><u>PC modded game</u><a style="color: #cccccc"> <sub>(Click to open)</sub></a></h2>
+            <div id="modpc" style="display: none; padding-left: 20pt; padding-top: 20pt;">
+				<h3><a href="http://robot9706.github.io/FSSE/Download/PC-modded.zip">Direct download</a> / <a href="https://virustotal.com/file/7941321e4d88aff8e92db1a08c399ce0e8eb9af722c73095fe06507307dd5947/analysis/1486220774/">Virus scan</a></h3>
+				<a>Version: 1.10</a><br>
+					
+				<a><b>Use it at your own risk!</b></a>
+				<a><b>Note: Some mods may act differently between platforms.</b></a>
+				
+				<h4>How to install?</h4>
+				<ul>
+					<li><b>1)</b> Download the file from above and unpack it.</li>
+					<li><b>2)</b> Locate the installation folder of the Bethesda Launcher (right click on the icon on your desktop and you'll be able to see the folder).<br>You can use the editor to locate the folder ("Open folder"->"Installation folder" menu).</li>
+					<li><b>3)</b> In the folder of the launcher goto: "games/FalloutShelter/FalloutShelter_Data/".</li>
+					<li><b>4)</b> Extract the downloaded zip and place the two folders into the "FalloutShelter_Data" folder.</li>
+					<li><b>5)</b> Start the game.</li>
+					<li><b>6)</b> Using the guide below configure the mods and enjoy.</li>
+				</ul>
+				<h4>Enable/Disable mods (also first setup)</h4>
+				<ul>
+					<li><b>1)</b> Download FSSE for Windows.</li>
+					<li><b>2)</b> Select "Mods" (near the "File" menu).</li>
+					<li><b>2.1)</b> Press "Yes" if the app asks if you want to download default config files.</li>
+					<li><b>3)</b> Enable and disable mods as you like.</li>
+					<li><b>4)</b> Restart the game and enjoy.</li>
+				</ul>
+				<a>Or manually:</a><br>
+				<ul>
+					<li><b>1)</b> Goto the installation folder of Fallout Shelter and goto "FalloutShelter_Data" then "Mods".</li>
+					<li><b>4)</b> Edit the "mods_config.json" file as you like.</li>
+					<li><b>5)</b> Restart the game and enjoy.</li>
+				</ul>
+				<a><b>Note: </b>If the mods aren't working try starting the game using it's exe (FalloutShelter.exe), because the launcher might know that the files changed and it would download the original ones.</a>
+				
+			</div>
+			
+			<h2 onclick="$('#modand').slideToggle(250);" class="hrline" style="cursor: pointer"><u>Android modded game</u><a style="color: #cccccc"> <sub>(Click to open)</sub></a></h2>
+            <div id="modand" style="display: none; padding-left: 20pt; padding-top: 20pt;">
+				<h3><a href="http://robot9706.github.io/FSSE/Download/Android-modded.zip">Direct download</a> / <a href="https://virustotal.com/file/d183c87c86529826ca74a0c17c041e0c3cfe35e3137103f06cadbc954e392379/analysis/1486220744/">Virus scan</a></h3>
+				<a>Version: 1.10</a><br>
 				
 				<a><b>Use it at your own risk!</b></a>
-				<a><b>Note: Some mods may act differently on Android than Windows.</b></a>
-				
-				<h3 onclick="$('#undw_a').slideToggle(250);" class="hrline" style="cursor: pointer"><u>Android download and instructions</u><a style="color: #cccccc"> <sub>(Click to open)</sub></a></h3>
-				<div id="undw_a" style="display: none; padding-left: 20pt;">
-					<h3><a href="http://robot9706.github.io/FSSE/Download/Android-modded.zip">Direct download</a> / <a href="https://virustotal.com/file/d183c87c86529826ca74a0c17c041e0c3cfe35e3137103f06cadbc954e392379/analysis/1486220744/">Virus scan</a></h3>
-					<a>Version: 1.10</a><br>
+				<a><b>Note: Some mods may act differently between platforms.</b></a>
 					
-					<h4>How to install?</h4>
-					<ul>
-						<li><b>1)</b> Download the modified game APK from the link above.</li>
-						<li><b>2)</b> <b>!!</b> Backup your saves / vaults, you can use the editor to make backups or goto "/sdcard/Android/data/com.bethsoft.falloutshelter/files" and save your "Vault#.sav" files.</li>
-						<li><b>3)</b> Backup the OBB of the game (located here: "\sdcard\Android\obb\com.bethsoftfalloutshelter\"). You can do this by renaming the "com.bethsoftfalloutshelter" folder to something else.</li>
-						<li><b>4)</b> Delete the current version of the game from your device (this will delete all your save files and the OBB).</li>
-						<li><b>5)</b> Install the modified version.</li>
-						<li><b>6)</b> Rename the OBB folder to it's original name (again here: "\sdcard\Android\obb\com.bethsoftfalloutshelter\"). This is required because newer versions of the game does not download the OBB and if the game can't find it, it will just crash.</li>
-						<li><b>7)</b> Restore the save files.</li>
-						<li><b>8)</b> Copy the contents of the "sdcard" folder to the sdcard of your device. Make sure the "Android/data/com.bethsoft.falloutshelter/files" folder exists.</li>
-						<li><b>9)</b> Using the guide below configure the mods and enjoy.</li>
-					</ul>
+				<h4>How to install?</h4>
+				<ul>
+					<li><b>1)</b> Download the modified game APK from the link above.</li>
+					<li><b>2)</b> <b>!!</b> Backup your saves / vaults, you can use the editor to make backups or goto "/sdcard/Android/data/com.bethsoft.falloutshelter/files" and save your "Vault#.sav" files.</li>
+					<li><b>3)</b> Backup the OBB of the game (located here: "\sdcard\Android\obb\com.bethsoftfalloutshelter\"). You can do this by renaming the "com.bethsoftfalloutshelter" folder to something else.</li>
+					<li><b>4)</b> Delete the current version of the game from your device (this will delete all your save files and the OBB).</li>
+					<li><b>5)</b> Install the modified version.</li>
+					<li><b>6)</b> Rename the OBB folder to it's original name (again here: "\sdcard\Android\obb\com.bethsoftfalloutshelter\"). This is required because newer versions of the game does not download the OBB and if the game can't find it, it will just crash.</li>
+					<li><b>7)</b> Restore the save files.</li>
+					<li><b>8)</b> Copy the contents of the "sdcard" folder to the sdcard of your device. Make sure the "Android/data/com.bethsoft.falloutshelter/files" folder exists.</li>
+					<li><b>9)</b> Using the guide below configure the mods and enjoy.</li>
+				</ul>
 					
-					<h4>Enable/Disable mods (also first setup)</h4>
-					<ul>
-						<li><b>1)</b> Download FSSE for Android.</li>
-						<li><b>2)</b> Select "Setup mods".</li>
-						<li><b>2.1)</b> Press "Yes" if the app asks if you want to download default config files.</li>
-						<li><b>3)</b> Enable and disable mods as you like.</li>
-						<li><b>4)</b> Restart the game and enjoy.</li>
-					</ul>
-					<a>Or manually:</a><br>
-					<ul>
-						<li><b>1)</b> Goto "sdcard/Android/data.com.bethsoft.falloutshelter/files/Mods".</li>
-						<li><b>4)</b> Edit the "mods_config.json" file as you like.</li>
-						<li><b>5)</b> Restart the game and enjoy.</li>
-					</ul>
-				</div>
-				<h3 onclick="$('#undw_w').slideToggle(250);" class="hrline" style="cursor: pointer"><u>PC download and instructions</u><a style="color: #cccccc"> <sub>(Click to open)</sub></a></h3>
-				<div id="undw_w" style="display: none; padding-left: 20pt;">
-					<h3><a href="http://robot9706.github.io/FSSE/Download/PC-modded.zip">Direct download</a> / <a href="https://virustotal.com/file/7941321e4d88aff8e92db1a08c399ce0e8eb9af722c73095fe06507307dd5947/analysis/1486220774/">Virus scan</a></h3>
-					<a>Version: 1.10</a><br>
-					
-					<h4>How to install?</h4>
-					<ul>
-						<li><b>1)</b> Download the file from above and unpack it.</li>
-						<li><b>2)</b> Locate the installation folder of the Bethesda Launcher (right click on the icon on your desktop and you'll be able to see the folder).<br>You can use the editor to locate the folder ("Open folder"->"Installation folder" menu).</li>
-						<li><b>3)</b> In the folder of the launcher goto: "games/FalloutShelter/FalloutShelter_Data/".</li>
-						<li><b>4)</b> Extract the downloaded zip and place the two folders into the "FalloutShelter_Data" folder.</li>
-						<li><b>5)</b> Start the game.</li>
-						<li><b>6)</b> Using the guide below configure the mods and enjoy.</li>
-					</ul>
-					<h4>Enable/Disable mods (also first setup)</h4>
-					<ul>
-						<li><b>1)</b> Download FSSE for Windows.</li>
-						<li><b>2)</b> Select "Mods" (near the "File" menu).</li>
-						<li><b>2.1)</b> Press "Yes" if the app asks if you want to download default config files.</li>
-						<li><b>3)</b> Enable and disable mods as you like.</li>
-						<li><b>4)</b> Restart the game and enjoy.</li>
-					</ul>
-					<a>Or manually:</a><br>
-					<ul>
-						<li><b>1)</b> Goto the installation folder of Fallout Shelter and goto "FalloutShelter_Data" then "Mods".</li>
-						<li><b>4)</b> Edit the "mods_config.json" file as you like.</li>
-						<li><b>5)</b> Restart the game and enjoy.</li>
-					</ul>
-					<a><b>Note: </b>If the mods aren't working try starting the game using it's exe (FalloutShelter.exe), because the launcher might know that the files changed and it would download the original ones.</a>
-				</div>
+				<h4>Enable/Disable mods (also first setup)</h4>
+				<ul>
+					<li><b>1)</b> Download FSSE for Android.</li>
+					<li><b>2)</b> Select "Setup mods".</li>
+					<li><b>2.1)</b> Press "Yes" if the app asks if you want to download default config files.</li>
+					<li><b>3)</b> Enable and disable mods as you like.</li>
+					<li><b>4)</b> Restart the game and enjoy.</li>
+				</ul>
+				<a>Or manually:</a><br>
+				<ul>
+					<li><b>1)</b> Goto "sdcard/Android/data.com.bethsoft.falloutshelter/files/Mods".</li>
+					<li><b>4)</b> Edit the "mods_config.json" file as you like.</li>
+					<li><b>5)</b> Restart the game and enjoy.</li>
+				</ul>
+
             </div>
 			
 			<div class="hr"></div>
 			
+			<div style="text-align: center">
+				<u><h2>Game data</h2></u>
+			</div>
+			
+			<a href="game_data.html" style="color: black"><h2 class="hrline" style="cursor: pointer"><u>Game data (dwellers, items, etc.)</u><a style="color: #cccccc"></a></h2></a>
+            <div class="hr"></div>
+			
+			<h2 onclick="$('#csv').slideToggle(250);" class="hrline" style="cursor: pointer"><u>Game data CSVs</u><a style="color: #cccccc"> <sub>(Click to open)</sub></a></h2>
+            <div id="csv" style="display: none; padding-left: 20pt; padding-top: 20pt;">
+				<a>If you want to create statistics or just want to look at the game items, pets and dwellers you can access CSVs using these links:</a><br>
+				<a>Note: The Excel version means you can directly open those CSVs (by double clicking them) to access the data using Excel (you need to import the non excel versions into a new sheet).</a><br>
+				<br>
+				
+				<a><b>Dwellers (rare and legendary): </b></a><a href="CSV/csv_dwellers.csv">CSV</a><a> / </a><a href="CSV/csv_excel_dwellers.csv">Excel CSV</a><br>
+				<a><b>Weapons): </b></a><a href="CSV/csv_weapons.csv">CSV</a><a> / </a><a href="CSV/csv_excel_weapons.csv">Excel CSV</a><br>
+				<a><b>Outfits: </b></a><a href="CSV/csv_outfits.csv">CSV</a><a> / </a><a href="CSV/csv_excel_outfits.csv">Excel CSV</a><br>
+				<a><b>Pets: </b></a><a href="CSV/csv_pets.csv">CSV</a><a> / </a><a href="CSV/csv_excel_pets.csv">Excel CSV</a><br>
+				<a><b>Quests </b>(for more detailed info check the <a href="game_data.html"><b>online database</b></a>) :</a><a href="CSV/csv_quests.csv">CSV</a><a> / </a><a href="CSV/csv_excel_quests.csv">Excel CSV</a><br>
+				<br>
+				<a href="CSV/AllCSV.zip"><b>All in one (ZIP)</b></a>
+			</div>
+			
+			<div class="hr"></div>
+			
+			<div style="text-align: center">
+				<u><h2>Misc</h2></u>
+			</div>
+
 			<h2 onclick="$('#dnt').slideToggle(250);" class="hrline" style="cursor: pointer"><u>Donate</u><a style="color: #cccccc"> <sub>(Click to open)</sub></a></h2>
 			<div id="dnt" style="display: none; padding-left: 20pt; padding-top: 20pt;">
 				<h3><b>Donators: Redditmeta, n3on_n3rd, iXss, fayescarlet</b></h3>
 				<a><b>Big thanks to donators!</b></a>
 				<br><br>
-			
-				<a>If you want to support the development of this app and you don't want to enable ads here's a way for you! :D</a><br>
-				</br>
+
 				<div style="width: 300px; margin-left: auto; margin-right: auto; text-align: center;">
 					<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 						<input type="hidden" name="cmd" value="_s-xclick">
@@ -347,280 +470,264 @@
 			</div>
 			
 			<div class="hr"></div>
-
-            <h2 onclick="$('#scr').slideToggle(250);" class="hrline" style="cursor: pointer"><u>Screenshots</u><a style="color: #cccccc"> <sub>(Click to open)</sub></a></h2>
-            <div id="scr" style="display: none; padding-left: 20pt; padding-top: 20pt;">
-                <table style="width: 100%; text-align: center; border-collapse: collapse;">
-                    <tr>
-                        <td style="border: 1px solid #dddddd;"><img src="Screenshots/01.png" /><br /><a>Main screen.</a></td>
-                        <td style="border: 1px solid #dddddd;"><img src="Screenshots/02.png" /><br /><a>Main editor screen.</a></td>
-                    </tr>
-                    <tr>
-                        <td style="padding-top: 10pt; border: 1px solid #dddddd;"><img src="Screenshots/03.png" /><br /><a>Dweller list.</a></td>
-                        <td style="padding-top: 10pt; border: 1px solid #dddddd;"><img src="Screenshots/04.png" /><br /><a>Hairs.</a></td>
-                    </tr>
-					<tr>
-                        <td style="padding-top: 10pt; border: 1px solid #dddddd;"><img src="Screenshots/05.png" /><br /><a>Inventory editor.</a></td>
-                        <td style="padding-top: 10pt; border: 1px solid #dddddd;"><img src="Screenshots/06.png" /><br /><a>Item list.</a></td>
-                    </tr>
-                </table>
-            </div>
-			
-			<div class="hr"></div>
 			 
             <h2 onclick="$('#chl').slideToggle(250);" class="hrline" style="cursor: pointer"><u>Changelog, ideas, bugs</u><a style="color: #cccccc"> <sub>(Click to open)</sub></a></h2>
             <div id="chl" style="display: none; padding-left: 20pt; padding-top: 20pt;">
 				<b><span style="text-decoration: underline"><a target="_blank" href="https://github.com/robot9706/FSSE/milestones?state=closed">New changelog</a></span></b><br>
-				<b><span style="text-decoration: underline"><a target="_blank" href="https://github.com/robot9706/FSSE/issues">Todo, bugs and ideas (post them here)</a></span></b><br><br>
+				<b><span style="text-decoration: underline"><a target="_blank" href="https://github.com/robot9706/FSSE/issues">Todo, bugs and ideas (post them here)</a></span></b><br>
 			
-				<b><span style="text-decoration: underline">Version 1.5.1:</span></b><br>
-				Update: Editor updated for FS v1.7.2 (2 new outfits).<br>
-				Update: Minor UI changes to fix some UI size problems.<br>
-				Update: Dweller list UI changed: Sort menu shrinked into a pop up menu.<br>
-				Update: New lunchbox editor screen.<br>
-				Update: Pet edit warning text changed.<br>
-				Added: Dweller search by name.<br>
-				Added: Completed quest editor screen (remove quests to do them again).<br>
-				<br>
+				<h3 onclick="$('#ochl').slideToggle(250);" class="hrline" style="cursor: pointer"><u>Old changelog</u><a style="color: #cccccc"> <sub>(Click to open)</sub></a></h3>
+					<div id="ochl" style="display: none; padding-left: 20pt; padding-top: 20pt;">
 				
-				<b><span style="text-decoration: underline">Version 1.5:</span></b><br>
-				Update: Editor updated for 1.7.1.<br>
-				Update: Android modded version updated (PC is not updated yet!).<br>
-				<br>
+					<b><span style="text-decoration: underline">Version 1.5.1:</span></b><br>
+					Update: Editor updated for FS v1.7.2 (2 new outfits).<br>
+					Update: Minor UI changes to fix some UI size problems.<br>
+					Update: Dweller list UI changed: Sort menu shrinked into a pop up menu.<br>
+					Update: New lunchbox editor screen.<br>
+					Update: Pet edit warning text changed.<br>
+					Added: Dweller search by name.<br>
+					Added: Completed quest editor screen (remove quests to do them again).<br>
+					<br>
+					
+					<b><span style="text-decoration: underline">Version 1.5:</span></b><br>
+					Update: Editor updated for 1.7.1.<br>
+					Update: Android modded version updated (PC is not updated yet!).<br>
+					<br>
+					
+					<b><span style="text-decoration: underline">Version 1.4.2:</span></b><br>
+					Update: Editor compatibility raised to 1.6.1.<br>
+					Modded version update: Removed pet limits per room and vault.<br>
+					<br>
+					
+					<b><span style="text-decoration: underline">Version 1.4.1:</span></b><br>
+					Update: Remove crap items from dwellers fixed.<br>
+					Update: Set time spent in wasteland fixed.<br>
+					Update: Return exploring dwellers fixed (note: quest teams aren't supported).<br>
+					Added: Set stimpacks and radaways for all dwellers.<br>
+					Added: "Remote editing" feature, which allows the PC editor to use the features of the Android editor.<br>
+					<br>
+					
+					<b><span style="text-decoration: underline">Version 1.4:</span></b><br>
+					Update: Editor item database updated to FS v1.6 (1 new outfit and 7 new weapons).<br>
+					Update: Some compatibility bugs fixed.<br>
+					Update: Online game item database and CSVs updated.<br>
+					Added: Added 2 new lunchbox types (starter pack and nuka cola qunatum).<br>
+					Added: Added option to edit nuka cola quantum.<br>
+					Added: Option to export vault stats and inventory as CSV.<br>
+					Fixed: Some bugs.<br>
+					Removed: Option to edit stimpacks and radaways of exploring dwellers (due to structure change, will be readded in the future in a different way).<br>
+					<br>
 				
-				<b><span style="text-decoration: underline">Version 1.4.2:</span></b><br>
-				Update: Editor compatibility raised to 1.6.1.<br>
-				Modded version update: Removed pet limits per room and vault.<br>
-				<br>
+					<b><span style="text-decoration: underline">Version 1.3.2:</span></b><br>
+					Fix: Lunchbox edit screen not working.<br>
+					Other enhancement for the auto update mechanism.<br>
+					<br>
 				
-				<b><span style="text-decoration: underline">Version 1.4.1:</span></b><br>
-				Update: Remove crap items from dwellers fixed.<br>
-				Update: Set time spent in wasteland fixed.<br>
-				Update: Return exploring dwellers fixed (note: quest teams aren't supported).<br>
-				Added: Set stimpacks and radaways for all dwellers.<br>
-				Added: "Remote editing" feature, which allows the PC editor to use the features of the Android editor.<br>
-				<br>
+					<b><span style="text-decoration: underline">Version 1.3.2:</span></b><br>
+					Added: CSV exporter extended (more options for exporting: room name, exploring status, SPECIAL).<br>
+					Added: Custom amount of lunchboxes.<br>
+					Added: Browse button, <b>requires a file explorer to work</b>.<br>
+					Added: Game Vault bakup restore feature (restore bkp files made by the game itself).<br>
+					Added: Button to abort all babies (turn pregnant dwellers into non-pregnant dwellers).<br>
+					Added: Added buttons to change time spend in wasteland for all the exploring and individual dwellers.<br>
+					Added: Option to change vault style (Edit vault info menu).<br>
+					<br>
+					Added: Online and Offline (CSV) databases of items, outfits, pets and dwellers (rare and legendary).<br>
+					<br>
 				
-				<b><span style="text-decoration: underline">Version 1.4:</span></b><br>
-				Update: Editor item database updated to FS v1.6 (1 new outfit and 7 new weapons).<br>
-				Update: Some compatibility bugs fixed.<br>
-				Update: Online game item database and CSVs updated.<br>
-				Added: Added 2 new lunchbox types (starter pack and nuka cola qunatum).<br>
-				Added: Added option to edit nuka cola quantum.<br>
-				Added: Option to export vault stats and inventory as CSV.<br>
-				Fixed: Some bugs.<br>
-				Removed: Option to edit stimpacks and radaways of exploring dwellers (due to structure change, will be readded in the future in a different way).<br>
-				<br>
-			
-				<b><span style="text-decoration: underline">Version 1.3.2:</span></b><br>
-				Fix: Lunchbox edit screen not working.<br>
-				Other enhancement for the auto update mechanism.<br>
-				<br>
-			
-				<b><span style="text-decoration: underline">Version 1.3.2:</span></b><br>
-				Added: CSV exporter extended (more options for exporting: room name, exploring status, SPECIAL).<br>
-				Added: Custom amount of lunchboxes.<br>
-				Added: Browse button, <b>requires a file explorer to work</b>.<br>
-				Added: Game Vault bakup restore feature (restore bkp files made by the game itself).<br>
-				Added: Button to abort all babies (turn pregnant dwellers into non-pregnant dwellers).<br>
-				Added: Added buttons to change time spend in wasteland for all the exploring and individual dwellers.<br>
-				Added: Option to change vault style (Edit vault info menu).<br>
-				<br>
-				Added: Online and Offline (CSV) databases of items, outfits, pets and dwellers (rare and legendary).<br>
-				<br>
-			
-				<b><span style="text-decoration: underline">Version 1.3.1:</span></b><br>
-				Added: Option to dump dweller data into a CSV file ("Edit dwellers" -> "Export dweller data to CSV" on the bottom).<br>
-				<br>
-			
-				<b><span style="text-decoration: underline">Version 1.3:</span></b><br>
-				Updated the item database to the current version of the game (v1.5).<br>
-				180 weapons (1 new), 156 outfits (20 new), 23 legendary dwellers (1 new).<br>
-				5 new facemasks (images not updated).<br>
-				<br>
-			
-				<b><span style="text-decoration: underline">Version 1.2.6:</span></b><br>
-				Added: A build in "website" which allows users to access save files from other devices, upload, download and convert them. Allows to upload JSON to a vault and converts it before replacing the old save file.
-				<br>
-			
-				<b><span style="text-decoration: underline">Version 1.2.6:</span></b><br>
-				Added: Option to instantly breed all dwellers in LivingQuarters.<br>
-				Added: Option to make pregnant dwellers have their babies.<br>
-				Added: Option to instantly grow up children.<br>
-				<br>
-			
-				<b><span style="text-decoration: underline">Version 1.2.5:</span></b><br>
-				Updated: Screenshots on website updated.<br>
-				Fixed: Remove crap not working properly.<br>
-				Fixed: "Loading.. Please wait.." stucks if no internet connection available.<br>
-				Added: Option to add pets with their max effect values.<br>
-				Added: A page which can decrypt and encrypt vaults.<br>
-				<br>
-			
-				<b><span style="text-decoration: underline">Version 1.2.4:</span></b><br>
-				Fixed: Unable to unlock all pets in SurvivalGuide.<br>
-				Fixed: Error when removing crap items from dwellers.<br>
-				Added: Added sliders to basic resource editor screen + a max all button.<br>
-				Added: Unlock recipes.<br>
-				<br>
+					<b><span style="text-decoration: underline">Version 1.3.1:</span></b><br>
+					Added: Option to dump dweller data into a CSV file ("Edit dwellers" -> "Export dweller data to CSV" on the bottom).<br>
+					<br>
 				
-				<b><span style="text-decoration: underline">Version 1.2.3:</span></b><br>
-				Fixed: Legendary pets no longer have randomly generated names (they have their default name instead).<br>
-				Fixed: Pet bonus editor UI re-added, added a text to show allowed bonus value range (values entered out of that range makes the game regenerate the pet bonus effects).<br>
-				Fixed: Random bonus range for pets (due to not reading correct values from database).<br>
-				Fixed: Rarity filter button missing for Junk category.<br>
-				Fixed: Empty "PoliceBaton" category (item is not in the game yet, it is unnamed so the editor skipped it).<br>
-				Added: Option to add recipes to exploring dwellers (add a weapon or an outfit to an inventory and check "Recipe?" on the right of the item).<br>
-				<br>
+					<b><span style="text-decoration: underline">Version 1.3:</span></b><br>
+					Updated the item database to the current version of the game (v1.5).<br>
+					180 weapons (1 new), 156 outfits (20 new), 23 legendary dwellers (1 new).<br>
+					5 new facemasks (images not updated).<br>
+					<br>
 				
-				<b><span style="text-decoration: underline">Version 1.2.2:</span></b><br>
-				Fixed: Pet effect editing not working: Removed edit buttons because game verifies pet bonus effects and overrides is not correct.<br>
-				Fixed: Survival guide unlockable items (Dr. Lee and Mr. Burke are now unlockable).<br>
-				Fixed: Update dweller inventory to handle Junk item category.<br>
-				Added: Added buttons to remove crap from exploring dweller inventory WITH and WITHOUT junk items.<br>
-				Added: 2 new buttons to add random dwellers.<br>
-				<br>
-			
-				<b><span style="text-decoration: underline">Version 1.2.1:</span></b><br>
-				Added: Updated and added (from FS 1.4) male and female hair styles and facemasks (some facemasks are colored in the editor which aren't in the game.. that's not a bug).<br>
-				<br>
-			
-				<b><span style="text-decoration: underline">Version 1.2:</span></b><br>
-				Updated the game item database to the current version of <b>Fallout Shelter (v1.4)</b>.<br>
-				Added: Backups can have names.<br>
-				Added: Rarity filter in item selector screen.<br>
-				Added: Option to stop all incidents.<br>
-				Added: Option to set the happiness of every dweller to a specified value.<br>
-				Added: Junk category to item selector screen.<br>
-				Added: Junk category to "Survival Guide" editor.<br>
-				Added: "Check for update"/Automatic update feature.<br>
+					<b><span style="text-decoration: underline">Version 1.2.6:</span></b><br>
+					Added: A build in "website" which allows users to access save files from other devices, upload, download and convert them. Allows to upload JSON to a vault and converts it before replacing the old save file.
+					<br>
 				
-				Fixed: Typos.<br>
-				<br>
-			
-				<b><span style="text-decoration: underline">Version 1.1.3:</span></b><br>
-                Added: Option to edit pets (in the dweller edit view press "Edit" in the "Equipped items" section or find a pet in the "Edit storage" menu and press "Edit" on the right of the pet you want to edit).<br>
-                Added: Option to unlock all rooms (in the main menu, "Tools" section).<br>
-                <br>
-                Fixed: Pet not removed when a dweller is removed.<br>
-                Fixed: Sorting dwellers by "Job" crashes the editor.<br>
-                Fixed: MrHandy "Heal" button not working.
+					<b><span style="text-decoration: underline">Version 1.2.6:</span></b><br>
+					Added: Option to instantly breed all dwellers in LivingQuarters.<br>
+					Added: Option to make pregnant dwellers have their babies.<br>
+					Added: Option to instantly grow up children.<br>
+					<br>
 				
-				<b><span style="text-decoration: underline">Version 1.1.2:</span></b><br>
-                Editor database updated to the current version of the game (v1.3): this means 143 weapons, 119 outfits, 22 legendary dwellers, 20 rare dwellers and 59 pets.<br>
-                <br>
-                Added: Remove corpses.<br>
-                Added: Remove MrHandy corpses.<br>
-                Added: Pet carrier (new lunchbox).<br>
-                Added: Unlock pets in the "Survival Guide" (Noticed a strange problem here: The game shows that there are 40 pets to unlock, but there are only 20 legendary pets).<br>
-                Added: Copy dwellers (Select the dwellers in the list and hit copy, the new dwellers are moved to the waiting line).<br>
-                Added: Expanded the item selector popup (You can select categories, added pets to the screen).<br>
-                Added: Edit the pregnancy status of a dweller (you can make male dwellers pregnant, they look strange).<br>
-                Added: Add new custom dweller.<br>
-                Added: Screen to heal and delete MrHandys.<br>
-                Added: Revive all dead dwellers option (not just explorers).<br>
-                Added: Option to heal pets.<br>
-                <br>
-                Fixed: Editor does not notify to save on exit if a new dweller is added.<br>
-                Fixed: Dweller levels reset after editing.<br>
-                <br>
-               
-				<b><span style="text-decoration: underline">Version 1.1.0b:</span></b><br>
-                Fixed: Buggy "Suvival Guide" editor.<br>
-                <br>
-                <b><span style="text-decoration: underline">Version 1.1.1:</span></b><br>
-                Added: A menu to send dwellers to the wasteland (<span style="text-decoration: underline"><b>experimental!</b></span>, goto the Edit Dwellers menu, select a dweller and scroll to the bottom to find this feature)<br>
-                Added: A menu to backup and restore vaults.<br>
-                <br>
+					<b><span style="text-decoration: underline">Version 1.2.5:</span></b><br>
+					Updated: Screenshots on website updated.<br>
+					Fixed: Remove crap not working properly.<br>
+					Fixed: "Loading.. Please wait.." stucks if no internet connection available.<br>
+					Added: Option to add pets with their max effect values.<br>
+					Added: A page which can decrypt and encrypt vaults.<br>
+					<br>
 				
-				<b><span style="text-decoration: underline">Version 1.1.0:</span></b><br>
-                Added: Piper's hair graphics.<br>
-                Added: A screen to edit the "Survival Guide" contents.<br>
-                Added: Enable/Disable survival mode (Edit vault info).<br>
-                Added: Legendary dwellers are automatically unlocked when added to the waiting line.<br>
-                Added: A screen where you can complete objectives.<br>
-                Fixed: Typos.<br>
-                <br>
-			
-				<b><span style="text-decoration: underline">Version 1.0.9b:</span></b><br>
-                Some v1.2 compatibility issues resolved:<br>
-                Fixed: Updated the app's item database to the current version of the game (v1.2).<br>
-                Fixed: Mr handy healing not working.<br>
-                <br>
-			
-				<span style="text-decoration: underline"><b>Version 1.0.9:</b></span><br>
-                Added: Menu option to return all exploring dwellers to the vault.<br>
-                Added: New dweller sort mode: Jobs.<br>
-                Added: Grouping option to item selector.<br>
-                Fixed: Editor crashes if the item count text box is empty.<br>
-                <br>
-			
-				<b><span style="text-decoration: underline">Version 1.0.8:</span></b><br>
-                Added: "Remove crap items from explorers" menu in the "Edit dwellers" menu. This button removes all Common or worse items from exploring dwellers.<br>
-                Added: "Unlock all unlockables" button, this unlocks all weapons, items and dwellers in the "Survival Guide" screen.<br>
-                Fixed: If a Living Quarter has a dweller partnership and a dweller is deleted the save gets corrupted (Possible to fix using the "Fix dweller dependencies" menu in the "Edit vault info" menu).<br>
-                <br>
+					<b><span style="text-decoration: underline">Version 1.2.4:</span></b><br>
+					Fixed: Unable to unlock all pets in SurvivalGuide.<br>
+					Fixed: Error when removing crap items from dwellers.<br>
+					Added: Added sliders to basic resource editor screen + a max all button.<br>
+					Added: Unlock recipes.<br>
+					<br>
+					
+					<b><span style="text-decoration: underline">Version 1.2.3:</span></b><br>
+					Fixed: Legendary pets no longer have randomly generated names (they have their default name instead).<br>
+					Fixed: Pet bonus editor UI re-added, added a text to show allowed bonus value range (values entered out of that range makes the game regenerate the pet bonus effects).<br>
+					Fixed: Random bonus range for pets (due to not reading correct values from database).<br>
+					Fixed: Rarity filter button missing for Junk category.<br>
+					Fixed: Empty "PoliceBaton" category (item is not in the game yet, it is unnamed so the editor skipped it).<br>
+					Added: Option to add recipes to exploring dwellers (add a weapon or an outfit to an inventory and check "Recipe?" on the right of the item).<br>
+					<br>
+					
+					<b><span style="text-decoration: underline">Version 1.2.2:</span></b><br>
+					Fixed: Pet effect editing not working: Removed edit buttons because game verifies pet bonus effects and overrides is not correct.<br>
+					Fixed: Survival guide unlockable items (Dr. Lee and Mr. Burke are now unlockable).<br>
+					Fixed: Update dweller inventory to handle Junk item category.<br>
+					Added: Added buttons to remove crap from exploring dweller inventory WITH and WITHOUT junk items.<br>
+					Added: 2 new buttons to add random dwellers.<br>
+					<br>
 				
-				<span style="text-decoration: underline"><b>Version 1.0.7c:</b></span><br>
-                Fixed: "Error: null" appears when adding rare dwellers to the waiting line.<br>
-                Fixed: Resource editor screen (basic vault resources) is too big and the keyboard overlaps some parts.<br>
-                Fixed: Keyboard not hiding after pressing enter on the last textbox in the basic vault resource editor screen.<br>
-                <br>
+					<b><span style="text-decoration: underline">Version 1.2.1:</span></b><br>
+					Added: Updated and added (from FS 1.4) male and female hair styles and facemasks (some facemasks are colored in the editor which aren't in the game.. that's not a bug).<br>
+					<br>
 				
-				<span style="text-decoration: underline"><b>Version 1.0.7b:</b></span><br>
-                Fixed: The savegame gets corrupted after dweller deleting (Also corrupted saves can be fixed, goto "Edit vault info", then "Fix dweller dependencies", this menu will fix all the dweller pointers in the save file).<br>
-                Fixed: The happiness of spawned dwellers drop to 0%, and can't be raised (caused by wrong max hp formula).<br>
-                <br>
+					<b><span style="text-decoration: underline">Version 1.2:</span></b><br>
+					Updated the game item database to the current version of <b>Fallout Shelter (v1.4)</b>.<br>
+					Added: Backups can have names.<br>
+					Added: Rarity filter in item selector screen.<br>
+					Added: Option to stop all incidents.<br>
+					Added: Option to set the happiness of every dweller to a specified value.<br>
+					Added: Junk category to item selector screen.<br>
+					Added: Junk category to "Survival Guide" editor.<br>
+					Added: "Check for update"/Automatic update feature.<br>
+					
+					Fixed: Typos.<br>
+					<br>
 				
-				<span style="text-decoration: underline"><b>Version 1.0.7:</b></span><br>
-                Added: Editor to select the ammount of items you want to add.<br>
-                Added: Menu to add legendary and rare dwellers to the waiting line.<br>
-                Added: 3 sorting modes to the dweller list (name, health and level).<br>
-                Fixed: Added the missing "none" facemask.<br>
-                Other: Exploring dwellers are now labeled in the "Edit dwellers" list.<br>
-                <br>
-			
-				<span style="text-decoration: underline"><b>Version 1.0.6b:</b></span><br>
-                Fixed: Dweller inventory editor not scrolling.<br>
-                Added: "Select normal items" button to the dweller inventory editor dialog, that button selects normal or worse items (normal, common and none). This is useful for exploring dwellers, you can remove crappy items so they can find better hopefully legendary or rare items.<br>
-                <br>
+					<b><span style="text-decoration: underline">Version 1.1.3:</span></b><br>
+					Added: Option to edit pets (in the dweller edit view press "Edit" in the "Equipped items" section or find a pet in the "Edit storage" menu and press "Edit" on the right of the pet you want to edit).<br>
+					Added: Option to unlock all rooms (in the main menu, "Tools" section).<br>
+					<br>
+					Fixed: Pet not removed when a dweller is removed.<br>
+					Fixed: Sorting dwellers by "Job" crashes the editor.<br>
+					Fixed: MrHandy "Heal" button not working.
+					
+					<b><span style="text-decoration: underline">Version 1.1.2:</span></b><br>
+					Editor database updated to the current version of the game (v1.3): this means 143 weapons, 119 outfits, 22 legendary dwellers, 20 rare dwellers and 59 pets.<br>
+					<br>
+					Added: Remove corpses.<br>
+					Added: Remove MrHandy corpses.<br>
+					Added: Pet carrier (new lunchbox).<br>
+					Added: Unlock pets in the "Survival Guide" (Noticed a strange problem here: The game shows that there are 40 pets to unlock, but there are only 20 legendary pets).<br>
+					Added: Copy dwellers (Select the dwellers in the list and hit copy, the new dwellers are moved to the waiting line).<br>
+					Added: Expanded the item selector popup (You can select categories, added pets to the screen).<br>
+					Added: Edit the pregnancy status of a dweller (you can make male dwellers pregnant, they look strange).<br>
+					Added: Add new custom dweller.<br>
+					Added: Screen to heal and delete MrHandys.<br>
+					Added: Revive all dead dwellers option (not just explorers).<br>
+					Added: Option to heal pets.<br>
+					<br>
+					Fixed: Editor does not notify to save on exit if a new dweller is added.<br>
+					Fixed: Dweller levels reset after editing.<br>
+					<br>
+				   
+					<b><span style="text-decoration: underline">Version 1.1.0b:</span></b><br>
+					Fixed: Buggy "Suvival Guide" editor.<br>
+					<br>
+					<b><span style="text-decoration: underline">Version 1.1.1:</span></b><br>
+					Added: A menu to send dwellers to the wasteland (<span style="text-decoration: underline"><b>experimental!</b></span>, goto the Edit Dwellers menu, select a dweller and scroll to the bottom to find this feature)<br>
+					Added: A menu to backup and restore vaults.<br>
+					<br>
+					
+					<b><span style="text-decoration: underline">Version 1.1.0:</span></b><br>
+					Added: Piper's hair graphics.<br>
+					Added: A screen to edit the "Survival Guide" contents.<br>
+					Added: Enable/Disable survival mode (Edit vault info).<br>
+					Added: Legendary dwellers are automatically unlocked when added to the waiting line.<br>
+					Added: A screen where you can complete objectives.<br>
+					Fixed: Typos.<br>
+					<br>
 				
-				<span style="text-decoration: underline"><b>Version 1.0.6:</b></span><br>
-                Added: MrHandy heal menu.<br>
-                Added: "Clear dweller relations" button, with that button you can reset dweller relations.<br>
-                Added: Dweller inventory editor.<br>
-                Other: Make dwellers level 50 button now sets the health of dwellers to 664 (if the max health is smaller than 664).<br>
-                <br>
+					<b><span style="text-decoration: underline">Version 1.0.9b:</span></b><br>
+					Some v1.2 compatibility issues resolved:<br>
+					Fixed: Updated the app's item database to the current version of the game (v1.2).<br>
+					Fixed: Mr handy healing not working.<br>
+					<br>
 				
-				<span style="text-decoration: underline"><b>Version 1.0.5:</b></span><br>
-                Added: Dweller face mask editor (it supports all the facemasks from the v1.1 FalloutShelter).<br>
-                Added: Dweller face mask editor.<br>
-                Added: Dweller equiped items editor (both weapons and outfits, it supports all the items from the v1.1 FalloutShelter. That means 143 weapons and 112 outfits).<br>
-                Added: "Resurrect" button (under the "Edit dwellers" menu), that button allows you to resurrect dead exploring dwellers.<br>
-                Added: Editor for dweller stimpack and radaway editing.<br>
-                Other: Dweller list is now in alphabetical order.<br>
-                <br>
+					<span style="text-decoration: underline"><b>Version 1.0.9:</b></span><br>
+					Added: Menu option to return all exploring dwellers to the vault.<br>
+					Added: New dweller sort mode: Jobs.<br>
+					Added: Grouping option to item selector.<br>
+					Fixed: Editor crashes if the item count text box is empty.<br>
+					<br>
 				
-				<span style="text-decoration: underline"><b>Version 1.0.4:</b></span><br>
-                Added: Dweller hair style editing (it supports all the possible hair styles, both male and female, for the current version of fallout shelter "v1.1").<br>
-                Added: "Fix time glitch" button (under the "Edit vault info" menu), that button allows you to fix time glitched vaults.<br>
-                <br>
-			
-				<span style="text-decoration: underline"><b>Version 1.0.3:</b></span> Fixes.<br>
-                Added: Dweller color editors (hair, skin, outfit).<br>
-                <br>
-			
-				<span style="text-decoration: underline"><b>Version 1.0.2:</b></span><br>
-                Added: Dweller level editing.<br>
-                Added: Menu to edit Deathclaws (kill them or set their health to 5).<br>
-                + Fixes.<br>
-                <br>
-			
-				<span style="text-decoration: underline"><b>Version 1.0.1:</b></span> Minor fixes<br>
-                <br>
-			
-                <span><b><u>Version 1.0:</u></b></span> First release<br>
-                <br>
+					<b><span style="text-decoration: underline">Version 1.0.8:</span></b><br>
+					Added: "Remove crap items from explorers" menu in the "Edit dwellers" menu. This button removes all Common or worse items from exploring dwellers.<br>
+					Added: "Unlock all unlockables" button, this unlocks all weapons, items and dwellers in the "Survival Guide" screen.<br>
+					Fixed: If a Living Quarter has a dweller partnership and a dweller is deleted the save gets corrupted (Possible to fix using the "Fix dweller dependencies" menu in the "Edit vault info" menu).<br>
+					<br>
+					
+					<span style="text-decoration: underline"><b>Version 1.0.7c:</b></span><br>
+					Fixed: "Error: null" appears when adding rare dwellers to the waiting line.<br>
+					Fixed: Resource editor screen (basic vault resources) is too big and the keyboard overlaps some parts.<br>
+					Fixed: Keyboard not hiding after pressing enter on the last textbox in the basic vault resource editor screen.<br>
+					<br>
+					
+					<span style="text-decoration: underline"><b>Version 1.0.7b:</b></span><br>
+					Fixed: The savegame gets corrupted after dweller deleting (Also corrupted saves can be fixed, goto "Edit vault info", then "Fix dweller dependencies", this menu will fix all the dweller pointers in the save file).<br>
+					Fixed: The happiness of spawned dwellers drop to 0%, and can't be raised (caused by wrong max hp formula).<br>
+					<br>
+					
+					<span style="text-decoration: underline"><b>Version 1.0.7:</b></span><br>
+					Added: Editor to select the ammount of items you want to add.<br>
+					Added: Menu to add legendary and rare dwellers to the waiting line.<br>
+					Added: 3 sorting modes to the dweller list (name, health and level).<br>
+					Fixed: Added the missing "none" facemask.<br>
+					Other: Exploring dwellers are now labeled in the "Edit dwellers" list.<br>
+					<br>
+				
+					<span style="text-decoration: underline"><b>Version 1.0.6b:</b></span><br>
+					Fixed: Dweller inventory editor not scrolling.<br>
+					Added: "Select normal items" button to the dweller inventory editor dialog, that button selects normal or worse items (normal, common and none). This is useful for exploring dwellers, you can remove crappy items so they can find better hopefully legendary or rare items.<br>
+					<br>
+					
+					<span style="text-decoration: underline"><b>Version 1.0.6:</b></span><br>
+					Added: MrHandy heal menu.<br>
+					Added: "Clear dweller relations" button, with that button you can reset dweller relations.<br>
+					Added: Dweller inventory editor.<br>
+					Other: Make dwellers level 50 button now sets the health of dwellers to 664 (if the max health is smaller than 664).<br>
+					<br>
+					
+					<span style="text-decoration: underline"><b>Version 1.0.5:</b></span><br>
+					Added: Dweller face mask editor (it supports all the facemasks from the v1.1 FalloutShelter).<br>
+					Added: Dweller face mask editor.<br>
+					Added: Dweller equiped items editor (both weapons and outfits, it supports all the items from the v1.1 FalloutShelter. That means 143 weapons and 112 outfits).<br>
+					Added: "Resurrect" button (under the "Edit dwellers" menu), that button allows you to resurrect dead exploring dwellers.<br>
+					Added: Editor for dweller stimpack and radaway editing.<br>
+					Other: Dweller list is now in alphabetical order.<br>
+					<br>
+					
+					<span style="text-decoration: underline"><b>Version 1.0.4:</b></span><br>
+					Added: Dweller hair style editing (it supports all the possible hair styles, both male and female, for the current version of fallout shelter "v1.1").<br>
+					Added: "Fix time glitch" button (under the "Edit vault info" menu), that button allows you to fix time glitched vaults.<br>
+					<br>
+				
+					<span style="text-decoration: underline"><b>Version 1.0.3:</b></span> Fixes.<br>
+					Added: Dweller color editors (hair, skin, outfit).<br>
+					<br>
+				
+					<span style="text-decoration: underline"><b>Version 1.0.2:</b></span><br>
+					Added: Dweller level editing.<br>
+					Added: Menu to edit Deathclaws (kill them or set their health to 5).<br>
+					+ Fixes.<br>
+					<br>
+				
+					<span style="text-decoration: underline"><b>Version 1.0.1:</b></span> Minor fixes<br>
+					<br>
+				
+					<span><b><u>Version 1.0:</u></b></span> First release<br>
+					<br>
+				</div>
             </div>
         </div>
     </body>

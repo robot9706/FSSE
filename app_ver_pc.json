@@ -4,6 +4,9 @@
 	
 	"windl" : "http://robot9706.github.io/FSSE/?s=win",
 	
+	"dl": "http://robot9706.github.io/FSSE/Download/Win.zip",
+	"vs": "https://virustotal.com/hu/file/e21a335afddddfdfabb0c00946dcbd32f2504ad388f8ecfadf60db07cd18e0d7/analysis/1486218466/",
+	
 	"note" : "New features.",
 	"modlink" : "http://robot9706.github.io/FSSE/?s=undw",
 	"modCfgDownload": [
