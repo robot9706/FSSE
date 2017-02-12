@@ -1,13 +1,13 @@
 {
-	"winver" : "1.3.6",
+	"winver" : "1.3.7",
 	"wingm" : "1.10",
 	
 	"windl" : "http://robot9706.github.io/FSSE/?s=win",
 	
 	"dl": "http://robot9706.github.io/FSSE/Download/Win.zip",
-	"vs": "https://virustotal.com/hu/file/e21a335afddddfdfabb0c00946dcbd32f2504ad388f8ecfadf60db07cd18e0d7/analysis/1486218466/",
+	"vs": "https://virustotal.com/file/e36e4eee7fa542ad6c6c9fd67e7cc0e3be6a15f03f064c9de9c4ec68165061d0/analysis/1486910499/",
 	
-	"note" : "New features.",
+	"note" : "Open Win10 saves.",
 	"modlink" : "http://robot9706.github.io/FSSE/?s=undw",
 	"modCfgDownload": [
 		"http://robot9706.github.io/FSSE/Download/mods_data.json",
