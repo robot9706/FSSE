@@ -1,13 +1,13 @@
 {
-	"winver" : "1.3.7",
+	"winver" : "1.3.8",
 	"wingm" : "1.10",
 	
 	"windl" : "http://robot9706.github.io/FSSE/",
 	
 	"dl": "http://robot9706.github.io/FSSE/Download/Win.zip",
-	"vs": "https://virustotal.com/file/e36e4eee7fa542ad6c6c9fd67e7cc0e3be6a15f03f064c9de9c4ec68165061d0/analysis/1486910499/",
+	"vs": "https://virustotal.com/file/01d06d33e0afdbc53eb217f00557967d452585d9289843e31a7368195e3fbd24/analysis/1487258498/",
 	
-	"note" : "Open Win10 saves.",
+	"note" : "Recipes editor fixed + saves compressed.",
 	"modlink" : "http://robot9706.github.io/FSSE/?s=undw",
 	"modCfgDownload": [
 		"http://robot9706.github.io/FSSE/Download/mods_data.json",
