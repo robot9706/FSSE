@@ -336,11 +336,13 @@
 			
 			<h2 onclick="$('#modpc').slideToggle(250);" class="hrline" style="cursor: pointer"><u>PC modded game</u><a style="color: #cccccc"> <sub>(Click to open)</sub></a></h2>
             <div id="modpc" style="display: none; padding-left: 20pt; padding-top: 20pt;">
-				<h3><a href="http://robot9706.github.io/FSSE/Download/PC-modded.zip">Direct download</a> / <a href="https://virustotal.com/file/7941321e4d88aff8e92db1a08c399ce0e8eb9af722c73095fe06507307dd5947/analysis/1486220774/">Virus scan</a></h3>
-				<a>Version: 1.10</a><br>
+				<h3><a href="http://robot9706.github.io/FSSE/Download/PC-modded.zip">Direct download</a> / <a href="https://virustotal.com/file/7144896279dd2be081f3c2959e56d589744399ca872eb5240f6c2b53f4c3c47c/analysis/1491126634/">Virus scan</a></h3>
+				<a>Version: 1.11</a><br>
 					
 				<a><b>Use it at your own risk!</b></a>
-				<a><b>Note: Some mods may act differently between platforms.</b></a>
+				<a><b>Note: Some mods may act differently between platforms.</b></a><br>
+				<a>Note #2: You might also be able to use the Steam version of the modded game which uses the same save folder as the Steam game.</a><br>
+				<a>Note #3: The modded versions ONLY work with the game version which they were made for (the binaries and the data have to be the same version).</a>
 				
 				<h4>How to install?</h4>
 				<ul>
@@ -371,11 +373,12 @@
 			
 			<h2 onclick="$('#modand').slideToggle(250);" class="hrline" style="cursor: pointer"><u>Android modded game</u><a style="color: #cccccc"> <sub>(Click to open)</sub></a></h2>
             <div id="modand" style="display: none; padding-left: 20pt; padding-top: 20pt;">
-				<h3><a href="http://robot9706.github.io/FSSE/Download/Android-modded.zip">Direct download</a> / <a href="https://virustotal.com/file/d183c87c86529826ca74a0c17c041e0c3cfe35e3137103f06cadbc954e392379/analysis/1486220744/">Virus scan</a></h3>
-				<a>Version: 1.10</a><br>
+				<h3><a href="http://robot9706.github.io/FSSE/Download/Android-modded.zip">Direct download</a> / <a href="https://virustotal.com/file/7d6a06a5463c6bdb15097392ef0edcdabb78423a86202d1772643a33032c399a/analysis/1491126661/">Virus scan</a></h3>
+				<a>Version: 1.11</a><br>
 				
 				<a><b>Use it at your own risk!</b></a>
-				<a><b>Note: Some mods may act differently between platforms.</b></a>
+				<a><b>Note: Some mods may act differently between platforms.</b></a><br>
+				<a>Note #2: The modded versions ONLY work with the game version which they were made for (the binaries and the data have to be the same version).</a>
 					
 				<h4>How to install?</h4>
 				<ul>
@@ -388,6 +391,43 @@
 					<li><b>7)</b> Restore the save files.</li>
 					<li><b>8)</b> Copy the contents of the "sdcard" folder to the sdcard of your device. Make sure the "Android/data/com.bethsoft.falloutshelter/files" folder exists.</li>
 					<li><b>9)</b> Using the guide below configure the mods and enjoy.</li>
+				</ul>
+					
+				<h4>Enable/Disable mods (also first setup)</h4>
+				<ul>
+					<li><b>1)</b> Download FSSE for Android.</li>
+					<li><b>2)</b> Select "Setup mods".</li>
+					<li><b>2.1)</b> Press "Yes" if the app asks if you want to download default config files.</li>
+					<li><b>3)</b> Enable and disable mods as you like.</li>
+					<li><b>4)</b> Restart the game and enjoy.</li>
+				</ul>
+				<a>Or manually:</a><br>
+				<ul>
+					<li><b>1)</b> Goto "sdcard/Android/data.com.bethsoft.falloutshelter/files/Mods".</li>
+					<li><b>4)</b> Edit the "mods_config.json" file as you like.</li>
+					<li><b>5)</b> Restart the game and enjoy.</li>
+				</ul>
+
+            </div>
+			
+			<h2 onclick="$('#modstm').slideToggle(250);" class="hrline" style="cursor: pointer"><u>Steam modded game</u><a style="color: #cccccc"> <sub>(Click to open)</sub></a></h2>
+            <div id="modstm" style="display: none; padding-left: 20pt; padding-top: 20pt;">
+				<h3><a href="http://robot9706.github.io/FSSE/Download/Steam-modded.zip">Direct download</a> / <a href="https://virustotal.com/file/1b182dfcc62c3e72f2f6ebfca21bd154e8d18e0a210a21525a3e2bee3d70caaf/analysis/1491126638/">Virus scan</a></h3>
+				<a>Version: 1.11</a><br>
+				
+				<a><b>Use it at your own risk!</b></a>
+				<a><b>Note: Some mods may act differently between platforms.</b></a><br>
+				<a>Note #2: You might also be able to use the Windows version of the modded game which uses the same save folder as the Bethesda .NET launcher game.</a><br>
+				<a>Note #3: The modded versions ONLY work with the game version which they were made for (the binaries and the data have to be the same version).</a>
+					
+				<h4>How to install?</h4>
+				<ul>
+					<li><b>1)</b> Download the file from above and unpack it.</li>
+					<li><b>2)</b> Locate the installation folder of the game (goto the Steam installation folder then "steamapps/common/FalloutShelter" or locate FalloutShelter in steam, goto properties, local files and select the "Browse local files" menu).</li>
+					<li><b>3)</b> Goto the "FalloutShelter_Data" folder.</li>
+					<li><b>4)</b> Extract the downloaded zip and place the two folders into the "FalloutShelter_Data" folder (basically overwrite the Managed folder and copy the Mods folder into the FS data folder).</li>
+					<li><b>5)</b> Start the game.</li>
+					<li><b>6)</b> Using the guide below configure the mods and enjoy.</li>
 				</ul>
 					
 				<h4>Enable/Disable mods (also first setup)</h4>
