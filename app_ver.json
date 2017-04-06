@@ -1,9 +1,9 @@
 {
-	"edver" : "1.5.6",
-	"gmver" : "1.10",
+	"edver" : "1.6.0",
+	"gmver" : "1.11",
 	
 	"dl" : "http://robot9706.github.io/FSSE/Download/FSSE.apk",
-	"vs": "https://virustotal.com/hu/file/d4406136b3146b8fe0733f10d45158e346df32e1089402ce0472ff600a0fe15d/analysis/1486220719/",
+	"vs": "https://virustotal.com/file/560d4d71aa364e4f93e44dfd591b2bb80446506ffb8f4f74e66ec4ca51ea04c1/analysis/1491498107/",
 
 	"modCfgDownload":[
 		"http://robot9706.github.io/FSSE/Download/mods_data.json",
