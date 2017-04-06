@@ -16,5 +16,8 @@
   "unlimited_resources": true,
   "instant_wasteland_quests": true,
   "no_vault_dweller_limit": true,
-  "no_room_build_restrictions": true
+  "no_room_build_restrictions": true,
+  "instant_wasteland_return": true,
+  "unlimited_caps": true,
+  "unlimited_quantum": true
 }
