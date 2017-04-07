@@ -19,5 +19,6 @@
 	{"name":"no_room_build_restrictions","fullName":"Allows to build any room (does not depend on dweller count)."},
 	{"name":"instant_wasteland_return","fullName":"Wasteland returns are instant."},
 	{"name":"unlimited_caps","fullName":"Unlimited caps."},
-	{"name":"unlimited_quantum","fullName":"Unlimited quantum."}
+	{"name":"unlimited_quantum","fullName":"Unlimited quantum."},
+	{"name":"remove_quest_team_limit","fullName":"No quest team count limit." }
 ]
