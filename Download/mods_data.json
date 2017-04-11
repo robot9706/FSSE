@@ -20,5 +20,7 @@
 	{"name":"instant_wasteland_return","fullName":"Wasteland returns are instant."},
 	{"name":"unlimited_caps","fullName":"Unlimited caps."},
 	{"name":"unlimited_quantum","fullName":"Unlimited quantum."},
-	{"name":"remove_quest_team_limit","fullName":"No quest team count limit." }
+	{"name":"remove_quest_team_limit","fullName":"No quest team count limit." },
+	{"name":"instant_breeding","fullName":"Instant mating ;)" },
+	{"name":"instant_growup","fullName":"Children grow up instantly." }
 ]
