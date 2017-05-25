@@ -58,6 +58,10 @@
 41,HazmatSuit,Wasteland Gear,Normal,0,0,3,0,0,0,0,Yes,Yes
 42,HazmatSuit_Heavy,Heavy Wasteland Gear,Legendary,0,0,7,0,0,0,0,Yes,Yes
 43,HazmatSuit_Sturdy,Sturdy Wasteland Gear,Rare,0,0,5,0,0,0,0,Yes,Yes
+163,Horseman_DeathJacket,Death's Jacket,Legendary,0,4,4,0,0,4,4,No,No
+160,Horseman_FamineVestment,Famine's Vestment,Legendary,4,0,4,0,4,0,4,No,No
+161,Horseman_PestilencePlating,Pestilence's Plating,Legendary,0,0,4,4,4,4,0,No,No
+162,Horseman_WarArmor,War's Armor,Legendary,4,4,4,4,0,0,0,No,No
 120,HunterGear_Bounty,Bounty Hunter Gear,Rare,3,2,0,0,0,0,0,Yes,Yes
 121,HunterGear_Mutant,Mutant Hunter Gear,Legendary,4,3,0,0,0,0,0,Yes,Yes
 119,HunterGear_Treasure,Treasure Hunter Gear,Normal,2,1,0,0,0,0,0,Yes,Yes
