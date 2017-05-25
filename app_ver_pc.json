@@ -1,11 +1,11 @@
 {
-	"winver" : "1.4",
-	"wingm" : "1.11",
+	"winver" : "1.4.1",
+	"wingm" : "1.12",
 	
 	"windl" : "http://robot9706.github.io/FSSE/",
 	
 	"dl": "http://robot9706.github.io/FSSE/Download/Win.zip",
-	"vs": "https://virustotal.com/file/779c3e240510fd7393dd75d204b93ae505fa58e6b6756e725cc37dc5f9beb6b5/analysis/1491498153/",
+	"vs": "https://virustotal.com/file/071e974714018673ee8d1b5086c1a334d288d92c8b0952eebdf20a918b0bb9a2/analysis/1495711727/",
 	
 	"note" : "Steam support, new backup/restore menu and 1.11 support.",
 	"modlink" : "http://robot9706.github.io/FSSE/?s=undw",
