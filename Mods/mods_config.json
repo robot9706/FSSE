@@ -24,5 +24,6 @@
   "instant_breeding": true,
   "instant_growup": true,
   "no_breeding_restrictions": true,
-  "disable_auto_camera_movement": true
+  "disable_auto_camera_movement": true,
+  "full_recycle": true
 }
