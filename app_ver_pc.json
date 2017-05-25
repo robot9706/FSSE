@@ -5,9 +5,9 @@
 	"windl" : "http://robot9706.github.io/FSSE/",
 	
 	"dl": "http://robot9706.github.io/FSSE/Download/Win.zip",
-	"vs": "https://virustotal.com/file/071e974714018673ee8d1b5086c1a334d288d92c8b0952eebdf20a918b0bb9a2/analysis/1495711727/",
+	"vs": "https://virustotal.com/file/ef3a95dbd158c136180fc9f7a0370885712a7fbc7830b66b0e32303635a907ef/analysis/1495717289/",
 	
-	"note" : "Steam support, new backup/restore menu and 1.11 support.",
+	"note" : "1.12 update.",
 	"modlink" : "http://robot9706.github.io/FSSE/?s=undw",
 	"modCfgDownload": [
 		"http://robot9706.github.io/FSSE/Download/mods_data.json",
