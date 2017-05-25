@@ -22,5 +22,6 @@
 	{"name":"unlimited_quantum","fullName":"Unlimited quantum."},
 	{"name":"remove_quest_team_limit","fullName":"No quest team count limit." },
 	{"name":"instant_breeding","fullName":"Instant mating ;)" },
-	{"name":"instant_growup","fullName":"Children grow up instantly." }
+	{"name":"instant_growup","fullName":"Children grow up instantly." },
+	{"name":"no_breeding_restrictions","fullName":"Allow dwellers to mate with anybody in the vault." }
 ]

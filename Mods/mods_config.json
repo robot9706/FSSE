@@ -22,5 +22,6 @@
   "unlimited_quantum": true,
   "remove_quest_team_limit": true,
   "instant_breeding": true,
-  "instant_growup": true
+  "instant_growup": true,
+  "no_breeding_restrictions": true
 }
