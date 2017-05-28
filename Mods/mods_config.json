@@ -25,5 +25,6 @@
   "instant_growup": true,
   "no_breeding_restrictions": true,
   "disable_auto_camera_movement": true,
-  "full_recycle": true
+  "full_recycle": true,
+  "disable_controller_vibration": true
 }

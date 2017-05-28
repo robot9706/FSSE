@@ -24,6 +24,7 @@
 	{"name":"instant_breeding","fullName":"Instant mating ;)" },
 	{"name":"instant_growup","fullName":"Children grow up instantly." },
 	{"name":"no_breeding_restrictions","fullName":"Allow dwellers to mate with anybody in the vault." },
-	{"name":"disable_auto_camera_movement","fullName":"Disables auto camera movement (to incidents, raiders, etc.)."},
-	{"name":"full_recycle","fullName":"Recycling items always yield the items used to craft that item."}
+	{"name":"disable_auto_camera_movement","fullName":"Disable auto camera movement (to incidents, raiders, etc.)."},
+	{"name":"full_recycle","fullName":"Recycling items always yield the items used to craft that item."},
+	{"name":"disable_controller_vibration","fullName":"Disable controller vibration."}
 ]
