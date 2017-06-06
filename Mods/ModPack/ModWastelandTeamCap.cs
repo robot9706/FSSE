@@ -6,7 +6,7 @@ namespace ModPack
     public class ModWastelandTeamCap : Mod
     {
         [Hook("Wasteland::IsQuestTeamLimitReached()")]
-        public void Hook_IsQuestTeamLimitReached(CallingContext context)
+        public void Hook_IsQuestTeamLimitReached(CallContext context)
         {
             context.IsHandled = true;
             context.ReturnValue = true;

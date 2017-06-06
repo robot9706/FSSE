@@ -6,7 +6,7 @@ namespace ModPack
     public class ModInstantGrowup : Mod
     {
         [Hook("DwellerParameters::get_ChildhoodDuration()")]
-        public void Hook_ChildhoodDuration(CallingContext context)
+        public void Hook_ChildhoodDuration(CallContext context)
         {
             context.IsHandled = true;
             context.ReturnValue = 0.01f;
@@ -16,7 +16,7 @@ namespace ModPack
         }
 
         [Hook("DwellerParameters::get_RelationshipBabyBirthTime()")]
-        public void Hook_RelationshipBabyBirthTime(CallingContext context)
+        public void Hook_RelationshipBabyBirthTime(CallContext context)
         {
             context.IsHandled = true;
             context.ReturnValue = 0.01f;

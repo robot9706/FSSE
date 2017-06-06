@@ -6,7 +6,7 @@ namespace ModPack
     public class ModInstantWastelandQuests : Mod
     {
         [Hook("Wasteland::StartSurpriseQuestCheckProcessIfAble()")]
-        public void Hook_StartSurpriseQuestCheckProcessIfAble(CallingContext context)
+        public void Hook_StartSurpriseQuestCheckProcessIfAble(CallContext context)
         {
             Wasteland wasteland = (Wasteland)context.This;
 

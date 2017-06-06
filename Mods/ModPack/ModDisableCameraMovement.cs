@@ -6,7 +6,7 @@ namespace ModPack
     public class ModDisableCameraMovement : Mod
     {
         [Hook("VaultViewState::MoveCamera(EVaultInitPos)")]
-        public void Hook_MoveCamrea(CallingContext context, EVaultInitPos pos)
+        public void Hook_MoveCamrea(CallContext context, EVaultInitPos pos)
         {
             if (pos != EVaultInitPos.SavedZoom)
             {

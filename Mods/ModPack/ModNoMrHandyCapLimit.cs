@@ -7,7 +7,7 @@ namespace ModPack
     public class ModNoMrHandyCapLimit : Mod
     {
         [Hook("WastelandParameters::get_MaxCapsPerMrHandy()")]
-        public void Hook_MaxCapsPerMrHandy(CallingContext context)
+        public void Hook_MaxCapsPerMrHandy(CallContext context)
         {
             context.IsHandled = true;
             context.ReturnValue = Int32.MaxValue;

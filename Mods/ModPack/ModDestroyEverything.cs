@@ -6,7 +6,7 @@ namespace ModPack
     public class ModDestroyEverything : Mod
     {
         [Hook("ConstructionMgr::CanDestroyRoom(Room)")]
-        public void Hook_CanDestroyRoom(CallingContext context, Room room)
+        public void Hook_CanDestroyRoom(CallContext context, Room room)
         {
             context.IsHandled = true; //The event is handled (so no FalloutShelter code will be executed)
             context.ReturnValue = true; //The hooked method should return "true"

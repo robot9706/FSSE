@@ -38,7 +38,7 @@ namespace ModPack
         }
 
         [Hook("Storage::get_Resources()")]
-        public void Hook_GetResources(CallingContext context)
+        public void Hook_GetResources(CallContext context)
         {
             if (!_hasEnabledFlag)
                 return;
@@ -70,7 +70,7 @@ namespace ModPack
         }
 
         [Hook("Storage::HasResources(GameResources)")]
-        public void Hook_HasResources(CallingContext context, GameResources test)
+        public void Hook_HasResources(CallContext context, GameResources test)
         {
             if (!_hasEnabledFlag)
                 return;

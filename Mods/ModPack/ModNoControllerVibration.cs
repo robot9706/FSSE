@@ -7,7 +7,7 @@ namespace ModPack
     public class ModNoControllerVibration : Mod
     {
         [Hook("InputManager::Vibrate()")]
-        public void Hook_Vibrate(CallingContext context)
+        public void Hook_Vibrate(CallContext context)
         {
             InputManager.M_vibrating = false;
 

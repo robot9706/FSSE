@@ -7,14 +7,14 @@ namespace ModPack
     public class ModRemove200DwellerCap : Mod
     {
         [Hook("DwellerManager::get_MaximumDwellerCount()")]
-        public void Hook_get_MaximumDwellerCount(CallingContext context)
+        public void Hook_get_MaximumDwellerCount(CallContext context)
         {
             context.IsHandled = true;
             context.ReturnValue = Int32.MaxValue;
         }
 
         [Hook("DwellerManager::get_VaultIsWithMaxPopulation()")]
-        public void Hook_get_VaultIsWithMaxPopulation(CallingContext context)
+        public void Hook_get_VaultIsWithMaxPopulation(CallContext context)
         {
             context.IsHandled = true;
             context.ReturnValue = false;

@@ -6,7 +6,7 @@ namespace ModPack
     public class ModInstantWastelandReturn : Mod
     {
         [Hook("WastelandTeam::SetupReturnTimeAndDuration(System.Int32)")]
-        public void Hook_SetGoingTime(CallingContext context, int time)
+        public void Hook_SetGoingTime(CallContext context, int time)
         {
             WastelandTeam team = (WastelandTeam)context.This;
 

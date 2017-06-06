@@ -7,7 +7,7 @@ namespace ModPack
     public class ModMoreMrHandiesPerFloor : Mod //Best class name ever
     {
         [Hook("DwellerParameters::get_MaxMrHandyPerSector()")]
-        public void Hook_get_MaxMrHandyPerSector(CallingContext context)
+        public void Hook_get_MaxMrHandyPerSector(CallContext context)
         {
             context.IsHandled = true;
             context.ReturnValue = Int32.MaxValue;

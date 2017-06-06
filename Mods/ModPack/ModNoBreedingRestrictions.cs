@@ -6,7 +6,7 @@ namespace ModPack
     public class ModNoBreedingRestrictions : Mod
     {
         [Hook("DwellerRelations::CheckFamilyRelation(Dweller,Dweller)")]
-        public void Hook_CheckFamilyRelation(CallingContext context, Dweller a, Dweller b)
+        public void Hook_CheckFamilyRelation(CallContext context, Dweller a, Dweller b)
         {
             context.IsHandled = true;
             context.ReturnValue = true;

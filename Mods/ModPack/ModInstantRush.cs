@@ -6,7 +6,7 @@ namespace ModPack
     public class ModInstantRush : Mod
     {
         [Hook("ProductionRoom/ProductionRoomRushing::.ctor(ProductionRoom)")]
-        public void Hook_ProductionRoomRushing_Ctor(CallingContext context, ProductionRoom room)
+        public void Hook_ProductionRoomRushing_Ctor(CallContext context, ProductionRoom room)
         {
             context.IsHandled = true;
 

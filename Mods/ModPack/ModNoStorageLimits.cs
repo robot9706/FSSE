@@ -33,7 +33,7 @@ namespace ModPack
         }
 
         [Hook("Inventory::SetMaxItems(System.Int32)")]
-        public void Hook_SetMaxItems(CallingContext context, int count)
+        public void Hook_SetMaxItems(CallContext context, int count)
         {
             if (!_itemStorage)
                 return;
@@ -48,7 +48,7 @@ namespace ModPack
         }
 
         [Hook("FSLOADER::VaultStorage.SetMaxResources(Storage,EResource,System.Single)")]
-        public void Hook_SetMaxResources(CallingContext context, Storage storage, EResource resource, float oldMax)
+        public void Hook_SetMaxResources(CallContext context, Storage storage, EResource resource, float oldMax)
         {
             if (_overwriteLimits.Contains(resource))
             {

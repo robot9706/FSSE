@@ -6,7 +6,7 @@ namespace ModPack
     public class ModNoLivingQuarterLimit : Mod
     {
         [Hook("Vault::get_MaxDwellers()")]
-        public void Hook_get_MaxDwellers(CallingContext context)
+        public void Hook_get_MaxDwellers(CallContext context)
         {
             Vault vault = (Vault)context.This;
 
@@ -15,14 +15,14 @@ namespace ModPack
         }
 
         [Hook("Vault::CanAddDwellers(System.Int32)")]
-        public void Hook_CanAddDwellers(CallingContext context, int count)
+        public void Hook_CanAddDwellers(CallContext context, int count)
         {
             context.IsHandled = true;
             context.ReturnValue = true;
         }
 
         [Hook("Vault::get_ClampedMaxDwellers()")]
-        public void Hook_get_ClampedMaxDwellers(CallingContext context)
+        public void Hook_get_ClampedMaxDwellers(CallContext context)
         {
             Vault vault = (Vault)context.This;
 
@@ -31,7 +31,7 @@ namespace ModPack
         }
 
         [Hook("LivingQuartersRoom::CanBeDestroyed()")]
-        public void Hook_CanBeDestroyed(CallingContext context)
+        public void Hook_CanBeDestroyed(CallContext context)
         {
             LivingQuartersRoom room = (LivingQuartersRoom)context.This;
 

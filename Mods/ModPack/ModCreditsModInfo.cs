@@ -7,7 +7,7 @@ namespace ModPack
     public class ModCreditsModInfo : Mod
     {
         [Hook("UILabel::OnStart()")]
-        public void Hook_UILabel_OnStart(CallingContext context)
+        public void Hook_UILabel_OnStart(CallContext context)
         {
             UILabel label = (UILabel)context.This;
 

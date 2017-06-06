@@ -6,7 +6,7 @@ namespace ModPack
     public class ModRushesNeverFail : Mod
     {
         [Hook("ProductionRoom::StartRush(System.Boolean)")]
-        public void Hook_StartRush(CallingContext context, bool silent)
+        public void Hook_StartRush(CallContext context, bool silent)
         {
             context.IsHandled = true; //Don't execute FalloutShelter code
 

@@ -7,21 +7,21 @@ namespace ModPack
     public class ModWastelandStimRadCap : Mod
     {
         [Hook("WastelandParameters::get_MaxStimpackPerDweller()")]
-        public void Hook_get_MaxStimpackPerDweller(CallingContext context)
+        public void Hook_get_MaxStimpackPerDweller(CallContext context)
         {
             context.IsHandled = true;
             context.ReturnValue = Int32.MaxValue;
         }
 
         [Hook("WastelandParameters::get_MaxRadawayPerDweller()")]
-        public void Hook_get_MaxRadawayPerDweller(CallingContext context)
+        public void Hook_get_MaxRadawayPerDweller(CallContext context)
         {
             context.IsHandled = true;
             context.ReturnValue = Int32.MaxValue;
         }
 
         [Hook("WastelandEquipmentWindow::MaxStimpak()")]
-        public void Hook_MaxStimpak(CallingContext context)
+        public void Hook_MaxStimpak(CallContext context)
         {
             context.IsHandled = true;
 
@@ -29,7 +29,7 @@ namespace ModPack
         }
 
         [Hook("WastelandEquipmentWindow::MaxRadaway()")]
-        public void Hook_MaxRadaway(CallingContext context)
+        public void Hook_MaxRadaway(CallContext context)
         {
             context.IsHandled = true;
 

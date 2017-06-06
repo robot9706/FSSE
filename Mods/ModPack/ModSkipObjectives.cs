@@ -6,14 +6,14 @@ namespace ModPack
     public class ModSkipObjectives : Mod
     {
         [Hook("ObjectiveMgr::ReserveObjectiveChange()")]
-        public void Hook_ReserveObjectiveChange(CallingContext context)
+        public void Hook_ReserveObjectiveChange(CallContext context)
         {
             context.IsHandled = true;
             context.ReturnValue = true;
         }
 
         [Hook("ObjectiveMgr::get_CanChangeObjective()")]
-        public void Hook_get_CanChangeObjective(CallingContext context)
+        public void Hook_get_CanChangeObjective(CallContext context)
         {
             context.IsHandled = true;
             context.ReturnValue = true;

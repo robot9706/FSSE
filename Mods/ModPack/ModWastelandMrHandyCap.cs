@@ -8,7 +8,7 @@ namespace ModPack
     public class ModWastelandMrHandyCap : Mod
     {
         [Hook("Wasteland::get_MaxMrHandy()"), Hook("Wasteland::get_CanSendMrHandy()")] //We need to overwrite the value when either of these methods are called
-        public void Hook_GetMaxMrHandy(CallingContext context)
+        public void Hook_GetMaxMrHandy(CallContext context)
         {
             Wasteland wasteland = (Wasteland)context.This;
 

@@ -6,7 +6,7 @@ namespace ModPack
     public class ModInstantBreeding : Mod
     {
         [Hook("DwellerParameters::get_BreedingCycleTime()")]
-        public void Hook_BreedingCycleTime(CallingContext context)
+        public void Hook_BreedingCycleTime(CallContext context)
         {
             context.IsHandled = true;
             context.ReturnValue = 0.1f;

@@ -8,7 +8,7 @@ namespace ModPack
     public class ModFullRecycle : Mod
     {
         [Hook("ScrappingParameters::ScrapItems(DwellerItem,System.Int32)")]
-        public void Hook_ScrappingParameters(CallingContext context, DwellerItem item, int amountScrapped)
+        public void Hook_ScrappingParameters(CallContext context, DwellerItem item, int amountScrapped)
         {
             context.IsHandled = true; //Don't execute the FalloutShelter code
 

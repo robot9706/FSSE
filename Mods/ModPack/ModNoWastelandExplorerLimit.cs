@@ -7,7 +7,7 @@ namespace ModPack
     public class ModNoWastelandExplorerLimit : Mod
     {
         [Hook("WastelandParameters::get_DwellerLimit()")]
-        public void Hook_get_DwellerLimit(CallingContext context)
+        public void Hook_get_DwellerLimit(CallContext context)
         {
             context.IsHandled = true;
             context.ReturnValue = Int32.MaxValue;

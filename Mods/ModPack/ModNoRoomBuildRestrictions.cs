@@ -6,7 +6,7 @@ namespace ModPack
     public class ModNoRoomBuildRestrictions : Mod
     {
         [Hook("UIRoomBuildListItem::SetNotAvailable(Objective)")]
-        public void Hook_SetNotAvailable(CallingContext context, Objective obj)
+        public void Hook_SetNotAvailable(CallContext context, Objective obj)
         {
             context.IsHandled = true;
 

@@ -6,7 +6,7 @@ namespace ModPack
     public class ModNoPetDataVerification : Mod
     {
         [Hook("DwellerItem::VerifyPetData(PetUniqueData)")]
-        public void Hook_VerifyPetData(CallingContext context, PetUniqueData data)
+        public void Hook_VerifyPetData(CallContext context, PetUniqueData data)
         {
             context.IsHandled = true; //No FalloutShelter code will be executed, the hooked method is a "Void", so no return value is required
         }

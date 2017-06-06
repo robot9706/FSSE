@@ -7,21 +7,21 @@ namespace ModPack
     public class ModRemovePetCountCaps : Mod
     {
         [Hook("Room::CanDwellerWithPetBeAssigned()")]
-        public void Hook_CanDwellerWithPetBeAssigned(CallingContext context)
+        public void Hook_CanDwellerWithPetBeAssigned(CallContext context)
         {
             context.IsHandled = true;
             context.ReturnValue = true;
         }
 
         [Hook("Vault::get_MaximumPetCount()")]
-        public void Hook_get_MaximumPetCount(CallingContext context)
+        public void Hook_get_MaximumPetCount(CallContext context)
         {
             context.IsHandled = true;
             context.ReturnValue = Int32.MaxValue;
         }
 
         [Hook("Vault::VaultIsAtPetCapacity()")]
-        public void Hook_VaultIsAtPetCapacity(CallingContext context)
+        public void Hook_VaultIsAtPetCapacity(CallContext context)
         {
             context.IsHandled = true;
             context.ReturnValue = false;
