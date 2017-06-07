@@ -60,9 +60,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ModCreditsModInfo.cs" />
     <Compile Include="ModDestroyEverything.cs" />
     <Compile Include="ModDisableCameraMovement.cs" />
+    <Compile Include="ModDisableRats.cs" />
     <Compile Include="ModFullRecycle.cs" />
     <Compile Include="ModInstantBreeding.cs" />
     <Compile Include="ModInstantGrowup.cs" />
