@@ -1,13 +1,13 @@
 {
-	"winver" : "1.4.1",
+	"winver" : "1.4.2",
 	"wingm" : "1.12",
 	
 	"windl" : "http://robot9706.github.io/FSSE/",
 	
 	"dl": "http://robot9706.github.io/FSSE/Download/Win.zip",
-	"vs": "https://virustotal.com/file/ef3a95dbd158c136180fc9f7a0370885712a7fbc7830b66b0e32303635a907ef/analysis/1495717289/",
+	"vs": "https://virustotal.com/file/917d32fa37d1bdf1463ce96d8209d9a05c088b2cc152450511f31408946ccd86/analysis/1497264895/",
 	
-	"note" : "1.12 update.",
+	"note" : "Some new tools and fixes.",
 	"modlink" : "http://robot9706.github.io/FSSE/?s=undw",
 	"modCfgDownload": [
 		"http://robot9706.github.io/FSSE/Download/mods_data.json",
