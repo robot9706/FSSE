@@ -9,7 +9,7 @@ namespace ModPack
         public void Hook_IsQuestTeamLimitReached(CallContext context)
         {
             context.IsHandled = true;
-            context.ReturnValue = true;
+            context.ReturnValue = false;
         }
     }
 }

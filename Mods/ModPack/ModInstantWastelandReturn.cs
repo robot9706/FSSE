@@ -10,6 +10,18 @@ namespace ModPack
         {
             WastelandTeam team = (WastelandTeam)context.This;
 
+            if(team.IsQuest())
+            {
+                return;
+            }
+
+            context.IsHandled = true;
+
+            InstantTeamTravel(team);
+        }
+
+        public static void InstantTeamTravel(WastelandTeam team)
+        {
             int goingTime = 1;
 
             team.ElapsedReturningTime = 0;
