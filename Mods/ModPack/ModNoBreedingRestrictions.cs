@@ -2,7 +2,7 @@
 
 namespace ModPack
 {
-    [ModInfo("no_breeding_restrictions", "No breeding restrictions", "Robot9706", 1, 0)]
+    [ModInfo("no_breeding_restrictions", "No breeding restrictions", "Robot9706", 1, 0, "Family relations doesn't matter when dwellers are finding partners.")]
     public class ModNoBreedingRestrictions : Mod
     {
         [Hook("DwellerRelations::CheckFamilyRelation(Dweller,Dweller)")]

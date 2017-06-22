@@ -3,7 +3,7 @@ using System;
 
 namespace ModPack
 {
-    [ModInfo("remove_pet_count_caps", "Remove pet count caps", "Robot9706", 1, 0)]
+    [ModInfo("remove_pet_count_caps", "Remove pet count caps", "Robot9706", 1, 0, "Removes pet limitations (equip every dweller with pets in the same room).")]
     public class ModRemovePetCountCaps : Mod
     {
         [Hook("Room::CanDwellerWithPetBeAssigned()")]

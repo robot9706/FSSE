@@ -2,7 +2,7 @@
 
 namespace ModPack
 {
-    [ModInfo("rush_instant", "Instant room rushes", "Robot9706", 1, 0)]
+    [ModInfo("rush_instant", "Instant room rushes", "Robot9706", 1, 0, "Rushes are instant.")]
     public class ModInstantRush : Mod
     {
         [Hook("ProductionRoom/ProductionRoomRushing::.ctor(ProductionRoom)")]

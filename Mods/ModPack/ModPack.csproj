@@ -63,6 +63,7 @@
     <Compile Include="ModDestroyEverything.cs" />
     <Compile Include="ModDisableCameraMovement.cs" />
     <Compile Include="ModDisableRats.cs" />
+    <Compile Include="ModDwellerLevelCap.cs" />
     <Compile Include="ModFullRecycle.cs" />
     <Compile Include="ModInstantBreeding.cs" />
     <Compile Include="ModInstantCrafting.cs" />
@@ -73,6 +74,7 @@
     <Compile Include="ModInstantWastelandQuests.cs" />
     <Compile Include="ModInstantWastelandReturn.cs" />
     <Compile Include="ModMoreMrHandiesPerFloor.cs" />
+    <Compile Include="ModMysteriousStrangerTime.cs" />
     <Compile Include="ModNoBreedingRestrictions.cs" />
     <Compile Include="ModNoControllerVibration.cs" />
     <Compile Include="ModNoLivingQuarterLimit.cs" />
@@ -105,11 +107,6 @@
     <None Include="DLLs\XInputDotNetPure.dll" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
-  <PropertyGroup>
-    <PostBuildEvent>copy "$(TargetPath)" "D:\Program Files (x86)\Bethesda.net Launcher\games\FalloutShelter\FalloutShelter_Data\Mods\$(TargetFileName)"
-
-"D:\CSharp\2015\FSSEWinSimple\FSModToolCMD\bin\Debug\FSModToolCMD.exe" patch -preset="C:\Users\Bence\Desktop\FsModding\preset.set" -mod=$(TargetPath)</PostBuildEvent>
-  </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">

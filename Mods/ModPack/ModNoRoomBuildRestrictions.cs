@@ -2,7 +2,7 @@
 
 namespace ModPack
 {
-    [ModInfo("no_room_build_restrictions", "No room build restrictions", "Robot9706", 1, 0)]
+    [ModInfo("no_room_build_restrictions", "No room build restrictions", "Robot9706", 1, 0, "Every room is unlocked by default.")]
     public class ModNoRoomBuildRestrictions : Mod
     {
         [Hook("UIRoomBuildListItem::SetNotAvailable(Objective)")]

@@ -2,7 +2,7 @@
 
 namespace ModPack
 {
-    [ModInfo("disable_rats", "Disable rats", "Robot9706", 1, 0)]
+    [ModInfo("disable_rats", "Disable rats", "Robot9706", 1, 0, "Disable rats appearing in empty rooms.")]
     public class ModDisableRats : Mod
     {
         [Hook("RatsManager::IsRatForbiddenRoom(ERoomType)")]

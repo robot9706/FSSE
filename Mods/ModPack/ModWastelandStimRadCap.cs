@@ -3,7 +3,7 @@ using System;
 
 namespace ModPack
 {
-    [ModInfo("remove_wasteland_stimpacks_radaways_cap", "Remove max stimpack and radaway caps", "Robot9706", 1, 0)]
+    [ModInfo("remove_wasteland_stimpacks_radaways_cap", "Remove stimpacks/radaway caps", "Robot9706", 1, 0, "Equip as many stimpacks and radaways to exploring and questing dwellers as you like.")]
     public class ModWastelandStimRadCap : Mod
     {
         #region Global

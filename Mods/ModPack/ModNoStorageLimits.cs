@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace ModPack
 {
-    [ModInfo("remove_vault_storage_limits", "Remove resources limit", "Robot9706", 1, 0)]
+    [ModInfo("remove_vault_storage_limits", "Remove resources limit", "Robot9706", 1, 0, "Infinite storage count which doesn't depend on storage rooms.")]
     public class ModNoStorageLimits : Mod
     {
         //Stores which resources are "unlocked"

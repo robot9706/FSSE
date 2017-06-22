@@ -2,7 +2,7 @@
 
 namespace ModPack
 {
-    [ModInfo("instant_quest_travel", "Instant quest travel", "Robot9706", 1, 0)]
+    [ModInfo("instant_quest_travel", "Instant quest travel", "Robot9706", 1, 0, "Quest teams travel instantly.")]
     public class ModInstantQuestTravel : Mod
     {
         [Hook("QuestEquipmentWindow::CreateWastelandTeam()")]

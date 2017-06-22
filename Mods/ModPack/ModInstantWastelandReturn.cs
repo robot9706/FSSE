@@ -2,7 +2,7 @@
 
 namespace ModPack
 {
-    [ModInfo("instant_wasteland_return", "Instant wasteland exporer return", "Robot9706", 1, 0)]
+    [ModInfo("instant_wasteland_return", "Instant wasteland exporer return", "Robot9706", 1, 0, "Exploring dwellers return instantly to the vault.")]
     public class ModInstantWastelandReturn : Mod
     {
         [Hook("WastelandTeam::SetupReturnTimeAndDuration(System.Int32)")]

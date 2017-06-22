@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace ModPack
 {
-    [ModInfo("full_recycle", "100% scrapping rate", "Robot9706", 1, 0)]
+    [ModInfo("full_recycle", "100% scraping rate", "Robot9706", 1, 0, "Scraping items gives their crafting materials.")]
     public class ModFullRecycle : Mod
     {
         [Hook("ScrappingParameters::ScrapItems(DwellerItem,System.Int32)")]

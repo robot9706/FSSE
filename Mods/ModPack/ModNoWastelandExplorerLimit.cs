@@ -3,7 +3,7 @@ using System;
 
 namespace ModPack
 {
-    [ModInfo("remove_wasteland_dweller_limit", "No wasteland explorer limit", "Robot9706", 1, 0)]
+    [ModInfo("remove_wasteland_dweller_limit", "No wasteland explorer limit", "Robot9706", 1, 0, "Have as many exploring dwellers in the wasteland as you like.")]
     public class ModNoWastelandExplorerLimit : Mod
     {
         [Hook("WastelandParameters::get_DwellerLimit()")]

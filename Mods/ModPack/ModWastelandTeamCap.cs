@@ -2,7 +2,7 @@
 
 namespace ModPack
 {
-    [ModInfo("remove_quest_team_limit", "Remove wasteland explorer team limit", "Robot9706", 1, 0)]
+    [ModInfo("remove_quest_team_limit", "No explorer limits", "Robot9706", 1, 0, "Send as many dwellers to the wasteland as you like.")]
     public class ModWastelandTeamCap : Mod
     {
         [Hook("Wasteland::IsQuestTeamLimitReached()")]

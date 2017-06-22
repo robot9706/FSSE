@@ -2,7 +2,7 @@
 
 namespace ModPack
 {
-    [ModInfo("instant_breeding", "Instant breeding", "Robot9706", 1, 0)]
+    [ModInfo("instant_breeding", "Instant breeding", "Robot9706", 1, 0, "Dwellers mate instantly.")]
     public class ModInstantBreeding : Mod
     {
         [Hook("DwellerParameters::get_BreedingCycleTime()")]

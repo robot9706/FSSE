@@ -2,7 +2,7 @@
 
 namespace ModPack
 {
-    [ModInfo("instant_crafting", "Instant crafting", "Robot9706", 1, 0)]
+    [ModInfo("instant_crafting", "Instant crafting", "Robot9706", 1, 0, "Crafting rooms craft instantly.")]
     public class ModInstantCrafting : Mod
     {
         [Hook("CraftingRoom::GetActualWorkTime(ESpecialStat,System.Single,System.Single)")]

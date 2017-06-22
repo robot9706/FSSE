@@ -2,7 +2,7 @@
 
 namespace ModPack
 {
-    [ModInfo("no_vault_dweller_limit", "No living quarter limits", "Robot9706", 1, 0)]
+    [ModInfo("no_vault_dweller_limit", "No living quarter limits", "Robot9706", 1, 0, "Living quarters doesn't limit the number of dwellers you can have.")]
     public class ModNoLivingQuarterLimit : Mod
     {
         [Hook("Vault::get_MaxDwellers()")]

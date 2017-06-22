@@ -2,7 +2,7 @@
 
 namespace ModPack
 {
-    [ModInfo("disable_auto_camera_movement", "Disable automatic camera movement.", "Robot9706", 1, 0)]
+    [ModInfo("disable_auto_camera_movement", "Disable automatic camera movement.", "Robot9706", 1, 0, "Disable automatic camera movement (to incidents, etc.).")]
     public class ModDisableCameraMovement : Mod
     {
         [Hook("VaultViewState::MoveCamera(EVaultInitPos)")]

@@ -2,7 +2,7 @@
 
 namespace ModPack
 {
-    [ModInfo("allow_pet_bonus_modification", "Allow pet bonus modification", "Robot9706", 1, 0)]
+    [ModInfo("allow_pet_bonus_modification", "Allow pet bonus modification", "Robot9706", 1, 0, "Disable pet data verification to be able to edit it.")]
     public class ModNoPetDataVerification : Mod
     {
         [Hook("DwellerItem::VerifyPetData(PetUniqueData)")]

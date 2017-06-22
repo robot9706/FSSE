@@ -3,7 +3,7 @@ using System;
 
 namespace ModPack
 {
-    [ModInfo("instant_training", "Instant training", "Robot9706", 1, 0)]
+    [ModInfo("instant_training", "Instant training", "Robot9706", 1, 0, "Instant training.")]
     public class ModInstantTraining : Mod
     {
         [Hook("TrainingSlot::TrainingTimeSpan()")]

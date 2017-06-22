@@ -2,7 +2,7 @@
 
 namespace ModPack
 {
-    [ModInfo("instant_growup", "Instant child group", "Robot9706", 1, 0)]
+    [ModInfo("instant_growup", "Instant child growup", "Robot9706", 1, 0, "Child dwellers grow up instantly.")]
     public class ModInstantGrowup : Mod
     {
         [Hook("DwellerParameters::get_ChildhoodDuration()")]

@@ -2,7 +2,7 @@
 
 namespace ModPack
 {
-    [ModInfo("skip_more_objectives_per_day", "Skip more than 1 objective per day", "Robot9706", 1, 0)]
+    [ModInfo("skip_more_objectives_per_day", "Skip objectives", "Robot9706", 1, 0, "Skip more than 1 objective per day.")]
     public class ModSkipObjectives : Mod
     {
         [Hook("ObjectiveMgr::ReserveObjectiveChange()")]

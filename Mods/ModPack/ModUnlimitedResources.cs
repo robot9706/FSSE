@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace ModPack
 {
-    [ModInfo("unlimited_resoures", "Unlimited resources", "Robot9706", 1, 0)]
+    [ModInfo("unlimited_resoures", "Unlimited resources", "Robot9706", 1, 0, "Unlimited resources (caps, water, food, etc, all of them are configurable).")]
     public class ModUnlimitedResources : Mod
     {
         private bool _unlimitedCaps;

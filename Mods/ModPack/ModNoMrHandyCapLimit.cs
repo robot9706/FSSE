@@ -3,7 +3,7 @@ using System;
 
 namespace ModPack
 {
-    [ModInfo("remove_wasteland_mrhandy_caps_limit", "Remove MrHandy cap limit.", "Robot9706", 1, 0)]
+    [ModInfo("remove_wasteland_mrhandy_caps_limit", "Remove MrHandy cap limit.", "Robot9706", 1, 0, "MrHandies can collect infinite amount of caps.")]
     public class ModNoMrHandyCapLimit : Mod
     {
         [Hook("WastelandParameters::get_MaxCapsPerMrHandy()")]

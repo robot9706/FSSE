@@ -2,7 +2,7 @@
 
 namespace ModPack
 {
-    [ModInfo("destroy_any_room", "No destroy restrcitions", "Robot9706", 1, 0)]
+    [ModInfo("destroy_any_room", "No destroy restrcitions", "Robot9706", 1, 0, "Destroy any kind of room anywhere.")]
     public class ModDestroyEverything : Mod
     {
         [Hook("ConstructionMgr::CanDestroyRoom(Room)")]

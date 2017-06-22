@@ -2,7 +2,7 @@
 
 namespace ModPack
 {
-    [ModInfo("rush_never_fails", "Rushes never fail", "Robot9706", 1, 0)]
+    [ModInfo("rush_never_fails", "Rushes never fail", "Robot9706", 1, 0, "Rushes never fail.")]
     public class ModRushesNeverFail : Mod
     {
         [Hook("ProductionRoom::StartRush(System.Boolean)")]

@@ -1,10 +1,9 @@
 ﻿using FSLoader;
 using System;
-using System.IO;
 
 namespace ModPack
 {
-    [ModInfo("remove_wasteland_mrhandy_cap", "Remove wasteland MrHandy cap", "Robot9706", 1, 0)]
+    [ModInfo("remove_wasteland_mrhandy_cap", "Remove wasteland MrHandy cap", "Robot9706", 1, 0, "Send as many MrHandies to the Wasteland as you want.")]
     public class ModWastelandMrHandyCap : Mod
     {
         [Hook("Wasteland::get_MaxMrHandy()"), Hook("Wasteland::get_CanSendMrHandy()")] //We need to overwrite the value when either of these methods are called

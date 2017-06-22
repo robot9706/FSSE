@@ -3,7 +3,7 @@ using XInputDotNetPure;
 
 namespace ModPack
 {
-    [ModInfo("disable_controller_vibration", "Disable controller vibration.", "Robot9706", 1, 0)]
+    [ModInfo("disable_controller_vibration", "Disable controller vibration.", "Robot9706", 1, 0, "No controller vibration.")]
     public class ModNoControllerVibration : Mod
     {
         [Hook("InputManager::Vibrate()")]
