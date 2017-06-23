@@ -1,19 +1,47 @@
 ﻿using FSLoader;
+using System;
 using System.Collections.Generic;
 
 namespace ModPack
 {
-    [ModInfo("mysterious_stranger_time", "Mysterious stranger", "Robot9706", 1, 0, "Change the timing of the MysteriousStranger.")]
+    [ModInfo("mysterious_stranger_time", "Mysterious stranger", "Robot9706", 1, 0, "Change the timing of the MysteriousStranger.",
+@"The config has the following parameters:
+mode: The way the following parameters are used. Possible values are seconds (times are in seconds) and multiplier (times are used as multipliers to change the times).
+time_to_appear: Time for the stranger to appear.
+time_to_hide: Time for the stranger to hide.
+")]
     public class ModMysteriousStrangerTime : Mod
     {
+        enum Mode
+        {
+            Seconds,
+            Multiplier
+        }
+
+        private Mode _mode;
+
         private float _timeToAppear = 5.0f;
         private float _timeToHide = 5.0f;
 
         public override void OnInit()
         {
             ConfigSection section = GetModConfig();
+            _mode = GetMode(section);
             _timeToAppear = section.GetValue("time_to_appear", 300.0f);
             _timeToHide = section.GetValue("time_to_hide", 10.0f);
+        }
+
+        private Mode GetMode(ConfigSection section)
+        {
+            Mode mode = Mode.Seconds;
+
+            try
+            {
+                mode = (Mode)Enum.Parse(typeof(Mode), section.GetString("mode"));
+            }
+            catch { }
+
+            return mode;
         }
 
         [Hook("MysteriousStrangerMgr::GetTimeToAppear()")]
@@ -23,31 +51,50 @@ namespace ModPack
             mgr.M_canAppear = true;
 
             context.IsHandled = true;
-            context.ReturnValue = _timeToAppear;
+
+            if (_mode == Mode.Seconds)
+                context.ReturnValue = _timeToAppear;
+
+            FSHooks.DoWithDisabledHooks(() =>
+            {
+                context.ReturnValue = mgr.GetTimeToAppear();
+            });
         }
 
         [Hook("MysteriousStrangerMgr::GetTimeToHide()")]
         public void Hook_TimeToHide(CallContext context)
         {
+            MysteriousStrangerMgr mgr = (MysteriousStrangerMgr)context.This;
+
             context.IsHandled = true;
-            context.ReturnValue = _timeToHide;
+
+            if (_mode == Mode.Seconds)
+                context.ReturnValue = _timeToHide;
+
+            FSHooks.DoWithDisabledHooks(() =>
+            {
+                context.ReturnValue = mgr.GetTimeToAppear();
+            });
         }
 
         [Hook("MysteriousStrangerMgr::Deserialize(System.Collections.Generic.Dictionary`2<System.String,System.Object>)")]
         public void Hook_Deserialize(CallContext context, Dictionary<string, object> data)
         {
-            context.IsHandled = true;
-
-            MysteriousStrangerMgr mgr = (MysteriousStrangerMgr)context.This;
-
-            //Call the original method so our hook will run "after" the hooked method
-            FSHooks.DoWithDisabledHooks(() =>
+            if (_mode == Mode.Seconds)
             {
-                mgr.Deserialize(data);
-            });
+                context.IsHandled = true;
 
-            mgr.M_timeToAppear = _timeToAppear;
-            mgr.M_timeToHide = _timeToHide;
+                MysteriousStrangerMgr mgr = (MysteriousStrangerMgr)context.This;
+
+                //Call the original method so our hook will run "after" the hooked method
+                FSHooks.DoWithDisabledHooks(() =>
+                {
+                    mgr.Deserialize(data);
+                });
+
+                mgr.M_timeToAppear = _timeToAppear;
+                mgr.M_timeToHide = _timeToHide;
+            }
         }
     }
 }
