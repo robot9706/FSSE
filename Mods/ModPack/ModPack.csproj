@@ -84,6 +84,7 @@
     <Compile Include="ModNoStorageLimits.cs" />
     <Compile Include="ModNoPetDataVerification.cs" />
     <Compile Include="ModNoWastelandExplorerLimit.cs" />
+    <Compile Include="ModProduceQuantum.cs" />
     <Compile Include="ModRemove200DwellerCap.cs" />
     <Compile Include="ModRemovePetCountCaps.cs" />
     <Compile Include="ModRushesNeverFail.cs" />

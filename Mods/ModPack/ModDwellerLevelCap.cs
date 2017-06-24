@@ -111,14 +111,6 @@ caps_reward is the amount of caps rewarded on levelup.
                     }
                 }
 
-                using (StreamWriter sw = new StreamWriter(Path.Combine(FSPaths.ModsFolder, "levels.txt")))
-                {
-                    foreach (LevelInformation inf in infoList)
-                    {
-                        sw.WriteLine(inf.LevelNumber.ToString() + " - " + inf.MinimumExp.ToString() + " - " + inf.CapsReward.ToString());
-                    }
-                }
-
                 info.M_levelInformation = infoList;
                 info.M_keyLevels = infoList.ToArray();
                 info.M_maxLevel = infoList.Count;

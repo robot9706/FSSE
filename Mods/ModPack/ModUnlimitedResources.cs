@@ -50,21 +50,21 @@ namespace ModPack
 
                 context.IsHandled = true;
                 context.ReturnValue = new GameResources(
-                        (_unlimitedResources ? 10000 : original.GetResource(EResource.Food)),
-                        (_unlimitedResources ? 10000 : original.GetResource(EResource.Energy)),
+                        (_unlimitedResources ? 100000 : original.GetResource(EResource.Food)),
+                        (_unlimitedResources ? 100000 : original.GetResource(EResource.Energy)),
 
-                        (_unlimitedCaps ? 10000 : original.GetResource(EResource.Nuka)),
+                        (_unlimitedCaps ? 100000 : original.GetResource(EResource.Nuka)),
 
-                        (_unlimitedResources ? 10000 : original.GetResource(EResource.Water)),
+                        (_unlimitedResources ? 100000 : original.GetResource(EResource.Water)),
 
-                        (_unlimitedStims ? 10000 : original.GetResource(EResource.StimPack)),
-                        (_unlimitedRads ? 10000 : original.GetResource(EResource.RadAway)),
+                        (_unlimitedStims ? 100000 : original.GetResource(EResource.StimPack)),
+                        (_unlimitedRads ? 100000 : original.GetResource(EResource.RadAway)),
 
                         original.GetResource(EResource.Lunchbox),
                         original.GetResource(EResource.MrHandy),
                         original.GetResource(EResource.PetCarrier),
 
-                        (_unlimitedQuantum ? 10000 : original.GetResource(EResource.NukaColaQuantum))
+                        (_unlimitedQuantum ? 100000 : original.GetResource(EResource.NukaColaQuantum))
                     );
             }
         }

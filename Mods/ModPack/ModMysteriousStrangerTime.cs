@@ -6,7 +6,7 @@ namespace ModPack
 {
     [ModInfo("mysterious_stranger_time", "Mysterious stranger", "Robot9706", 1, 0, "Change the timing of the MysteriousStranger.",
 @"The config has the following parameters:
-mode: The way the following parameters are used. Possible values are seconds (times are in seconds) and multiplier (times are used as multipliers to change the times).
+mode: The way the following parameters are used. Possible values are ""Seconds"" (times are in seconds) and ""Multiplier"" (times are used as multipliers to change the times).
 time_to_appear: Time for the stranger to appear.
 time_to_hide: Time for the stranger to hide.
 ")]
@@ -53,12 +53,16 @@ time_to_hide: Time for the stranger to hide.
             context.IsHandled = true;
 
             if (_mode == Mode.Seconds)
-                context.ReturnValue = _timeToAppear;
-
-            FSHooks.DoWithDisabledHooks(() =>
             {
-                context.ReturnValue = mgr.GetTimeToAppear();
-            });
+                context.ReturnValue = _timeToAppear;
+            }
+            else
+            {
+                FSHooks.DoWithDisabledHooks(() =>
+                {
+                    context.ReturnValue = mgr.GetTimeToAppear() * _timeToAppear;
+                });
+            }
         }
 
         [Hook("MysteriousStrangerMgr::GetTimeToHide()")]
@@ -69,12 +73,16 @@ time_to_hide: Time for the stranger to hide.
             context.IsHandled = true;
 
             if (_mode == Mode.Seconds)
-                context.ReturnValue = _timeToHide;
-
-            FSHooks.DoWithDisabledHooks(() =>
             {
-                context.ReturnValue = mgr.GetTimeToAppear();
-            });
+                context.ReturnValue = _timeToHide;
+            }
+            else
+            {
+                FSHooks.DoWithDisabledHooks(() =>
+                {
+                    context.ReturnValue = mgr.GetTimeToAppear() * _timeToHide;
+                });
+            }
         }
 
         [Hook("MysteriousStrangerMgr::Deserialize(System.Collections.Generic.Dictionary`2<System.String,System.Object>)")]
