@@ -89,11 +89,11 @@
     <Compile Include="ModRemovePetCountCaps.cs" />
     <Compile Include="ModRushesNeverFail.cs" />
     <Compile Include="ModSkipObjectives.cs" />
-    <Compile Include="ModTEST.cs" />
     <Compile Include="ModUnlimitedResources.cs" />
     <Compile Include="ModWastelandMrHandyCap.cs" />
     <Compile Include="ModWastelandStimRadCap.cs" />
     <Compile Include="ModWastelandTeamCap.cs" />
+    <Compile Include="Mod_CrashFix.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

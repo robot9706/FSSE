@@ -10,7 +10,7 @@ namespace ModPack
         public void Hook_MaxCapsPerMrHandy(CallContext context)
         {
             context.IsHandled = true;
-            context.ReturnValue = Int32.MaxValue;
-        }
+			context.ReturnValue = Int32.MaxValue;
+		}
     }
 }

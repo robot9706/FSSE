@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace ModPack
 {
-    [ModInfo("mysterious_stranger_time", "Mysterious stranger", "Robot9706", 1, 0, "Change the timing of the MysteriousStranger.",
+    [ModInfo("mysterious_stranger_time", "Mysterious stranger", "Robot9706", 1, 0, "Change the timing of the MysteriousStranger. Requires additional configuration.",
 @"The config has the following parameters:
 mode: The way the following parameters are used. Possible values are ""Seconds"" (times are in seconds) and ""Multiplier"" (times are used as multipliers to change the times).
 time_to_appear: Time for the stranger to appear.

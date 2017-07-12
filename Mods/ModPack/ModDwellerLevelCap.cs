@@ -37,8 +37,6 @@ caps_reward is the amount of caps rewarded on levelup.
         private List<LevelInfo> _levelInfo;
         private int _autoGenerateLevels;
 
-        private bool _levelsAdded = false;
-
         public override void OnInit()
         {
             _levelInfo = new List<LevelInfo>();
@@ -78,9 +76,10 @@ caps_reward is the amount of caps rewarded on levelup.
         [Hook("DwellerExperience::.ctor(Dweller)")]
         public void Hook_DwellerXP(CallContext context, Dweller dweller)
         {
-            if (!_levelsAdded)
+            LevelsInformation info = MonoSingleton<LevelTables>.Instance.Character;
+
+            if (info.MaxLevel <= 50)
             {
-                LevelsInformation info = MonoSingleton<LevelTables>.Instance.Character;
                 List<LevelInformation> infoList = new List<LevelInformation>(info.M_levelInformation);
 
                 float xp = info.M_levelInformation[info.M_levelInformation.Count - 1].MinimumExp;
@@ -114,8 +113,6 @@ caps_reward is the amount of caps rewarded on levelup.
                 info.M_levelInformation = infoList;
                 info.M_keyLevels = infoList.ToArray();
                 info.M_maxLevel = infoList.Count;
-
-                _levelsAdded = true;
             }
         }
     }
