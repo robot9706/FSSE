@@ -1,13 +1,13 @@
 {
-	"winver" : "1.5.3",
+	"winver" : "1.5.4",
 	"wingm" : "1.12",
 	
 	"windl" : "http://robot9706.github.io/FSSE/",
 	
 	"dl": "http://robot9706.github.io/FSSE/Download/Win.zip",
-	"vs": "https://virustotal.com/file/d4ad84c744b91f396b44335678072babbcdb226e5ff475112b15545d3c05f454/analysis/1501414635/",
+	"vs": "https://virustotal.com/file/07f6bf9a88d27a4befb34fc85277e3dce03a9d098f860ebf05e6ed116b56a552/analysis/1501877437/",
 	
-	"note" : "Layout editor/planner and dweller editing bug fixes.",
+	"note" : "Layout editor/planner and bug fixes.",
 	"modlink" : "http://robot9706.github.io/FSSE/?s=undw",
 	"modCfgDownload": [
 		"http://robot9706.github.io/FSSE/Download/mods_data.json",
