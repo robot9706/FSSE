@@ -3,6 +3,8 @@ FSSE is a save editor for Fallout Shelter. It is available for Android and Windo
 
 Downloads and more info can be found [here](http://robot9706.github.io/FSSE/).
 
+This repository holds the FSSE webpage, game item data files and modding information.
+
 # MODS
 FSSE consists of two parts, the save editor and the mods for the game. Using the mods is not necessary, however it can unlock new things (for example allows pet bonus editing).
 
