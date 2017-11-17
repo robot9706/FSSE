@@ -1,11 +1,11 @@
 {
-	"winver" : "1.5.6",
+	"winver" : "1.5.7",
 	"wingm" : "1.13",
 	
 	"windl" : "http://robot9706.github.io/FSSE/",
 	
 	"dl": "http://robot9706.github.io/FSSE/Download/Win.zip",
-	"vs": "https://www.virustotal.com/#/file-analysis/ZGViMWFkOTI1YjUwMGRmMGQwZTRjNGJiY2QxMTQ5NzI6MTUwODQ5NzI3Mg==",
+	"vs": "https://www.virustotal.com/#/file-analysis/MWU2ZWQ5NTI4Mzk5MTgwYzI5MzgxM2Q1ZjUzYWZiM2M6MTUxMDk1MzYwMw==",
 	
 	"note" : "Layout editor/planner and more bug fixes.",
 	"modlink" : "http://robot9706.github.io/FSSE/?s=undw",
