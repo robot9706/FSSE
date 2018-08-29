@@ -3,7 +3,7 @@
 	"gmver" : "1.13.2",
 	
 	"dl" : "http://robot9706.github.io/FSSE/Download/FSSE.apk",
-	"vs": "https://www.virustotal.com/#/file-analysis/MjYwN2RmOWUyYzY0MWZlYzA0MDA0Mjk3NTQ5Y2RjM2E6MTUwODQ5NzMzMw==",
+	"vs": "https://www.virustotal.com/#/file/e6bfa823c4bdb4cf8a4a1f38d85479e18713b536e7eebbc5f21f52e781090e19",
 
 	"modCfgDownload":[
 		"http://robot9706.github.io/FSSE/Download/mods_data.json",
