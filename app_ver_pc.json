@@ -1,13 +1,13 @@
 {
-	"winver" : "1.5.7",
+	"winver" : "1.5.8",
 	"wingm" : "1.13",
 	
 	"windl" : "http://robot9706.github.io/FSSE/",
 	
 	"dl": "http://robot9706.github.io/FSSE/Download/Win.zip",
-	"vs": "https://www.virustotal.com/#/file-analysis/MWU2ZWQ5NTI4Mzk5MTgwYzI5MzgxM2Q1ZjUzYWZiM2M6MTUxMDk1MzYwMw==",
+	"vs": "https://www.virustotal.com/#/file-analysis/Mjk3NDVmY2I1MGVhYzE3ZmY2Zjk4M2FkODE1NTQxOWY6MTU1NDg5NzM0Mw==",
 	
-	"note" : "Layout editor/planner and more bug fixes.",
+	"note" : "Added dweller max HP recalculation (retroactive max HP calculation).",
 	"modlink" : "http://robot9706.github.io/FSSE/?s=undw",
 	"modCfgDownload": [
 		"http://robot9706.github.io/FSSE/Download/mods_data.json",
